@@ -1,0 +1,97 @@
+# GLOSSARY — Niên đại: Năm 58, ta có một thửa ruộng (年代：我在58有块田)
+# Cập nhật: 2026-10-28 (10 chương đầu)
+
+## ══════ NHÂN VẬT CHÍNH ══════
+
+肖卫国 = Tiêu Vệ Quốc (nam chính, 16 tuổi, xuyên từ năm 2024)
+王铁花 = Vương Thiết Hoa (mẹ kế, vợ sau của Tiêu Bình Lạc)
+肖平乐 = Tiêu Bình Lạc (cha ruột, nông dân hiền lành, nhu nhược)
+肖红梅 = Tiêu Hồng Mai (đại muội, 13 tuổi, chị cả trong các em)
+肖莲心 = Tiêu Liên Tâm (nhị muội, 10 tuổi, con riêng của Vương Thiết Hoa)
+肖卫军 = Tiêu Vệ Quân (nhị đệ, 10 tuổi, em ruột)
+肖启功 = Tiêu Khải Công (em út, 5 tuổi, con của Vương Thiết Hoa và Tiêu Bình Lạc)
+肖铁牛 = Tiêu Thiết Ngưu (ông nội, nông dân chất phác)
+赵秀贤 = Triệu Tú Hiền (bà nội, cựu tiểu thư địa chủ, chân bó)
+
+## ══════ GIA TỘC / THẾ LỰC ══════
+
+肖平喜 = Tiêu Bình Hỉ (nhị bá, tham lam, bạo ngược)
+二娘 = Nhị nương (vợ nhị bá, cay nghiệt, không nêu tên)
+肖招娣 = Tiêu Chiêu Đệ (con gái lớn nhị bá, 13 tuổi)
+肖盼弟 = Tiêu Phán Đệ (con gái thứ hai nhị bá, 8 tuổi)
+肖来弟 = Tiêu Lai Đệ (con gái thứ ba, 6 tuổi, sinh đôi)
+肖迎弟 = Tiêu Nghênh Đệ (con gái thứ tư, 6 tuổi, sinh đôi)
+平安 = Bình An (bác cả, mất tích hơn mười năm)
+肖功林 = Tiêu Công Lâm (trưởng thôn)
+肖卫东 = Tiêu Vệ Đông (con trưởng thôn, tên chính thức của Thiết Đầu — source ch.5 có chỗ chép 肖卫动)
+铁头 = Thiết Đầu (biệt danh của Tiêu Vệ Đông)
+石光林 = Thạch Quang Lâm (tổ trưởng tổ 3 phòng thu mua nhà máy dệt)
+陆大有 = Lục Đại Hữu (chủ sạp thu mua cá ở cung tiêu xã thị trấn — source ch.8, 13 có chỗ chép 路大有)
+张叔 = Trương thúc (lang y trong làng, chữa bằng thuốc mạnh)
+大山叔 = Đại Sơn thúc (hàng xóm, lén ấp trứng gà bán)
+小石头 = Tiểu Thạch Đầu (con trai Đại Sơn, có thỏ con)
+芋头 = Dụ Đầu (đứa trẻ trong làng, được sai chạy việc)
+老熊 = Lão Hùng (đồ tể ở trạm rau)
+瘸腿李 = Quải Thối Lý (lão Lý què, tự vẫn vì bị con cháu hắt hủi)
+
+## ══════ ĐỊA DANH ══════
+
+四九城 = Tứ Cửu Thành (cách gọi Bắc Kinh thời đó)
+常平县 = huyện Thường Bình (huyện ngoại ô Bắc Kinh)
+兴旺乡 = xã Hưng Vượng (xã của huyện Thường Bình)
+肖家庄 = làng Tiêu Gia (làng họ Tiêu)
+小曲河 = sông Tiểu Khúc (sông nhỏ chảy qua làng)
+老宅 = Lão trạch (nhà cũ của ông bà nội, cách nhà cha 200 mét)
+
+## ══════ THUẬT NGỮ / ĐỊA VỊ ══════
+
+公社 = Công Xã (công xã nhân dân)
+工分 = Công Phân (điểm công; source viết 公分 là gõ nhầm, chuẩn là 工分)
+倒挂户 = Đảo Quải Hộ (hộ làm không đủ công điểm)
+分家文书 = văn thư phân gia (giấy tách hộ)
+畜牧良种站 = Súc Mục Lương Chủng Trạm (trạm giống chăn nuôi)
+菜站 = Thái Trạm (trạm bán rau, thịt)
+棉纺厂采购科 = Miên Phưởng Xưởng Thái Cấu Khoa (phòng thu mua nhà máy dệt)
+鸽子市 = Bồ Câu Thị (chợ đen họp chui)
+黑市 = Hắc Thị (chợ đen)
+投机倒把 = Đầu Cơ Đảo Bả (buôn bán trái phép)
+投机倒把办 = Đầu Cơ Đảo Bả Biện (ban chống buôn bán trái phép)
+粮票 = Lương Phiếu (tem mua lương thực)
+肉票 = Nhục Phiếu (tem mua thịt)
+布票 = Bố Phiếu (tem mua vải)
+糖票 = Đường Phiếu (tem mua đường)
+油票 = Du Phiếu (tem mua dầu ăn)
+证明 = Chứng Minh (giấy xác nhận nguồn tiền)
+窝头 = Oa Đầu (bánh hấp bột ngô)
+咸菜疙瘩 = Hàm Thái Ngật Đáp (dưa muối củ)
+棒子面 = Bổng Tử Diện (bột ngô xay cả lõi)
+那三年 = Na Tam Niên ("ba năm ấy", chỉ 1959–1961)
+
+## ══════ LƯU Ý ĐẶC BIỆT ══════
+
+1. Source gõ lẫn cần chuẩn hoá: 路大有 (ch.8, 13) cùng người với 陆大有 — giữ "Lục Đại Hữu"; 肖卫动 (ch.5) cùng người với 肖卫东 — giữ "Tiêu Vệ Đông"; 公分 là gõ nhầm của 工分 — giữ "Công Phân"; ch.5 và ch.10 có chỗ viết nhầm 肖卫军 cho 肖卫国 — bản dịch theo đúng ngữ cảnh.
+2. Không gian: một mẫu = 10 phân, 9 phân trồng trọt + 1 phân ao; vào bằng ấn ngọc bài trên mu bàn tay trái; hút đồ trong phạm vi 1 mét; nước chỉ vào qua ấn; thời gian tăng tốc; tiền giấu ở bàn thờ trong không gian.
+3. Xưng hô: 大哥/哥 là "anh", 大妹 Hồng Mai, 二妹 Liên Tâm, 老二 Vệ Quân; Vương Thiết Hoa luôn là "mẹ kế"/"bà ta", nam chính chưa gọi "mẹ"; nhị bá là 二伯, vợ là 二娘.
+4. Thời gian: bắt đầu 10-9-1958, sắp thu hoạch thu; nam chính 16 tuổi, được 5 công điểm/ngày so với 10 của lao động chính; "ba năm ấy" đang tới gần.
+5. Bí mật: tuyệt đối không lộ không gian; bán cá phải nói "đổi", không bán số lượng lớn liên tục ở một mối vì sợ bị quy tội đầu cơ.
+
+## ══════ NGỮ CẢNH (cập nhật mỗi 10–30 chương) ══════
+
+### Đã xảy ra — chương 1–10:
+- Ch.1: Năm 2024, một người ngoài ba mươi mua ngọc bài ở chợ đồ cổ rồi tỉnh dậy trong xác thiếu niên 16 tuổi Tiêu Vệ Quốc, làng Tiêu Gia, huyện Thường Bình, ngày 10-9-1958. Cậu sốt ba ngày, mẹ kế Vương Thiết Hoa tiếc tiền không đưa đi viện. Em gái Tiêu Hồng Mai bón nước và cho biết đó là mẹ kế; cậu xác định phải sống sót trước vì "ba năm ấy" vừa bắt đầu.
+- Ch.2: Cậu phát hiện ấn ngọc bài trên mu bàn tay trái, gõ vào trán thì lọt vào không gian một mẫu đất đen có bàn thờ. Cậu dập đầu ba lần, không gian nhận chủ, dung hợp ký ức nguyên chủ, cơn sốt biến mất. Cha Tiêu Bình Lạc cầm đèn dầu vào thăm nhưng hoàn toàn lép vế trước vợ.
+- Ch.3: Vương Thiết Hoa bắt cậu hôm sau đi làm công điểm; cậu nhớ lại nhà có năm anh em, mẹ ruột đã mất, cha tái hôn sáu năm trước. Cậu đặt ba mục tiêu: trồng lương trong không gian, thoát khỏi mẹ kế cùng các em, tìm đường vào thành phố. Tiêu Vệ Quân kể Thiết Đầu, con trưởng thôn, câu được cá chép ba cân.
+- Ch.4: Mẹ kế tịch thu phần cháo sáng; cậu đối chất, tính đúng 2 tệ 6 hào viện phí bà không chịu bỏ, rồi khéo buộc bà nói ra câu đuổi cậu ra ở riêng. Hàng xóm kéo đến; Thiết Đầu (Tiêu Vệ Đông) đi gọi trưởng thôn Tiêu Công Lâm và ông nội Tiêu Thiết Ngưu. Ông nội mắng cha là đồ vô dụng.
+- Ch.5: Ông nội quyết chưa lập văn bản phân gia: cậu mang khẩu phần và quần áo sang nhà cũ, ở buồng tây với ông bà. Bà nội Triệu Tú Hiền nấu hai quả trứng đường đỏ cho cậu. Cậu hiểu phải tự cất nhà mới biến phân gia thành thật, và định ra sông bắt cá.
+- Ch.6: Ở sông Tiểu Khúc, cậu đào ao 3x2x1 mét trong không gian, phát hiện nước chỉ vào được qua ấn tay và tầm hút đồ chỉ 1 mét. Cậu bắt 28 con cá lớn cùng tép nhỏ; xách hai con cá về làng, tính bán cho cung tiêu xã nhưng phải gọi là "đổi" để tránh tội đầu cơ.
+- Ch.7: Cậu nấu canh cá quả với khoai tây bằng mỡ lợn; trẻ con trong xóm mỗi đứa một bát, anh em và bà nội ăn no. Tiêu Liên Tâm lần đầu xuất hiện, rụt rè, trái hẳn Tiêu Hồng Mai cứng cỏi. Cậu đi bộ hơn 20 dặm lên thị trấn bán cá chép, dự tính đổi lương phiếu, vải và giống.
+- Ch.8: Trên đường, cậu gặp Thạch Quang Lâm, tổ trưởng tổ 3 phòng thu mua nhà máy dệt, người ngỏ ý mua cá. Cậu bán 62 cân 8 lạng cho Lục Đại Hữu giá 0,12 tệ/cân, được 7,53 tệ; Lục Đại Hữu lén bỏ túi 3 hào 6. Cậu thuê phu xe chở cá, trả bằng một con cá, lần đầu có tiền mặt.
+- Ch.9: Cậu mua ở cung tiêu xã dây buộc tóc, kẹo cao lương, bánh đào tô, muối, xì dầu, giấm, diêm, nồi sắt, gia vị hết 5,32 tệ. Cậu mua hạt giống lúa mì, gạo, ngô, khoai lang, rau ở trạm giống chăn nuôi, chỉ còn 0,6 tệ; gieo 9 phân đất nhưng đất đẩy nước sông ra. Cậu biết nhị bá Tiêu Bình Hỉ có bốn con gái bị đối xử tệ.
+- Ch.10: Bữa tối chỉ có hai cái bánh bột cao lương, cháo ngô và dưa muối; vào không gian, cậu thấy mạ đã mọc chỉ sau một đêm. Cậu chia sáu dây buộc tóc cho sáu chị em, tám đứa trẻ mỗi đứa ba viên kẹo và nửa cái bánh. Cậu định làm chuồng nuôi gà, thỏ, lợn, nhưng lợn con phải chờ công xã phân.
+
+### Ràng buộc cho các chương sau:
+- Không gian là bí mật tuyệt đối; chỉ vào bằng ấn ngọc bài trên mu bàn tay trái; nước chỉ vào qua ấn; hút đồ trong phạm vi 1 mét.
+- Phân gia chưa có văn bản: cậu chỉ ở nhờ nhà ông bà; phải tự cất nhà để phân gia thành thật, qua trưởng thôn Tiêu Công Lâm và ông nội Tiêu Thiết Ngưu.
+- Tiền và giá: cá 0,12 rồi 0,13 tệ/cân; cuối ch.15 cậu còn hơn 4 tệ và 18,8 cân lương phiếu; tiền giấu ở bàn thờ trong không gian.
+- Rủi ro pháp lý: bán cá phải nói "đổi", không bán số lượng lớn liên tục ở một mối vì sợ bị quy tội đầu cơ.
+- Dòng thời gian: bắt đầu 10-9-1958, sắp thu hoạch thu; nam chính 16 tuổi, 5 công điểm/ngày; "ba năm ấy" đang tới gần.

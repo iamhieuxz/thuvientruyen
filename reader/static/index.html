@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#16130f">
+<title>Đọc truyện</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a63b2a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23f4ecdc'%3E%C4%90%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="font" type="font/woff2" href="/static/fonts/lora-400-normal-vietnamese.woff2" crossorigin>
+<link rel="stylesheet" href="/static/fonts.css">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body data-theme="dem">
+
+<div class="progress" aria-hidden="true"><i id="bar"></i></div>
+<div class="dim" id="veil" aria-hidden="true"></div>
+
+<header class="topbar" id="topbar">
+  <button class="ic" id="home" aria-label="Về kệ sách">
+    <svg viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg>
+  </button>
+  <button class="titleblock" id="tocBtn" aria-label="Mở mục lục">
+    <span class="tb-book" id="crumb">Đọc truyện</span>
+    <span class="tb-chap" id="tbChap">Đang mở…</span>
+  </button>
+  <button class="ic mark" id="markBtn" aria-label="Đánh dấu chương này" aria-pressed="false">
+    <svg viewBox="0 0 24 24"><path d="M7 4.8h10a.8.8 0 01.8.8v14.9l-5.8-4-5.8 4V5.6a.8.8 0 01.8-.8z"/></svg>
+  </button>
+</header>
+
+<main class="stage" id="stage">
+  <article class="sheet" id="sheet">
+    <header class="chead">
+      <div class="cstamp">
+        <span class="seal" id="sealNo">—</span>
+        <span class="kick">Chương</span>
+        <span class="ctag" id="ctag" hidden></span>
+      </div>
+      <h1 class="ctitle" id="ctitle">…</h1>
+      <p class="meta" id="meta">—</p>
+    </header>
+
+    <div class="body" id="body"></div>
+
+    <section class="endcard" id="endcard" hidden>
+      <p class="endrule"><span id="endNo">HẾT CHƯƠNG</span></p>
+      <button class="endnext" id="nextCard">
+        <span class="ek">Chương tiếp theo</span>
+        <b id="nextTitle">—</b>
+        <i aria-hidden="true">→</i>
+      </button>
+      <div class="footnav">
+        <button class="ghost" id="prevBottom">‹ Chương trước</button>
+        <button class="ghost" id="nextBottom">Chương sau ›</button>
+      </div>
+    </section>
+  </article>
+</main>
+
+<button class="autopill" id="autopill" aria-hidden="true">
+  <span class="dot"></span><span>Tự cuộn · chạm để dừng</span>
+</button>
+
+<div class="footfade" aria-hidden="true"></div>
+
+<nav class="dock" id="dock" aria-label="Thanh đọc">
+  <button class="dbtn" id="prev" aria-label="Chương trước">
+    <svg viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg>
+  </button>
+  <button class="dbtn" id="names">
+    <svg viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h9"/></svg>
+    <span>MỤC LỤC</span>
+  </button>
+  <button class="dorb" id="cogBtn" aria-label="Tuỳ chỉnh trang đọc"><span>Aa</span></button>
+  <button class="dbtn" id="listen" aria-pressed="false">
+    <svg viewBox="0 0 24 24"><path d="M4.5 15.5v-3a7.5 7.5 0 0115 0v3"/><rect x="2.8" y="14.2" width="4" height="6" rx="2"/><rect x="17.2" y="14.2" width="4" height="6" rx="2"/></svg>
+    <span id="listenLabel">NGHE</span>
+  </button>
+  <button class="dbtn" id="next" aria-label="Chương sau">
+    <svg viewBox="0 0 24 24"><path d="M9.5 5.5L16 12l-6.5 6.5"/></svg>
+  </button>
+</nav>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="sheetpanel tall" id="toc" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Mục lục">
+  <div class="grab" data-drag aria-hidden="true"></div>
+  <div class="phead">
+    <div class="ptitle">
+      <p class="pkick">Mục lục</p>
+      <h2 id="tocTitle">Đọc truyện</h2>
+    </div>
+    <span class="counts" id="counts">—</span>
+    <button class="ic close" data-close aria-label="Đóng mục lục">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="tools">
+    <input id="search" type="search" inputmode="search" placeholder="Tìm chương, tên, chữ Hán…" autocomplete="off">
+    <div class="seg" id="sortseg">
+      <button data-sort="asc" class="on">Cũ → Mới</button>
+      <button data-sort="desc">Mới → Cũ</button>
+    </div>
+  </div>
+  <ul class="list" id="list"></ul>
+</aside>
+
+<aside class="sheetpanel" id="settings" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Tuỳ chỉnh trang đọc">
+  <div class="grab" data-drag aria-hidden="true"></div>
+  <div class="phead">
+    <div class="ptitle">
+      <p class="pkick">Tuỳ chỉnh</p>
+      <h2>Trang đọc</h2>
+    </div>
+    <button class="ic close" data-close aria-label="Đóng tuỳ chỉnh">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <div class="tabs" id="tabs" role="tablist">
+    <button data-tab="disp" class="on" role="tab" aria-selected="true">Hiển thị</button>
+    <button data-tab="read" role="tab" aria-selected="false">Đọc</button>
+    <button data-tab="more" role="tab" aria-selected="false">Tiện ích</button>
+  </div>
+
+  <div class="pbody">
+    <section class="pane on" data-pane="disp">
+      <div class="fld">
+        <div class="fldhead"><span>Nền trang</span></div>
+        <div class="themes" id="themeseg">
+          <button data-t="giay" class="th"><i style="--b:#f2ebdc;--f:#332c23">Aa</i><span>Giấy</span></button>
+          <button data-t="cu" class="th"><i style="--b:#e3d3b3;--f:#453626">Aa</i><span>Cũ</span></button>
+          <button data-t="dem" class="th"><i style="--b:#16130f;--f:#c7bfae">Aa</i><span>Đêm</span></button>
+          <button data-t="muc" class="th"><i style="--b:#080807;--f:#b3aca0">Aa</i><span>Mực</span></button>
+        </div>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Kiểu chữ</span></div>
+        <div class="fonts" id="fontseg">
+          <button data-f="sans" class="fo"><i style="font-family:var(--ff-sans)">Aa</i><span>Hiện đại</span></button>
+          <button data-f="serif" class="fo"><i style="font-family:var(--ff-serif)">Aa</i><span>Cổ điển</span></button>
+        </div>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Cỡ chữ</span><b id="fsVal">18</b></div>
+        <div class="sizer">
+          <button id="fsMinus" aria-label="Chữ nhỏ hơn">A−</button>
+          <input id="fs" type="range" min="15" max="26" step="1" aria-label="Cỡ chữ">
+          <button id="fsPlus" aria-label="Chữ lớn hơn">A+</button>
+        </div>
+        <p class="sample" id="sample">Người ta nói, trên đỉnh Thiên Tuyệt Phong có một ngọn đèn không bao giờ tắt.</p>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Giãn dòng</span><b id="lhVal">1.8</b></div>
+        <input id="lh" type="range" min="14" max="24" step="1" aria-label="Giãn dòng">
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Bản rộng</span><b id="wdVal">Vừa</b></div>
+        <div class="seg" id="wdseg">
+          <button data-w="narrow">Hẹp</button><button data-w="mid" class="on">Vừa</button><button data-w="wide">Rộng</button>
+        </div>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Dịu mắt</span><b id="dimVal">0%</b></div>
+        <input id="dim" type="range" min="0" max="70" step="5" aria-label="Giảm độ chói">
+        <p class="hintline">Kéo lên khi đọc trong tối để bớt chói.</p>
+      </div>
+
+      <div class="switches">
+        <label class="sw"><span>Căn đều hai bên</span><input type="checkbox" id="just"><i></i></label>
+        <label class="sw"><span>Thụt đầu dòng</span><input type="checkbox" id="indent"><i></i></label>
+      </div>
+    </section>
+
+    <section class="pane" data-pane="read">
+      <div class="fld">
+        <div class="fldhead"><span>Tự cuộn</span><b id="asVal">Tắt</b></div>
+        <div class="seg" id="asseg">
+          <button data-v="0" class="on">Tắt</button><button data-v="1">Chậm</button><button data-v="2">Vừa</button><button data-v="3">Nhanh</button>
+        </div>
+        <p class="hintline">Trang tự trượt để đọc tay rảnh; chạm vào trang để dừng.</p>
+      </div>
+
+      <div class="switches">
+        <label class="sw"><span>Giữ sáng màn hình</span><input type="checkbox" id="awake"><i></i></label>
+        <label class="sw"><span>Ghi nhớ vị trí đọc</span><input type="checkbox" id="keep"><i></i></label>
+        <label class="sw"><span>Tự đọc sang chương sau</span><input type="checkbox" id="autoNext"><i></i></label>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Giọng đọc</span></div>
+        <select id="voice" aria-label="Giọng đọc"></select>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Tốc độ đọc</span><b id="rateVal">1.25×</b></div>
+        <input id="rate" type="range" min="60" max="160" step="5" aria-label="Tốc độ đọc">
+      </div>
+
+      <button class="widebtn" id="preview">Nghe thử giọng này</button>
+    </section>
+
+    <section class="pane" data-pane="more">
+      <button class="widebtn markbtn" id="markCur">
+        <svg viewBox="0 0 24 24"><path d="M7 4.8h10a.8.8 0 01.8.8v14.9l-5.8-4-5.8 4V5.6a.8.8 0 01.8-.8z"/></svg>
+        <span id="markCurLabel">Đánh dấu chương này</span>
+      </button>
+
+      <div class="fld">
+        <div class="fldhead"><span>Dấu trang</span><b id="markCount">0</b></div>
+        <div class="marks" id="marks"><p class="emptyline">Chưa có dấu trang nào.</p></div>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Tiến độ</span><b id="stPct">0%</b></div>
+        <div class="track big"><i id="stBar" style="width:0%"></i></div>
+        <div class="stats2">
+          <div><b id="stChap">—</b><span>đã đọc</span></div>
+          <div><b id="stLeft">—</b><span>còn lại</span></div>
+          <div><b id="stIdx">—</b><span>vị trí</span></div>
+        </div>
+      </div>
+
+      <div class="fld">
+        <button class="widebtn ghostly" id="share">Sao chép liên kết chương</button>
+        <button class="widebtn danger" id="reset">Xoá tiến độ đọc</button>
+      </div>
+    </section>
+  </div>
+</aside>
+
+<script src="/static/store.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16130f">
+<title>Kệ sách · Đọc truyện</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a63b2a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23f4ecdc'%3E%C4%90%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/fonts.css">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body data-theme="dem" class="shelfpage">
+
+<div class="ambient" aria-hidden="true"></div>
+
+<header class="shelfbar">
+  <div class="brand">
+    <span class="mark-badge" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 6.6C10.5 5.3 8.5 4.7 6 4.7H3.3v13.1H6c2.5 0 4.5.6 6 1.9 1.5-1.3 3.5-1.9 6-1.9h2.7V4.7H18c-2.5 0-4.5.6-6 1.9z"/><path d="M12 6.6v13.1"/></svg>
+    </span>
+    <div>
+      <p class="eyebrow">Tự viện</p>
+      <h1 class="shelftitle">Kệ sách</h1>
+    </div>
+  </div>
+  <button class="ic" id="reload" aria-label="Quét lại thư mục truyện" title="Quét lại thư mục truyện">
+    <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 10-2.3 5.7M20 5v6h-6"/></svg>
+  </button>
+</header>
+
+<main class="shelf">
+  <section id="cont"></section>
+  <div class="stats" id="stats"></div>
+
+  <div class="sechead" id="head" hidden>
+    <h2>Tất cả truyện</h2>
+    <span id="count"></span>
+  </div>
+
+  <div class="grid" id="grid" aria-busy="true"></div>
+
+  <details class="addbook">
+    <summary>Cách thêm truyện mới</summary>
+    <p>Mỗi truyện là một thư mục con trong <code>data\</code>, file chương đặt tên
+      <code>0001_Tên chương.md</code>. Kèm <code>book.json</code> và <code>cover.jpg</code> nếu muốn:</p>
+    <pre>data\tieu_su_truyen\book.json
+{ "title": "Tên truyện", "author": "Tác giả",
+  "desc": "Giới thiệu ngắn", "cover": "cover.jpg" }</pre>
+    <p class="hint">Kệ sách tự quét lại — không cần khởi động lại server.</p>
+  </details>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/static/store.js"></script>
+<script src="/static/shelf.js"></script>
+</body>
+</html>

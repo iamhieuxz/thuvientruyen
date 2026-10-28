@@ -1,0 +1,55 @@
+# ───────────────────────── BÍ MẬT ─────────────────────────
+# Không bao giờ đưa key API lên repo. Chỉ mẫu .env.example được giữ.
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# ───────────────────────── PYTHON ─────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ───────────────────────── HỆ ĐIỀU HÀNH / IDE ─────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───────────────────────── BẢN DỊCH & OUTPUT ─────────────────────────
+# data/<truyện>_vi/*.md là sản phẩm dịch, không phải mã nguồn.
+# Giữ data/README.md để mô tả định dạng.
+data/*
+!data/README.md
+output/
+logs/
+
+# Trạng thái, bản nháp, tiêu đề đã dịch — tự sinh khi chạy translate/dich.py
+translate/state*.json
+translate/notes*.txt
+translate/titles_*.json
+translate/models_quota.json
+translate/_gloss_pairs.json
+translate/_names_new*.txt
+
+# Bộ nhớ đệm TTS và log của reader
+reader/cache/
+reader/*.log
+reader/tunnel_url.txt
+
+# ───────────────────────── BẢN GỐC ĐÃ CÀO ─────────────────────────
+# Truyện gốc tiếng Trung: dung lượng lớn và có bản quyền → không đưa lên repo.
+truyendich_scraper/baojian/
+truyendich_scraper/canh-bao-chan-long-xuat-nguc/
+truyendich_scraper/nhi-huu-thien-nhan-bat-khu-do-thach-huu-tai-loan-khan/
+truyendich_scraper/nien-dai-nga-tai-58-huu-khoi-dien/
+truyendich_scraper/data/
+truyendich_scraper/logs/
+
+# HTML/JSON sinh ra từ một lần cào cụ thể
+truyendich_scraper/_bao-giam_index.html
+truyendich_scraper/BAO-GIAM-cung-the-loai.md
+truyendich_scraper/bao-giam-cung-the-loai.json
