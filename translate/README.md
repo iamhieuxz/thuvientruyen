@@ -21,9 +21,10 @@ Chỉ dùng **thư viện chuẩn Python** (không cần `pip install`).
 
 ## Cài đặt
 
-Tạo `F:\taitruyen\.env` từ mẫu:
+Tạo `F:\taitruyen\.env` từ mẫu (file mẫu nằm ở gốc repo):
 
 ```powershell
+cd F:\taitruyen
 copy .env.example .env
 ```
 

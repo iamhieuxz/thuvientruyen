@@ -53,3 +53,6 @@ truyendich_scraper/logs/
 truyendich_scraper/_bao-giam_index.html
 truyendich_scraper/BAO-GIAM-cung-the-loai.md
 truyendich_scraper/bao-giam-cung-the-loai.json
+
+# Danh sách tần suất từ do analyze2.py sinh ra
+translate/names.txt
