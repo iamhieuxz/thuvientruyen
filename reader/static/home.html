@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0B0E1A">
+<meta name="description" content="truyendochay: tủ sách truyện dịch AI, đọc tiếp, truyện hot, chương mới cập nhật từng phút.">
+<title>truyendochay · Trang chủ</title>
+<link rel="icon" href="/static/img/logo.png">
+<link rel="apple-touch-icon" href="/static/img/logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "truyendochay",
+      "url": "/",
+      "description": "Tủ sách truyện dịch AI, đọc truyện chữ đã dịch hoàn toàn trong trình duyệt.",
+      "inLanguage": "vi"
+    },
+    {
+      "@type": "WebPage",
+      "name": "truyendochay · Trang chủ",
+      "url": "/",
+      "isPartOf": { "@type": "WebSite", "name": "truyendochay", "url": "/" },
+      "inLanguage": "vi"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/static/home.css">
+</head>
+<body>
+
+<a class="skip" href="#content">Tới nội dung chính</a>
+
+<!-- ======== icon rail trái ======== -->
+<nav class="irail" aria-label="Điều hướng chính">
+  <a class="irail-brand" href="/" aria-label="truyendochay, về trang chủ">
+    <img src="/static/img/logo.png" alt="" width="34" height="34">
+  </a>
+  <div class="irail-group">
+    <a class="irail-btn is-on" href="/" aria-current="page" title="Trang chủ" aria-label="Trang chủ">
+      <svg viewBox="0 0 24 24"><path d="M3 11.2 12 4l9 7.2M5.5 9.8V20h13V9.8M9.8 20v-5.4h4.4V20"/></svg>
+    </a>
+    <a class="irail-btn" href="/lich-su" title="Lịch sử đọc theo ngày" aria-label="Lịch sử đọc theo ngày">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.4V12l3.2 2"/></svg>
+    </a>
+    <button class="irail-btn" id="reload" type="button" title="Quét lại thư mục truyện" aria-label="Quét lại thư mục truyện">
+      <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>
+    </button>
+  </div>
+  <div class="irail-group">
+    <a class="irail-btn" href="/shelf" title="Tủ sách (bản cũ)" aria-label="Tủ sách bản cũ">
+      <svg viewBox="0 0 24 24"><path d="M5 4.5h3.6v15H5zM10.2 4.5h3.6v15h-3.6zM15.4 4.5H19v15h-3.6z"/></svg>
+    </a>
+    <details class="irail-add" id="addHow">
+      <summary class="irail-btn" title="Thêm truyện" aria-label="Cách thêm truyện mới">
+        <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      </summary>
+      <div class="irail-pop" role="note">
+        <b>Thêm truyện mới</b>
+        <p>Mỗi truyện là một thư mục con trong <code>data\</code>, chương đặt tên
+        <code>0001_Tên chương.md</code>. Kèm <code>book.json</code> và <code>cover.jpg</code> nếu muốn.</p>
+        <p class="hint">Tủ sách tự quét lại sau mỗi 3 giây.</p>
+      </div>
+    </details>
+  </div>
+  <a class="irail-btn irail-end" href="#continue" title="Hồ sơ đọc của bạn" aria-label="Hồ sơ đọc, lưu ở trình duyệt này">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="8.2" r="3.6"/><path d="M4.8 20a7.3 7.3 0 0 1 14.4 0"/></svg>
+  </a>
+</nav>
+
+<!-- ======== top nav ======== -->
+<header class="topnav">
+  <a class="tn-brand" href="/">
+    <img src="/static/img/logo.png" alt="" width="30" height="30">
+    <span>truyendochay<i>.reader</i></span>
+  </a>
+
+  <nav class="tn-mid" aria-label="Danh mục">
+    <details class="tn-drop" id="genreDrop">
+      <summary aria-haspopup="true">Thể loại
+        <svg viewBox="0 0 24 24"><path d="m6 9.5 6 6 6-6"/></svg>
+      </summary>
+      <div class="tn-menu" id="genreMenu" role="menu"></div>
+    </details>
+    <details class="tn-drop" id="listDrop">
+      <summary aria-haspopup="true">Danh sách
+        <svg viewBox="0 0 24 24"><path d="m6 9.5 6 6 6-6"/></svg>
+      </summary>
+      <div class="tn-menu" role="menu">
+        <a role="menuitem" href="#hot">Truyện hot</a>
+        <a role="menuitem" href="#ai">Vừa dịch xong</a>
+        <a role="menuitem" href="#allSec">Tất cả truyện</a>
+      </div>
+    </details>
+  </nav>
+
+  <form class="tn-search" id="search" role="search">
+    <label class="sr" for="q">Tìm truyện, tác giả</label>
+    <input id="q" type="search" autocomplete="off" spellcheck="false"
+           placeholder="Tìm truyện, tác giả…">
+    <button class="btn btn-acc" type="submit">Tìm</button>
+  </form>
+</header>
+
+<!-- ======== main 3 cột ======== -->
+<main class="shell" id="content">
+  <h1 class="sr">truyendochay, tủ sách truyện dịch AI</h1>
+  <div class="content">
+
+    <section class="hero" id="hero" aria-label="Truyện nổi bật" aria-busy="true">
+      <div class="hero-big sk" style="aspect-ratio:16/10"></div>
+      <div class="hero-side">
+        <div class="hero-tile sk" style="aspect-ratio:16/10"></div>
+        <div class="hero-tile sk" style="aspect-ratio:16/10"></div>
+        <div class="hero-tile sk" style="aspect-ratio:16/10"></div>
+        <div class="hero-tile sk" style="aspect-ratio:16/10"></div>
+      </div>
+    </section>
+
+    <section class="hsec" id="hotSec" aria-labelledby="hotHead">
+      <div class="sec-head">
+        <span class="sec-bar" aria-hidden="true"></span>
+        <h2 id="hotHead">
+          <svg viewBox="0 0 24 24"><path d="M12 3.5c.6 3.2-.4 5-2 6.6-1.3 1.3-2.5 2.8-2.5 4.9A6.5 6.5 0 0 0 12 21.5a6.5 6.5 0 0 0 6.5-6.5c0-1.9-.8-3.6-1.8-5-.4 1-.9 1.7-1.8 2.3.3-2.8-.8-6.1-2.9-7.8z"/></svg>
+          Truyện hot
+        </h2>
+        <span class="sec-sub">cập nhật gần đây · nhiều chương</span>
+        <a class="sec-more" href="#allSec">Xem thêm →</a>
+      </div>
+      <div class="rail-wrap">
+        <button class="rail-nav prev" type="button" aria-label="Cuộn trái" hidden>
+          <svg viewBox="0 0 24 24"><path d="m14.5 6-6 6 6 6"/></svg>
+        </button>
+        <div class="hrail" id="hot" tabindex="0" aria-label="Dải truyện hot, cuộn ngang"></div>
+        <button class="rail-nav next" type="button" aria-label="Cuộn phải" hidden>
+          <svg viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="hsec" id="aiSec" aria-labelledby="aiHead">
+      <div class="sec-head">
+        <span class="sec-bar" aria-hidden="true"></span>
+        <h2 id="aiHead">
+          <svg viewBox="0 0 24 24"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9zM18.6 15.4l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>
+          Vừa được dịch bởi AI
+        </h2>
+        <span class="sec-sub">chương mới lên kệ</span>
+        <a class="sec-more" href="#allSec">Xem thêm →</a>
+      </div>
+      <div class="rail-wrap">
+        <button class="rail-nav prev" type="button" aria-label="Cuộn trái" hidden>
+          <svg viewBox="0 0 24 24"><path d="m14.5 6-6 6 6 6"/></svg>
+        </button>
+        <div class="hrail" id="ai" tabindex="0" aria-label="Dải chương vừa dịch, cuộn ngang"></div>
+        <button class="rail-nav next" type="button" aria-label="Cuộn phải" hidden>
+          <svg viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="hsec" id="allSec" aria-labelledby="allHead">
+      <div class="sec-head">
+        <span class="sec-bar" aria-hidden="true"></span>
+        <h2 id="allHead">
+          <svg viewBox="0 0 24 24"><path d="M4 5.2A2.2 2.2 0 0 1 6.2 3H20v15.6H6.5a2.5 2.5 0 0 0-2.5 2.5V5.2zM20 18.6v2.4H6.5" transform="scale(.95) translate(.5 .5)"/></svg>
+          Tất cả truyện
+        </h2>
+        <span class="sec-sub" id="count"></span>
+      </div>
+      <div class="chips" id="filters" role="group" aria-label="Lọc truyện theo thể loại"></div>
+      <div class="grid" id="grid" aria-busy="true"></div>
+    </section>
+
+    <footer class="foot">
+      <span><b>truyendochay</b> · đọc đêm, đọc cháy</span>
+      <nav class="foot-connect" aria-label="Kết nối">
+        <a href="https://iamhieuxz.github.io/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.4 4 5.6 4 9s-1.4 6.6-4 9c-2.6-2.4-4-5.6-4-9s1.4-6.6 4-9z"/></svg>
+          Trang chủ
+        </a>
+        <a href="https://outlook.live.com/mail/0/deeplink/compose?to=iamhieuxz@hotmail.com&amp;subject=Ph%E1%BA%A3n%20h%E1%BB%93i%20truyendochay.reader"
+           target="_blank" rel="noopener" title="Soạn email tới iamhieuxz@hotmail.com">
+          <svg viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="m4.5 7 7.5 6 7.5-6"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/iamhieuxz" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2"/><circle cx="6" cy="18" r="2.2"/><circle cx="17" cy="8.5" r="2.2"/><path d="M6 8.2v7.6M17 10.7c0 3.3-3.6 3.3-8.8 4.4"/></svg>
+          GitHub
+        </a>
+      </nav>
+      <span id="footline"></span>
+    </footer>
+  </div>
+
+  <!-- ======== sidebar phải ======== -->
+  <aside class="rsb" aria-label="Tiện ích đọc">
+    <section class="rsb-sec" id="continue" aria-labelledby="contHead">
+      <h3 class="rsb-head" id="contHead">
+        <svg viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 0 7 7M12 5V2.6M12 5l4.2-2.2M19 3.5V8h-4.5"/></svg>
+        Đọc tiếp
+      </h3>
+      <div class="rsb-list" id="continueList"></div>
+    </section>
+
+    <section class="rsb-sec" aria-labelledby="todayHead">
+      <h3 class="rsb-head" id="todayHead">
+        <svg viewBox="0 0 24 24"><path d="M12 8.4v4l2.8 1.8M12 4.6a8 8 0 1 0 8 8"/><path d="M12 2.2l.02.02M20 4.6V9h-4.4"/></svg>
+        Hôm nay của bạn
+      </h3>
+      <div class="rsb-today" id="todayBox"></div>
+    </section>
+
+    <section class="rsb-sec" aria-labelledby="randHead">
+      <h3 class="rsb-head" id="randHead">
+        <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r="1.3"/><circle cx="15" cy="15" r="1.3"/><circle cx="15" cy="9" r="1.3"/><circle cx="9" cy="15" r="1.3"/></svg>
+        Hôm nay đọc gì?
+      </h3>
+      <div class="rsb-rand" id="randCard"></div>
+    </section>
+  </aside>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/static/store.js"></script>
+<script src="/static/covers.js"></script>
+<script src="/static/home.js"></script>
+</body>
+</html>

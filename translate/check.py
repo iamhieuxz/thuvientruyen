@@ -39,17 +39,23 @@ DEFAULT_BOOK = os.environ.get("BOOK", "can_bao_chan_long")
 
 CJK = re.compile(r"[\u4e00-\u9fff]+")
 # day 2-3 tu lien nhau; dung .upper() de xac dinh chu in hoa (khong dung
-# [A-ZDa-y] vi dai Unicode A-Z chua ca tu in thuong co dau)
-WORD_SEQ = re.compile(r"(?:[^\W\d_]+[ \t]+){1,2}[^\W\d_]+")
+# [A-ZDa-y] vi dai Unicode A-Z chua ca tu in thuong co dau).
+# [^\W_] = chu + chu so (giu model xe "Audi A6", ma "S9" ... neu cung mot tu)
+WORD_SEQ = re.compile(r"(?:[^\W_]+[ \t]+){1,2}[^\W_]+")
 DUP_HEAD = re.compile(r"(?m)^[ \t]*\*{0,2}[ \t]*(?:CHƯƠNG|Chương)[ \t]+\d+[ \t]*[:：]")
 MD_BOLD = re.compile(r"\*\*")
 MD_HEAD = re.compile(r"(?m)^\s*#{1,6}\s")
 STRAIGHT_Q = re.compile(r'"')
 NGAN_BAD = re.compile(r"\bngàn\b")
 # Quy ước trong SYSTEM: số đếm dùng "nghìn", chỉ giữ "ngàn" trong thành ngữ văn ngôn
-NGAN_WORD = {"dặm", "năm", "vàng", "cân"}
+NGAN_WORD = {"dặm", "năm", "vàng", "cân", "trượng", "vạn", "quân", "thu",
+             "sông", "núi", "non", "vẻ", "cách", "lần"}   # thành ngữ: "ngàn quân", "ngàn sông vạn núi"
 BANNED_PRONOUN = re.compile(r"(?i)\b(?:ngươi|lão tử|lão phu)(?! nhân)\b")
 SERVE = re.compile(r"(?i)\bngài\b")
+# sach noi: dong chi gom ky hieu phan cach se bi doc thanh tieng
+SEP_LINE = re.compile(
+    r"^\s*(?:[-=*_~#·•※◆◇■□▲△●○—–]{2,}|…+|[.．]{2,}|[-–—])\s*$")
+INLINE_SEP = re.compile(r"(?<![\w*])[*~#=_]{3,}(?![\w*])")
 CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffd]")
 HAN_PUNCT = re.compile(r"[（）【】]")
 
@@ -84,18 +90,28 @@ FUNC_CHAR = set("的了着过呢吗吧就都很又只被让而你他她它")
 # ─────────────────────── cấu hình theo truyện ───────────────────────
 
 def load_glossary(path):
-    """glossary: moi dong `Hán = Việt (chú thích)` -> (zh2vi, vi2zh)."""
+    """glossary: moi dong `Hán = Việt (chú thích)` -> (zh2vi, vi2zh).
+
+    Cac muc quy tac (QUY TẮC / LƯU Ý / GHI CHÚ / QUY ƯỚC) la van xuoi huong dan
+    cho model — KHONG phai bang ten, nen bo qua hoan toan khi doc."""
     zh2vi, vi2zh = {}, {}
+    skip_section = False
     for line in path.read_text(encoding="utf-8").splitlines():
         s = line.strip()
-        if not s or s.startswith("#") or "=" not in s:
+        if s.startswith("#"):
+            skip_section = bool(re.search(r"QUY TẮC|LƯU Ý|GHI CHÚ|QUY ƯỚC", s))
+            continue
+        if not s or skip_section or "=" not in s:
             continue
         k, v = s.split("=", 1)
         k, v = k.strip(), v.split("(")[0].strip()
         if not k or not v or not CJK.search(k):
             continue
         zh2vi[k] = v
-        if v[0].isupper():
+        # vi2zh la danh sach TEN CHUAN de doi chieu; bo qua gia tri dai / co dau
+        # ';' hoac '=' — do la dong mo ta bi tach nham, khong phai ten rieng.
+        if (v[0].isupper() and ";" not in v and "=" not in v
+                and 1 <= len(v.split()) <= 4):
             vi2zh[v] = k
     return zh2vi, vi2zh
 
@@ -130,7 +146,7 @@ class Ctx:
             return ""
         t = dich.clean((self.src / self.chs[n]).read_text(
             encoding="utf-8", errors="replace"))
-        return dich.dedup_repeats(dich.strip_src_junk(t))
+        return dich.prepare_src(t)
 
     def wants_trailer(self):
         """Quy uoc '(Còn tiếp)' khac nhau giua cac truyen -> lay theo 20 bai gan nhat."""
@@ -169,9 +185,18 @@ def cap_seqs(text):
 HONORIFIC = {
     "anh", "chị", "em", "cô", "cậu", "chú", "bác", "bà", "ông", "mụ", "mợ",
     "thằng", "con", "lão", "gã", "hắn", "tao", "mày", "vị", "nhà", "thầy",
+    # quan he than thuoc dung truoc ten: "Mẹ Cố Nhiêu", "ba Đinh Tiếu Tiếu"
+    "mẹ", "má", "ba", "bố", "cha", "dì", "thím", "cô", "chú", "nội", "ngoại",
     # tu chi noi/dich chuyen, dung dau cum "Ở Giang Đô", "Tại Kim Lăng"...
     "ở", "tại", "từ", "đến", "tới", "sang", "về", "trong", "ngoài", "trên",
     "dưới", "giữa", "gần", "cách", "khu", "nơi", "hướng", "phía",
+    # lien tu / tro tu dung dau cau ("Nếu Dương Đông...", "Khi Trần Phát...")
+    "nếu", "khi", "còn", "rồi", "vì", "nhưng", "mà", "để", "thì", "lại",
+    "vẫn", "cũng", "đã", "sẽ", "đang", "rằng", "do", "bởi", "nên", "hễ",
+    # danh tu thuong dung truoc ten ("Vợ Quách Duy", "Lời Tân Nghiêu")
+    "lời", "vợ", "chồng", "câu", "tiếng", "thưa",
+    # dong tu tri giac dung truoc ten ("Nghe Dương Đông...", "Thấy Quách Duy...")
+    "nghe", "thấy", "gọi", "nhìn", "bảo", "hỏi", "nói",
 }
 
 
@@ -196,13 +221,29 @@ def check_cjk(ctx, body):
 
 def check_censor(body):
     errs = []
-    hits = list(re.finditer(r"\*+", body))
+    hits = [m for m in re.finditer(r"\*+", body)
+            # thue phep "A*" (ky thuat A* pathfinding) - cung exception o dich.py
+            if not (m.group(0) == "*" and m.start() > 0
+                    and body[m.start() - 1].isascii()
+                    and body[m.start() - 1].isupper())]
     if hits:
         errs.append(("E", f"còn dấu kiểm duyệt '*' x{len(hits)}: "
                           f"…{snip(body, hits[0].start())}…"))
     for pat in ("[***]", "… … …"):
         if pat in body:
             errs.append(("E", f"ký tự kiểm duyệt lạ: {pat}"))
+    return errs
+
+
+def check_separators(body):
+    """E: ky hieu phan cach se bi TTS doc thanh tieng trong sach noi."""
+    errs = []
+    lines = [l.strip() for l in body.splitlines() if SEP_LINE.match(l)]
+    if lines:
+        errs.append(("E", f"dòng ký hiệu phân cách x{len(lines)}: {lines[0]!r} — sách nói sẽ đọc thành tiếng"))
+    m = INLINE_SEP.search(body)
+    if m:
+        errs.append(("E", f"dấu lạ giữa khối: {m.group(0)!r} → …{snip(body, m.start())}…"))
     return errs
 
 
@@ -225,8 +266,12 @@ def check_con(body):
     (dau phay/loi ken truoc 'con'). Chuoi 'me con', 'bo con', 'anh con'...
     la cum chi quan he gia dinh -> hop le, khong phan."""
     errs = []
-    VOC = (r"(?:anh|chị|em|ông|bà|cô|dì|thím|mợ|chú|bác|ba|má|mẹ|bố|cha|thầy)"
-           r"\s*(?:ơi|ạ|à|nhỉ|nhen)?\s*[,.!:]\s*(?:thì\s+)?con\b"
+    # chi canh bao khi goi nguoi NGANG HANG (anh/chi/em) ma tu xung "con";
+    # "Me, con...", "Bo, con..." la cach con cai noi voi cha me -> hop le.
+    # BẮT BUỘC có trợ từ gọi (ơi/ạ/à...) — nếu không, những câu như
+    # "trong tay anh, con dao nhỏ..." sẽ bị báo nhầm (anh, = trạng ngữ, không phải vocative).
+    VOC = (r"(?:anh|chị|em)"
+           r"\s*(?:ơi|ạ|à|nhỉ|nhen)\s*[,.!:]\s*(?:thì\s+)?con\b"
            r"(?![\wàáảãạăâêôơưý])")
     for i, line in enumerate(body.splitlines(), 1):
         if "con" not in line.lower():
@@ -273,6 +318,22 @@ def check_structure(ctx, num, body, raw):
         errs.append(("E", "ký tự điều khiển/hỏng trong bài"))
     if HAN_PUNCT.search(body):
         errs.append(("W", "còn dấu câu Hán （）【】"))
+    # khoang trang / dong trong: giong doc se ngat vun hoac nghi qua lau
+    blanks = re.search(r"\n[ \t]*\n[ \t]*\n", body)
+    if blanks:
+        errs.append(("E", "có nhiều hơn một dòng trống liền nhau — giọng đọc sẽ nghỉ quá lâu"))
+    for i, line in enumerate(body.splitlines(), 1):
+        if line != line.rstrip():
+            errs.append(("W", f"dòng {i}: khoảng trắng thừa cuối dòng"))
+            break
+    for i, line in enumerate(body.splitlines(), 1):
+        if re.search(r"[ \t]{2,}", line):
+            errs.append(("W", f"dòng {i}: nhiều khoảng trắng liền nhau"))
+            break
+    for i, line in enumerate(body.splitlines(), 1):
+        if re.search(r"[ \t]+[,.;:!?…]", line):
+            errs.append(("W", f"dòng {i}: khoảng trắng trước dấu câu"))
+            break
     return errs
 
 
@@ -309,6 +370,11 @@ def check_names(ctx, num, src_text, body):
             continue
         if strip_honorific(name) in ctx.accepted:
             continue
+        # "Cụm Cửu Chương", "Nhà máy Cửu Chương"... = danh từ chung + ten rieng.
+        # Neu 2-3 tieng cuoi la mot ten da biet thi day khong phai bien the.
+        w = name.split()
+        if len(w) > 2 and " ".join(w[-2:]) in ctx.accepted:
+            continue
         best = difflib.get_close_matches(name, canon, n=1, cutoff=0.80)
         if best:
             errs.append(("E", f"biến thể tên '{name}' (x{n}) → chuẩn '{best[0]}'"))
@@ -320,7 +386,18 @@ def check_names(ctx, num, src_text, body):
         w = vi.split()
         forms = {vi, " ".join(w[-2:]) if len(w) >= 2 else vi,
                  w[-1] if len(w) >= 2 else vi}
-        if forms & set(found) or any(f in body for f in forms):
+        # glossary có dạng "a / b" hoặc "a, b" -> nhận mọi biến thể
+        for alt in re.split(r"\s*[/,;]\s*", vi):
+            alt = alt.strip()
+            if len(alt) < 3:
+                continue
+            forms.add(alt)
+            aw = alt.split()
+            if len(aw) >= 2:
+                forms.add(" ".join(aw[-2:]))
+                forms.add(aw[-1])
+        # so khop ca chu thuong: ten dung giua cau thuong viet thuong
+        if forms & set(found) or any(f in body or f.lower() in body.lower() for f in forms):
             continue
         near = difflib.get_close_matches(vi, list(found), n=1, cutoff=0.72)
         if near:
@@ -357,7 +434,9 @@ def bulk_errors(ctx, by_num, drafts, nums):
         if len(fs) > 1:
             errs.append(("E", f"chương {n}: trùng {len(fs)} file: "
                               f"{', '.join(f.name for f in fs)}"))
-    bad = [n for n in nums if n in ctx.failed]
+    # chi bao nhung chuong THAT SU khong co file chinh thuc; mot entry failed con
+    # sot lai sau khi da promote (vd race giua runner va promote tay) khong phai loi
+    bad = [n for n in nums if n in ctx.failed and n not in by_num]
     if bad:
         errs.append(("E", f"state.failed trong khoảng: {bad} (chạy dich.py --retry)"))
     miss = [n for n in nums if n not in by_num]
@@ -489,6 +568,7 @@ def run(ctx, nums):
         errs = []
         errs += check_cjk(ctx, body)
         errs += check_censor(body)
+        errs += check_separators(body)
         errs += check_pronouns(body)
         errs += check_con(body)
         errs += check_structure(ctx, n, body, raw)
@@ -497,8 +577,20 @@ def run(ctx, nums):
         errs += check_style(ctx, body)
         if src_text:
             ok, why = dich.check_complete(src_text, body)
-            if not ok:
+            # Ti le ky tu VI/Han la bang chung quyet dinh: ban dich hoan chinh
+            # thuong gap 2 lan so doan Han (tieng Viet gop thoai), nen "thieu
+            # doan" mot minh no khong phai la cat. Nguyen cat that thi ky tu
+            # cung hut theo (vd ch.219 quan_dao: 2.30 vs median 3.21).
+            ratio = len(body) / len(src_text) if src_text else 0
+            if not ok and "thiếu đoạn" in why and ratio >= 2.8:
+                errs.append(("W", f"gộp đoạn, không phải cắt: {why} "
+                                  f"— tỉ lệ ký tự {ratio:.2f} vẫn đủ nội dung"))
+            elif not ok:
                 errs.append(("E", f"cắt so với nguồn: {why}"))
+            elif ratio < 2.5:
+                errs.append(("E", f"cắt theo độ dài: tỉ lệ ký tự {ratio:.2f} "
+                                  f"(bình thường 2.8–3.5) — thiếu khoảng "
+                                  f"{int((2.5 - ratio) * len(src_text))} ký tự"))
         results[fs[0].name] = errs
     # do dai bat thuong so voi median ca lo
     if len(lens) >= 5:

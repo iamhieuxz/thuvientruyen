@@ -33,7 +33,7 @@ def src_of(story, cmap, src):
         raw = row["title"]
         text = (pathlib.Path(src) / f"{row['file']:04d}_{raw}.txt").read_text(
             encoding="utf-8", errors="replace")
-    return raw, dich.dedup_repeats(dich.strip_src_junk(dich.clean(text)))
+    return raw, dich.prepare_src(text)
 
 
 def main():
@@ -58,7 +58,8 @@ def main():
             print(f"BO QUA {p.name}: file rong/chua comment loi, chua co than bai")
             continue
         body = re.sub(r"(?m)^={2,}[^\n]*={0,}$", "", parts[1])
-        body = dich.strip_markdown(body).strip()
+        body = dich.split_long_paras(dich.fix_names(dich.normalize_punct(
+            dich.sanitize_seps(dich.strip_markdown(body))))).strip()
         try:
             fname, stext = src_of(s, cmap, dich.SRC)
         except StopIteration:

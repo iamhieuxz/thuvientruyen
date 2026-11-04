@@ -41,22 +41,44 @@ reader\.venv\Scripts\pip install vieneu
 
 ## Tính năng giao diện
 
-- Kệ sách nhiều bộ (`/`), mục lục, tìm chương, đánh dấu đã đọc, tiến độ từng chương lưu `localStorage`.
+- **Kệ sách** (`/`): hero truyện đang đọc, dải “đang đọc dở”, sổ chương mới toàn tủ, lọc theo thể loại, lưới bìa có tiến độ.
+- **Trang truyện** (`/sach/<book>`): bìa + tựa gốc, bảng thông tin (tác giả, số chương, cập nhật, trạng thái, thể loại, bản dịch), tiến độ dịch so với bản gốc, giới thiệu đầy đủ, mục lục **200 chương/trang** có tìm/sort/lọc chưa đọc, chỗ đang đọc.
+- **Trang đọc** (`/sach/<book>/chuong/<n>`): mục lục, tìm chương, đánh dấu đã đọc, tiến độ từng chương lưu `localStorage`.
 - 4 theme (giấy, cũ, đêm, mực), chỉnh cỡ chữ/giãn dòng/căn lề, chế độ tự cuộn.
 - TTS: chọn engine + giọng, tốc độ 0.85–1.35× (giữ cao độ), tự sang đoạn/chương, resume đúng đoạn và giây, `mediaSession` (khoá màn hình), `wakeLock` khi đang nghe, prefetch 3 đoạn.
 - Audio một thẻ `<audio>` duy nhất, server hỗ trợ `Range` nên tua trong đoạn hoạt động thật.
-- JSON nén gzip + `ETag`/`304`; `scan()` dùng lại kết quả parse theo `(mtime, size)`.
+- JSON nén gzip + `ETag`/`304`; `scan()` dùng lại kết quả parse theo `(mtime, size)` và chỉ công bố index sau khi quét xong (không trả mục lục rỗng khi hai request song song).
 
 Chi tiết đo đạc, lỗi đã sửa và các điểm còn lại: [TTS-REVIEW.md](TTS-REVIEW.md).
+
+## Bìa sách
+
+Bảy bộ có bảy bìa riêng, dựng bằng `reader/cover_design.py` (Pillow, không cần mạng):
+
+- **Ảnh gốc chưa chữ** nằm ở `static/img/art/<key>.jpg` — sửa/thay ảnh ở đây rồi chạy lại script, phần chữ được vẽ đè lên.
+- **Bìa hoàn chỉnh** ghi ra `static/img/cover-*.jpg` (900 × 1350, JPEG q90); `covers.js` trỏ thẳng vào các file này nên không phải sửa JS.
+- Mỗi bộ một bố cục: `classic` (Bảo Giám), `poster` (Chân Long), `modern` (Khai Cục), `relic` (Thiên Nhãn), `band` (Niên đại), `quiet` (Quan Đạo — bìa sáng, chữ đậm), `novel` (Phân Ban — chữ hoa/thường xen kẽ, số năm in mờ).
+- Dùng chung một "ngữ pháp" in: nhãn `TRUYỆN DỊCH` + số thứ tự, gáy sách bên trái, viền chỉ mảnh, hạt phim, tên gốc tiếng Trung chạy dọc.
+- Chữ vẽ bằng Sitka (serif) + Candara (sans) của Windows — **có đủ dấu tiếng Việt**, không bị lỗi font như khi nhờ model sinh ảnh có chữ.
+- Thêm bộ mới: bỏ ảnh gốc vào `art/<key>.jpg`, thêm một mục trong bảng `BOOKS`, thêm một dòng vào `COVER_ART` trong `covers.js`, chạy `python reader\cover_design.py --only <key>`.
+
+```powershell
+python reader\cover_design.py                 # vẽ lại cả 7 bìa
+python reader\cover_design.py --only quan_dao # một bộ
+```
+
+Sửa tiêu đề, tác giả, màu nhấn, thể loại: bảng `BOOKS` ở cuối `cover_design.py`.
 
 ## HTTP API
 
 | Endpoint | Việc |
 |---|---|
 | `GET /` | kệ sách (`shelf.html`) |
-| `GET /sach/<book>/chuong/<n>` | trang đọc; `/sach/<book>` mở chương đầu/cuối đã đọc |
-| `GET /api/books` | danh sách bộ truyện + số chương, số từ |
-| `GET /api/book?book=` | metadata một bộ (tên, tác giả, bìa) |
+| `GET /sach/<book>` | trang truyện: thông tin, tiến độ dịch, mục lục (`book.html`) |
+| `GET /sach/<book>/chuong/<n>` | trang đọc chương |
+| `GET /api/books` | danh sách bộ truyện + số chương, số chữ, tiến độ dịch |
+| `GET /api/book?book=` | metadata một bộ + số liệu quét từ thư mục + tiến độ dịch |
+| `GET /api/latest?limit=` | các chương vừa cập nhật trên toàn tủ |
 | `GET /api/cover?book=` | ảnh bìa nếu có |
 | `GET /api/chapters?book=` | mục lục nhẹ (số, tên, số ký tự, phút đọc) |
 | `GET /api/chapter/<n>?book=` | nội dung chương đã parse thành block |
@@ -74,10 +96,15 @@ Chi tiết đo đạc, lỗi đã sửa và các điểm còn lại: [TTS-REVIEW
 reader/
 ├─ server.py        HTTP server, scan/parse chương, API, cache, điều phối worker
 ├─ tts_worker.py    worker VieNeu (chạy bằng reader\.venv\Scripts\python.exe)
+├─ cover_design.py  dựng 6 bìa sách (Pillow) từ ảnh gốc trong static/img/art/
 ├─ static/
-│  ├─ shelf.html, index.html
-│  ├─ shelf.js, app.js, store.js
-│  ├─ style.css, fonts.css, fonts/ (woff2 offline)
+│  ├─ shelf.html    kệ sách
+│  ├─ book.html     trang thông tin một bộ truyện
+│  ├─ index.html    trang đọc chương
+│  ├─ shelf.js, book.js, app.js, store.js, covers.js
+│  ├─ library.css   khung chung (thanh thương hiệu, nhãn, nút, chân trang)
+│  ├─ shelf.css, book.css, style.css, fonts.css, fonts/ (woff2 offline)
+│  ├─ img/          cover-*.jpg (bìa thành phẩm) + art/ (ảnh gốc chưa chữ)
 ├─ start.bat        chạy server
 ├─ tunnel.bat       mở Cloudflare quick tunnel tới :8080
 ├─ cache/           MP3/WAV tự sinh (gitignore)

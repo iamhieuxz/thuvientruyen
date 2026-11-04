@@ -19,8 +19,9 @@ curl -s --max-time 30 http://localhost:8080/api/voices | findstr /c:"ready" >nul
 
 echo.
 echo Dang xin duong dan Cloudflare...
+echo URL cua lan nay cung duoc ghi vao: %~dp0tunnel.log
 echo.
-"C:\Program Files (x86)\cloudflared\cloudflared.exe" tunnel --url http://localhost:8080 --no-autoupdate
+"C:\Program Files (x86)\cloudflared\cloudflared.exe" tunnel --url http://localhost:8080 --no-autoupdate --logfile "%~dp0tunnel.log"
 
 echo.
 echo Dong cua so nay thi mat duong truy cap tu xa.

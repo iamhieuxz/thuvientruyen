@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
 <meta name="theme-color" content="#16130f">
-<title>Đọc truyện</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a63b2a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23f4ecdc'%3E%C4%90%3C/text%3E%3C/svg%3E">
+<title>truyendochay</title>
+<link rel="icon" href="/static/img/logo.png">
 <link rel="preload" as="font" type="font/woff2" href="/static/fonts/lora-400-normal-vietnamese.woff2" crossorigin>
 <link rel="stylesheet" href="/static/fonts.css">
 <link rel="stylesheet" href="/static/style.css">
@@ -16,7 +16,10 @@
 <div class="dim" id="veil" aria-hidden="true"></div>
 
 <header class="topbar" id="topbar">
-  <button class="ic" id="home" aria-label="Về kệ sách">
+  <button class="ic" id="shelf" aria-label="Về trang chủ (kệ sách)">
+    <svg viewBox="0 0 24 24"><path d="M4.8 10.8L12 4.2l7.2 6.6v7.2a1.4 1.4 0 01-1.4 1.4h-3.8v-4.8h-4v4.8H6.2a1.4 1.4 0 01-1.4-1.4z"/></svg>
+  </button>
+  <button class="ic" id="home" aria-label="Về trang truyện">
     <svg viewBox="0 0 24 24"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg>
   </button>
   <button class="titleblock" id="tocBtn" aria-label="Mở mục lục">
@@ -224,6 +227,14 @@
           <div><b id="stLeft">—</b><span>còn lại</span></div>
           <div><b id="stIdx">—</b><span>vị trí</span></div>
         </div>
+      </div>
+
+      <div class="fld">
+        <div class="fldhead"><span>Sao lưu tiến độ</span></div>
+        <button class="widebtn" id="exportBtn">Xuất tiến độ ra file</button>
+        <button class="widebtn ghostly" id="importBtn">Nhập tiến độ từ file</button>
+        <input type="file" id="importFile" accept=".json,application/json" hidden>
+        <p class="hintline">Xuất ra file JSON để chuyển tiến độ sang máy khác. Nhập chỉ gộp thêm vào kho hiện có, không xoá gì.</p>
       </div>
 
       <div class="fld">

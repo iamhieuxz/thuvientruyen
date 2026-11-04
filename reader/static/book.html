@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16130f">
+<meta name="description" content="Tóm tắt, mục lục chương và tiến độ dịch của bộ truyện trên truyendochay.">
+<title>Trang truyện · truyendochay</title>
+<link rel="icon" href="/static/img/logo.png">
+<link rel="apple-touch-icon" href="/static/img/logo.png">
+<link rel="preload" as="font" type="font/woff2" href="/static/fonts/fraunces-600-italic-vietnamese.woff2" crossorigin>
+<link rel="stylesheet" href="/static/fonts.css">
+<link rel="stylesheet" href="/static/fonts-shelf.css">
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/library.css">
+<link rel="stylesheet" href="/static/book.css">
+</head>
+<body data-theme="dem" class="lib-page bk-page">
+
+<div class="lib-bg" aria-hidden="true"></div>
+<div class="bk-veil" id="veil" aria-hidden="true"></div>
+<a class="skip" href="#toc">Tới mục lục</a>
+
+<header class="lib-bar" id="bar">
+  <a class="lib-brand" href="/" aria-label="truyendochay — về tủ sách">
+    <img class="lib-mark" src="/static/img/logo.png" alt="" width="38" height="38">
+    <span class="lib-word"><b>truyendochay</b><i>Tủ sách dịch</i></span>
+  </a>
+  <div class="lib-actions">
+    <span class="lib-live" id="live"></span>
+    <a class="lib-ic" href="/" aria-label="Về tủ sách" title="Về tủ sách">
+      <svg viewBox="0 0 24 24"><path d="M4 11.2 12 4l8 7.2M6.5 9.6V20h11V9.6"/></svg>
+    </a>
+  </div>
+</header>
+
+<main class="lib-main bk-main">
+
+  <nav class="bk-crumb" aria-label="Vị trí trang">
+    <a href="/">Tủ sách</a>
+    <span aria-hidden="true">/</span>
+    <span id="crumbGenre" class="crumb-genre"></span>
+    <b id="crumb">Đang tải…</b>
+  </nav>
+
+  <article class="bk-hero">
+    <div class="bk-art" id="art">
+      <span class="bk-seal" id="seal" hidden></span>
+      <div id="artCover"></div>
+      <span class="bk-glow" aria-hidden="true"></span>
+    </div>
+
+    <div class="bk-head">
+      <p class="kick" id="kick" style="margin-bottom:12px"><span class="dot"></span><span id="kickText">Đang tải…</span></p>
+      <h1 class="bk-title" id="title">…</h1>
+      <p class="bk-alt" id="alt" hidden></p>
+      <ul class="tags bk-tags" id="tags" aria-label="Phân loại truyện"></ul>
+      <div class="bk-acts">
+        <a class="btn solid" id="readBtn" href="#" hidden></a>
+        <a class="btn" id="firstBtn" href="#" hidden>Từ chương 1</a>
+        <a class="btn quiet" id="srcBtn" href="#" target="_blank" rel="noopener" hidden>Nguồn gốc ↗</a>
+      </div>
+      <div class="bk-mine" id="mine" hidden>
+        <p class="kick" style="margin-bottom:9px"><span class="dot"></span>Chỗ bạn đang đọc</p>
+        <div class="rail"><i id="mineBar" style="width:0"></i></div>
+        <p class="bk-minetext" id="mineText"></p>
+      </div>
+    </div>
+  </article>
+
+  <dl class="bk-info" id="info" aria-label="Thông tin truyện"></dl>
+
+  <section class="bk-board" aria-label="Tiến độ dịch và giới thiệu truyện">
+    <div class="bk-card">
+      <p class="bk-cardkick">Tiến độ dịch</p>
+      <p class="bk-big"><b id="pct">0</b><i>%</i></p>
+      <div class="rail bk-bigrail" aria-hidden="true"><i id="pctBar" style="width:0"></i></div>
+      <dl class="bk-facts" id="facts"></dl>
+    </div>
+    <div class="bk-card">
+      <p class="bk-cardkick">Giới thiệu truyện</p>
+      <p class="bk-desc" id="desc">Đang tải…</p>
+    </div>
+  </section>
+
+  <section class="bk-toc" id="toc" aria-labelledby="tochead">
+    <div class="bk-tochead">
+      <div class="bk-tochead-row">
+        <h2 id="tochead">Mục lục</h2>
+        <p class="bk-toccount" id="tocCount" aria-live="polite">…</p>
+      </div>
+      <div class="bk-tools">
+        <label class="bk-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+          <input id="q" type="search" placeholder="Tìm chương hoặc số chương…" autocomplete="off" aria-label="Tìm chương">
+        </label>
+        <div class="bk-seg" id="sortSeg" role="group" aria-label="Thứ tự chương">
+          <button type="button" data-sort="asc" aria-pressed="true">Cũ → mới</button>
+          <button type="button" data-sort="desc" aria-pressed="false">Mới → cũ</button>
+        </div>
+        <button class="bk-filter" id="unreadOnly" type="button" aria-pressed="false">Chưa đọc</button>
+      </div>
+    </div>
+
+    <ol class="bk-list" id="list" aria-busy="true"></ol>
+    <nav class="bk-pager" id="pager" aria-label="Chuyển trang mục lục"></nav>
+  </section>
+
+  <section class="bk-others" id="others" hidden aria-labelledby="othershead">
+    <div class="lib-sechead">
+      <h2 id="othershead">Cùng tủ sách</h2>
+      <p><a href="/">Xem tất cả</a></p>
+    </div>
+    <div class="bk-ogrid" id="ogrid"></div>
+  </section>
+
+  <footer class="lib-foot">
+    <span><b>truyendochay</b> — đọc đêm, đọc cháy</span>
+    <span id="footline"></span>
+  </footer>
+</main>
+
+<div class="lib-toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/static/store.js"></script>
+<script src="/static/covers.js"></script>
+<script src="/static/book.js"></script>
+</body>
+</html>

@@ -56,3 +56,44 @@ truyendich_scraper/bao-giam-cung-the-loai.json
 
 # Danh sách tần suất từ do analyze2.py sinh ra
 translate/names.txt
+
+# ───────────────────────── TEMP & LOG FILES ─────────────────────────
+# File tạm, backup, log — không đưa lên repo
+_tmp*
+_tmp/
+_backup_*/
+.shots/
+.tastegate/
+_tools/
+vibe_images/
+
+# Temp scripts và log trong translate/
+translate/_*.py
+translate/_*.log
+translate/_*.txt
+translate/_*.tsv
+translate/_*.json
+translate/_*.out
+translate/_*.err
+translate/*.bak_*
+translate/titles_*.json.bak_*
+
+# Temp scripts và log trong truyendich_scraper/
+truyendich_scraper/_*.py
+truyendich_scraper/_*.txt
+truyendich_scraper/_log_*
+
+# Reader state files
+reader/progress.json
+
+# Các thư mục truyện đã cào (dung lượng lớn)
+truyendich_scraper/1979-hoang-kim-thoi-dai/
+truyendich_scraper/cao-nhi-phan-khoa/
+truyendich_scraper/dai-thoi-dai-chi-dinh/
+truyendich_scraper/khai-cuc-dinh-chuc/
+truyendich_scraper/nga-chan-me-tuong-trong-sinh-a/
+truyendich_scraper/quan-dao-chi-dien/
+truyendich_scraper/trong-sinh-tai-nguyen-cun-cun/
+truyendich_scraper/trong-ve-1982-tieu-ngu-thon/
+truyendich_scraper/trung-nhien-2003/
+truyendich_scraper/tuc-nhan-hoi-dang/

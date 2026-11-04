@@ -1,0 +1,1264 @@
+# GLOSSARY — Trọng Sinh: Tài Nguyên Cuồn Cuồn (重生之财源滚滚)
+# Tác giả: Lão Ưng Cật Tiểu Kê (老鹰吃小鸡) · Nguồn: ixdzs8 id 156339 · 1717 chương, đã full
+# Quy ước: mỗi dòng CHỈ MỘT cặp `Hán = Việt (ghi chú)`. Không dùng dấu `=` hay `"` trong
+# phần ghi chú — parser lấy nguyên văn vế phải (trước ngoặc) làm tên chuẩn.
+# Cập nhật: 2026-11-04 (khởi tạo từ toàn bộ 1717 chương nguồn, quét tần suất + ngữ cảnh)
+
+## ══════ NHÂN VẬT CHÍNH ══════
+
+李东 = Lý Đông (nhân vật chính. Trọng sinh tháng 3-2004 khi đang học lớp 12 Nhất Trung Đông Bình; kiếp trước 30 tuổi, làm thuê 8 năm ở Bình Xuyên, chết cô độc. Tính cách mặt dày, miệng độc, thực dụng nhưng trọng người thân)
+东子 = Đông Tử (cách bạn bè, người thân gọi Lý Đông; giữ nguyên như một biệt danh)
+东哥 = anh Đông (người dưới quyền, bạn bè trẻ gọi)
+李总 = Lý tổng (cách nhân viên, đối tác gọi Lý Đông. Người lạ mới gọi Lý tiên sinh)
+李先生 = Lý tiên sinh (người ngoài chưa quen, khách hàng lớn tuổi gọi)
+李大炮 = Lý Đại Pháo (biệt danh giới kinh doanh đặt, vì dám nói thẳng, dám phá luật)
+炮哥 = Pháo ca (biệt danh cư dân mạng gọi từ khoảng ch.1150)
+万亿炮哥 = Vạn ỷ Pháo ca (biệt danh mạng gọi sau khi Lý Đông tuyên bố mục tiêu vạn ỷ)
+老李 = lão Lý (cách Lý Đông tự xưng đùa hoặc người thân quen gọi)
+
+沈茜 = Thẩm Thiến (phó tổng rồi tổng giám đốc Viễn Phương. 28 tuổi khi xuất hiện, tốt nghiệp Kinh Đại, thạc sĩ Kellogg; con gái Đỗ An Dân và Thẩm Tuyết Hoa. Lạnh lùng, nguyên tắc, giỏi tính toán; sau thành vợ Lý Đông)
+秦雨涵 = Tần Vũ Hàm (mối tình đầu thời cấp ba, hoa khôi Nhất Trung Bình Xuyên, cha là Tần Hải. Học Kinh Đại. Tính trẻ con, hay dỗi, miệng lưỡi sắc)
+袁雪 = Viên Tuyết (bạn cùng lớp ngồi bàn trước, hoa khôi ban Tự nhiên, học giỏi nhất lớp, cha là Viên Trung Khánh. Thầm thích Lý Đông suốt nhiều năm)
+许圣哲 = Hứa Thánh Triết (công tử nhà họ Hứa ở Kinh Thành, bạn thân của Lý Đông, đầu óc kinh doanh sắc bén, hay cười. Bị Hồ Tiểu Nhị gọi là Hứa đại gian thần)
+胡小蕊 = Hồ Tiểu Nhị (tiểu thư nhà họ Hồ, con gái Hồ Minh và Tôn Nguyệt Hoa, bạn gái Hứa Thánh Triết. Bốc đồng, nói năng bừa bãi, được nuông chiều)
+孙涛 = Tôn Đào (tổng giám đốc Viễn Phương. 34 tuổi khi được mời, cựu phó tổng Gia Lạc Phúc Bình Xuyên, người Đông Bình, vợ con ở quê; cẩn thận, giỏi nội vụ)
+袁成道 = Viên Thành Đạo (học trưởng của Thẩm Thiến, nhân vật cấp cao trong ngành bán lẻ; sau về làm giám đốc điều hành Viễn Phương)
+陈瑞 = Trần Thụy (doanh nhân tóc bạc trẻ tuổi ở Kinh Thành, bạn của Lý Đông, chủ nhân bữa tiệc sinh nhật ch.274)
+张岚玉 = Trương Lam Ngọc (tiểu thư họ Trương, doanh nhân Kinh Thành, bạn của Lý Đông và Trần Thụy. Tính mạnh, trọng nghĩa)
+纪兰馨 = Kỷ Lan Hinh (doanh nhân Kinh Thành, quen Lý Đông qua giới thượng lưu)
+杜安民 = Đỗ An Dân (bí thư tỉnh ủy Giang Bắc, nhân vật quyền lực nhất tỉnh; cha Thẩm Thiến, chồng Thẩm Tuyết Hoa)
+沈雪华 = Thẩm Tuyết Hoa (mẹ Thẩm Thiến, vợ Đỗ An Dân; xuất thân nhà họ Thẩm có cổ phần Tập đoàn Thẩm thị)
+
+## ══════ GIA ĐÌNH LÝ ĐÔNG ══════
+
+李程远 = Lý Trình Viễn (bố Lý Đông, 45 tuổi, bán hải sản ở chợ Đông Bình, hiền, hay nhịn)
+曹芳 = Tào Phương (mẹ Lý Đông, nóng tính, thương con, hay càm ràm)
+李程辉 = Lý Trình Huy (bác của Lý Đông, anh trai Lý Trình Viễn, giàu có, khinh người nghèo)
+李南明 = Lý Nam Minh (con trai Lý Trình Huy, anh họ Lý Đông)
+李青 = Lý Thanh (con gái Lý Trình Huy, chị họ Lý Đông)
+曹峰 = Tào Phong (anh họ bên ngoại của Lý Đông, người quê, thật thà)
+曹瑜 = Tào Du (anh họ bên ngoại của Lý Đông)
+林梦 = Lâm Mộng (bạn gái rồi vợ của Tào Phong)
+秦海 = Tần Hải (bố Tần Vũ Hàm, cán bộ nhà nước, tính sĩ diện, sau làm việc dưới quyền Lý Đông)
+陈静 = Trần Tĩnh (họ hàng bên nội, hoàn cảnh éo le)
+李兰 = Lý Lan (đứa trẻ được nhà họ Lý nhận nuôi)
+
+## ══════ TRƯỜNG HỌC ══════
+
+陈国华 = Trần Quốc Hoa (giáo viên chủ nhiệm lớp 12 của Lý Đông, dạy Ngữ văn; học sinh gọi là lão Trần)
+老陈 = lão Trần (cách học sinh gọi thân mật thầy Trần Quốc Hoa)
+方青菲 = Phương Thanh Phi (giáo viên trẻ dạy lớp Lý Đông năm lớp 12, hay bị Lý Đông trêu)
+王杰 = Vương Kiệt (bạn cùng bàn thời cấp ba, tóc đầu dưa hấu, thật thà, hay bị Lý Đông bắt nạt)
+陈悦 = Trần Duyệt (bạn gái Vương Kiệt, bạn thân Viên Tuyết, hoạt bát)
+魏源 = Ngụy Nguyên (bạn cùng tiểu khu, học cùng cấp hai, biệt danh Ủy viên trưởng, mê game)
+李铁 = Lý Thiết (lớp trưởng lớp Lý Đông, người Thanh Dương, thật thà)
+孟启平 = Mạnh Khải Bình (bạn cùng phòng ký túc Kinh Đại, mập, hay nịnh, gọi Lý Đông là Đông ca)
+白素 = Bạch Tố (bạn nữ Kinh Đại, người Bình Xuyên, xinh, thích hát và chơi piano)
+程楠 = Trình Nam (bạn nữ Kinh Đại)
+赵婷婷 = Triệu Đình Đình (bạn nữ Kinh Đại)
+李婉 = Lý Uyển (bạn nữ Kinh Đại)
+宋娟 = Tống Quyên (bạn nữ Kinh Đại)
+周玥 = Chu Nguyệt (bạn nữ Kinh Đại, tính bình thường, dễ gần)
+李媛 = Lý Viện (bạn học cấp ba, hay buôn chuyện)
+徐晨 = Từ Thần (bạn cùng phòng Kinh Đại)
+张昊 = Trương Hạo (bạn cùng phòng Kinh Đại)
+冯劲松 = Phùng Kình Tông (công tử nhà họ Phùng ở Bình Xuyên, con nhà giàu, đối thủ của Lý Đông thời cấp ba)
+袁中庆 = Viên Trung Khánh (bố Viên Tuyết)
+
+## ══════ VIỄN PHƯƠNG (công ty của Lý Đông) ══════
+
+远方 = Viễn Phương (tên thương hiệu công ty Lý Đông lập. Cũng là chữ dùng trong tên công ty con)
+远方超市 = Siêu thị Viễn Phương (chuỗi siêu thị bán lẻ đầu tiên, mở đầu ở Đông Bình)
+远方商城 = Viễn Phương Mall (trung tâm thương mại và sàn thương mại điện tử)
+远方集团 = Tập đoàn Viễn Phương
+远方控股 = Viễn Phương Holding (công ty mẹ nắm cổ phần các công ty con)
+远方控股集团 = Tập đoàn Viễn Phương Holding
+远方零售集团 = Tập đoàn Bán lẻ Viễn Phương (công ty con bán lẻ)
+远方科技 = Viễn Phương Khoa học (mảng công nghệ, game, Internet)
+远方科技集团 = Tập đoàn Khoa học Viễn Phương
+远方物流集团 = Tập đoàn Logistics Viễn Phương
+远方投资 = Viễn Phương Đầu tư
+远方实业 = Viễn Phương Thực nghiệp
+远方大厦 = Tòa nhà Viễn Phương
+远方广场 = Quảng trường Viễn Phương
+远方院线 = Chuỗi rạp Viễn Phương
+远方慈善基金 = Quỹ từ thiện Viễn Phương
+远方总部 = trụ sở Viễn Phương
+东宇地产 = Địa ốc Đông Vũ (công ty địa ốc của Lý Đông, tên ghép Đông và Vũ trong Tần Vũ Hàm)
+东宇 = Đông Vũ (cách gọi tắt Địa ốc Đông Vũ)
+东雨地产 = Địa ốc Đông Vũ (tên nháp Lý Đông đặt trước khi chốt chữ Vũ; hầu như không còn dùng)
+万家网 = Vạn Gia Võng (sàn thương mại điện tử của Viễn Phương, ra mắt 18-1-2008)
+万卡通 = Vạn Ca Thông (sản phẩm thẻ thanh toán của Viễn Phương)
+远方微博 = Vi bá Viễn Phương
+
+## ══════ NHÂN SỰ VIỄN PHƯƠNG ══════
+
+王悦 = Vương Duyệt (38 tuổi, 12 năm làm bán lẻ, cựu phó tổng khu vực một chuỗi lớn; được Lý Đông tuyển làm tướng mở thị trường)
+刘琪 = Lưu Kỳ (trợ lý tổng giám đốc, tính cẩn thận, hay bị Lý Đông hỏi dồn)
+刘红梅 = Lưu Hồng Mai (giám đốc tài chính Viễn Phương)
+吴胜男 = Ngô Thắng Nam (tổng giám đốc Địa ốc Đông Vũ, nữ cường nhân, câu cửa miệng phụ nữ gánh nửa bầu trời)
+陈珂 = Trần Kha (ứng viên số 1 trong đợt tuyển của Lý Đông, về làm thư ký)
+周海东 = Chu Hải Đông (cựu binh 8 năm, đội trưởng bảo vệ Viễn Phương, có con gái nhỏ)
+郑龙 = Trịnh Long (bảo vệ lái xe của Lý Đông)
+谭勇 = Đàm Dũng (bảo vệ, nhà nghèo đông con, được Lý Đông giao việc kín)
+曹红兵 = Tào Hồng Binh (bảo vệ, người nhỏ nhất trong nhóm cựu binh)
+杨芸 = Dương Vân (giám đốc nhân sự Viễn Phương, từng làm ở nhà máy dệt)
+王运清 = Vương Vận Thanh (đối tác cho thuê mặt bằng, tính toán kỹ)
+徐浩然 = Từ Hạo Nhiên (chủ công ty trang trí Dương Đỉnh, nhận thi công siêu thị Đông Bình)
+谢宏 = Tạ Hoành (quản lý cấp trung của Viễn Phương)
+于博 = Vu Bác (đối tác quảng cáo và truyền thông)
+陈华 = Trần Hoa (chủ công ty vận tải, bán lại cho Viễn Phương với giá 350 vạn)
+李成贵 = Lý Thành Quý (chủ đầu tư Lam Hải thương hạ ở Đông Bình)
+吴倩 = Ngô Thiến (nhân viên tư vấn bán căn hộ)
+吴经理 = Ngô quản lý (quản lý phòng bán căn hộ)
+王佳 = Vương Giai (nhân viên cho thuê sạp của Lam Hải thương hạ)
+林阳 = Lâm Dương (nhân viên trẻ, được Lý Đông để mắt)
+李凯 = Lý Khải (nhân vật có quan hệ ở Bình Xuyên, được nhắc khi nói về Tiêu Sơn)
+肖山 = Tiêu Sơn (dân xã hội ở Bình Xuyên, được Lý Khải che)
+
+## ══════ GIỚI KINH DOANH, ĐỐI THỦ ══════
+
+马昀 = Mã Quân (chủ tịch tập đoàn A Lý, người Lâm An, tính phóng khoáng; Lý Đông gọi là lão Mã)
+老马 = lão Mã (cách Lý Đông và người trong giới gọi Mã Quân)
+马华腾 = Mã Hoa Đằng (chủ tịch Đằng Tấn, người Dương Thành, trầm tính)
+李彦红 = Lý Ngạn Hồng (nhà sáng lập Bách Độ, đưa Bách Độ lên Nasdaq tháng 8-2005)
+蔡崇鑫 = Thái Sùng Hâm (phó chủ tịch cấp cao A Lý, người có thể gọi Mã Quân là lão Mã)
+张晓龙 = Trương Hiểu Long (cha đẻ Vi Tín, khi xuất hiện đang phụ trách hộp thư QQ ở Dương Thành)
+柳强东 = Liễu Cường Đông (nhà sáng lập Kinh Đông, khởi nghiệp từ quầy hàng Trung Quan Thôn)
+张进东 = Trương Tiến Đông (ông trùm chuỗi điện máy Tô Ninh, tính cương quyết)
+苏林 = Tô Lâm (tập đoàn điện máy Tô Lâm, đối thủ lớn của Quốc Mai)
+国梅 = Quốc Mai (tập đoàn điện máy lớn nhất cả nước, do Hoàng Quang Dụ gây dựng)
+国美 = Quốc Mai (bản viết khác của 国梅 trong nguồn, cùng một tập đoàn)
+沈氏集团 = Tập đoàn Thẩm thị (tập đoàn của ông ngoại Thẩm Thiến, bà để lại cho cô 5 phần trăm cổ phần)
+龙华集团 = Tập đoàn Long Hoa (tập đoàn bất động sản ở Giang Bắc, nhà họ Hứa nắm)
+南瑞集团 = Tập đoàn Nam Thụy (tập đoàn dệt may và bất động sản, Hồ Minh làm chủ tịch)
+腾翔集团 = Tập đoàn Đằng Tường (nhà cung cấp lớn nhất khu Hoa Bắc, Tôn Nguyệt Hoa làm chủ tịch)
+光合集团 = Tập đoàn Quang Hợp (một trong các cổ đông của Siêu thị Khách Long)
+大河集团 = Tập đoàn Đại Hà (cổ đông của Siêu thị Khách Long)
+门申地产 = Địa ốc Môn Thân (địa ốc lớn, nắm 40 phần trăm Siêu thị Khách Long)
+成瑞地产 = Địa ốc Thành Thụy
+鹏飞地产 = Địa ốc Bằng Phi (công ty của Vương Bằng Phi)
+湾湖集团 = Tập đoàn Loan Hồ (đối tác ban đầu của Khu logistics Bắc Loan, sau rút vốn)
+时代超市 = Siêu thị Thời Đại (chuỗi siêu thị lớn ở Hoa Đông, đối thủ rồi bị sáp nhập)
+客隆超市 = Siêu thị Khách Long (chuỗi siêu thị khu vực, bị các tập đoàn địa ốc thâu tóm)
+清风超市 = Siêu thị Thanh Phong (chuỗi của Tề Quang Hà)
+华闰 = Hoa Nhuận (tập đoàn bán lẻ quốc doanh, chủ sở hữu Vạn Gia và Tô Quả)
+百连 = Bách Liên (tập đoàn bán lẻ quốc doanh lớn nhất Hoa Đông)
+苏果 = Tô Quả (chuỗi siêu thị khu vực do Hoa Nhuận nắm, đánh trực diện vào Viễn Phương)
+大润发 = Đại Nhuận Phát (chuỗi đại siêu thị Đài Loan, đối thủ trực tiếp)
+家乐福 = Gia Lạc Phúc (chuỗi siêu thị Pháp)
+沃尔玛 = Ốc Nhĩ Mã (chuỗi bán lẻ Mỹ)
+乐购 = Lạc Cấu (chuỗi siêu thị Anh)
+物美 = Vật Mỹ (chuỗi siêu thị Bắc Kinh)
+农工商 = Nông Công Thương (chuỗi siêu thị Thượng Hải)
+新一佳 = Tân Nhất Giai (chuỗi siêu thị Quảng Đông)
+新合作商贸 = Tân Hợp Tác Thương Mậu (tập đoàn bán lẻ)
+大商集团 = Tập đoàn Đại Thương (tập đoàn bán lẻ Đông Bắc)
+华润万家 = Vạn Gia Hoa Nhuận (gọi tắt Vạn Gia)
+万家 = Vạn Gia (chuỗi siêu thị thuộc Hoa Nhuận)
+国美 = Quốc Mỹ (cách viết khác của Quốc Mai khi trích dẫn báo chí)
+王鹏飞 = Vương Bằng Phi (trùm bất động sản Xuyên Thục, đầu trọc, có quan hệ rộng)
+陈洪明 = Trần Hồng Minh (doanh nhân Xuyên Thục, đeo kính)
+夏然 = Hạ Nhiên (nữ doanh nhân Xuyên Thục)
+刘龙 = Lưu Long (trùm ở Xuyên Thục, anh trai Lưu Đường)
+刘唐 = Lưu Đường (em trai Lưu Long, tàn nhẫn, không giới hạn, người Xuyên Thục)
+刘庆 = Lưu Khánh (em trai Lưu Long, nóng tính)
+刘克 = Lưu Khắc (con trai Lưu Long, hay gọi là A Khắc)
+常元山 = Thường Nguyên Sơn (thông gia của Lưu Long)
+常月月 = Thường Nguyệt Nguyệt (con gái Thường Nguyên Sơn, em họ Thẩm Thiến, hay gọi Lý Đông là anh rể)
+姚宏 = Diêu Hoằng (doanh nhân ở Giang Bắc, nhà họ Diêu, đối thủ của Lý Đông)
+姚力 = Diêu Lực (em trai Diêu Hoằng, phá hoại tiệc của Hồ Tiểu Nhị)
+宋娇娇 = Tống Kiều Kiều (tiểu thư nhà họ Tống ở Kinh Thành, tính khinh người)
+贾文浩 = Giả Văn Hạo (doanh nhân thế hệ trẻ Kinh Thành, tay trắng dựng nghiệp)
+胡万琳 = Hồ Vạn Lâm (giám đốc cấp cao ở Viễn Phương, người được Hồ Minh giới thiệu)
+陈浪 = Trần Lãng (nhân vật có tiếng trong ngành bán lẻ)
+王鑫 = Vương Hâm (doanh nhân đáng gờm mà Lý Đông chỉ nghe tên)
+孙文华 = Tôn Văn Hoa (nhân vật cấp cao ở Giang Bắc)
+吴昌国 = Ngô Xương Quốc (bí thư Ủy ban Chính pháp Giang Bắc)
+马家梁 = Mã Gia Lương (người đề ra chiến thuật bầy sói của Tô Quả)
+齐光河 = Tề Quang Hà (chủ Siêu thị Thanh Phong)
+程刚 = Trình Cương (nhân vật bị Lý Đông cho người điều tra)
+程晓 = Trình Hiểu (kế nhiệm Hoàng Quang Dụ ở Quốc Mai)
+刘猛 = Lưu Mãnh (nhân vật ở Giang Bắc, có quan hệ với giới chức)
+余乐 = Dư Lạc (công tử Kinh Thành, tự tin quá mức)
+孙曼曼 = Tôn Man Man (tiểu thư Kinh Thành, hay đi cùng Dư Lạc)
+陈放 = Trần Phóng (nhân vật có thân phận đặc biệt trong vụ Quốc Mai)
+白月琴 = Bạch Nguyệt Cầm (doanh nhân nữ, khách quen của Lý Đông, ăn mặc sang trọng)
+许江华 = Hứa Giang Hoa (ông cụ nhà họ Hứa, chủ tịch Tập đoàn Long Hoa, tuổi cao, hay do dự)
+许如龙 = Hứa Như Long (công tử nhà họ Hứa, tụ tập ăn chơi, được ông nội đặt vào ghế nối nghiệp)
+许勇 = Hứa Dũng (cổ đông sáng lập Bách Độ, bán cổ phiếu cho Lý Đông)
+朱洪涛 = Chu Hồng Đào (kẻ thù của Lý Đông giữa tập đoàn)
+张青 = Trương Thanh (dân xã hội, theo Hồ Tứ Thành)
+牛猛 = Ngưu Mãnh
+胡四成 = Hồ Tứ Thành (nhân vật ở Đông Bình, có quan hệ với dân xã hội)
+蓝兴国 = Lam Hưng Quốc (người Xuyên Thục, đứng ra đón và giúp Lý Đông ở Thục Đô)
+王凤阳 = Vương Phượng Dương (phó tổng công ty hàng không Xuyên Hàng)
+冯轮 = Phùng Luân (doanh nhân thế hệ 1980, cùng giới với Lý Đông)
+柳川志 = Liễu Xuyên Chí (doanh nhân thế hệ 1980)
+王川福 = Vương Xuyên Phúc (doanh nhân lớn ở Hỗ Thượng)
+杨贵生 = Dương Quý Sinh (doanh nhân lớn ở Hỗ Thượng)
+史玉住 = Sử Ngọc Trụ (trùm ngành y tế và đầu tư, nổi tiếng từ trò chơi điện tử)
+王伟 = Vương Vĩ (nhân vật doanh nhân có mặt trong vụ mua bán cổ phần)
+杨思 = Dương Tư (ca sĩ nổi tiếng, khách mời biểu diễn)
+李茜 = Lý Thiến (ca sĩ người Bình Xuyên, vào top 10 cuộc thi âm nhạc)
+田小雨 = Điền Tiểu Vũ (bé gái 9 tuổi ở thôn Đại Vương, mất cha mẹ trong trận lũ, được Lý Đông giúp)
+王俊煜 = Vương Tuấn Dục (sinh viên Kinh Đại tự tin, quen nhiều người)
+刘洪 = Lưu Hồng (nghiên cứu sinh 34 tuổi, người đứng đầu nhóm kỹ thuật mạng do Lưu Thành dẫn dắt)
+刘成 = Lưu Thành (giáo sư, thầy của Lưu Hồng)
+陈峰 = Trần Phong (thành viên nhóm kỹ thuật làm thêm)
+吴建国 = Ngô Kiến Quốc (nhân vật xuất hiện cùng vụ việc ở Đông Bình)
+
+## ══════ QUAN CHỨC, CHÍNH QUYỀN ══════
+
+书记 = bí thư (bí thư cấp ủy)
+省委 = tỉnh ủy
+市委 = thị ủy
+县委 = huyện ủy
+党校 = trường Đảng
+市政府 = chính quyền thành phố
+县政府 = chính quyền huyện
+政法委 = Ủy ban Chính pháp
+王科长 = Vương khoa trưởng
+张部长 = Trương bộ trưởng
+徐秘书长 = Từ tổng thư ký
+市政协 = Hội nghị Hiệp thương Chính trị thành phố
+人大代表 = đại biểu Quốc hội
+两会 = kỳ họp hai hội
+
+## ══════ ĐỊA DANH ══════
+
+江北 = Giang Bắc (tỉnh, phía đông nam; kinh tế phát triển, cạnh Hỗ Thượng và Tô Nam)
+江北省 = tỉnh Giang Bắc
+平川 = Bình Xuyên (thành phố, tỉnh lỵ Giang Bắc, kiểu Nam Kinh; có Nhất Trung, khu Long Hoa)
+平川市 = thành phố Bình Xuyên
+东平 = Đông Bình (huyện nghèo, nơi Lý Đông sinh ra; chợ Đông Bình là chợ đầu mối thủy sản)
+东平县 = huyện Đông Bình
+青阳 = Thanh Dương (địa cấp thị trực thuộc tỉnh, Đông Bình nằm dưới)
+临安 = Lâm An (thành phố nơi A Lý đặt trụ sở, kiểu Hàng Châu)
+羊城 = Dương Thành (thành phố phía nam, nơi Đằng Tấn đặt trụ sở, kiểu Quảng Châu)
+京城 = Kinh Thành (thủ đô, kiểu Bắc Kinh)
+四九城 = Tứ Cửu Thành (cách gọi thân mật giới thượng lưu gọi Kinh Thành)
+香江 = Hương Giang (đặc khu kinh tế, kiểu Hồng Kông)
+沪上 = Hỗ Thượng (thành phố thương mại lớn nhất, kiểu Thượng Hải)
+沪市 = thị trường Hỗ Thượng hoặc thành phố Hỗ Thượng (tuỳ ngữ cảnh)
+深市 = thị trường Thâm Thị
+苏南 = Tô Nam (vùng kinh tế phía nam Giang Bắc)
+苏安 = Tô An (thành phố cấp huyện, gọi là tiểu Hỗ Thượng)
+苏安新城 = Tô An Tân Thành
+川蜀 = Xuyên Thục (tỉnh phía tây nam, kiểu Tứ Xuyên)
+蜀都 = Thục Đô (thành phố lớn nhất Xuyên Thục, kiểu Thành Đô)
+鲁省 = tỉnh Lỗ
+京津 = Kinh Tân (Bắc Kinh và Thiên Tân)
+华东 = Hoa Đông (vùng đông Hoa Hạ)
+华北 = Hoa Bắc
+中关村 = Trung Quan Thôn (khu công nghệ ở Kinh Thành)
+龙华 = Long Hoa (khu vực sầm uất của Bình Xuyên, có Quảng trường Long Hoa)
+龙华广场 = Quảng trường Long Hoa
+环球大厦 = Tòa nhà Hoàn Cầu (trụ sở Viễn Phương sau khi mua)
+绿地大厦 = Tòa nhà Lục Địa
+飞亚达大厦 = Tòa nhà Phi Á Đạt
+天湖大酒店 = Khách sạn Thiên Hồ (khách sạn 5 sao đầu tiên của Bình Xuyên)
+蓝海商厦 = Lam Hải thương hạ
+东方广场 = Quảng trường Đông Phương
+万源小区 = tiểu khu Vạn Nguyên
+瑶海区 = quận Dao Hải
+汉源小学 = Tiểu học Hán Nguyên
+北湾物流园 = Khu logistics Bắc Loan
+南亭美食街 = phố ẩm thực Nam Đình
+平川一中 = Nhất Trung Bình Xuyên
+一中 = Nhất Trung
+京大 = Kinh Đại (đại học hàng đầu ở Kinh Thành)
+江大 = Giang Đại (đại học ở Bình Xuyên, nơi Lý Đông thi vào)
+清华 = Thanh Hoa
+北大 = Bắc Đại
+西北大学 = Đại học Tây Bắc (Mỹ, nơi Thẩm Thiến học thạc sĩ)
+凯洛格商学院 = Trường Kinh doanh Kellogg
+长江商学院 = Trường Kinh doanh Trường Giang
+哈佛 = Harvard
+沃顿 = Wharton
+
+## ══════ THƯƠNG MẠI ĐIỆN TỬ, INTERNET ══════
+
+阿里 = A Lý (tập đoàn thương mại điện tử của Mã Quân)
+阿里巴巴 = A Lý Ba Ba
+掏宝 = Đào Bảo (sàn thương mại điện tử C2C của A Lý)
+天猫 = Thiên Miêu
+支付宝 = Chi Phó Bảo
+滕迅 = Đằng Tấn (tập đoàn Internet của Mã Hoa Đằng, sở hữu QQ)
+腾讯 = Đằng Tấn (bản viết gốc của tên tập đoàn, chỉ dùng khi trích dẫn)
+QQ = QQ
+微信 = Vi Tín (ứng dụng nhắn tin, chưa xuất hiện cho tới khoảng 2010)
+微博 = Vi bá (dịch vụ tiểu blog)
+新浪 = Tân Lãng
+搜狐 = Sưu Hồ
+网易 = Võng Dịch
+百度 = Bách Độ
+人人网 = Nhân Nhân Võng (mạng xã hội sinh viên)
+开心农场 = Nông trại Vui Vẻ (game trồng trọt trên mạng xã hội)
+偷菜 = trộm rau (trò chơi trộm rau trên Nông trại Vui Vẻ)
+极速空间 = Cực Tốc Không Gian (quán net)
+网吧 = quán net
+网购 = mua sắm online
+电商 = thương mại điện tử
+市场份额 = thị phần
+注册用户 = người dùng đăng ký
+流量 = lưu lượng truy cập
+点击率 = tỉ lệ nhấp
+融资 = gọi vốn
+估值 = định giá
+上市 = niêm yết
+纳斯达克 = Nasdaq
+IPO = IPO
+公开募股 = phát hành cổ phiếu lần đầu
+原始股 = cổ phiếu phát hành lần đầu
+解禁 = hết hạn phong tỏa
+控股 = nắm quyền kiểm soát
+并购 = mua bán sáp nhập
+收购 = mua lại (thâu tóm)
+对赌协议 = thỏa thuận cá cược cổ phần
+股权 = cổ phần
+股东 = cổ đông
+董事会 = hội đồng quản trị
+董事长 = chủ tịch hội đồng quản trị
+总裁 = tổng giám đốc
+总经理 = tổng giám đốc
+副总 = phó tổng
+总监 = giám đốc
+主管 = chủ quản
+分行 = chi nhánh ngân hàng
+分公司 = công ty chi nhánh
+子公司 = công ty con
+子集团 = công ty con cấp tập đoàn
+总部 = trụ sở chính
+董事办 = văn phòng hội đồng quản trị
+执行副总裁 = phó tổng điều hành
+
+## ══════ BÁN LẺ, SIÊU THỊ ══════
+
+超市 = siêu thị
+大卖场 = đại siêu thị
+卖场 = khu bán hàng
+连锁 = chuỗi
+加盟 = nhượng quyền
+便利店 = cửa hàng tiện lợi
+社区便利店 = cửa hàng tiện lợi khu dân cư
+精品超市 = siêu thị cao cấp
+门店 = cửa hàng
+开业 = khai trương
+盘点 = kiểm kê
+库存 = tồn kho
+供货商 = nhà cung cấp
+采购 = thu mua
+配送中心 = trung tâm phân phối
+物流园 = khu logistics
+仓储 = kho bãi
+促销 = khuyến mại
+开业大酬宾 = khuyến mại khai trương
+营业额 = doanh thu
+毛利率 = tỉ lệ lãi gộp
+现金流 = dòng tiền
+账期 = kỳ hạn thanh toán
+货款 = tiền hàng
+压货款 = ép kỳ hạn trả tiền hàng
+租赁 = thuê
+租金 = tiền thuê
+装修 = trang trí
+商圈 = khu thương mại
+人流量 = lượng khách qua lại
+客单价 = giá trị trung bình mỗi khách
+区域经理 = giám đốc khu vực
+店长 = cửa hàng trưởng
+导购 = nhân viên tư vấn bán hàng
+收银 = thu ngân
+货架 = giá hàng
+生鲜区 = khu thực phẩm tươi sống
+水产区 = khu thủy hải sản
+仓储式 = mô hình kho bán
+自主品牌 = thương hiệu riêng
+
+## ══════ ĐỜI SỐNG, TIỀN TỆ ══════
+
+块钱 = tệ
+毛 = hào
+万元 = vạn tệ
+亿万富翁 = tỷ phú
+千万富翁 = triệu phú (theo nghĩa tài sản chục triệu tệ)
+百万富翁 = triệu phú tệ
+工资 = lương
+奖金 = thưởng
+红包 = phong bao
+存款 = tiền gửi
+贷款 = vay
+利率 = lãi suất
+银行 = ngân hàng
+柜台 = quầy giao dịch
+身份证 = chứng minh thư
+户口本 = sổ hộ khẩu
+户口 = hộ khẩu
+非典 = SARS
+乙肝 = viêm gan B
+高考 = kỳ thi đại học
+中考 = kỳ thi vào cấp ba
+班主任 = giáo viên chủ nhiệm
+班会 = sinh hoạt lớp
+教导主任 = trưởng phòng giáo vụ
+寝室 = ký túc xá
+宿管 = quản lý ký túc xá
+社团 = câu lạc bộ sinh viên
+
+## ══════ THỜI ĐẠI, SỰ KIỆN ══════
+
+2004 = năm 2004 (mốc trọng sinh, Lý Đông 18 tuổi, học lớp 12)
+世界杯 = World Cup
+奥运会 = Thế vận hội
+汶川地震 = trận động đất Vấn Xuyên
+金融危机 = khủng hoảng tài chính
+次贷危机 = khủng hoảng nợ dưới chuẩn
+四万亿 = gói kích cầu bốn vạn ức
+三聚氰胺 = melamine
+房改 = cải cách nhà ở
+股市 = thị trường chứng khoán
+牛市 = thị trường tăng giá
+熊市 = thị trường giảm giá
+大盘 = chỉ số chung
+涨停 = tăng trần
+跌停 = giảm sàn
+配股 = chia cổ phiếu
+增发 = phát hành thêm
+港股 = cổ phiếu Hương Giang
+A股 = cổ phiếu A
+期货 = hợp đồng kỳ hạn
+比特币 = Bitcoin
+虚拟货币 = tiền ảo
+智能机 = điện thoại thông minh
+山寨机 = máy nhái
+3G = 3G
+微博大战 = cuộc chiến Vi bá
+双十一 = ngày mua sắm 11-11
+
+陈总 = Trần tổng (cách gọi một người họ Trần giữ chức tổng; trong giấc ngủ ch.1 Lý Đông gọi nhầm thầy Trần Quốc Hoa như vậy)
+陈老师 = thầy Trần (học sinh gọi thầy Trần Quốc Hoa khi ở trong lớp)
+## ══════ QUY ƯỚC CÁCH GỌI & XƯNG HÔ (bắt buộc) ══════
+
+老 + họ = lão + họ (người quen, vai ngang hoặc trên thân; vd 老陈 = lão Trần)
+老 + tên = lão + tên (thân mật, kiểu bạn cũ gọi nhau; vd 老马 = lão Mã)
+小 + họ = Tiểu + họ (người lớn gọi người trẻ, hoặc gọi thân mật; vd 小刘 = Tiểu Lưu)
+họ + 总 = họ + tổng (gọi cấp trên, đối tác: Lý tổng, Tôn tổng, Thẩm tổng)
+họ + 哥 = anh + tên/họ (东哥 = anh Đông; 孙哥 = anh Tôn)
+họ + 姐 = chị + họ (吴姐 = chị Ngô; 张姐 = chị Trương)
+họ + 叔 = chú + họ (汪叔 = chú Uông; 王叔 = chú Vương)
+họ + 阿姨 = dì + họ (杨阿姨 = dì Dương)
+họ + 老师 = thầy/cô + họ (陈老师 = thầy Trần; 方老师 = cô Phương)
+họ + 经理 = họ + quản lý (吴经理 = Ngô quản lý)
+兄弟 = anh em (không dịch là huynh đệ)
+老爷子 = ông cụ (cách gọi trọng vọng người già trong nhà)
+老头 = ông già (tuỳ ngữ cảnh có thể là cách gọi thân mật hoặc khinh)
+大侄女 = cháu gái lớn (cách xưng thân mật)
+
+## ══════ NHÂN VẬT XUẤT HIỆN TỪ ARC GIỮA TRỞ ĐI ══════
+
+韩雨 = Hàn Vũ (người quen của Trương Lam Ngọc, đứng ra giới thiệu Vệ Hành Chi; quan hệ rộng ở Kinh Thành)
+卫衡之 = Vệ Hành Chi (nhân vật cấp cao trong giới bất động sản Kinh Thành, khó gặp)
+陈凯旋 = Trần Khải Toàn (chủ tịch Tập đoàn Lập Bạch, bạn cùng giới doanh nhân của Lý Đông)
+王思文 = Vương Tư Văn (doanh nhân đeo kính, bạn của Trần Thụy và Trương Lam Ngọc)
+王明晖 = Vương Minh Huy (doanh nhân ít nói trong nhóm bạn của Lý Đông)
+黄光裕 = Hoàng Quang Dụ (người gây dựng Quốc Mai, giữ vị trí đầu bảng tài sản ngành bán lẻ nhiều năm, gọi là lão Hoàng)
+老黄 = lão Hoàng (cách Lý Đông gọi viện trưởng Hoàng)
+陈明永 = Trần Minh Vĩnh (chủ tịch Âu Phách Thông tín, người quyết tâm làm điện thoại)
+东星娱乐 = Đông Tinh Giải trí (công ty giải trí nhỏ mà Viễn Phương thâu tóm năm 2007)
+杨欣 = Dương Hân (diễn viên trẻ mới ký với Đông Tinh, đóng vai phụ nhiều năm)
+欧珀通信 = Âu Phách Thông tín (hãng điện thoại nội địa, tiền thân của thương hiệu OPPO)
+立白集团 = Tập đoàn Lập Bạch (tập đoàn hóa mỹ phẩm)
+红蜻蜓 = Hồng Tinh Đĩnh (thương hiệu giày da)
+国世通投资 = Đầu tư Quốc Thế Thông
+海丰控股 = Hải Phong Holding
+美克投资 = Đầu tư Mỹ Khắc
+
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 1–28) ══════
+
+龙虾 = tôm hùm đất (con nước ngọt bán theo cân ở chợ Đông Bình, KHÔNG phải tôm hùm biển)
+老汪 = lão Uông (chủ mối thu mua thủy sản ở chợ lớn Đông Bình, tính toán, quen nghề)
+汪叔 = chú Uông (cách Lý Đông gọi lão Uông)
+大胡子 = Râu Quai Nón (biệt danh ông chủ Trần thu mua tôm hùm ở Bình Xuyên; khi chỉ tả bộ râu thì viết thường)
+陈老板 = ông chủ Trần (tức Râu Quai Nón)
+徐大哥 = anh Từ (nhà cung cấp tôm hùm đất ở Đông Bình)
+包老三 = Bao Lão Tam (dân buôn ở chợ, hay kèo nhèo)
+徐大头 = Từ Đầu To (biệt danh dân chợ đặt)
+黄志高 = Hoàng Chí Cao (viện trưởng khoa Kinh tế Quản lý Giang Đại, chuyên gia quản trị)
+刘主任 = Lưu chủ nhiệm (cán bộ phụ trách thực tập của Giang Đại)
+吴启波 = Ngô Khải Ba (ứng viên nhân sự của Hoa Nhuận)
+刘元 = Lưu Nguyên (ứng viên nhân sự của Đại Nhuận Phát)
+杨青 = Dương Thanh (nhân viên công ty săn đầu người)
+王翔 = Vương Tường
+黄玉涛 = Hoàng Ngọc Đào
+小雪 = Tiểu Tuyết (cách gọi thân mật Viên Tuyết)
+东爷 = Đông gia (cách gọi đùa Lý Đông như ông lớn)
+柳下惠 = Liễu Hạ Huệ (điển tích: người đàn ông ngồi trong lòng mỹ nữ vẫn không loạn)
+度娘 = Độ Nương (biệt danh dân mạng gọi Bách Độ)
+东平大市场 = chợ lớn Đông Bình
+南门市场 = chợ Nam Môn (chợ thủy hải sản ở Bình Xuyên)
+南门菜市场 = chợ Nam Môn
+南平菜市场 = chợ Nam Bình
+名苑小区 = tiểu khu Danh Uyển
+轻扬咖啡馆 = quán cà phê Khinh Dương
+南湖茶楼 = trà lâu Nam Hồ
+东平大酒店 = khách sạn Đông Bình
+南亭大饭店 = tửu điếm Nam Đình
+北大街 = phố Bắc Đại
+商业大街 = phố thương mại
+县一中 = Nhất Trung huyện (trường cấp ba số một của huyện Đông Bình)
+江北大学 = Đại học Giang Bắc
+江北农大 = Nông đại Giang Bắc
+人民大学 = Đại học Nhân dân
+人大 = Nhân Đại (cách gọi tắt Đại học Nhân dân)
+京师大 = Kinh Sư Đại
+苏大 = Tô Đại
+阳鼎 = Dương Đỉnh (công ty trang trí nhận thi công siêu thị)
+安顺 = An Thuận
+华夏 = Hoa Hạ (cách gọi đất nước trong truyện)
+玉溪 = Ngọc Khê (nhãn thuốc lá)
+中华 = Trung Hoa (nhãn thuốc lá)
+诺基亚 = Nokia
+二道贩子 = buôn chuyền tay (kẻ mua đi bán lại)
+高富帅 = cao phú soái (trai cao ráo, giàu, đẹp)
+一本 = nhất bản (nhóm đại học tuyển sinh đợt đầu, thứ hạng cao)
+一本线 = điểm chuẩn nhất bản
+二本 = nhị bản (nhóm đại học tuyển sinh đợt sau)
+211学校 = trường 211 (nhóm trường trọng điểm quốc gia)
+校花 = hoa khôi trường
+校草 = nam thần của trường
+学霸 = học bá
+学渣 = học tra
+刺头 = kẻ gai góc
+小白脸 = mặt trắng (trai sống bám đàn bà)
+模拟考 = thi thử
+五一 = kỳ nghỉ lễ 1-5
+高三八班 = lớp 12/8 (lớp 8 khối 12)
+天麻 = thiên ma (vị thuốc bắc)
+天麻炖猪脑 = óc heo hầm thiên ma
+孙哥 = anh Tôn (cách Lý Đông gọi Tôn Đào)
+孙总 = Tôn tổng (cách gọi Tôn Đào khi nói trước mặt người ngoài)
+汪 = Uông (họ Uông, nhà buôn thủy sản ở Đông Bình)
+
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 29–48) ══════
+
+方浩 = Phương Hạo (chủ quản vận doanh Siêu thị Viễn Phương)
+袁庆丰 = Viên Khánh Phong (bạn học cấp ba, hay đối đầu Lý Thiết)
+黄珊珊 = Hoàng San San
+涛哥 = anh Đào (cách nhân viên gọi Tôn Đào)
+芳子 = Phương Tử (cách Lý Trình Viễn gọi vợ là Tào Phương)
+王经理 = Vương quản lý (tức Vương Vận Thanh)
+杨经理 = Dương quản lý (tức Dương Vân, giám đốc nhân sự)
+杨女士 = cô Dương (cách Lý Đông gọi Dương Vân khi phỏng vấn)
+二叔 = chú hai (cách gọi em trai của bố)
+合川 = Hợp Xuyên (huyện thuộc Thanh Dương)
+黔省 = tỉnh Kiềm
+平川财大 = Đại học Tài chính Kinh tế Bình Xuyên
+平川财经学院 = Học viện Tài chính Kinh tế Bình Xuyên
+九教 = giảng đường 9
+三教 = giảng đường 3
+351寝室 = phòng ký túc 351
+国贸一班 = lớp Kinh tế Ngoại thương 1
+外国语学院 = Học viện Ngoại ngữ
+杨河 = Dương Hà (tên quán net)
+建行 = Kiến Hàng (tên tắt Ngân hàng Xây dựng)
+电磁炉 = bếp từ
+营运主管 = chủ quản vận doanh
+库管 = quản kho
+奖券 = phiếu rút thăm
+房产证 = sổ đỏ
+打秋风 = đến cửa xin xỏ
+打擂 = đấu đài
+学习委员 = học ủy
+团支书 = bí thư chi đoàn
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 49–68) ══════
+
+方友 = Phương Hữu (sinh viên Giang Đại, cùng thi chạy 100 mét với Lý Đông)
+杨阿姨 = dì Dương (cách Lý Đông gọi Dương Vân)
+胖爷 = Béo gia (Mạnh Khải Bình tự xưng đùa)
+吴琴 = Ngô Cầm
+冯斌 = Phùng Bân
+易峰 = Dịch Phong
+谭杰 = Đàm Kiệt
+肖然 = Tiêu Nhiên
+刘峰 = Lưu Phong
+陈佳 = Trần Giai (trợ lý cửa hàng chi nhánh Thanh Dương)
+齐云娜 = Tề Vân Na
+郭明志 = Quách Minh Chí
+吴良农 = Ngô Lương Nông
+黄云英 = Hoàng Vân Anh
+张亮 = Trương Lượng
+王编辑 = biên tập viên Vương
+川府人家 = Xuyên Phủ Nhân Gia (nhà hàng)
+隆升超市 = Siêu thị Long Thăng
+兴旺超市 = Siêu thị Hưng Vượng
+经管学院 = Học viện Kinh tế Quản lý
+平川公园 = công viên Bình Xuyên
+景园咖啡厅 = quán cà phê Cảnh Viên
+青华物流 = Thanh Hoa Logistics
+东平棉纺厂 = Nhà máy dệt bông Đông Bình
+棉纺厂 = nhà máy dệt bông
+东平轻工联合会 = Liên hiệp Công nghiệp nhẹ Đông Bình
+轻工会 = hội Công nghiệp nhẹ
+青阳新闻在线 = Thanh Dương Tân Văn Trực Tuyến
+南浦山 = Nam Phố Sơn
+永辉 = Vĩnh Huy (chuỗi siêu thị)
+世纪联华 = Thế Kỷ Liên Hoa (chuỗi siêu thị)
+长城赛佛 = Trường Thành Tái Phật (mẫu SUV của hãng Trường Thành)
+挂靠车 = xe ký gửi
+大学生运动会 = đại hội thể thao sinh viên toàn quốc
+散财童子 = đồng tử tán tài
+流动红旗 = cờ lưu động (cờ thi đua luân chuyển giữa các đơn vị)
+马原 = môn Nguyên lý Mác
+平时分 = điểm chuyên cần
+挂科 = trượt môn
+迎新晚会 = dạ hội chào tân sinh viên
+会员卡 = thẻ hội viên
+购物卡 = thẻ mua hàng
+POS机 = máy POS
+招租办 = phòng cho thuê
+花篮 = lẵng hoa
+保卫处 = phòng bảo vệ
+国庆 = Quốc khánh
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 69–88) ══════
+
+胡勇 = Hồ Dũng
+老六 = lão Lục
+王秃子 = lão hói Vương (cách Vương Giai gọi sau lưng Vương Vận Thanh)
+师叔 = sư thúc (cách gọi vai vế trong môn phái, dùng đùa)
+老抠 = đồ keo kiệt
+阜城 = Phụ Thành (thành phố cấp địa khu ở Giang Bắc, mục tiêu mở rộng nửa đầu năm)
+铜山 = Đồng Sơn (thành phố cấp địa khu ở Giang Bắc, mục tiêu mở rộng nửa cuối năm)
+万源二期 = Vạn Nguyên giai đoạn hai
+勤工俭学部 = ban Cần công kiệm học
+太祖爷 = Thái Tổ gia
+春晚 = Gala Xuân Vãn
+腊月 = tháng Chạp
+大年三十 = đêm ba mươi Tết
+年夜饭 = cơm tất niên
+对联 = câu đối
+二房东 = chủ nhà thứ hai (người thuê lại rồi cho thuê lại)
+精装房 = nhà hoàn thiện
+毛坯房 = nhà thô
+售楼中心 = trung tâm bán nhà
+售楼小姐 = nhân viên bán nhà
+楼王 = căn hộ vua của tòa
+沙盘 = sa bàn
+两梯两户 = hai thang máy hai hộ
+两梯四户 = hai thang máy bốn hộ
+公摊面积 = diện tích công cộng
+落地窗 = cửa sổ sát đất
+衣帽间 = phòng để quần áo
+开盘 = mở bán
+凯子 = kẻ ngốc bị dụ
+驾校 = trường dạy lái xe
+车管所 = phòng quản lý xe
+钢印 = dấu chìm
+副校长 = phó hiệu trưởng
+超级女声 = Siêu Nữ Sinh (cuộc thi hát truyền hình)
+远方杯 = Cúp Viễn Phương
+易峰装饰 = Trang trí Dịch Phong
+校园卡 = thẻ sinh viên
+小食堂 = căng tin nhỏ
+大锅饭 = cơm bình dân
+讲师 = giảng viên
+助教 = trợ giảng
+评职称 = xét chức danh
+一寸照片 = ảnh thẻ một tấc
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 89–128) ══════
+
+南河 = Nam Hà (nơi có cửa hàng Viễn Phương, nhắc cùng Đông Bình)
+苏蔓 = Tô Mạn (quản lý của Lý Thiến)
+思姐 = chị Tư (cách Lý Thiến gọi Dương Tư)
+芳芳 = Phương Phương (bạn cùng phòng Tần Vũ Hàm)
+齐芳芳 = Tề Phương Phương
+张萌萌 = Trương Manh Manh
+宋斌 = Tống Bân
+古红楼 = Cổ Hồng Lâu (ông bầu môi giới gốc Kinh Thành, béo như Phật Di Lặc)
+红楼中介 = môi giới Hồng Lâu (công ty của Cổ Hồng Lâu)
+牛柏河 = Ngưu Bách Hà (người Bình Xuyên giới thiệu Cổ Hồng Lâu cho Lý Đông)
+陈平河 = Trần Bình Hà (cục trưởng cục Công thương, quen Ngô Kiến Quốc)
+陈局长 = Trần cục trưởng (cục trưởng cục Công thương)
+刘键国 = Lưu Kiện Quốc
+朱红波 = Chu Hồng Ba
+胡月 = Hồ Nguyệt (nhân viên khách sạn, quen Lâm Dương)
+老林 = lão Lâm (họ hàng Lý Đông bịa ra để viện lý do)
+马群 = Mã Quần (trung tâm phân phối của Tô Quả)
+黄院长 = viện trưởng Hoàng (viện trưởng Giang Đại)
+邓丽君 = Đặng Lệ Quân
+王菲 = Vương Phi (ca sĩ)
+苏蔓 = Tô Mạn
+文化厅 = Sở Văn hóa
+渔光殿堂 = Ngư Quang Điện Đường
+金色庄园 = Kim Sắc Trang Viên
+植物园 = công viên thực vật
+青木园 = Thanh Mộc Viên
+醇香阁 = Thuần Hương Các
+未名湖 = hồ Vị Danh
+湖心岛 = đảo giữa hồ
+圆明园 = Viên Minh Viên
+博雅塔 = tháp Bác Nhã
+五四操场 = sân vận động Ngũ Tứ
+理想国际大厦 = Tòa nhà Lý Tưởng Quốc Tế
+中和大厦 = Tòa nhà Trung Hòa
+朝阳区 = quận Triều Dương
+海淀区 = quận Hải Điến
+凤凰湾 = Phượng Hoàng Loan (khu dân cư ngoại ô phía nam Kinh Thành)
+承德 = Thừa Đức
+河北 = tỉnh Hà Bắc
+大学城 = khu đại học
+人大小吃街 = phố ẩm thực Nhân Đại
+教师宿舍 = khu nhà ở giáo viên
+多功能厅 = hội trường đa năng
+大礼堂 = đại lễ đường
+男高音 = giọng nam cao
+破锣嗓子 = giọng chiêng rách
+商演 = biểu diễn thương mại
+腕 = ngôi sao cỡ lớn
+初赛 = vòng sơ khảo
+复赛 = vòng bán kết
+但愿人长久 = ca khúc Mong Người Bền Lâu
+咱当兵的人 = ca khúc Người Lính Chúng Ta
+老鼠爱大米 = ca khúc Chuột Yêu Gạo
+死了都要爱 = ca khúc Chết Cũng Phải Yêu
+红豆 = ca khúc Đậu Đỏ
+《十年》 = ca khúc Mười Năm
+清明节 = Tết Thanh Minh
+踏青 = du xuân
+烧纸 = đốt vàng mã
+乱坟堆 = đống mồ hoang
+腐女 = hủ nữ
+女神经 = nữ thần kinh
+卡哇伊 = kawaii
+包子脸 = mặt bánh bao
+的哥 = tài xế taxi
+雾霾 = sương mù khói bụi
+中二 = trung nhị (tuổi dậy thì ảo tưởng)
+滚刀肉 = kẻ cù nhây
+装逼 = làm màu
+撑场面 = chống đỡ thể diện
+重卡 = xe tải hạng nặng
+猎头公司 = công ty săn đầu người
+冷藏库 = kho lạnh
+保温库 = kho giữ nhiệt
+保温车 = xe giữ nhiệt
+购物券 = phiếu mua hàng
+路演 = roadshow (chào bán cổ phiếu)
+一拆十 = chia tách một thành mười
+烧冷灶 = đốt bếp lạnh (kết giao với người đang thất thế)
+挂职 = biệt phái
+天耳通 = thiên nhĩ thông (thần thông nghe thấu)
+牛卡计划 = kế hoạch cổ phiếu hai tầng (cơ cấu cổ phần Bách Độ khi niêm yết)
+一毛息 = lãi một hào (10%/tháng)
+三毛息 = lãi ba hào (30%/tháng)
+工商局 = cục Công thương
+瑶海分局 = phân cục Dao Hải
+常务副区长 = phó khu trưởng thường trực
+大龙投资 = Đầu tư Đại Long (công ty của Chu Hồng Đào)
+勇进生物制药有限公司 = Công ty TNHH Dược phẩm Sinh học Dũng Tiến
+百世 = Bách Thế (công ty thám tử tư ở Kinh Thành)
+信鸿 = Tín Hồng (công ty thám tử tư ở Kinh Thành)
+奇瑞 = Chery
+京沪 = Kinh Hỗ
+迈巴赫 = Maybach
+宾利 = Bentley
+保时捷 = Porsche
+劳斯莱斯 = Rolls-Royce
+宝马 = BMW
+大奔 = xe Mẹc cỡ lớn
+4S店 = cửa hàng 4S
+购置税 = thế mua xe
+谷歌 = Google (Cốc Ca)
+QQ空间 = không gian QQ
+馒头 = bánh màn thầu
+快捷酒店 = khách sạn bình dân
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 129–148) ══════
+
+赵金生 = Triệu Kim Sinh (chủ ngân hàng duyệt khoản vay hai nghìn vạn cho Viễn Phương)
+老赵 = lão Triệu (cách Lý Đông gọi Triệu Kim Sinh)
+陈副行长 = phó hành trưởng Trần
+张经理 = Trương quản lý
+王云忠 = Vương Vân Trung
+陈宏 = Trần Hoành
+肖萍 = Tiêu Bình
+宋杰 = Tống Kiệt
+周聪 = Chu Thông
+齐经理 = Tề quản lý
+耗子 = Hạo Tử (biệt danh Trương Hạo)
+黄姗姗 = Hoàng San San
+秦老板 = Tần lão bản (nhà cung cấp họ Tần)
+秦总 = Tần tổng
+吴局 = Ngô cục (cách gọi tắt cục trưởng Ngô Kiến Quốc)
+李亿万 = Lý Ức Vạn (biệt danh Phương Thanh Phi mỉa mai Lý Đông)
+李巨富 = Lý Cự Phú (biệt danh Phương Thanh Phi mỉa mai Lý Đông)
+瑶海支行 = chi nhánh Dao Hải
+行长 = hành trưởng (giám đốc chi nhánh ngân hàng)
+押运员 = nhân viên hộ tống tiền
+店助 = trợ lý cửa hàng trưởng
+物流管理部 = bộ phận Quản lý Logistics
+商品管理部 = bộ phận quản lý Hàng hóa
+信息技术部 = bộ phận Công nghệ thông tin
+质量管理部 = bộ phận quản lý Chất lượng
+内审督察防损部 = bộ phận Giám sát nội bộ và chống thất thoát
+内部督察组 = tổ giám sát nội bộ
+营运部 = bộ phận Vận doanh
+采购部 = bộ phận Thu mua
+防损部 = bộ phận chống thất thoát
+行政部 = bộ phận Hành chính
+杨河店 = cửa hàng Dương Hà
+北山 = Bắc Sơn (khu có cửa hàng Viễn Phương ở Phụ Thành)
+一周晨报 = Nhất Chu Thần Báo (báo tuần)
+挤兑 = đổ xô rút tiền
+增币 = tăng tệ
+善人不善 = Thiện Nhân Bất Thiện (nick độc giả)
+发霉的懒人 = Lãn Nhân Mốc Meo (nick độc giả)
+懒人堂主 = Lười Nhân Đường chủ (danh hiệu độc giả)
+善人盟主 = Thiện Nhân Minh chủ (danh hiệu độc giả)
+均订 = đặt mua trung bình (chỉ số bán truyện)
+鸿门宴 = tiệc Hồng Môn (bữa tiệc đầy sát khí)
+杀鸡儆猴 = giết gà dọa khỉ
+南京 = Nam Kinh
+楼台 = Lâu Đài
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 149–168) ══════
+
+张庆 = Trương Khánh
+王成 = Vương Thành
+猛子 = Mãnh Tử (biệt danh Ngưu Mãnh)
+牛公子 = Ngưu công tử (cách gọi Ngưu Mãnh)
+老鹰 = Lão Ưng (tác giả tự xưng trong truyện)
+秃毛鸟 = chim trụi lông (biệt danh Tần Vũ Hàm đặt cho Lý Đông hồi cấp hai)
+绿竹园 = Lục Trúc Uyển
+华府大道 = đại lộ Hoa Phủ
+华府 = Hoa Phủ
+墨县 = huyện Mặc
+西堰古镇 = cổ trấn Tây Yển
+塔园 = vườn tháp
+瑶海供销社 = Hợp tác xã cung tiêu Dao Hải
+供销社 = hợp tác xã cung tiêu
+别克君威 = Buick Regal
+奔驰 = Mercedes
+保外就医 = bảo lãnh chữa bệnh ngoài trại
+看守所 = trại tạm giam
+副区长 = phó quận trưởng
+区长 = quận trưởng
+亩 = mẫu
+北宋 = Bắc Tống
+九阴白骨爪 = Cửu Âm Bạch Cốt Trảo
+衙内 = nha nội
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 169–188) ══════
+
+王飞 = Vương Phi (bạn học của Lý Đông)
+佳佳 = Giai Giai
+二宝 = Nhị Bảo (tên gọi thời nhỏ của Tào Du)
+小红楼 = Lâu Son
+飞扬酒吧 = quán bar Phi Dương
+绿茵阁 = Lục Nhân Các
+百味居 = Bách Vị Cư
+春秋阁 = Xuân Thu Các
+观海区 = quận Quan Hải
+时代广场 = Quảng trường Thời Đại
+华尔街 = Phố Wall
+板寸 = đầu cua (kiểu tóc cắt sát da đầu)
+常务副市长 = phó thị trưởng thường vụ
+常委 = thường ủy
+献售股东 = cổ đông bán cổ phiếu trong đợt niêm yết
+绿茵阁 = Lục Nhân Các (nhà hàng)
+高利贷 = vay nặng lãi
+港商 = thương nhân Hương Giang
+尿毒症 = urê huyết
+辅导员 = trợ giảng phụ trách lớp
+护工 = người chăm sóc bệnh nhân
+病急乱投医 = bệnh gấp thì vái tứ phương
+开裆裤 = quần hở mông (quần trẻ con)
+变翼恶魔的马甲堂主 = đường chủ Mã Giáp của Ác Ma Biến Dực (nick độc giả tặng thưởng)
+
+## ══════ THUẬT NGỮ BỔ SUNG (chốt sau lô 189–200) ══════
+
+王富成 = Vương Phú Thành (con nợ quán bar, anh trai Vương Giai)
+苏玉 = Tô Ngọc
+萌萌 = Manh Manh
+陈主任 = Trần chủ nhiệm
+老周 = lão Chu
+吴局长 = Ngô cục trưởng
+经管院 = khoa Kinh tế Quản lý
+远方奖学金 = học bổng Viễn Phương (quỹ học bổng Lý Đông lập)
+北医三院 = Bệnh viện số ba trực thuộc Đại học Y Bắc Kinh
+三院 = Tam viện (Bệnh viện số ba Bắc Y)
+省立医院 = bệnh viện tỉnh
+主治医师 = bác sĩ điều trị chính
+桂香楼 = Quế Hương Lâu
+心火 = lửa lòng
+公关部 = phòng Quan hệ công chúng
+调研员 = nhân viên khảo sát
+黑煤窑 = mỏ than lậu
+批文 = giấy phép
+猎头 = săn đầu người
+
+## ══════ THUẬT NGỮ TỰ ĐỘNG (lô 201–220) ══════
+
+青阳第一人民医院 = Bệnh viện Nhân dân số một Thanh Dương
+老二 = Hai (cách gọi anh thứ hai trong nhà)
+青青 = Thanh Thanh (tên gọi thân mật của Lý Thanh)
+陈松 = Trần Tùng
+市局 = sở công an
+市公安局 = Sở Công an thành phố
+副局长 = phó cục trưởng
+刑侦 = hình sự
+同业竞争 = cạnh tranh cùng ngành
+宫斗 = cung đấu
+陈四 = Trần Tứ
+公检法 = công kiểm pháp (công an, kiểm sát, tòa án)
+商品部 = bộ phận Hàng hóa
+市场部 = bộ phận Thị trường
+安保部 = bộ phận An ninh
+培训主管 = chủ quản huấn luyện
+陈家湾 = Trần Gia Loan
+路虎 = Land Rover
+王丽 = Vương Lệ
+王洪民 = Vương Hồng Dân
+寿衣 = áo liệm
+公墓 = nghĩa trang công cộng
+出殡 = đưa tang
+落叶归根 = lá rụng về cội
+农大 = trường Nông nghiệp
+绿色果蔬 = rau quả xanh
+军训装 = quân huấn phục
+专场招聘会 = buổi tuyển dụng riêng
+中秋晚会 = tiệc Trung Thu
+迎新会 = lễ đón tân sinh viên
+教育厅 = sở giáo dục
+蔬菜基地 = cơ sở rau
+许昊然 = Hứa Hạo Nhiên
+许总监 = Hứa giám đốc
+飞鸟餐厅 = nhà hàng Phi Điểu
+陈国栋 = Trần Quốc Đống
+七叔 = chú Bảy
+陈老汉 = ông Trần
+陈家老汉 = ông cụ Trần
+白头山 = Bạch Đầu Sơn
+七爷 = Thất gia
+李老二 = Lý lão nhị
+
+
+## ══════ THUẬT NGỮ TỰ ĐỘNG (lô 221–240) ══════
+
+杨槐路 = Dương Hòe
+西餐厅 = quán ăn Tây
+奶茶店 = quán trà sữa
+面包车 = xe van nhỏ
+省一建 = Xây dựng số Một tỉnh
+龙华建筑工程公司 = Công ty Xây dựng Long Hoa
+白骨精 = Bạch Cốt Tinh
+镇山之宝 = bảo vật trấn sơn
+皮包公司 = công ty vỏ rỗng
+豆腐渣工程 = công trình kém chất lượng
+刘芸 = Lưu Vân
+黄姨 = dì Hoàng
+菲菲 = Phi Phi
+小陈 = Tiểu Trần
+宫保鸡丁 = gà xào cung bảo
+糖醋排骨 = sườn xào chua ngọt
+红烧鲫鱼 = cá diếc kho
+啤酒鸭 = vịt bia
+丁嫂 = chị Đinh
+南湖 = Nam Hồ
+南郊区 = quận Nam Giao
+易初莲花 = Dịch Sơ Liên Hoa
+独家门店 = cửa hàng duy nhất
+逼宫 = bức cung
+走钢丝 = đi trên dây
+观海 = Quan Hải (khu vực trung tâm Bình Xuyên, nơi mở cửa hàng mới)
+三级门店 = cửa hàng cấp ba
+城市经理 = giám đốc thành phố
+曹春 = Tào Xuân
+国贸专业 = ngành Thương mại Quốc tế
+南郊 = Nam Giao
+瑶海 = Dao Hải
+二级门店 = cửa hàng cấp hai
+四级门店 = cửa hàng cấp bốn
+一级门店 = cửa hàng cấp một
+九折 = giảm giá mười phần trăm
+观海一店 = cửa hàng số một Quan Hải
+刘海 = Lưu Hải
+肖柏松 = Tiêu Bách Tùng
+李浩 = Lý Hạo
+天湖酒店 = khách sạn Thiên Hồ
+经侦 = cảnh sát kinh tế
+督察组 = tổ thanh tra
+五级门店 = cửa hàng hạng năm
+棒槌 = đồ ngốc (nghĩa bóng trong ngữ cảnh)
+
+
+## ══════ THUẬT NGỮ TỰ ĐỘNG (lô 241–260) ══════
+
+洋河路 = Dương Hà
+老包 = lão Bao
+东雨甜品屋 = tiệm bánh ngọt Đông Vũ
+麻辣烫 = ma lạt thang
+杰杰网吧 = quán net Kiệt Kiệt
+元旦 = Tết Dương lịch
+拜财神爷 = cúng Thần Tài
+老婆本 = vốn cưới vợ
+上座率 = tỷ lệ lấp chỗ
+商业街 = phố thương mại
+大区 = đại khu
+店长助理 = trợ lý cửa hàng trưởng
+吴梅 = Ngô Mai
+五年制 = hệ năm năm
+会计助理 = trợ lý kế toán
+会计主管 = chủ quản kế toán
+小英 = Tiểu Anh (cô gái thu ngân cửa hàng tiện lợi nhà họ Lý)
+西大街 = phố Tây (khu phố có Nhất Trung Đông Bình)
+东大街 = phố Đông (khu phố nhà Lý Đông ở Đông Bình)
+陈力 = Trần Lực
+牛局 = Ngưu cục (cục trưởng họ Ngưu)
+娃娃鱼 = cá em bé (tên dân dã của kỳ giông khổng lồ)
+大鲵 = kỳ giông khổng lồ
+阿杰 = A Kiệt
+梅子 = Mai Tử
+坐地户 = kẻ bản địa
+五十大寿 = thọ năm mươi
+吕县长 = Lữ huyện trưởng
+冯氏集团 = Tập đoàn Phùng thị
+严打 = trấn áp nghiêm khắc
+正科 = chính khoa
+科级 = cấp khoa
+处级 = cấp xứ
+天风家具城 = trung tâm đồ gỗ Thiên Phong
+游戏厅 = tiệm game
+省厅 = sở tỉnh
+冯大户 = Phùng đại hộ
+黑白两道 = hai giới trắng đen
+五级店长 = cửa hàng trưởng hạng năm
+小许 = Tiểu Hứa
+甲壳虫 = xe Beetle
+第四人民医院 = Bệnh viện Nhân dân số Bốn
+年会 = hội nghị thường niên
+明城 = Minh Thành
+淘宝 = Đào Bảo
+搜索引擎 = công cụ tìm kiếm
+宴会厅 = phòng tiệc
+方便面 = mì ăn liền
+馨馨奶茶店 = quán trà sữa Hinh Hinh
+秀恩爱 = âu yếm khoe tình cảm
+黑心商人 = thương nhân đen tâm
+
+
+## ══════ THUẬT NGỮ TỰ ĐỘNG (lô 261–280) ══════
+
+孟庭柱 = Mạnh Đình Trụ
+张云龙 = Trương Vân Long
+陈队长 = Trần đội trưởng
+后勤部 = bộ phận Hậu cần
+财务部 = bộ phận Tài vụ
+主席台 = bục chủ tịch
+便衣 = thường phục
+肥缺 = chức béo bở
+斩尽杀绝 = chém tận giết tuyệt
+许晴 = Hứa Tình
+马尔代夫 = Maldives
+肚皮舞 = múa bụng
+小品 = tiểu phẩm
+相声 = tấu hài
+周蒙 = Chu Mông
+小谢 = Tiểu Tạ
+小周 = Tiểu Chu
+精英门店 = cửa hàng tinh anh
+出入证 = thẻ ra vào
+苏蕊 = Tô Nhị
+小玉 = Tiểu Ngọc
+沃尔沃 = Volvo
+金丝雀 = chim hoàng yến (chỉ người được bao nuôi)
+外室 = vợ lẽ
+枪打出头鸟 = súng bắn chim đầu đàn
+暴发户 = kẻ bạo phát
+小年 = Tết ông Táo (tiểu niên)
+雅阁 = Accord
+小何 = Tiểu Hà
+钻石王老五 = kim cương độc thân (đàn ông độc thân giàu có)
+汪峰 = Uông Phong
+随身听 = máy nghe nhạc
+礼仪小姐 = lễ tân
+服务区 = trạm dừng chân
+除夕 = đêm giao thừa
+高速 = cao tốc
+首付 = trả trước
+羽绒服 = áo lông vũ
+榆木脑袋 = đầu gỗ
+大舅 = cậu cả
+李善人 = Lý thiện nhân
+六爷 = Lục gia
+陈老大 = Trần Cả
+陈老二 = Trần Hai
+陈二叔 = chú Hai
+陈小三 = Trần Tiểu Tam
+陈小丽 = Trần Tiểu Lệ
+小兰 = Tiểu Lan
+彩信 = MMS
+庙会 = hội chùa
+封账 = khóa sổ
+双薪 = lương gấp đôi
+香港 = Hồng Kông
+一文不名 = không một xu dính túi
+棒打鸳鸯 = phá đôi uyên ương
+武强 = Vũ Cường
+财务总监 = giám đốc tài chính
+人事总监 = giám đốc nhân sự
+股权转让书 = giấy chuyển nhượng cổ phần
+分红 = cổ tức
+脑白金 = Não Bạch Kim
+理财险 = bảo hiểm tài chính
+养老险 = bảo hiểm dưỡng lão
+投保人 = người mua bảo hiểm
+被保人 = người được bảo hiểm
+小三 = vợ bé
+排骨面 = mì sườn
+两室一厅 = hai phòng ngủ một phòng khách
+四室两厅 = bốn phòng ngủ hai phòng khách
+澜山庄园 = Lan Sơn trang viên
+澜山公园 = công viên Lan Sơn
+白翠公园 = công viên Bạch Thúy
+白翠湖 = hồ Bạch Thúy
+澜山风景区 = khu thắng cảnh Lan Sơn
+江北博物馆 = bảo tàng Giang Bắc
+江北第二人民医院 = Bệnh viện Nhân dân số Hai Giang Bắc
+平川澜山医院 = Bệnh viện Lan Sơn Bình Xuyên
+江北妇幼儿童医院 = Bệnh viện Phụ sản Nhi đồng Giang Bắc
+澜山中学 = trường Lan Sơn
+永华大厦 = tòa nhà Vĩnh Hoa
+市法院 = tòa án thành phố
+省设计院 = viện thiết kế tỉnh
+地铁 = tàu điện ngầm
+区政府 = chính quyền quận
+赵挺 = Triệu Đĩnh
+马云 = Mã Vân
+移动互联网时代 = thời đại internet di động
+服务器集群 = cụm máy chủ
+技术组 = tổ kỹ thuật
+下马威 = ra oai
+令行禁止 = lệnh hành cấm chỉ
+天马行空 = ngựa trời bay giữa không trung
+雪中送炭 = than giữa trời tuyết
+金杯面包 = xe van Kim Bôi
+张元 = Trương Nguyên
+
+## ══════ QUY TẮC RIÊNG CỦA BỘ TRUYỆN (đọc kỹ trước khi dịch) ══════
+
+1. BỐI CẢNH KHÔNG ĐƯỢC HIỆN ĐẠI HOÁ. Chuyện bắt đầu tháng 3-2004, kết thúc khoảng 2010.
+   Thời điểm 2004: điện thoại đen trắng, Nokia đời cũ, quán net ADSL chậm, chưa có smartphone
+   phổ thông, chưa có Vi Tín, chưa có Weibo; 2005 mới có Bách Độ lên Nasdaq; 2008 có khủng
+   hoảng tài chính và Olympic. Tuyệt đối không để nhân vật dùng điện thoại thông minh, ví điện
+   tử, hay thuật ngữ công nghệ của thập niên 2010 trở đi nếu nguyên văn chưa có.
+
+2. TIỀN TỆ: 元 = tệ. Số đếm viết theo lối Việt: 一万 = một vạn, 100万 = một trăm vạn (hoặc
+   một triệu tệ khi câu cần tự nhiên), 1亿 = một ức, 100亿 = một trăm ức. Giữ đúng con số gốc,
+   không làm tròn, không đổi đơn vị sang USD.
+
+3. TÊN THẬT BỊ TÁC GIẢ ĐỔI MỘT HAI CHỮ (滕迅, 掏宝, 国梅, 华闰, 李彦红, 柳强东, 张进东,
+   苏林, 马昀). Dịch đúng Hán Việt của chữ tác giả viết, KHÔNG sửa về tên thật, KHÔNG chú
+   thích trong thân bài.
+
+4. NICKNAME PHẢI CỐ ĐỊNH: 东子 = Đông Tử, 东哥 = anh Đông, 炮哥 = Pháo ca, 李大炮 = Lý Đại
+   Pháo, 许大奸臣 = Hứa đại gian thần. Không tự đổi sang cách gọi khác giữa các chương.
+
+5. LÝ ĐÔNG LÀ NGƯỜI TRỌNG SINH, nhưng KHÔNG ai biết. Lời thoại của anh được phép già dặn,
+   tính toán, thỉnh thoảng buột miệng nói về tương lai rồi tự chữa; người khác phản ứng như
+   với một học sinh cấp ba thực thụ. Không để người khác nói như người biết trước tương lai.
+
+6. XƯNG HÔ TRONG THOẠI: Lý Đông với bạn học cùng tuổi dùng tôi/cậu, mày/tao (khi cãi nhau);
+   với người lớn dùng cháu/con và chú/dì/bác; với nhân viên dùng tôi/anh và em/cô/chú; nhân
+   viên gọi anh ấy là Lý tổng. Tuyệt đối không dùng ngươi, ta, lão tử, lão phu, ngài.
+
+8. HỌ + 总 PHẢI DỊCH ĐÚNG HỌ: 李总 = Lý tổng, 陈总 = Trần tổng, 孙总 = Tôn tổng,
+   沈总 = Thẩm tổng, 胡总 = Hồ tổng, 袁总 = Viên tổng, 许总 = Hứa tổng, 王总 = Vương tổng.
+   Tuyệt đối không đổi họ này sang họ khác, không gọi chung là sếp, không bỏ họ.
+7. ĐOẠN NGẮN CHO SÁCH NÓI: mỗi đoạn tối đa khoảng 180 ký tự, ngăn bằng một dòng trống.
+
+## ══════ NGỮ CẢNH (tự động dựng lại mỗi lô) ══════
+
+### Thiết lập & trạng thái (nguồn: _ts_state.txt)
+
+### Thiết lập không đổi
+- Bối cảnh: bắt đầu tháng 3-2004, Lý Đông 18 tuổi, học lớp 12 Nhất Trung Đông Bình (huyện thuộc
+  Thanh Dương, tỉnh Giang Bắc). Kiếp trước sống tới khoảng 2014, chết cô độc ở Bình Xuyên.
+  Truyện chạy tới khoảng 2010. KHÔNG hiện đại hoá bối cảnh: 2004 chưa có smartphone phổ thông,
+  chưa có Vi Tín, chưa có Vi bá; quán net còn dùng ADSL chậm, điện thoại Nokia đen trắng.
+- Lý Đông: vỏ ngoài học sinh/sinh viên, tâm lý 30 tuổi. Kiếm tiền bằng ký ức tương lai nhưng
+  phải giấu thân phận trọng sinh. Nói năng mặt dày, thích châm chọc; keo kiệt với người ngoài,
+  hào phóng với người nhà.
+- Gia cảnh: bố Lý Trình Viễn và mẹ Tào Phương bán hải sản ở chợ lớn Đông Bình, nghèo, dậy từ
+  2-3 giờ sáng. Kiếp trước cả hai mất vì bệnh khi Lý Đông vừa tốt nghiệp đại học — nỗi đau lớn
+  nhất và là động lực thay đổi mọi thứ.
+- Tình cảm: Tần Vũ Hàm (mối tình đầu, nay học Kinh Đại, cha là Tần Hải), Viên Tuyết (bạn cấp ba
+  thầm thích Lý Đông nhiều năm, cũng vào Giang Đại), Thẩm Thiến (về sau mới vào công ty, thành
+  vợ). Lý Đông chưa chọn dứt khoát, thường trì hoãn.
+- Xưng hô: với bạn cùng tuổi dùng tôi/cậu, mày/tao khi cãi nhau; với bố mẹ dùng con/bố/mẹ; với
+  nhân viên dùng tôi/anh và em/cô/chú; nhân viên gọi anh ấy là Lý tổng. Không dùng ngươi, ta,
+  lão tử, lão phu, ngài.
+- Không đổi tên công ty thật đã bị tác giả đổi chữ (滕迅, 掏宝, 国梅, 华闰, 李彦红, 柳强东,
+  张进东, 苏林, 马昀) sang tên thật, không chú thích trong thân bài.
+
+### Trạng thái hiện tại (sau ch.200)
+- Thời gian: cuối 2004 – đầu 2005. Đã qua: thi đại học (Lý Đông 615, Vương Kiệt 604, Tần Vũ
+  Hàm 672 – thủ khoa khối xã hội Đông Bình), khai trương Viễn Phương Đông Bình (1-8), nhập học
+  Giang Đại, huấn luyện quân sự, đại hội thể thao sinh viên, Bách Độ niêm yết (5-8), Quốc khánh,
+  Giáng sinh 2004, Tết Nguyên đán.
+- Tiền: tài sản báo chí ước 6 ức sau khi Bách Độ lên sàn, nhưng thực tế gần như rỗng — đã rút
+  sạch tiền Viễn Phương để chuộc cổ phiếu thế chấp; vay 6 nghìn vạn cho kế hoạch phủ cửa hàng
+  Bình Xuyên; đang thương lượng đất Hoa Phủ.
+- Kinh doanh: Viễn Phương có chuỗi cửa hàng Đông Bình, Thanh Dương, Phụ Thành, Đồng Sơn, Bắc
+  Sơn, Dương Hà; trụ sở đặt tại tầng hai Quảng trường Long Hoa (12.820 m2). Bộ máy: Tôn Đào
+  (tổng giám đốc), Thẩm Thiến (phó tổng, sắp nhận chức), Lưu Kỳ, Trịnh Long (lái xe/bảo vệ),
+  Chu Hải Đông, Tào Hồng Binh, Vương Thành (đội an ninh), Tề Vân Na (trợ lý), Dương Vân (nhân
+  sự), Phương Hạo (vận doanh), Trương Hạo, Vương Kiệt.
+- Tài chính/ngân hàng: Triệu Kim Sinh (chủ ngân hàng, duyệt vay 2 nghìn vạn rồi 6 nghìn vạn),
+  Kiến Hàng chi nhánh Dao Hải.
+- Quan hệ chính quyền: Ngô Kiến Quốc (cục trưởng cục Công thương, nay kiêng dè vì vụ đất Hoa
+  Phủ), Trần Bình Hà (cục trưởng cục Công thương), Ngưu Mãnh + Trương Thanh (đối thủ đang gây
+  sự), Hồ Vạn Lâm (chủ nợ của Vương Phú Thành).
+- Tình cảm: Tần Vũ Hàm học Kinh Đại, về Vạn Nguyên ở; Viên Tuyết sang nước ngoài (ch.108–140),
+  để lại nỗi day dứt; Thẩm Thiến ngày càng thân thiết và sắp làm phó tổng; Vương Giai (em gái
+  Vương Phú Thành, bị chủ nợ truy đuổi, mẹ bị urê huyết cần ghép thận) được Lý Đông cứu giúp.
+- Đối tác làm ăn: Trần Thụy (doanh nhân tóc bạc Kinh Thành, rủ liên thủ bất động sản), Trương
+  Lam Ngọc, Hứa Thánh Triết, Cổ Hồng Lâu (môi giới), Tống Bân, Phương Thanh Phi.
+
+### Các chương gần nhất (Ch.248–280)
+
+- Ch.248: Lý Đông cảnh báo Vương Kiệt quán net có thể bị giải tỏa và lỗ, khuyên sang nhượng sớm; Vương Kiệt chấp nhận thực tế và nói sang năm định kết hôn.
+- Ch.249: Vương Kiệt giới thiệu bạn gái mới Ngô Mai với Lý Đông tại khách sạn Đông Bình; Lý Đông gặp Ngô Mai, quan hệ bạn bè của Vương Kiệt có thay đổi.
+- Ch.250: Phùng Kình Tông xuất hiện và bị Lý Đông đuổi, Viên Tuyết nói không quen hắn; Phùng Kình Tông bị bẽ mặt bỏ đi, mối thù với Lý Đông tăng.
+- Ch.252: Lý Đông đến công an huyện Đông Bình tìm Lý Trình Viễn, gặp Trần Lực đang thẩm vấn bố mình; Lý Đông can thiệp, Trần Lực tỏ thái độ cứng rắn.
+- Ch.253: Ngưu cục xuất hiện, quát Trần Lực và buộc xin lỗi Lý Đông; Lý Đông dọa hỏi Lữ huyện trưởng, Trần Lực khai người tố cáo là Phùng Bân.
+- Ch.254: Lý Đông đưa Lý Lan về Trần Gia Loan rồi đến cứ điểm của Vương Thành; Vương Thành báo danh sách tài sản nhà Phùng gồm nhà hàng, khách sạn, KTV, quán net, rạp, trung tâm đồ gỗ và tiệm game.
+- Ch.255: Lý Đông chờ Hồ Vạn Lâm đồng ý hợp tác; Vương Kiệt báo Phùng Kình Tông đến đe dọa và Phùng Bân sắp làm thọ 50, Lý Đông quyết xử nhà Phùng.
+- Ch.256: Lý Đông gặp Viên Tuyết ở trường Nhất Trung, cô nói phải đi nước ngoài sớm và không qua Tết; hai người chia tay trong im lặng, Viên Tuyết sắp rời Đông Bình.
+- Ch.257: Viên Tuyết đi, tuyết đầu mùa rơi; Hồ Vạn Lâm gọi báo ra tay, Phùng Bân bị bắt trước thọ 50, nhà Phùng sụp đổ và Lý Đông về Bình Xuyên.
+- Ch.258: Thẩm Thiến báo ba việc cho hội nghị thường niên: mời nhà cung cấp, giới hạn 500 nhân viên và có thể mời Lý Thiến; Lý Đông đồng ý, kế hoạch hội nghị được mở rộng.
+- Ch.259: Lý Đông đến cửa hàng số 4, phê bình Tề Vân Na kéo khách ngoài trời đến ốm; anh giao mục tiêu tháng này vượt 282 vạn để được thăng cửa hàng trưởng cấp bốn, Tiểu Hứa chứng kiến.
+- Ch.260: Lý Đông quyết định làm nền tảng thương mại điện tử và giao Thẩm Thiến phụ trách sau hội nghị thường niên; kế hoạch dựa vào lợi nhuận khoảng 5.000 vạn/tháng và cần đội ngũ IT lớn.
+- Ch.261: Hội nghị thường niên Viễn Phương diễn ra tại khách sạn Thiên Hồ; Mạnh Khải Bình dẫn hơn mười bạn học đến vì khoe khoang và phải tìm người phụ trách để xin vào.
+- Ch.262: Tôn Đào phát biểu và hội nghị tuyên dương 36 nhân viên ưu tú, mỗi người nhận 18.888 tệ cùng thưởng cuối năm, sau đó trao thưởng cho 8 cửa hàng trưởng ưu tú.
+- Ch.263: Rút thăm trúng thưởng trao lò vi sóng, tủ lạnh, dàn âm thanh và cả đầu heo; Thẩm Thiến cố ý thêm giải, tiết mục múa bụng của cửa hàng Long Hoa diễn ra, đến số 482 thì một cô gái rụt rè đứng dậy.
+- Ch.264: Lý Đông lên sân khấu hát “Bay Cao Hơn”, được nhân viên hưởng ứng; Lý Thiến ở lại xem và bắt đầu thay đổi cách nhìn về anh.
+- Ch.265: Tôn Đào trúng giải thưởng bí ẩn lớn nhất; tiệc rượu mở 60 bàn, mỗi bàn khoảng 5.000 tệ, Lý Đông bị vây mời rượu và phải trốn vào nhà vệ sinh, Tôn Đào cũng say.
+- Ch.266: Lý Đông về khu Vạn Nguyên trong cơn say, dặn Chu Hải Đông thưởng cho bộ phận an ninh; anh gặp Tô Nhị ở thang máy và biết cô là hàng xóm 2202.
+- Ch.267: Lưu Hồng Mai báo Lý Đông rằng Tôn Đào không có lương, cổ tức chưa chia nên đang thiếu tiền; Lý Đông nhận ra mình chưa ký duyệt khoản chi cho Tôn Đào.
+- Ch.268: Lý Đông đến nhà Tần Vũ Hàm, hai người thân mật; anh tính chuyện bán cổ phiếu Bách Độ và mua cổ phiếu Đằng Tấn, đồng thời cân nhắc có nên làm Vi Tín.
+- Ch.269: Lý Đông lái xe về Đông Bình, gặp tuyết và tắc đường nên dừng ở trạm nghỉ; Cao Phong cho biết đã gửi 5.000 tệ về nhà và để Lâm Mộng giữ thẻ tiết kiệm.
+- Ch.270: Lâm Mộng xác nhận Tô Nhị là người được một ông tổng hơn bốn mươi tuổi mua bảo hiểm, tức vợ bé; Lý Đông yên tâm về phán đoán của mình, cả nhóm về Đông Bình lúc 2 giờ chiều.
+- Ch.271: Lý Đông về Trần Gia Loan thăm trưởng bối, phát 2.000 tệ cho người trên bảy mươi tuổi và dẫn Lý Lan theo; anh dán câu đối vàng ở nhà cũ, gặp Trần Hai, Trần Tĩnh.
+- Ch.272: Vương Kiệt đụng độ Trần Duyệt và bạn trai tại quán net, hai bên cãi vã; việc giải tỏa của Vương Kiệt được hoãn đến giữa năm nhờ Lý Đông giúp.
+- Ch.273: Sau Tết, Lý Đông một mình về Bình Xuyên và đến Lan Sơn trang viên dự buổi tụ họp; anh được bảo vệ kiểm tra rồi vào khu biệt thự đơn lập.
+- Ch.274: Tiệc sinh nhật Trần Thụy diễn ra, Lý Đông ngồi một mình ăn bánh; Hứa Thánh Triết chủ động đến làm quen và tự giới thiệu.
+- Ch.275: Trần Thụy giới thiệu tòa nhà Vĩnh Hoa của Nam Thụy đang cần bán, giá mở 3 ức có thể xuống 2 ức 6; hắn đề nghị Lý Đông đồng ý một yêu cầu liên quan đến mình.
+- Ch.278: Lý Đông nói chuyện kỹ thuật với Trần Phong, lỡ nhắc “thời đại internet di động” khiến Lưu Thành chú ý; anh cân nhắc thu nạp cả đội kỹ thuật nhưng lo khó hòa nhập với bộ phận của Thẩm Thiến.
+- Ch.279: Bản vẽ trung tâm phân phối và trụ sở thứ hai được đưa ra họp; trụ sở là khu công nghệ ngân sách khoảng 5 ức, giai đoạn đầu 1 ức cho tòa văn phòng và trung tâm dữ liệu, Tôn Đào thở phào.
+- Ch.280: Lý Đông tự lái xe ra sân bay đưa Tần Vũ Hàm đi Kinh Thành, tăng tốc qua ngã tư thì bị xe từ bên trái đâm; anh bị thương nặng, xe đâm vào dải phân cách và cột đèn.

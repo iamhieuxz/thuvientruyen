@@ -67,6 +67,44 @@ BOOKS = {
         "titles": "titles_nien_dai_58.json",
         "chapter_map": "",
     },
+    "quan_dao_chi_dien": {
+        "src": "quan-dao-chi-dien",
+        "out": "quan_dao_chi_dien_vi",
+        "glossary": "glossary_quan_dao_chi_dien.txt",
+        "notes": "notes_quan_dao_chi_dien.txt",
+        "state": "state_quan_dao_chi_dien.json",
+        "titles": "titles_quan_dao_chi_dien.json",
+        "chapter_map": "",
+    },
+    "khai_cuc_dinh_chuc": {
+        "src": "khai-cuc-dinh-chuc",
+        "out": "khai_cuc_dinh_chuc_vi",
+        "glossary": "glossary_khai_cuc_dinh_chuc.txt",
+        "notes": "notes_khai_cuc_dinh_chuc.txt",
+        "state": "state_khai_cuc_dinh_chuc.json",
+        "titles": "titles_khai_cuc_dinh_chuc.json",
+        "chapter_map": "",
+    },
+    "cao_nhi_phan_khoa": {
+        "src": "cao-nhi-phan-khoa",
+        "out": "cao_nhi_phan_khoa_vi",
+        "glossary": "glossary_cao_nhi_phan_khoa.txt",
+        "notes": "notes_cao_nhi_phan_khoa.txt",
+        "state": "state_cao_nhi_phan_khoa.json",
+        "titles": "titles_cao_nhi_phan_khoa.json",
+        "chapter_map": "",
+    },
+    # 重生之财源滚滚 — nguon da dung lai tu 1733 trang HTML, chuong nam trong _final/
+    "trong_sinh_tai_nguyen": {
+        "src": "trong-sinh-tai-nguyen-cun-cun/_final",
+        "out": "trong_sinh_tai_nguyen_vi",
+        "glossary": "glossary_trong_sinh_tai_nguyen.txt",
+        "notes": "notes_trong_sinh_tai_nguyen.txt",
+        "state": "state_trong_sinh_tai_nguyen.json",
+        "titles": "titles_trong_sinh_tai_nguyen.json",
+        "chapter_map": "",
+        "clean_tail_notes": True,   # nguon co ~164 chuong dinh ghi chu tac gia cuoi chuong
+    },
 }
 
 # Biến toàn cục trỏ vào truyện đang chạy (set_book() gán lại).
@@ -153,9 +191,42 @@ def strip_src_junk(text):
     return "\n\n".join(x for x in out if x).strip()
 
 
+def strip_tail_notes(text):
+    """Bỏ ghi chú tác giả ở CUỐI chương (cảm ơn打赏, 求月票, 加更, lời tác giả).
+
+    Chỉ bật cho truyện khai báo `clean_tail_notes` trong BOOKS — đây là văn bản của
+    tác giả, không phải nội dung truyện, mà máy đọc vẫn đọc thành tiếng.
+    Chỉ xét 4 đoạn cuối và chỉ cắt khi đoạn đó NGẮN và mở đầu bằng từ khoá rõ ràng.
+    """
+    paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
+    if not paras:
+        return text
+    START = ("感谢", "求月票", "求推荐", "求订阅", "求收藏", "求打赏", "PS：", "PS:",
+             "ps：", "ps:", "（求", "(求", "抱歉", "码字", "加更", "新书期", "本章完")
+    for _ in range(4):
+        if not paras:
+            break
+        last = paras[-1]
+        if len(last) > 260 or not last.startswith(START):
+            break
+        paras.pop()
+    return "\n\n".join(paras).strip()
+
+
+def prepare_src(text, book=None):
+    """Chuẩn hoá bản gốc giống hệt nhau ở dich.py và check.py.
+
+    Thứ tự: clean -> strip_src_junk -> strip_tail_notes (nếu truyện bật) -> dedup.
+    Dùng chung để `check_complete` so cùng một bản tham chiếu.
+    """
+    t = dedup_repeats(strip_src_junk(clean(text)))
+    if BOOKS.get(book or BOOK, {}).get("clean_tail_notes"):
+        t = strip_tail_notes(t)
+    return t
+
+
 def dedup_repeats(text):
-    """Nguồn lỗi scraper: cùng một chương bị lặp 2-4 lần liên tiếp (file 0818 =
-    truyện 777 lặp 3 lần). Dịch một lần là đủ; giữ lại khối đầu tiên."""
+    """Nguồn lỗi scraper: cùng một chương bị lặp 2-4 lần liên tiếp."""
     sents = [x.strip() for x in re.split(r"(?<=[。！？])", text) if x.strip()]
     if len(sents) < 20:
         return text
@@ -332,12 +403,14 @@ QUY TẮC:
 - Số đầu dòng là số chương THẬT trong bản dịch. Luôn dùng đúng số đó, KHÔNG lấy số ghi trong tiêu đề Hán.
 - Định dạng mỗi dòng: <số đầu dòng tôi đưa>|<Chương N: tên chương tiếng Việt> với N đúng bằng số đầu dòng.
 - (上)/(中)/(下) → (Thượng)/(Trung)/(Hạ).
+- TUYỆT ĐỐI không dùng "ngươi", "ta", "lão tử", "lão phu", "ngài" trong tiêu đề; đổi thành "cậu", "bạn", "anh", "ông".
+- Không để ký tự Hán, không để ngoặc 《》, chỉ dùng ngoặc kép “ ” nếu cần.
 - Chỉ xuất đúng các dòng kết quả, không thêm lời giải thích.
 
 {lines}"""
         try:
             raw = api(prompt + f"\n\n(Mã tác vụ: {time.time_ns()})")
-        except (RateLimit, ServerBusy, Truncated) as e:
+        except (RateLimit, ServerBusy, Truncated, RuntimeError) as e:
             print(f"  khong dich duoc tieu de: {e}", flush=True)
             break
         for ln in raw.splitlines():
@@ -411,10 +484,11 @@ DEFAULT_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
 
-def post_json(url, headers, body, timeout=300, retry_503=0):
-    """Gọi API. retry_503 = số lần thử lại khi gặp 503 (quá tải tạm thời)."""
+def post_json(url, headers, body, timeout=300, retry_503=0, retry_429=0):
+    """Gọi API. retry_503 = số lần thử lại khi gặp 503 (quá tải tạm thời).
+    retry_429 = số lần nghỉ-rồi-thử-lại khi gặp 429 (rate limit tạm thời, KHÔNG phải hết hạn mức)."""
     last = None
-    for attempt in range(retry_503 + 1):
+    for attempt in range(max(retry_503, retry_429) + 1):
         req = urllib.request.Request(
             url, data=json.dumps(body).encode("utf-8"),
             headers={**headers,
@@ -437,6 +511,13 @@ def post_json(url, headers, body, timeout=300, retry_503=0):
                     continue
                 raise ServerBusy(last)
             if e.code in (429, 403):
+                # 429 = rate limit tạm thời -> nghỉ rồi tiếp, không dừng runner
+                if e.code == 429 and attempt < retry_429:
+                    wait = min(60, 15 + 10 * attempt)
+                    print(f"    [429 rate limit] nghi {wait}s roi thu lai "
+                          f"({attempt+1}/{retry_429})", flush=True)
+                    time.sleep(wait)
+                    continue
                 raise RateLimit(f"HTTP {e.code}: {t[:2000]}")
             raise RuntimeError(f"HTTP {e.code}: {t[:400]}")
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
@@ -553,16 +634,31 @@ def call_gemini(prompt):
 def call_openai(prompt):
     key = os.environ.get("OPENAI_API_KEY")
     base = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
+    # Neu nguoi dung dan ca duong dan endpoint, cat phan du de khong bi noi 2 lan
+    base = re.sub(r"/chat/completions/?$", "", base)
     if not key:
         sys.exit("Thieu OPENAI_API_KEY trong .env")
     model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
     max_tok = int(os.environ.get("OPENAI_MAX_TOKENS", "16384"))
-    d = post_json(f"{base}/chat/completions",
-                  {"Authorization": f"Bearer {key}"},
-                  {"model": model,
-                   "messages": [{"role": "user", "content": prompt}],
-                   "temperature": 0.2, "max_tokens": max_tok},
-                  retry_503=int(os.environ.get("OPENAI_RETRY", "3")))
+    # Provider doi khi tra HTTP 200 nhung body la loi (khong co "choices").
+    # Truoc day cho nay crash KeyError -> ca lan chay bi huy. Gio thu lai vai lan.
+    d = None
+    for attempt in range(3):
+        d = post_json(f"{base}/chat/completions",
+                      {"Authorization": f"Bearer {key}"},
+                      {"model": model,
+                       "messages": [{"role": "user", "content": prompt}],
+                       "temperature": 0.2, "max_tokens": max_tok},
+                      retry_503=int(os.environ.get("OPENAI_RETRY", "3")),
+                      retry_429=int(os.environ.get("OPENAI_RETRY_429", "6")))
+        if "choices" in d:
+            break
+        print(f"    [phan hoi la, thieu 'choices'] thu lai "
+              f"({attempt + 1}/3): {json.dumps(d, ensure_ascii=False)[:120]}", flush=True)
+        time.sleep(min(30, 5 * (attempt + 1)))
+    if not d or "choices" not in d:
+        raise RuntimeError(
+            f"phan hoi khong co 'choices': {json.dumps(d, ensure_ascii=False)[:300]}")
     ch = d["choices"][0]
     if ch.get("finish_reason") == "length":
         raise Truncated(f"finish_reason=length (bị cắt, max_tokens={max_tok})")
@@ -591,6 +687,10 @@ BẤT BIẾN KHÔNG ĐƯỢC PHÁ VỠ:
 
 8. KIỂM DUYỆT: bản gốc bị website chặn chữ, in ra dấu "*" hoặc "[***]" thay cho một từ (VD: sát thủ cấp **, **[***] luật, một đêm **). TUYỆT ĐỐI không giữ dấu * trong bản dịch — phải đoán từ ngữ cảnh mà viết trọn nghĩa tiếng Việt, tự nhiên, không thêm ghi chú.
 9. ĐỊNH DẠNG: thân bài là văn thuần, KHÔNG dùng cú pháp markdown (không #, không **, không in đậm), KHÔNG viết lại tiêu đề chương ở đầu hay giữa thân bài.
+9b. TOÀN BỘ BẢN DỊCH PHẢI LÀ TIẾNG VIỆT: TUYỆT ĐỐI không để bất kỳ ký tự Hán nào trong thân bài. Gặp từ chưa biết thì dịch nghĩa hoặc dùng Hán Việt, KHÔNG được chép nguyên chữ Hán, KHÔNG đặt chữ Hán cạnh từ tiếng Việt.
+10. KHÔNG DÙNG DẤU PHÂN CÁCH GIỮA CÁC KHỐI: đây là bản đọc bằng máy (sách nói), mọi ký hiệu như ---, ***, ===, ~~~, ###, ..., •, ※, ◆, ◇, ■, ▲, ●, — sẽ bị đọc thành tiếng. Chỉ ngăn cách đoạn bằng MỘT dòng trống, không chèn dòng ký hiệu, không gạch ngang, không dấu chấm lửng trang trí.
+10b. KHÔNG BAO GIỜ để một dòng riêng chỉ gồm dấu chấm lửng (… hoặc ...) hay gạch nối (—, –, -): module đọc sẽ lỗi. Dấu lửng chỉ dùng BÊN TRONG câu thoại/kể; muốn ngắt cảnh thì dùng một dòng trống.
+11. ĐOẠN NGẮN (bắt buộc, vì đây là sách nói): KHÔNG viết đoạn nào dài quá ~180 ký tự (khoảng 2 câu). Đoạn dài hơn phải tách thành nhiều đoạn, mỗi đoạn ngăn bằng MỘT dòng trống. Lý do: máy đọc phải render trọn một đoạn mới phát được, đoạn dài khiến người nghe phải chờ lâu và mất mạch truyện. Ưu tiên tách ở ranh giới câu; nếu tách giữa lời thoại thì mở lại ngoặc kép “ ở đoạn sau và đóng ” ở đoạn trước. KHÔNG gộp nhiều câu thoại vào một đoạn.
 
 VĂN PHONG: câu văn tự nhiên, đúng tiếng Việt, không dịch máy từ chữ. Ví dụ:
 - 说 → nói (tuỳ ngữ cảnh, có thể "bảo")
@@ -617,6 +717,10 @@ DỊCH CHƯƠNG {ch_no}: {title}
 (Lưu ý: số chương phải là {ch_no}, không lấy số ghi trong tiêu đề Hán nếu khác.)
 Văn bản gốc:
 <<<{text}>>>
+
+NHẮC LẠI: đầu ra 100% chữ Quốc ngữ, không một ký tự Hán nào — kể cả từ đơn, thành ngữ, tục ngữ,
+trợ từ cuối câu. Nếu bí từ: dùng Hán Việt bằng chữ Latinh, hoặc lược bỏ từ đó cho câu trôi chảy —
+TUYỆT ĐỐI không chèn chữ Hán vào câu.
 """
 
 
@@ -659,6 +763,262 @@ def strip_markdown(t):
     t = MD_BOLD.sub(r"\1", t)
     return re.sub(r"\n{3,}", "\n\n", t)
 
+
+# dong chi gom ky hieu phan cach -> sach noi se doc thanh tieng (luat du an)
+SEP_LINE = re.compile(
+    r"^\s*(?:[-=*_~#·•※◆◇■□▲△●○—–]{2,}|…+|[.．]{2,}|[-–—])\s*$")
+
+
+def sanitize_seps(t):
+    """Bo dong ky hieu phan cach, giu doan cach bang mot dong trong."""
+    t = "\n".join("" if SEP_LINE.match(l) else l for l in t.split("\n"))
+    return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+
+# dau cau Han con sot -> ASCII (check.py bao [W] neu con （）【】)
+HAN_PUNCT = str.maketrans({"（": "(", "）": ")", "【": "(", "】": ")"})
+
+
+def normalize_punct(t):
+    t = t.translate(HAN_PUNCT)
+    # khoang trang truoc dau cau (check.py bao [W])
+    return re.sub(r"[ \t]+([.,!?;:…])", r"\1", t)
+
+
+# ten bi go sai dau / bi model tu che bien the -> ep ve dang chuan cua glossary.
+# Chi sua dung chuoi ten, khong dung regex, nen an toan.
+NAMES_FIX = {
+    "cao_nhi_phan_khoa": {
+        "Chu Thân": "Chu Thần",
+        "Trương Kha": "Trương Nhã",
+        "Lưu Khải": "Lý Khải",
+    },
+}
+
+
+def fix_names(t):
+    for a, b in NAMES_FIX.get(BOOK, {}).items():
+        t = t.replace(a, b)
+    return t
+
+
+# ─────────── chia doan dai cho TTS (luat du an: khong doan nao qua dai) ───────────
+# Model TTS render tron mot doan thanh mot file am thanh; doan cang dai thi nguoi
+# nghe cang phai cho lau moi nghe duoc, mat mach truyen. Vi vay cat doan dai
+# thanh nhieu doan ngan theo ranh gioi cau.
+MAX_PARA = int(os.environ.get("MAX_PARA", "180"))   # ky tu toi da moi doan
+MIN_PARA = 40                                        # tranh manh vun qua ngan
+
+SENT = re.compile(r"[^.!?…]*[.!?…]+[”]?|[^.!?…]+$")
+
+
+def _atomic(s, max_chars):
+    """Tach 1 cau qua dai thanh cac manh <= max_chars.
+
+    Ba muc: cat tai dau phay -> cat tai khoang trang -> cat cung (rat hiem).
+    Thieu muc 2/3 thi cau dai khong co dau phay se khong bao gio duoc cat,
+    sinh doan > nguong va lam hong nhip doc sach noi.
+    """
+    if len(s) <= max_chars:
+        return [s]
+
+    def pack(words, seps):
+        out, buf = [], ""
+        for i, w in enumerate(words):
+            cand = (buf + " " + w).strip() if buf else w
+            if buf and len(cand) > max_chars:
+                out.append(buf + (seps[i - 1] if i - 1 < len(seps) else ""))
+                buf = w
+            else:
+                buf = cand
+        if buf:
+            out.append(buf)
+        return out
+
+    # muc 1: theo dau phay
+    parts = re.split(r"(?<=,)\s+", s)
+    pieces, buf = [], ""
+    for p in parts:
+        cand = (buf + " " + p).strip() if buf else p
+        if buf and len(cand) > max_chars:
+            pieces.append(buf)
+            buf = p
+        else:
+            buf = cand
+    if buf:
+        pieces.append(buf)
+
+    # muc 2: manh nao van qua dai -> cat theo khoang trang
+    final = []
+    for pc in pieces:
+        if len(pc) <= max_chars:
+            final.append(pc)
+            continue
+        words = pc.split(" ")
+        sub, buf = [], ""
+        for w in words:
+            cand = (buf + " " + w) if buf else w
+            if buf and len(cand) > max_chars:
+                sub.append(buf)
+                buf = w
+            else:
+                buf = cand
+        if buf:
+            sub.append(buf)
+        final.extend(x for x in sub if x)
+
+    # muc 3: tu don le dai hon nguong (ten URL...) -> cat cung
+    out = []
+    for pc in final:
+        while len(pc) > max_chars:
+            out.append(pc[:max_chars])
+            pc = pc[max_chars:]
+        if pc:
+            out.append(pc)
+    return out or [s]
+
+
+def _split_one(src, max_chars, min_chars):
+    """Cat 1 doan dai thanh cac doan <= max_chars tai ranh gioi cau."""
+    units = []
+    for s in SENT.findall(src):
+        s = s.strip()
+        if s:
+            units.extend(_atomic(s, max_chars))
+    if not units:
+        return [src]
+
+    chunks, buf = [], ""
+    for s in units:
+        cand = (buf + " " + s).strip() if buf else s
+        if buf and len(cand) > max_chars:
+            chunks.append(buf)
+            buf = s
+        else:
+            buf = cand
+    if buf:
+        chunks.append(buf)
+
+    # gop manh cuoi qua ngan vao doan truoc — nhung KHONG duoc vuot max_chars;
+    # vuot thi de nguyen (doan ngan con hon doan dai lam hong nhip doc sach noi)
+    if len(chunks) > 1 and len(chunks[-1]) < min_chars:
+        merged = (chunks[-2] + " " + chunks[-1]).strip()
+        if len(merged) <= max_chars:
+            chunks[-2] = merged
+            chunks.pop()
+
+    # cat giua loi thoai -> dong ngoac kep cho tung doan, giu can bang toan bai
+    res, open_q = [], False
+    for i, c in enumerate(chunks):
+        if open_q:
+            c = "“" + c
+        bal = c.count("“") - c.count("”")
+        if bal > 0 and i < len(chunks) - 1:
+            c = c.rstrip() + "”"
+            open_q = True
+        else:
+            open_q = False
+        res.append(c)
+
+    # sau khi them ngoac kep co the vuot vai ky tu -> cat lai tai dau phay
+    final = []
+    for c in res:
+        if len(c) <= max_chars:
+            final.append(c)
+            continue
+        room = max_chars - 2          # chua cho 1 cap ngoac kep neu phai mo lai
+        pieces = _atomic(c, room)
+        if len(pieces) <= 1:
+            final.append(c)
+            continue
+        for j, pc in enumerate(pieces):
+            if j:
+                pc = "“" + pc
+            if j < len(pieces) - 1:
+                pc = pc.rstrip() + "”"
+            final.append(pc)
+    return final
+
+
+def split_long_paras(t, max_chars=None, min_chars=MIN_PARA):
+    """Khong de doan nao dai qua max_chars (sach noi: render lau, mat mach)."""
+    max_chars = max_chars or MAX_PARA
+    out = []
+    for par in re.split(r"\n\s*\n", t):
+        s = par.strip()
+        if not s:
+            continue
+        if len(s) <= max_chars or s.startswith("<!--") or s.startswith("#"):
+            out.append(s)
+            continue
+        out.extend(_split_one(s, max_chars, min_chars))
+    return "\n\n".join(out)
+
+
+def join_dialogue_verses(t, max_chars=None):
+    """Gop lai 2 kieu doan bi cat vun (sach noi doc bi ngat):
+
+    1. Cau dan ket thuc bang ':' roi doan thoai ngay sau -> gop neu vua.
+    2. Kho tho / loi bai hat dang trong ngoac kep chua dong -> gop cac doan
+       lien tiep thanh kho <= max_chars cho den khi dong ngoac.
+
+    Bat buoc chay TRUOC split_long_paras: gop xong moi cat lai theo gioi han,
+    nho vay khong bao gio sinh doan dai hon gioi han.
+    """
+    max_chars = max_chars or MAX_PARA
+    pars = [p.strip() for p in re.split(r"\n\s*\n", t) if p.strip()]
+
+    # 1) cau dan + thoai
+    step1, i = [], 0
+    while i < len(pars):
+        p = pars[i]
+        if (p.endswith(":") and i + 1 < len(pars)
+                and pars[i + 1].startswith("“")
+                and len(p + " " + pars[i + 1]) <= max_chars):
+            step1.append(p + " " + pars[i + 1])
+            i += 2
+            continue
+        step1.append(p)
+        i += 1
+
+    # 2) kho tho: doan mo ngoac kep ma chua dong
+    step2, buf = [], []
+    for s in step1:
+        if buf:
+            buf.append(s)
+            if " ".join(buf).count("”") > " ".join(buf).count("“"):
+                step2.append(" ".join(buf))
+                buf = []
+            continue
+        opened = s.count("“") > s.count("”")
+        if opened and len(s) <= 100:
+            buf = [s]
+            continue
+        step2.append(s)
+    if buf:
+        step2.append(" ".join(buf))
+
+    return "\n\n".join(step2)
+
+
+HAN_CH = re.compile(r"[\u4e00-\u9fff]")
+VI_CH = re.compile(r"[ăâđêôơưàáảãạằắẳẵặầấẩẫậèéẻẽẹềếểễệìíỉĩịòóỏõọồốổỗộờớởỡợùúủũụừứửữựỳýỷỹỵ]")
+
+
+def drop_source_echo(t):
+    """Bỏ đoạn model chép nguyên bản Hán (thường nằm ngay trước bản dịch của nó)."""
+    out = []
+    for par in re.split(r"\n\s*\n", t):
+        s = par.strip()
+        if not s:
+            continue
+        han = len(HAN_CH.findall(s))
+        letters = len(re.findall(r"[^\W\d_]", s))
+        if han >= 4 and han >= letters * 0.6 and not VI_CH.search(s):
+            continue
+        out.append(s)
+    return "\n\n".join(out)
+
 # bảng ràng buộc: trong bản dịch KHÔNG được xuất hiện (riêng từng truyện)
 FORBID = {
     "baojian": ["秦风", "秦葭", "胡保国", "谢轩", "秦老板", "粮票", "烧饼", "废品",
@@ -671,6 +1031,43 @@ FORBID = {
                            "楚九歌", "嬴惊鸿", "真凰体", "怨龙气", "入赘", "赘婿",
                            "药皇", "祖龙墓", "药神宫", "什么", "没有", "就是", "所以",
                            "但是", "如果", "已经", "还是", "这样", "时候", "一个", "他们"],
+    "khai_cuc_dinh_chuc": ["杨东", "尹铁军", "苏沐芸", "林耀东", "韩雯", "田光汉",
+                            "关九九", "周慧", "吴建材", "林良铭", "关木山", "孙秀芬",
+                            "卫崇虎", "侯东来", "徐允才", "孙进明", "肖建国", "李正义",
+                            "李富海", "苏玉良", "陈国民", "赵达功", "巩红", "燕实忠",
+                            "蒋震", "郑广成", "童长河", "李臣", "楚利", "武新开",
+                            "侯勇", "魏立明", "马树立", "姜红阳", "顾晨", "邹晨",
+                            "杜玉香", "吴慧", "灵云", "吉江", "龙城", "市委", "省委", "纪委",
+                            "双规", "借调", "停职",
+                            "市政办", "市纪委", "综合科", "秘书长", "副秘书长", "副市长",
+                            "什么", "没有", "就是", "所以", "但是", "如果", "已经",
+                            "还是", "这样", "时候", "一个", "他们"],
+    "cao_nhi_phan_khoa": ["顾屿", "苏念", "李凯", "李猴子", "张慧", "顾建国", "赵文博",
+                          "阎王", "陈浩", "王雅", "李静", "张伟", "莉莉", "凯文",
+                          "锦城", "七中", "长顺街", "望江路", "惠民", "极速空间",
+                          "知乎", "邀请码", "文科", "理科", "分科", "降维打击",
+                          "内容变现", "阿拉伯之春", "颜色革命", "分封制", "连锁加盟",
+                          "念语", "第一桶金", "学霸", "校花", "教务处", "文理分科",
+                          "张卫东", "陈律师", "观海听涛", "天涯", "鹤鸣", "青羊",
+                          "林溪", "王哲", "王梓萌", "刘雨菲", "储晨", "王金龙",
+                          "灯塔", "金牛万达", "太升南路", "浣花溪", "双流", "别踩白块儿",
+                          "苏弘道", "苏半城", "星火", "罗文", "顾超", "香格里拉",
+                          "余大嘴", "刘强", "柳云", "鼎食人家", "今日热点", "张雅",
+                          "王莉莉", "西红柿", "极光", "九章", "嘉陵江",
+                          "徐静", "斗鱼", "海思", "不言", "安倍",
+                          "什么", "没有", "就是", "所以", "但是", "如果", "已经",
+                          "还是", "这样", "时候", "一个", "他们"],
+    "trong_sinh_tai_nguyen": ["李东", "沈茜", "秦雨涵", "袁雪", "许圣哲", "胡小蕊",
+                              "孙涛", "袁成道", "陈瑞", "张岚玉", "杜安民", "沈雪华",
+                              "李程远", "曹芳", "李程辉", "陈国华", "方青菲", "王杰",
+                              "陈悦", "魏源", "孟启平", "白素", "李铁", "冯劲松",
+                              "远方", "东宇", "马昀", "马华腾", "李彦红", "柳强东",
+                              "张进东", "滕迅", "掏宝", "阿里", "百度", "国梅", "苏果",
+                              "华闰", "大润发", "家乐福", "沃尔玛", "东平", "平川",
+                              "江北", "青阳", "临安", "京城", "香江", "羊城", "蜀都",
+                              "京大", "江大", "东子", "东哥", "炮哥", "李大炮",
+                              "什么", "没有", "就是", "所以", "但是", "如果", "已经",
+                              "还是", "这样", "时候", "一个", "他们"],
 }
 
 
@@ -705,7 +1102,7 @@ def validate(vi, glossary):
     # chu cai, nen Python coi "ơi," la mot "tu" va \b se khong khop.
     # "con" + danh tu (con ranh, con be, con cho...) la danh tu, khong phai xung ho
     DANH_TU_SAU_CON = re.compile(
-        r"(?i)^\s+(?:ranh|be|nhỏ|trai|gái|người|vật|chó|mèo|chim|cá|rắn|dao|"
+        r"(?i)^\s*[“\"'‘]*\s*(?:ranh|be|bé|nhỏ|trai|gái|người|vật|chó|mèo|chim|cá|rắn|dao|"
         r"đường|sông|thuyền|trâu|bò|ngựa|gà|vịt|kiến|sâu|mắt|tim|số|phần|dâu|rể|nuôi|"
         r"gấu|độc|của|út|trưởng|thứ|riêng|thơ|búp|"
         # tuc tu xuc danh: "trói con tiện nhân này lại" la loai tu, khong phai xung ho
@@ -713,7 +1110,13 @@ def validate(vi, glossary):
         # dong vat: "con sói đầu đàn" la loai danh tu, khong phai xung ho
         r"sói|cáo|hoẵng|hươu|chồn|beo|báo|trăn|kỳ đà|khỉ|voi|sóc|nhím|"
         r"cừu|dê|nai|hoẵng|chồn|diều hâu|đại bàng|ưng|cắt|sáo|quạ|bồ câu|"
-        r"tằm|ong|bướm|chuồn chuồn|tắc kè|rùa|ba ba|cá sấu)")
+        r"tằm|ong|bướm|chuồn chuồn|tắc kè|rùa|ba ba|cá sấu|"
+        r"quái vật|"
+        # do vat co danh tu loai "con": con tro (cursor), con chip, con quay...
+        # cao_nhi_phan_khoa noi ve may tinh/choi game -> "con trỏ" bi bao sai
+        r"trỏ|chip|lăn|quay|lắc|xúc xắc|rối|thoi|tem|bài|dấu|ốc|vít|"
+        r"chuột|bàn|phím|ống|cuộn|sạc|pin|"
+        r"phố|ngõ|hẻm|suối|kênh|đò|rạch|lạch|mương|bạc|nợ|tàu|xe|thuyền)")
     for m in re.finditer(
             r"(?i)(?<![^\W\d_])(?:toi|anh|chu|bo|me|chau)\b[^.!?\n]{0,14}?\bcon\b(?![\wàáảãạăâêôơưý])",
             vi):
@@ -729,9 +1132,29 @@ def validate(vi, glossary):
             continue
         if re.search(r"(?i)(?:anh|chị|em|ông|bà|cô|dì|thầy|mợ)\s+con$", vi[:m.end()]):
             continue
+        # giới từ / copula đứng trước ("về con", "là con") -> "con" là con cái, không phải tự xưng
+        if re.search(r"(?i)(?:về|cho|với|của|vì|đến|ở|lo|làm|thương|nhớ|là|vốn|thành|như)\s+con$",
+                     vi[:m.end()]):
+            continue
+        # động từ nhận "con" làm tân ngữ ("ép con", "bắt con", "dạy con"):
+        # người lớn nói với nhau về ĐỨA CON, không phải tự xưng.
+        if re.search(r"(?i)(?:ép|bắt|mắng|chửi|dạy|nuôi|chiều|đánh|giúp|khen|dỗ|"
+                     r"thấy|gọi|đón|đưa|giữ|để|thả|theo|kệ|đãi|bế)\s+con$", vi[:m.end()]):
+            continue
+        # cụm danh từ cố định: "công ty con" (công ty con = subsidiary), "con cưng"...
+        if re.search(r"(?i)(?:công ty|cửa hàng|chi nhánh|thương hiệu|nhãn hàng)\s+con$",
+                     vi[:m.end()]):
+            continue
+        # trẻ con nói với cha mẹ: "Mẹ nói xem, con nên..." là đúng
+        if re.search(r"(?i)\b(?:mẹ|bố|ba|má|u|bầm|thầy|cô|ông|bà)\b[^.!?\n]{0,20}$",
+                     vi[:m.start()]):
+            continue
         # quantifier đứng trước ("mấy con sói") -> classifier
         if re.search(r"(?i)(?:mấy|những|các|hai|ba|bốn|năm|sáu|bảy|tám|chín|một|hai|"
-                     r"bao nhiêu|vài)\s+con\b", vi[max(0, m.start() - 12):m.end()]):
+                     r"bao nhiêu|vài|đứa)\s+con\b", vi[max(0, m.start() - 12):m.end()]):
+            continue
+        # "trẻ con" / "trò trẻ con" / "con nít" -> danh từ, không phải tự xưng
+        if re.search(r"(?i)(?:trẻ|nhỏ|nít|dại|nhóc|to)\s+con$", vi[:m.end()]):
             continue
         errs.append(f"xưng 'con' sai: ...{m.group(0)}...")
         break
@@ -743,8 +1166,12 @@ def validate(vi, glossary):
         errs.append(f"ngoặc kép lệch: {vi.count('“')} mở / {vi.count('”')} đóng")
 
     if "*" in vi:
-        m = re.search(r"[^\n]{0,60}\*[^\n]{0,60}", vi)
-        errs.append(f"còn dấu kiểm duyệt/markdown '*': ...{m.group(0)}...")
+        # cho phep cac ky hieu ky thuat hop le: "A*" (A-star pathfinding),
+        # "C++ /*...*/" khong xuat hien trong the loai nay. Ngoai ra giu lenh loi.
+        vi_no_tech = re.sub(r"\b[A-Z]\*(?![a-zA-Z])", "", vi)  # A* / C* ...
+        if "*" in vi_no_tech:
+            m = re.search(r"[^\n]{0,60}\*[^\n]{0,60}", vi)
+            errs.append(f"còn dấu kiểm duyệt/markdown '*': ...{m.group(0)}...")
 
     return errs
 
@@ -800,25 +1227,49 @@ def check_complete(src_text, vi_text):
 
 # ─────────────────────────── chính ───────────────────────────
 
-def translate_chapter(n, s, chs, api, glossary):
+def translate_text(s, raw_title, text, glossary, api, parts=1):
+    """Dịch 1 chương; parts>1 thì chia phần — model bám glossary tốt hơn, ít sót Hán."""
+    if parts <= 1:
+        out, terms = parse_extra(api(build_prompt(s, raw_title, text, glossary)
+                                     + f"\n\n(Mã tác vụ: {time.time_ns()})"))
+        return strip_heading(out, raw_title), terms
+    paras = [p for p in text.split("\n") if p.strip()]
+    size = max(1, (len(paras) + parts - 1) // parts)
+    groups = [paras[i:i + size] for i in range(0, len(paras), size)]
+    outs, terms = [], []
+    for i, g in enumerate(groups, 1):
+        out, t = parse_extra(api(build_prompt(
+            s, "%s (phần %d/%d)" % (raw_title, i, len(groups)), "\n".join(g), glossary)
+            + f"\n\n(Mã tác vụ: {time.time_ns()})"))
+        outs.append(strip_heading(out, raw_title))
+        terms += t
+    return "\n\n".join(x for x in outs if x.strip()), terms
+
+
+def translate_chapter(n, s, chs, api, glossary, parts=1):
     """Dich 1 chuong, tra ve dict ket qua. Chay duoc trong thread."""
     raw_title = chs[n].split("_", 1)[1].rsplit(".", 1)[0]
     text = clean((SRC / chs[n]).read_text(encoding="utf-8", errors="replace"))
     # nguồn chen "宝鉴612", "飘天文学getmode;...", "(未完待续)ps：..." -> gỡ rác
-    src_ref = dedup_repeats(strip_src_junk(text))
+    src_ref = prepare_src(text)
     # prompt cần đoạn văn rõ: nguồn nén cả chương thành một dòng thì tách lại
     text = break_long_lines(src_ref)
     if not text.strip():
         return {"status": "skip", "n": n, "s": s, "title": raw_title}
 
-    raw = api(build_prompt(s, raw_title, text, glossary)
-              + f"\n\n(Mã tác vụ: {time.time_ns()})")
-    vi, terms = parse_extra(raw)
-    vi = strip_heading(vi, raw_title)
+    # glossary theo CHUONG: luat luon co, muc tu loc theo noi dung chuong
+    gl = load_glossary_for_chapter(s, src_ref)
+    vi, terms = translate_text(s, raw_title, text, gl, api, parts)
     vi = fix_quotes(vi)
     vi = normalize_address(vi)
     vi = _strip_cont(vi)
     vi = strip_markdown(vi)
+    vi = drop_source_echo(vi)
+    vi = normalize_punct(vi)
+    vi = fix_names(vi)
+    vi = sanitize_seps(vi)
+    vi = join_dialogue_verses(vi)
+    vi = split_long_paras(vi)
 
     complete, why = check_complete(src_ref, vi)
     if not complete:
@@ -834,6 +1285,70 @@ def translate_chapter(n, s, chs, api, glossary):
             "vi": vi, "terms": terms}
 
 
+def _gloss_entry_lines(text):
+    """Tach glossary thanh (header_lines, [(khoa_han, dong_nguyen_van)]).
+
+    Dòng không phải cặp 'Hán = Việt' (tiêu đề mục, ghi chú, quy tắc) luôn được
+    giữ — chúng là luật chứ không phải mục từ.
+    """
+    lines = text.splitlines()
+    fixed, entries = [], []
+    for line in lines:
+        m = re.match(r"^([\u4e00-\u9fff]{1,8}) = ", line)
+        if m:
+            entries.append((m.group(1), line))
+        else:
+            fixed.append(line)
+    return fixed, entries
+
+
+def load_glossary_for_chapter(ch_no, src_text="", back=60, ahead=20):
+    """Glossary theo CHƯƠNG: luật luôn có, mục từ chỉ nhét khi cần.
+
+    Nguồn: FILE GỐC (GLOSSARY) — chứa cả mục lõi lẫn các mục theo lô. Mỗi mục từ
+    được giữ nếu thỏa MỘT trong ba điều kiện:
+      1. Khóa Hán xuất hiện trong chương đang dịch -> chắc chắn cần.
+      2. Khóa nằm trong glossary lõi (nhân vật chính, quy ước, quy tắc) -> luôn nhét.
+      3. Khóa thuộc lô gần chương này (ch_no-back .. ch_no+ahead).
+
+    Điều kiện 1 tự phủ mọi tên/thuật ngữ khi chúng thực sự xuất hiện nên không
+    sợ mất từ; điều kiện 3 chỉ giữ mạch thuật ngữ của arc đang dịch. Nhờ vậy
+    glossary phình bao nhiêu thì prompt vẫn ổn định ~30-40k ký tự.
+    """
+    here = Path(__file__).parent
+    core = here / "_ts_gloss_core.txt"
+    raw = GLOSSARY.read_text(encoding="utf-8")
+    fixed, entries = _gloss_entry_lines(raw)
+
+    core_keys = set()
+    if core.is_file():
+        _, core_entries = _gloss_entry_lines(core.read_text(encoding="utf-8"))
+        core_keys = {k for k, _ in core_entries}
+
+    # khoảng lô của từng mục mở rộng
+    range_of = {}
+    for m in re.finditer(
+            r"(?ms)^## .*?THUẬT NGỮ.*?(\d+)[–-](\d+).*?═[ \t]*$(.*?)(?=^## |\Z)",
+            raw):
+        lo, hi = int(m.group(1)), int(m.group(2))
+        for line in m.group(3).splitlines():
+            mm = re.match(r"^([\u4e00-\u9fff]{1,8}) = ", line)
+            if mm:
+                range_of[mm.group(1)] = (lo, hi)
+
+    keep = []
+    for zh, line in entries:
+        if zh in core_keys:
+            keep.append(line)
+        elif src_text and zh in src_text:
+            keep.append(line)
+        else:
+            lo_hi = range_of.get(zh)
+            if lo_hi and lo_hi[0] - back <= ch_no <= lo_hi[1] + ahead:
+                keep.append(line)
+    return "\n".join(fixed + keep).strip() + "\n"
+
+
 def main():
     load_env()
     ap = argparse.ArgumentParser()
@@ -845,9 +1360,13 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="so chuong toi da trong lan chay nay")
     ap.add_argument("--backend", default=os.environ.get("BACKEND", "gemini"))
     ap.add_argument("--reset", action="store_true", help="dich lai ca nhung chuong da co")
+    ap.add_argument("--confirm-delete", action="store_true",
+                    help="bat buoc khi dung --reset: xac nhan xoa TOAN BO ban dich cua truyen")
     ap.add_argument("--retry", action="store_true", help="dich lai nhung chuong bi loi")
     ap.add_argument("--workers", type=int, default=int(os.environ.get("WORKERS", "4")),
                     help="so chuong dich song song")
+    ap.add_argument("--parts", type=int, default=int(os.environ.get("PARTS", "1")),
+                    help="chia moi chuong thanh N phan (model bam glossary tot hon, it sot Han)")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
     set_book(a.book)
@@ -868,6 +1387,13 @@ def main():
         return
 
     if a.reset:
+        if not getattr(a, "confirm_delete", False):
+            sys.exit(
+                "TU CHOI --reset: lenh nay se XOA TOAN BO ban dich da co trong "
+                f"{OUT} va reset state. Neu thuc su muon lam lai tu dau, chay lai "
+                "voi --reset --confirm-delete. Muon dich lai mot vai chuong thi "
+                "xoa dung file do (hoac them vao failed), KHONG dung --reset."
+            )
         for f in OUT.glob("*.md"):
             f.unlink()
         st = {"done": [], "failed": [], "new_terms": [], "quota_hits": 0}
@@ -895,7 +1421,9 @@ def main():
         todo = todo[:a.limit]
 
     api = BACKENDS[a.backend]
-    glossary = GLOSSARY.read_text(encoding="utf-8")
+    # Glossary theo từng chương: lop loi + lop mo rong đúng khoảng chương.
+    # Dịch lô thì cache theo từng chương (ch_no khác nhau) — tính trong thread con.
+    glossary_core = load_glossary_for_chapter(a.lo)
 
     if not todo:
         print("Khong co gi de dich.")
@@ -912,7 +1440,7 @@ def main():
     finished = 0
 
     with ThreadPoolExecutor(max_workers=workers) as ex:
-        futs = {ex.submit(translate_chapter, n, s, chs, api, glossary): (n, s)
+        futs = {ex.submit(translate_chapter, n, s, chs, api, glossary_core, a.parts): (n, s)
                 for n, s in todo}
         for fut in as_completed(futs):
             n, s = futs[fut]

@@ -1,0 +1,1008 @@
+# GLOSSARY — Đỉnh Cao Quan Lộ (官道之巅)
+# Tác giả: Thanh Mộc Thư Sinh (青木书生) · Nguồn: ixdzs8 id 615338 · truyendich.space/quan-dao-chi-dien
+# Cập nhật: 2026-10-31 (khởi tạo từ 15 chương đầu)
+
+孙新杰 = Tôn Tân Kiệt (bí thư trấn Nam Sơn, bạn học Sử Tử Nghĩa, phe đối lập, khoe sắp mở tiệc mừng dự án — ch.16–18)
+黄德运 = Hoàng Đức Vận (trấn trưởng Điềm Thủy, sắp chuyển sang HĐND huyện, để trống ghế trấn trưởng — ch.19)
+林慧雯 = Lâm Tuệ Văn (nhân viên trạm chăn nuôi, từng bị Ngưu Chí Cương quấy rối nên bị đày xuống trạm; đi cùng Tiểu Phàm tới Tiểu Vương Trang — ch.22–29)
+蔡秀枝 = Thái Tú Chi (thiếu nữ 16 tuổi nhà họ Thái, thần đồng toán học tương lai đoạt giải Fields, suýt bị bán để trả nợ — ch.24–29)
+计华春 = Kế Hoa Xuân (người thôn Đại Du đứng ra đòi dâu, đòi lại 18 vạn sính lễ — ch.25–28)
+朴仁勇 = Phác Nhân Dũng (bổn bộ trưởng Tập đoàn Y tế Thần Tinh tại Trung Quốc, người Hàn, sư huynh của Tiểu Phàm thời Hán Đông — ch.21–28)
+
+陶洪泰 = Đào Hồng Thái (trưởng thôn Đào Nguyên, gọi là Nhị gia, người đứng ra nhận cam kết ba ngày — ch.32–61)
+陶洪兴 = Đào Hồng Hưng (lão nông trong thôn Đào Nguyên, hay phản đối, từng đòi dẫn dân đi tiếp — ch.32–49)
+周仲清 = Chu Trọng Thanh (phó bí thư chuyên trách thị trấn, đối thủ của Lương Tiểu Mai, nhắm ghế trấn trưởng — ch.41–61)
+向良骥 = Hướng Lương Ký (phó chủ nhiệm Văn phòng Xóa đói giảm nghèo tỉnh, trưởng đoàn thanh tra — ch.45–58)
+
+## ══════ NHÂN VẬT CHÍNH ══════
+
+陈小凡 = Trần Tiểu Phàm (thực tập sinh văn phòng thị trấn Điềm Thủy, trọng sinh về năm 2003; kiếp trước bị đày coi hồ Nhị Long Sơn hai mươi năm)
+梁小梅 = Lương Tiểu Mai (phó trấn trưởng, 30 tuổi, "đệ nhất mỹ nữ" huyện, con cố huyện trưởng Lương Chấn Bang, đã có chồng)
+梁振邦 = Lương Chấn Bang (cố huyện trưởng, cha Lương Tiểu Mai, mất vì xuất huyết não)
+杨立新 = Dương Lập Tân (thường vụ phó huyện trưởng, 35 tuổi, biệt danh Dương Đại Pháo, hậu thuẫn của Tiểu Phàm)
+丁明礼 = Đinh Minh Lễ (phó tỉnh trưởng phụ trách an toàn, 46 tuổi, cho Tiểu Phàm số riêng)
+刘金永 = Lưu Kim Vĩnh (thường vụ phó thị trưởng Lâm Châu, người trao Nhị đẳng công)
+秦伟业 = Tần Vĩ Nghiệp (chủ tịch Tập đoàn Tần thị, đại biểu Quốc hội, giàu nhất huyện, cha Tần Phong)
+秦峰 = Tần Phong (con trai duy nhất của Tần Vĩ Nghiệp, 8 tuổi, bị bắt cóc năm 2 tuổi, biệt danh Ngũ Thiên)
+秦邦年 = Tần Bang Niên (ông nội Tần Phong, nhà sáu đời độc đinh)
+廖桂枝 = Liêu Quế Chi (bà nội Tần Phong, để mất cháu khi ngủ trưa ở nhà mẹ đẻ)
+马强 = Mã Cường (bạn thuở nhỏ của Tiểu Phàm, cộng tác viên công an thị trấn, cùng tuổi)
+史子义 = Sử Tử Nghĩa (bí thư Đảng ủy thị trấn, người đứng đầu)
+韩玉茹 = Hàn Ngọc Như (phó cục trưởng Cục Xúc tiến đầu tư huyện, bạn thân Lương Tiểu Mai)
+陈小龙 = Trần Tiểu Long (bé được cứu ở Dã Hà Than, cháu Trần lão)
+陈老 = Trần lão (nhân vật cấp cao chưa lộ diện, ông của Trần Tiểu Long)
+
+王景兴 = Vương Cảnh Hưng (trưởng thôn Tiểu Vương Trang, lạnh nhạt với cán bộ lúc đầu — ch.23–28)
+高经武 = Cao Kinh Vũ (phó sở trưởng công an huyện, bắn chỉ thiên giải vây — ch.23)
+许行长 = Hứa hành trưởng (hành trưởng ngân hàng, từ chối gỡ hộ đen cho Tiểu Vương Trang — ch.25)
+吴老二 = Ngô Lão Nhị (40 tuổi, què, bỏ 18 vạn sính lễ cưới Thái Tú Chi — ch.24–28)
+老蔡 = Lão Thái (bố Thái Tú Chi, nợ 18 vạn, định gả con gái — ch.24)
+老罗 = Lão La (cán bộ văn phòng thị trấn, thua cược phải trồng chuối gội đầu, phe Ngưu — ch.13–31)
+小刘 = Tiểu Lưu (lái xe của Ngưu Chí Cương — ch.31)
+小马 = Tiểu Mã (cán bộ văn phòng, báo tin cho Ngưu — ch.31)
+古修凯 = Cổ Tu Khải (đội trưởng cảnh sát giao thông huyện, báo tin dân Đào Nguyên — ch.31)
+尹泰熙 = Doãn Thái Hi (thư ký của Phác Nhân Dũng — ch.21–28)
+
+云程伟 = Vân Trình Vĩ (phó xứ Sở Kiểm toán, thành viên đoàn thanh tra — ch.45)
+魏锦鹏 = Ngụy Cẩm Bằng (huyện trưởng Thông Nguyên — ch.45)
+吕致远 = Lữ Chí Viễn (bí thư Huyện ủy Thông Nguyên — ch.52–53)
+于海潮 = Vu Hải Triều (bí thư Ủy ban Kiểm tra Kỷ luật thị trấn, bị chuyển sang Cục Khoa học Công nghệ — ch.53)
+马翔鹰 = Mã Tường Ưng (chủ nhiệm Văn phòng Xóa đói giảm nghèo huyện — ch.45)
+董浩山 = Đổng Hạo Sơn (phóng viên kiêm nhiếp ảnh đài huyện, chụp bộ ảnh áo đỏ — ch.46–48)
+朱芳芳 = Chu Phương Phương (biên tập đài, bạn gái Đổng Hạo Sơn — ch.46–47)
+穆远山 = Mục Viễn Sơn (chủ tịch Hội Nhiếp ảnh Kinh Châu, khách của đoàn đầu tiên — ch.48–50)
+刘骥 = Lưu Ký (lão nhiếp ảnh gia trong đoàn Mục Viễn Sơn — ch.50)
+李国兴 = Lý Quốc Hưng (phó bí thư Huyện ủy Thông Nguyên, cha Lý Dục — ch.54)
+金阳荣 = Kim Dương Vinh (phó sở trưởng công an thị trấn, bị khai trừ vì giam giữ Tiểu Phàm — ch.54–58)
+蒋正康 = Tưởng Chính Khang (phó cục trưởng thường trực Công an huyện — ch.56–58)
+徐文柏 = Từ Văn Bách (tổ trưởng tổ giám sát Sở Công an tỉnh — ch.60–61)
+裘阿祥 = Cừu A Tường (tội phạm truy nã cấp A, tám mạng, trốn ở thôn Tiền Hà — ch.58–61)
+
+郝绣萍 = Hác Tú Bình (nhân vật xuất hiện ch.68–101, liên quan vụ phóng viên bị hại — ch.68, 93–101)
+柳俊良 = Liễu Tuấn Lương (cán bộ thị trấn, bị tố cáo vấn đề sinh hoạt — ch.75–83)
+葛立言 = Cát Lập Ngôn (nhân vật ch.79–83)
+谢婉淑 = Tạ Uyển Thục (nhân vật ch.83)
+谢莹莹 = Tạ Oánh (nhân vật ch.83, tên đầy đủ Tạ Oánh Oánh)
+贾连生 = Giả Liên Sinh (nhân vật ch.69–72)
+贾大龙 = Giả Đại Long (nhà họ Giả, ch.69–72)
+贾二虎 = Giả Nhị Hổ (nhà họ Giả, ch.69–72)
+贾三豹 = Giả Tam Báo (nhà họ Giả, ch.69–72)
+张华翠 = Trương Hoa Thúy (nhân vật ch.72)
+
+邵思敏 = Thiệu Tư Mẫn (cán bộ kiểm tra kỷ luật, thẩm vấn vụ Đổng Hạo Sơn — ch.73–75)
+谭勇军 = Đàm Dũng Quân (nhân vật ch.79–83)
+吴志轩 = Ngô Chí Hiên (cảnh sát cùng tổ điều tra — ch.79)
+胡局 = Hồ cục trưởng (cục trưởng công an được nhắc — ch.79)
+黄维汉 = Hoàng Duy Hán (cán bộ hưu trí, cha Hoàng, ở viện dưỡng lão Tân Giang — ch.79–84)
+丁笑笑 = Đinh Tiếu Tiếu (phóng viên đài tỉnh, con gái phó tỉnh trưởng Đinh Minh Lễ — ch.87–101)
+王一川 = Vương Nhất Xuyên (phóng viên kênh Kinh tế Pháp luật, đồng nghiệp Đinh Tiếu Tiếu — ch.87, 134)
+康斌 = Khang Bân (đạo diễn/người quay phim được mời về Đào Nguyên — ch.91–93)
+陆寒庚 = Lục Hàn Canh (nhiếp ảnh gia chụp bộ ảnh hái quả — ch.91)
+沙学舟 = Sa Học Chu (thị trưởng Lâm Châu tới thăm lễ hội — ch.93; source ch.93 và 134 viết 舟, không phải 周)
+云振峰 = Vân Chấn Phong (nhân vật ch.98)
+
+丁政南 = Đinh Chính Nam (ông nội Đinh Tiếu Tiếu, nguyên lãnh đạo cấp cao; xuất hiện từ ch.111, cho Tiểu Phàm hai năm thử thách)
+丁奶奶 = bà Đinh (bà nội nhà họ Đinh — ch.111)
+首长 = thủ trưởng (cách gọi cấp trên — ch.111)
+
+## ══════ NHÂN VẬT PHỤ / PHẢN DIỆN ══════
+
+宋思明 = Tống Tư Minh (phó bộ trưởng Ban Tổ chức Thành ủy Lâm Châu, cha Tống Vân Như; kiếp trước là người đày Tiểu Phàm ra hồ)
+宋云茹 = Tống Vân Như (bạn gái đại học ba năm của Tiểu Phàm, con gái Tống Tư Minh — source ch.1 có chỗ chép 宋芸茹, cùng một người)
+李煜 = Lý Dục (con phó bí thư Huyện ủy, tình mới của Tống Vân Như)
+李副书记 = Lý phó bí thư (phó bí thư Huyện ủy Thông Nguyên, cha Lý Dục, không nêu tên)
+牛志刚 = Ngưu Chí Cương (chánh văn phòng thị trấn, thấp 1m6, chạy việc cho Tống Tư Minh)
+贾文和 = Giả Văn Hòa (tổng giám đốc Tập đoàn Tần thị, hói, háo sắc, bạn thuở nhỏ của Tần Vĩ Nghiệp)
+吴总 = Ngô tổng (lãnh đạo Tập đoàn Tần thị, chủ trì hội nghị đối tiếp)
+吴老大 = Ngô Lão Đại (cha nuôi Tần Phong ở Hán Tây, mua 5.000 tệ, đòi 10.000 tệ)
+于花莹 = Vu Hoa Oánh (chủ mưu đường dây buôn trẻ, sau bị tử hình, chỉ được nhắc)
+秃顶中年 = gã hói trung niên (nhân viên văn phòng, cược trồng chuối gội đầu)
+
+辰星医疗集团 = Tập đoàn Y tế Thần Tinh (tập đoàn Hàn Quốc chuyên thu mua ruột cừu làm chỉ khâu y tế — ch.21–28)
+汉江集团 = Tập đoàn Hán Giang (đối thủ của Thần Tinh — ch.27)
+明仁集团 = Tập đoàn Minh Nhân (đối thủ của Thần Tinh — ch.27)
+国防科技大学 = Đại học Khoa học Kỹ thuật Quốc phòng (trường con trai nhà họ Thái đỗ — ch.24)
+人大 = HĐND (Nhân đại, hội đồng nhân dân các cấp — ch.18–31)
+
+陈永康 = Trần Vĩnh Khang (bố Tiểu Phàm, nông dân thôn Trần Lâu, huyện Trường Trạch; thấy 5 vạn tiền tiết kiệm thì nghi con tham nhũng — ch.104–110)
+乔美凤 = Kiều Mỹ Phượng (mẹ Tiểu Phàm, lo chuyện vợ con, định mai mối Kiều Nhị Nữu — ch.104–110)
+陈永仁 = Trần Vĩnh Nhân (chú hai Tiểu Phàm, công nhân xí nghiệp quốc doanh, hay khoe khoang — ch.106–110)
+左枝丽 = Tả Chi Lệ (thím hai, khinh nhà Tiểu Phàm, phản đối bà nội trao vòng ngọc cho Tiếu Tiếu — ch.106–110)
+陈小飞 = Trần Tiểu Phi (em họ Tiểu Phàm, lêu lổng, quen Mao Viên Viên — ch.106–110)
+毛圆圆 = Mao Viên Viên (bạn gái Trần Tiểu Phi, con gái phó xưởng trưởng xưởng bình dầu — ch.106–110)
+乔二妞 = Kiều Nhị Nữu (hàng xóm lái xe buýt, mẹ định mai mối cho Tiểu Phàm — ch.105)
+陈瞎子 = Trần Hạt Tử (thầy bói trong làng, đoán bà nội còn hai tháng — ch.105)
+刘月 = Lưu Nguyệt (ứng viên bà Đinh giới thiệu cho Tiếu Tiếu, du học Anh, thạc sĩ tài chính — ch.110)
+于乐驰 = Vu Lạc Trì (chánh Văn phòng UBND huyện, phe Ngụy Cẩm Bằng, chèn ép Tiểu Phàm — ch.112–135)
+郑瑞轩 = Trịnh Thụy Hiên (thư ký của Lữ Chí Viễn, Văn phòng Huyện ủy — ch.114–135)
+韩秉谦 = Hàn Bỉnh Khiêm (phó huyện trưởng kiêm Cục trưởng Công an, không vào Thường vụ — ch.116–123)
+段为 = Đoàn Vi (phó huyện trưởng phụ trách tài chính, từ chối cấp 200 vạn — ch.121)
+杨光耀 = Dương Quang Diệu (chánh Văn phòng Huyện ủy, ủy viên thường vụ, biệt danh "cười hổ", không cùng phe Lữ — ch.124)
+张汤姆 = Trương Thang Mỗ (Tom Trương, giám đốc người Hồng Kông của Tần thị, sau làm giám đốc mỏ Tây Sơn; KHÔNG viết "Trương Tom" — ch.115–131)
+罗大冲 = La Đại Xung (trùm đội tháo dỡ mỏ Tây Sơn — ch.115–119)
+张全利 = Trương Toàn Lợi (thủ phủ huyện, chủ Tập đoàn Xây dựng Toàn Lợi, lùn béo hói; từ chối mua mỏ — ch.125–132)
+谢兴颜 = Tạ Hưng Nhan (bí thư khu Chung Lâu — ch.102, 134–135)
+靳桐 = Cận Đồng (lãnh đạo một trong ba khu — ch.102)
+霍永旺 = Hoắc Vĩnh Vượng (lãnh đạo một trong ba khu — ch.102)
+范邵元 = Phạm Thiệu Nguyên (bí thư Thành ủy Lâm Châu — ch.134)
+庄程晔 = Trang Trình Diệp (tổng giám đốc khu vực châu Á Tập đoàn Ca Lặc, người Nam Sơn — ch.133–134)
+叶全珍 = Diệp Toàn Trân (được tung là "thái đẩu y học", kê thuốc suýt giết John — ch.134)
+孙天禄 = Tôn Thiên Lộc (thầy thuốc châm cứu "Quỷ Vương thập tam châm", không bằng cấp, nghiện thuốc; được Tiểu Phàm bảo lãnh — ch.137–141)
+孙晓国 = Tôn Hiểu Quốc (cảnh sát trẻ đồn Hà Đông, đòi thuốc lá — ch.137)
+吴琦 = Ngô Kỳ (giám đốc trại tạm giữ huyện — ch.138)
+冷城 = Lãnh Thành (phó giám đốc trại tạm giữ huyện — ch.138)
+邱建章 = Khâu Kiến Chương (bí thư Huyện ủy Vọng Thư, tình địch của Lữ, sắp lên phó thị trưởng — ch.136–141)
+姜才杰 = Khương Tài Kiệt (thị trưởng thành phố Lâm Hải — ch.139–141)
+苗跃进 = Miêu Dược Tiến (cục trưởng Công an huyện Vọng Thư — ch.141)
+约翰 = John (người thừa kế gia tộc Hán Đốn, chủ tịch Tập đoàn Ca Lặc, bị đau đầu di truyền — ch.134–141)
+杰克 = Jack (em cùng cha khác mẹ của John, mẹ là nữ bộc Gypsy, không được gia tộc thừa nhận — ch.139–141)
+露丝 = Lộ Tư (thư ký của John — ch.139, 141)
+小玉 = Tiểu Ngọc (người yêu cũ bị Khâu Kiến Chương cưới mất — ch.136)
+许书记 = Bí thư Hứa (bí thư Thành ủy Lâm Hải, chỉ được nhắc — ch.136)
+
+汪家淦 = Uông Gia Cam (ủy viên thường vụ Tỉnh ủy, trưởng Ban Tổ chức tỉnh, đưa Dương Lập Tân về nhậm chức — ch.220)
+肖正鑫 = Tiêu Chính Hâm (chủ nhiệm Văn phòng Huyện ủy, ủy viên thường vụ; sau vụ Dương Vĩ Nhân thành bù nhìn, mọi việc bàn với Tiểu Phàm — ch.220–233; KHÔNG viết "Tiêu Chính Tân")
+杨伟仁 = Dương Vĩ Nhân (trưởng Ban Tổ chức Huyện ủy, ủy viên thường vụ, phản diện; chủ mưu vụ video Hàn Ngọc Như, bị bắt vì cưỡng bức và tham nhũng, giao Viện Kiểm sát — ch.220–230)
+兰绍琪 = Lan Thiệu Kỳ (trưởng Ban Tuyên truyền, ủy viên thường vụ — ch.222, 224)
+高舜 = Cao Thuấn (bí thư Ủy ban Chính trị Pháp luật, ủy viên thường vụ — ch.222, 224)
+袁行甲 = Viên Hành Giáp (chồng Lương Tiểu Mai, phó cục trưởng Cục Giáo dục, kẻ chụp trộm ảnh đêm khách sạn — ch.223–224)
+皮桂月 = Bì Quế Nguyệt (vợ Dương Vĩ Nhân — ch.224–228)
+胡双全 = Hồ Song Toàn (phó khoa Khoa Kỹ thuật cao, Cục Khoa học Công nghệ; bị Dương Vĩ Nhân hại — ch.224–228)
+高敏 = Cao Mẫn (vợ Hồ Song Toàn, giáo viên Trường Tiểu học Nam Quan — ch.224–227)
+池兴昌 = Trì Hưng Xương (bí thư UBKT Kỷ luật Thành ủy Lâm Châu, ủy viên thường vụ — ch.227–230)
+童德毅 = Đồng Đức Nghị (giám đốc Sở Công an tỉnh Hán Đông — ch.232–233)
+王娜 = Vương Na (trưởng Khoa Thông tin, bị đày về Khoa Hậu cần — ch.221)
+谢雪梅 = Tạ Tuyết Mai (cán bộ Khoa Thông tin, được bổ nhiệm trưởng khoa — ch.221, 232)
+白晓洁 = Bạch Hiểu Khiết (cán bộ Khoa Thông tin — ch.221, 232)
+王志昌 = Vương Chí Xương (cán bộ Văn phòng Huyện ủy, chú của Giang Bân — ch.221, 232, 235)
+刘玥 = Lưu Duyệt (cán bộ Khoa Thông tin; KHÁC 刘月 = Lưu Nguyệt ch.110 — ch.221, 232)
+江彬 = Giang Bân (con trai phó viện trưởng Bệnh viện Nhân dân huyện, mở công ty thi công hạ tầng — ch.234–235)
+小美 = Tiểu Mỹ (y tá thực tập Bệnh viện Nhân dân huyện, người Mã Cường tán — ch.233–236)
+丽丽 = Lệ Lệ (y tá thực tập, bạn thân Tiểu Mỹ, bạn gái Giang Bân — ch.233–235)
+吴有道 = Ngô Hữu Đạo ("tam gia gia", em trai người ông nuôi đã khuất của Tần Phong — ch.237–239)
+吴秀秀 = Ngô Tú Tú (cháu gái Ngô Hữu Đạo, từng cho Tần Phong ăn khi đói — ch.237–239)
+吴明 = Ngô Minh (con trai Ngô Hữu Đạo, cha Tú Tú, nợ cờ bạc 5 vạn — ch.238–239)
+洪家驹 = Hồng Gia Câu (đội trưởng vệ sĩ nhà họ Tần; KHÔNG viết "Hồng Gia Cù" — ch.238–239)
+王平 = Vương Bình (phó đội trưởng Đội Chấp pháp tổng hợp Cục Văn hóa, trong nhật ký năm 1998 — ch.229)
+小五 = Tiểu Ngũ (cách Ngô Tú Tú gọi Tần Phong — ch.239; KHÔNG phải Tiểu Ngọc)
+高大头 = Cao Đại Đầu (trùm giang hồ bản địa Hán Tây, chỉ được nhắc — ch.239)
+孙瘸子 = Tôn Què (trùm giang hồ bản địa Hán Tây, chỉ được nhắc — ch.239)
+
+吴有强 = Ngô Hữu Cường (kẻ môi giới buôn trẻ ở Hán Tây, bị bắt vì cưỡng hiếp bất thành, khai ra Hồ Tam Đao — ch.240–241)
+吴大赖子 = Ngô Đại Lại Tử (biệt danh của Ngô Hữu Cường — ch.240–241)
+秦明 = Tần Minh (phó sở trưởng trại tạm giữ Hán Tây, hỗ trợ thẩm vấn — ch.240–241)
+胡三刀 = Hồ Tam Đao (chủ hiệu thuốc Tam Đao, 50 hơn, buôn trẻ, bị bắt tại trận — ch.240–244)
+顾娆 = Cố Nhiêu (mẹ bé Hạo Hạo, chủ Weibo triệu fan, chồng mất, mẹ chồng nhảy lầu, trầm cảm — ch.242–245)
+浩浩 = Hạo Hạo (bé trai bị bắt cóc, cháu ngoại bà Cố — ch.242–245)
+戴宇宁 = Đới Vũ Ninh (bí thư Huyện ủy huyện Trường Trạch, bạn học trường Đảng của Dương Lập Tân, hay châm chọc — ch.246, 254, 258)
+王悦美 = Vương Duyệt Mỹ (tên thật của Tiểu Mỹ, y tá thực tập khoa Chỉnh hình — ch.247–253)
+赵福田 = Triệu Phúc Điền (viện trưởng Bệnh viện Nhân dân huyện — ch.252)
+许科长 = Hứa khoa trưởng (trưởng Khoa Nhân sự bệnh viện — ch.252)
+阿娟 = A Quyên (y tá thực tập cùng khóa Tiểu Mỹ, đối đầu Lệ Lệ — ch.253)
+胡忠立 = Hồ Trung Lập (cục trưởng Cục Tín thượng huyện — ch.254)
+金应发 = Kim Ứng Phát (cục trưởng Cục Bảo hiểm xã hội huyện, bị giáng chức — ch.256–257)
+金应俊 = Kim Ứng Tuấn (em Kim Ứng Phát, chủ nhiệm Văn phòng đại diện huyện tại tỉnh, ngầm phá Dương Lập Tân — ch.257–259)
+陈华修 = Trần Hoa Tu (chủ nhiệm Văn phòng Văn minh tỉnh, con trai Trần lão; KHÔNG viết "Trần Hoa Tuệ" — ch.254, 258–259)
+黄善群 = Hoàng Thiện Quần (trưởng khoa Văn phòng Văn minh tỉnh, tham ăn rồi nuốt lời — ch.258–259)
+聂处长 = Nhiếp xứ trưởng (xứ trưởng Văn phòng Văn minh tỉnh, chỉ được nhắc — ch.258)
+程立恒 = Trình Lập Hằng (thư ký trực ban Văn phòng Huyện ủy — ch.258–259)
+江副院长 = Giang phó viện trưởng (cha Giang Bân, phó viện trưởng Bệnh viện Nhân dân huyện — ch.247, 252–253)
+
+蔡秀芝 = Thái Tú Chi (nguồn viết lẫn 蔡秀枝/蔡秀芝, cùng một nhân vật — ch.24–29)
+
+王多鱼 = Vương Đa Ngư (nhân vật trong phim hài, nguyên tác dùng làm ẩn dụ chế giễu)
+卧龙凤雏 = Ngọa Long Phượng Sồ (điển cố, ở đây hàm ý mỉa mai hạng người được ví là kỳ tài nhưng thực chất vô dụng)
+桑塔纳 = Santana (hiệu xe cảnh sát)
+马家河子 = Mã Gia Hà Tử (thôn)
+京城 = Kinh thành
+汉东大学 = Đại học Hán Đông
+汉大 = Hán Đại (Đại học Hán Đông)
+京城 = Kinh Thành
+邱老 = Khâu lão
+清北大学 = Đại học Thanh Bắc
+汉东晨报 = Hán Đông Thần báo
+京州晚报 = Kinh Châu Vãn báo
+京汉商报 = Kinh Hán Thương báo
+半条命 = Half-Life (game bắn súng)
+二爷 = Nhị gia (cách gọi tôn kính người lớn tuổi trong thôn)
+陶宏泰 = Đào Hoành Thái (trưởng thôn Đào Nguyên)
+天涯 = Thiên Nhai (diễn đàn mạng nổi tiếng Trung Quốc)
+桃花源记 = Đào Hoa Nguyên Ký
+陶渊明 = Đào Uyên Minh
+南阳刘子骥 = Nam Dương Lưu Tử Ký (nhân vật trong Đào Hoa Nguyên Ký)
+考斯特 = Coaster (xe buýt nhỏ Toyota)
+刘市长 = Lưu thị trưởng (lãnh đạo thành phố Lâm Châu ra lệnh truy tìm)
+桃花源里的红裙少女 = Thiếu nữ váy đỏ trong Đào Nguyên (tên bài đăng ảnh)
+红松岭 = Hồng Tùng Lĩnh (điểm sáng tác ở tỉnh Hán Tây)
+一等功 = Nhất đẳng công
+资治通鉴 = Tư Trị Thông Giám
+普桑 = Pusang (Santana phổ thông)
+邵书记 = Thiệu bí thư
+邵书记 = Bí thư Thiệu (lãnh đạo cấp trên của tổ công tác)
+赵远航 = Triệu Viễn Hàng (chủ nhiệm Phòng Giám sát số ba)
+澳门 = Ma Cao
+九妹 = Cửu Muội (biệt danh thị trấn Điềm Thủy vì GDP nhiều năm xếp thứ chín)
+茅台 = Mao Đài (rượu Mao Đài)
+经济法治频道 = Kênh Kinh tế Pháp luật
+山茶花之恋 = Mối tình hoa sơn trà (tên đoàn phim)
+汉东省电视台 = Đài truyền hình tỉnh Hán Đông
+姜斌 = Khương Bân (đạo diễn lớn của phim “Mối tình hoa sơn trà”)
+赵蜜 = Triệu Mật (nữ chính phim)
+唐挖强 = Đường Oa Cường (diễn viên gạo cội)
+陈康熙 = Trần Khang Hy (diễn viên gạo cội)
+祁同伟 = Kỳ Đồng Vĩ (nhân vật trong phim "Nhân danh nhân dân", chỉ người đàn ông dựa vào vợ để thăng tiến)
+侯亮平 = Hầu Lượng Bình (nhân vật chính diện trong phim "Nhân danh nhân dân")
+钟小艾 = Chung Tiểu Ngải (nhân vật nữ trong phim "Nhân danh nhân dân", vợ của Hầu Lượng Bình, gia thế hiển hách)
+集体二等功 = Nhị đẳng công tập thể
+赣南 = Cám Nam
+高贤旭 = Cao Hiền Húc (phó cục trưởng Cục Bảo vệ Môi trường huyện)
+杨荷花 = Dương Hà Hoa (chủ nhiệm phụ nữ thôn Tiền Hà)
+杨晓玲 = Dương Hiểu Linh (nhân viên văn phòng thị trấn, ăn mặc lòe loẹt)
+纪委书记 = Bí thư Ủy ban Kiểm tra Kỷ luật
+监察室主任 = Chủ nhiệm Phòng Giám sát
+防洪法 = Luật Phòng chống lũ lụt
+水库大坝安全管理条例 = Quy định quản lý an toàn đập hồ chứa
+行动之星 = Ngôi sao hành động (danh hiệu vinh dự do Ủy ban Kiểm tra Kỷ luật trao tặng)
+常威 = Thường Uy (phó đạo diễn đoàn phim “Mối tình hoa sơn trà”)
+姜毅 = Khương Nghị (đạo diễn lớn)
+法治在线 = Pháp trị trực tuyến (tên chuyên mục truyền hình)
+民法典 = Bộ luật Dân sự
+曲嘉和 = Khúc Gia Hòa (phó trấn trưởng trấn Nam Sơn)
+云小二 = Vân Tiểu Nhị (biệt danh Đinh Tiếu Tiếu đặt cho Vân Chấn Phong hồi tiểu học)
+九妹 = Cửu muội (biệt danh chỉ đơn vị đứng thứ chín)
+老九 = Lão Cửu (cách gọi đơn vị đứng bét)
+乐扣 = Lock&Lock
+港岛 = Hồng Kông
+市中院 = Tòa án nhân dân thành phố
+党校 = Trường Đảng
+西山矿场 = Mỏ Tây Sơn
+妇女报 = Phụ Nữ báo
+左大帅 = Tả Đại Soái (tức Tả Tông Đường, danh tướng nhà Thanh)
+梁祝西厢记 = Lương Sơn Bá Chúc Anh Đài / Tây Sương Ký (hai vở kịch cổ nổi tiếng)
+左大帅 = Tả đại soái (nhân vật lịch sử được nhắc tới)
+洪武皇帝 = Hoàng đế Hồng Vũ (Minh Thái Tổ Chu Nguyên Chương)
+朱洪武 = Chu Hồng Vũ (tức Hoàng đế Hồng Vũ)
+治安处罚条例 = Điều lệ Xử phạt Trị an
+李刚 = Lý Cương
+小约翰 = John nhỏ
+吉普赛 = Gypsy
+韦芳春 = Vi Phương Xuân
+喻可欣 = Dụ Khả Hân
+副股长 = Phó phòng (cấp phó khoa)
+冯德恩 = Phùng Đức Ân (phó cục trưởng Cục Nông nghiệp, chồng Vương Mỹ Hoa)
+王美花 = Vương Mỹ Hoa (vợ Phùng Đức Ân, hàng xóm đối diện nhà Tiểu Phàm)
+郑一民 = Trịnh Nhất Dân (bí thư Tỉnh ủy Hán Đông, xuất hiện ch.204)
+胡德利 = Hồ Đức Lợi (nhà buôn sỉ cà chua, xuất hiện ch.204)
+李向平 = Lý Hướng Bình (pháp cảnh Tòa án Trung cấp, xuất hiện ch.204)
+杨书记 = Bí thư Dương (nhân vật mới nhậm chức, đề nghị điều Hàn Ngọc Như sang Ban Tổ chức)
+哈利波特 = Harry Potter
+
+郝秀萍 = Hác Tú Bình (nguồn viết lẫn 郝绣萍/郝秀萍, cùng một nhân vật)
+
+韦思晨 = Vi Tư Thần (cán bộ huyện, con nhà họ Vi — ch.160–191)
+苏兴怀 = Tô Hưng Hoài (cán bộ xuất hiện ch.187–190)
+李天放 = Lý Thiên Phóng (nhân vật ch.177–180, 218)
+李淑芬 = Lý Thục Phân (nhân vật ch.175)
+聂浩广 = Nhiếp Hạo Quảng (cán bộ cấp tỉnh, ch.212–213)
+
+## ══════ CƠ QUAN / THẾ LỰC ══════
+
+秦氏集团 = Tập đoàn Tần thị (doanh nghiệp tư nhân số một huyện, tài sản trăm tỷ)
+市委组织部 = Ban Tổ chức Thành ủy Lâm Châu (cơ quan của Tống Tư Minh)
+县委 = Huyện ủy (Ủy ban Huyện ủy huyện Thông Nguyên)
+县政府 = UBND huyện (Ủy ban nhân dân huyện Thông Nguyên)
+镇党委 = Đảng ủy thị trấn (Đảng ủy thị trấn Điềm Thủy)
+镇政府 = UBND thị trấn Điềm Thủy
+镇党政办公室 = Văn phòng đảng chính thị trấn (nơi Tiểu Phàm thực tập)
+县招商局 = Cục Xúc tiến đầu tư huyện
+镇派出所 = Đồn công an thị trấn Điềm Thủy (nơi Mã Cường làm việc)
+市110指挥中心 = Trung tâm chỉ huy 110 thành phố Lâm Châu
+省级会议中心 = Trung tâm hội nghị cấp tỉnh (cạnh Dã Hà Than)
+三区六镇 = ba khu, sáu thị trấn của huyện (các đơn vị tranh dự án)
+
+小王庄 = Tiểu Vương Trang (thôn vay 20 vạn/hộ nuôi cừu quy mô bị lỗ, cả thôn thành hộ đen — ch.19–31)
+大榆村 = Đại Du (thôn bên cạnh, đến cướp dâu — ch.24–28)
+桃源村 = Đào Nguyên (thôn Ngưu Chí Cương phụ trách, hơn 100 dân kéo lên tỉnh khiếu kiện — ch.31)
+南山镇 = Nam Sơn (trấn giàu, đối thủ của Điềm Thủy — ch.16–18)
+云雾山庄 = Vân Vụ Sơn Trang (tư gia hội sở nơi Giả Văn Hòa sàm sỡ Lương Tiểu Mai — ch.12)
+
+京州 = Kinh Châu (tỉnh lỵ, nơi họp lưỡng hội và tòa soạn báo — ch.35–53)
+前河村 = thôn Tiền Hà (làng Chu Trọng Thanh phụ trách, có xưởng sơn gây ô nhiễm, Cừu A Tường trốn ở đây — ch.59–61)
+天涯论坛 = diễn đàn Thiên Nhai (nơi bài ảnh bộc phát — ch.47–48)
+京州摄影协会 = Hội Nhiếp ảnh Kinh Châu (đoàn khách đầu tiên tới Đào Nguyên — ch.48–50)
+
+鹏城 = Bằng Thành (thành phố ven biển, ch.79–83)
+哈市 = Cáp Thị (thành phố phía bắc, ch.79)
+滨江疗养院 = viện dưỡng lão Tân Giang (ch.79)
+白山街道 = phố Bạch Sơn (ch.79)
+龙丰小区 = tiểu khu Long Phong (ch.79)
+
+西山矿 = mỏ Tây Sơn (mỏ khoáng sản liên quan vụ việc — ch.111)
+汉东报 = báo Hán Đông (ch.111)
+
+县府办 = Văn phòng UBND huyện (KHÁC 县委办 = Văn phòng Huyện ủy — ch.112–133)
+县委办 = Văn phòng Huyện ủy (ch.114–135)
+西山矿业公司 = Công ty Mỏ Tây Sơn (doanh nghiệp khai khoáng nợ lương hơn một năm — ch.112+)
+凡人资本 = Công ty Vốn Phàm Nhân (pháp nhân Tần thị lập cho Tiểu Phàm, 200 vạn vốn, Trương Thang Mỗ điều hành — ch.126–128)
+全利建设集团 = Tập đoàn Xây dựng Toàn Lợi (của Trương Toàn Lợi — ch.125, 132)
+卡勒集团 = Tập đoàn Ca Lặc (tập đoàn Mỹ định đầu tư 3 tỷ USD — ch.133+)
+汉顿家族 = gia tộc Hán Đốn (gia tộc tư bản Mỹ đứng sau Ca Lặc — ch.134+)
+善后办公室 = Văn phòng giải quyết hậu quả mỏ Tây Sơn (nguồn có chỗ gọi 安置办公室; THỐNG NHẤT cách gọi này — ch.121–135)
+护矿队 = đội hộ mỏ (công nhân tự lập để giữ mỏ — ch.115–117)
+拆迁队 = đội tháo dỡ (do La Đại Xung cầm đầu — ch.115–119)
+治安大队 = Đội Trị an (đơn vị Mã Cường chuyển sang — ch.122–123)
+拘留所 = trại tạm giữ (KHÁC 看守所 = trại tạm giam — ch.137–138)
+执行局 = Phòng Thi hành án (thuộc Tòa án Nhân dân thành phố — ch.115–118)
+
+政协主席 = chủ tịch Chính hiệp (ghế Lữ Chí Viễn chuyển sang — ch.220)
+秘书科 = Khoa Thư ký (Tiểu Phàm làm trưởng khoa — ch.220–231)
+信息科 = Khoa Thông tin (tai mắt của Huyện ủy — ch.221–232)
+后勤科 = Khoa Hậu cần (nơi Vương Na bị đày — ch.221)
+机要保密科 = Khoa Cơ yếu Bảo mật (ch.220–231)
+督查室 = Phòng Đốc tra (ch.220–231)
+干部科 = Khoa Cán bộ (thuộc Ban Tổ chức, quản cán bộ cấp khoa trở xuống — ch.220)
+股级 = cấp cổ (cấp dưới cấp khoa — ch.231)
+纪委监察一室 = Phòng Giám sát 1 (thuộc UBKT Kỷ luật huyện, Đàm Dũng Quân phụ trách — ch.226)
+市纪委 = Ủy ban Kiểm tra Kỷ luật Thành ủy (Thành ủy Lâm Châu — ch.227–228)
+检察院 = Viện Kiểm sát (nơi chuyển hồ sơ Dương Vĩ Nhân — ch.229)
+按察街 = phố Án Sát (khu nhà ở cán bộ, nơi Dương Vĩ Nhân sống — ch.228)
+县委宿舍 = khu tập thể Huyện ủy (ch.228)
+科技局 = Cục Khoa học Công nghệ huyện (ch.220–227)
+南关小学 = Trường Tiểu học Nam Quan (ch.226)
+北岸西餐厅 = nhà hàng Tây Bắc Ngạn (nhà hàng cao cấp của huyện — ch.233–234)
+换脸技术 = công nghệ hoán đổi khuôn mặt (ch.223)
+权色交易 = giao dịch quyền – sắc (ch.226)
+微博热搜 = bảng tìm kiếm nóng Weibo (ch.230)
+9.26专案组 = Tổ chuyên án 9.26 (do Từ Văn Bách dẫn — ch.233)
+实习护士 = y tá thực tập (ch.234–235)
+倒插门 = con rể ở rể (ch.231)
+
+三刀药房 = hiệu thuốc Tam Đao (phía nam huyện lỵ Hán Tây, vỏ bọc dược liệu, nhà sau giam trẻ — ch.240–241)
+天海花园 = tiểu khu Thiên Hải Hoa Viên (Lâm Hải, nhà Cố Nhiêu — ch.244)
+县会展中心大礼堂 = hội trường lớn Trung tâm Hội triển huyện (nơi tổ chức đại hội — ch.248)
+骨科 = khoa Chỉnh hình Bệnh viện Nhân dân huyện (ch.247–248)
+卫校 = trường trung cấp y (nơi Tiểu Mỹ và các y tá cùng khóa tốt nghiệp — ch.248)
+好市民奖 = giải Công dân tốt, kèm 2 vạn tệ (ch.247–248)
+集体三等功 = Tam đẳng công tập thể (tặng Công an huyện — ch.245, 248)
+刑警大队副大队长 = phó đại đội trưởng Đại đội Cảnh sát Hình sự (chức của Mã Cường — ch.248)
+精神文明奖 = giải thưởng văn minh tinh thần (giải cấp tỉnh, gắn với khoản thuế hoàn trả — ch.246, 254)
+精神文明办 = Văn phòng Văn minh tỉnh (ch.254, 258)
+税收返还 = hoàn thuế (khoảng 2 ức tệ với Thông Nguyên — ch.254)
+信访局 = Cục Tín thượng (tiếp nhận khiếu nại, tố cáo — ch.254)
+社保局 = Cục Bảo hiểm xã hội huyện (ch.254–256)
+局长楼 = tòa nhà ở của cán bộ cấp cục trưởng (nơi Tiểu Phàm ở — ch.254)
+省委壹号院 = khu nhà số 1 Tỉnh ủy (nơi ở cấp phó bộ trở lên; nhà họ Đinh — ch.257)
+驻省办 = Văn phòng đại diện huyện tại tỉnh (ch.258)
+常委扩大会议 = hội nghị mở rộng Ban Thường vụ (ch.257)
+降职处分 = kỷ luật giáng chức (ch.256–257)
+危房 = nhà nguy hiểm, dột nát (trường học nông thôn — ch.254)
+
+招投标会 = hội nghị đấu thầu
+南山大酒店 = khách sạn Nam Sơn
+畜牧站 = trạm chăn nuôi
+省两会 = kỳ họp lưỡng hội cấp tỉnh
+辰星集团 = Tập đoàn Thần Tinh
+晨星集团 = Tập đoàn Thần Tinh
+管理所 = sở quản lý
+省扶贫办 = Văn phòng xóa đói giảm nghèo tỉnh
+省宣传部 = Ban Tuyên truyền Tỉnh ủy
+省扶贫办 = Văn phòng Xóa đói giảm nghèo tỉnh
+扶贫干部 = cán bộ xóa đói giảm nghèo
+涂料厂 = nhà máy sơn
+摄影协会 = Hiệp hội Nhiếp ảnh
+扶贫办 = Sở Xóa đói giảm nghèo
+县常委会 = Ban Thường vụ Huyện ủy
+宣传部 = Ban Tuyên truyền
+县指挥中心 = Trung tâm chỉ huy huyện
+联防队 = đội liên phòng
+公安部 = Bộ Công an
+县局指挥中心 = trung tâm chỉ huy công an huyện
+蒋局 = Tưởng cục
+监察室 = phòng giám sát
+监察委员会 = Ủy ban Giám sát
+纪检委 = Ủy ban Kiểm tra Kỷ luật
+联防队 = đội phòng vệ liên hợp (lực lượng dân phòng phối hợp giữ trật tự ở thị trấn)
+云龙大酒店 = khách sạn Vân Long
+涂料厂 = xưởng sơn
+第三监察室 = Phòng Giám sát số ba (trực thuộc Ủy ban Kiểm tra Kỷ luật huyện)
+县纪检委第三监察室 = Phòng Giám sát thứ ba Ủy ban Kiểm tra Kỷ luật huyện
+反贪局 = Cục Chống tham nhũng
+监察室 = Phòng Giám sát
+军转干部 = cán bộ chuyển ngành từ quân đội
+监察一室 = Phòng Giám sát số một (đơn vị thuộc Ủy ban Kiểm tra Kỷ luật huyện)
+科级干部 = cán bộ cấp khoa
+油缸厂 = nhà máy xi-lanh dầu
+办事大厅 = sảnh giao dịch
+存车处 = bãi giữ xe
+游戏厅 = quán game
+小卖部 = cửa hàng tạp hóa
+公证处 = phòng công chứng
+县财政局 = Cục Tài chính huyện
+西山矿业善后办公室 = Văn phòng Xử lý hậu sự Tây Sơn Khoáng Nghiệp
+全利集团 = Tập đoàn Toàn Lợi
+安置办 = ban ổn định (ban phụ trách an trí, ổn định)
+安置办 = Ban tái định cư
+农业局 = Cục Nông nghiệp
+张局 = Cục trưởng Trương (cục trưởng Công an huyện, chỉ được nhắc)
+
+晨星医疗集团 = Tập đoàn Y tế Thần Tinh (nguồn viết lẫn 辰星/晨星, cùng một doanh nghiệp)
+
+## ══════ ĐỊA DANH ══════
+
+汉东省 = tỉnh Hán Đông
+汉西省 = tỉnh Hán Tây (nơi Tần Phong bị bán)
+林州市 = thành phố Lâm Châu
+通元县 = huyện Thông Nguyên
+甜水镇 = thị trấn Điềm Thủy
+二龙山水库 = hồ chứa Nhị Long Sơn (cách huyện 50 km, không có điện)
+野河滩 = Dã Hà Than (bãi sông hoang, lòng sông cũ nhiều xoáy)
+七里乡稻香村路口 = ngã rẽ thôn Đạo Hương, hương Thất Lý
+南部山区壹号院 = Nhất Hiệu Viện vùng núi phía nam (biệt thự nhà họ Tần)
+云雾山庄会所 = câu lạc bộ Vân Vụ Sơn Trang (phòng 101)
+红枫叶浪漫酒店 = khách sạn Hồng Phong Diệp Lãng Mạn (nơi Tiểu Phàm trọng sinh)
+秦氏集团总部会展中心 = Trung tâm hội triển Tập đoàn Tần thị
+
+黑户 = hộ đen (hộ bị ngân hàng phong tỏa sổ tiết kiệm vì nợ xấu, không vay được tiền — ch.19–25)
+彩礼 = sính lễ (tiền nhà trai đưa nhà gái; vụ Thái Tú Chi là 18 vạn — ch.24–28)
+人大代表 = đại biểu HĐND (đại biểu nhân đại; Giả Văn Hòa là đại biểu cấp tỉnh — ch.17)
+两会 = lưỡng hội (kỳ họp HĐND và Chính hiệp — ch.17)
+人民公仆 = công bộc nhân dân (câu trên cờ dân Tiểu Vương Trang định mang lên thị trấn — ch.28–29)
+状元 = trạng nguyên (thủ khoa; chỉ Thái Tú Chi — ch.24)
+羊肠衣 = ruột cừu (nguyên liệu làm chỉ khâu y tế hấp thụ, giá thu mua 2.500 tệ/con — ch.20–28)
+
+精准扶贫 = xóa đói giảm nghèo có trọng điểm (mỗi phó khoa phụ trách một làng nghèo nhất — ch.41–45)
+维稳 = giữ ổn định (công tác giải quyết khiếu kiện, không để dân lên tỉnh — ch.32–34)
+希望工程 = công trình Hy Vọng (quỹ xây trường cho trẻ nghèo, Tiểu Phàm đòi Kim Dương Vinh quyên một triệu — ch.57)
+流动红旗 = cờ luân lưu (danh hiệu thi đua của huyện, bị thu hồi sau vụ giam giữ — ch.58)
+级通缉犯 = tội phạm truy nã cấp A (Cừu A Tường, do Bộ Công an phát lệnh — ch.58)
+
+省审计厅 = Sở Kiểm toán tỉnh (ch.97)
+刑侦支队 = đội cảnh sát hình sự (ch.97)
+看守所 = trại tạm giam (ch.97)
+纪委监委 = Ủy ban Kiểm tra Kỷ luật và Giám sát (ch.75)
+扫黄 = chiến dịch quét tệ nạn (ch.97)
+失足女 = gái bán hoa (ch.97)
+
+房管科 = phòng quản lý nhà ở (ch.111)
+电话手表 = đồng hồ có chức năng gọi điện (ch.120)
+
+长泽县 = huyện Trường Trạch (quê Tiểu Phàm, giáp Thông Nguyên — ch.104)
+石宁乡 = hương Thạch Ninh (ch.104)
+陈楼村 = thôn Trần Lâu (làng quê Tiểu Phàm — ch.104–110)
+望舒县 = huyện Vọng Thư (thuộc Lâm Hải, giáp Thông Nguyên — ch.136–141)
+临海市 = thành phố Lâm Hải (ch.136, 141)
+望舒国际大酒店 = khách sạn Quốc tế Vọng Thư (nơi John ở, lễ ký Ca Lặc — ch.138–139)
+河东区 = khu Hà Đông (khu có phố đèn đỏ và y quán họ Tôn — ch.137)
+西山别墅 = biệt thự Tây Sơn ở Bắc Kinh (nhà họ Đinh — ch.110; KHÁC mỏ Tây Sơn)
+钟楼区 = khu Chung Lâu (ch.102, 134–135)
+孙氏中医 = y quán Trung y họ Tôn (ch.137)
+
+赵庄 = Triệu Trang (thôn)
+李庄 = Lý Trang (thôn)
+自然村 = thôn tự nhiên
+合村并镇 = sáp nhập thôn gộp thị trấn
+安置区 = khu tái định cư
+合村并镇 = sáp nhập thôn xã
+临县 = huyện lân cận
+全国十大美丽乡村 = mười thôn làng đẹp nhất toàn quốc
+深度贫困村 = thôn nghèo cùng cực (mức phân loại thôn nghèo sâu nhất)
+浩山 = Hạo Sơn (địa danh có tư liệu phỏng vấn)
+魏县 = huyện trưởng Ngụy (lãnh đạo huyện chỉ trích Sử Tử Nghĩa)
+遂民区 = khu Toại Dân (hạng ba GDP)
+二龙湖美食度假村 = khu nghỉ dưỡng ẩm thực hồ Nhị Long
+二龙湖 = Nhị Long Sơn (tức hồ chứa Nhị Long Sơn)
+二龙湖 = Nhị Long Hồ (cùng hồ chứa Nhị Long Sơn)
+遂民区 = quận Toại Dân
+西山矿区 = khu mỏ Tây Sơn
+西山居民区 = khu dân cư Tây Sơn
+风俗一条街 = phố phong tục (phố đèn đỏ)
+
+## ══════ CHỨC DANH / THUẬT NGỮ ══════
+
+副省长 = phó tỉnh trưởng
+常务副市长 = thường vụ phó thị trưởng
+常务副县长 = thường vụ phó huyện trưởng
+县委副书记 = phó bí thư Huyện ủy
+组织部副部长 = phó bộ trưởng Ban Tổ chức
+镇党委书记 = bí thư Đảng ủy thị trấn
+副镇长 = phó trấn trưởng
+办公室主任 = chánh văn phòng
+公务员 = công vụ viên
+实习生 = thực tập sinh
+转正 = chuyển chính thức
+协警 = công an cộng tác viên
+水库管理员 = nhân viên quản lý hồ chứa
+招商引资 = xúc tiến đầu tư
+对接会 = hội nghị kết nối dự án
+建材厂 = nhà máy vật liệu xây dựng (dự án hai ức tệ)
+二等功 = Nhị đẳng công (huân công hạng nhì)
+典型 = điển hình tuyên dương
+三伏天 = tiết Tam Phục
+悬赏 = treo thưởng (từ mười triệu lên ba mươi triệu tệ)
+六代单传 = sáu đời độc đinh
+
+焦煤 = than cốc (ch.112, 130–132)
+钻探 = khoan thăm dò (ch.128–130)
+岩心 = mẫu lõi khoan (ch.129)
+洛阳铲 = xẻng Lạc Dương (ẩn dụ cách lấy mẫu lõi — ch.129)
+鬼王十三针 = Quỷ Vương thập tam châm (tuyệt kỹ châm cứu của Tôn Thiên Lộc — ch.137–139)
+无证行医 = hành nghề y không phép (ch.137–138)
+行医资格证 = chứng chỉ hành nghề y (ch.137)
+锦旗 = cờ gấm (ch.132)
+信托资金 = quỹ tín thác (ch.128, 130)
+财产保全 = bảo toàn tài sản (ch.115)
+强制执行 = cưỡng chế thi hành (ch.115–118)
+副部级 = cấp phó bộ (ch.108)
+副科级 = cấp phó khoa (ch.108)
+华子 = thuốc lá Trung Hoa (ch.137)
+九大常委 = chín ủy viên thường vụ (ch.122, 124)
+
+省厅 = Sở Công an tỉnh (chữ viết tắt 省厅; vẫn có thể gọi "tỉnh sảnh")
+厅长 = sảnh trưởng (giám đốc sở, thủ trưởng tỉnh sảnh)
+辅警 = cảnh sát bổ trợ (hợp đồng, khác 协警 công an cộng tác viên)
+副科 = phó khoa (cấp phó khoa, viết tắt của 副科级)
+西山矿业 = Tây Sơn Khoáng Nghiệp (doanh nghiệp, khác 西山矿 mỏ Tây Sơn)
+
+楼王 = lâu vương (căn biệt thự đơn lập vị trí đẹp nhất trong khu)
+分酒器 = bình chia rượu
+美人计 = mỹ nhân kế
+三通 = ba thông (hạ tầng đường, điện, nước)
+桑塔纳 = xe Santana
+党校 = trường Đảng
+医美 = thẩm mỹ y khoa
+缝合线 = chỉ khâu (phẫu thuật)
+肠衣 = màng ruột (cừu)
+羊下水 = lòng cừu
+扶贫 = xóa đói giảm nghèo
+镇长 = trấn trưởng
+助农贷款 = khoản vay hỗ trợ nông dân
+帮扶 = hỗ trợ giúp đỡ
+退居二线 = lui về tuyến hai
+本部长 = tổng giám đốc bộ phận
+医美 = y mỹ (phẫu thuật thẩm mỹ y tế)
+肠衣 = ruột non (dùng làm chỉ phẫu thuật)
+助农贷款 = khoản vay hỗ trợ nông nghiệp
+肠衣 = vỏ ruột cừu
+医美 = thẩm mỹ y học
+医材 = vật liệu y tế
+本部长 = bộ trưởng bộ phận
+高老师 = thầy Cao
+菲尔兹奖 = giải Fields
+信访记录 = ghi nhận đơn thư khiếu nại
+蔡家 = nhà họ Thái
+医美市场 = thị trường y tế thẩm mỹ
+信访 = khiếu nại
+大席 = tiệc lớn
+网格任务书 = sổ nhiệm vụ theo mạng lưới
+农用车 = xe nông dụng
+韩国财团 = tập đoàn Hàn Quốc
+暗度陈仓 = ám độ Trần Thương
+信访 = tín phỏng (công tác tiếp nhận đơn thư khiếu nại)
+包干 = bao làm (khoán trách nhiệm đến từng người)
+抓阄 = bốc thăm
+宣传干事 = cán bộ tuyên truyền
+动迁户 = hộ giải tỏa di dời
+两会特刊 = phụ trương lưỡng hội
+胸口碎大石 = đập đá trên ngực (màn biểu diễn võ đường phố)
+寻衅滋事罪 = tội gây rối trật tự
+农家乐 = du lịch nhà vườn
+处座 = xứ trưởng (cách gọi kính trọng, hơi đùa, dành cho quan chức cấp xứ/phòng; ở đây Tiểu Phàm gọi đùa Dương Lập Tân)
+农家乐 = quán nhà vườn (quán ăn nghỉ kiểu nông thôn phục vụ du khách)
+山货 = đặc sản núi
+单身狗 = chó độc thân (cách nói đùa chỉ người độc thân)
+两会特刊 = đặc san lưỡng hội
+国道取直工程 = công trình nắn thẳng quốc lộ
+胸口碎大石 = màn đập đá trên ngực (tiết mục tạp kỹ đường phố)
+取直工程 = công trình nắn thẳng tuyến đường
+抗震帐篷 = lều dã chiến
+专职副书记 = phó bí thư chuyên trách
+定点帮扶 = phò bần trọng điểm (giúp đỡ đúng địa chỉ)
+对口帮扶 = đối khẩu phò bần (đơn vị trên giúp đỡ đúng cặp)
+包干模式 = mô hình bao gói
+正股级 = cấp chính cổ
+记过处分 = kỷ luật ghi lỗi
+墙漆涂料 = sơn tường
+驴友 = dân du lịch bụi
+山核桃 = hạt óc chó rừng
+榛子 = hạt phỉ
+国道 = quốc lộ
+墙漆涂料项目 = dự án sơn phủ tường (dự án ở Tiền Hà thôn, có nguy cơ ô nhiễm)
+对口扶贫 = xóa đói giảm nghèo đối ứng (đơn vị được chỉ định giúp đỡ một thôn cụ thể)
+党委委员 = ủy viên Đảng ủy
+监察委员 = ủy viên giám sát
+组织委员 = ủy viên tổ chức
+吕书记 = Lữ bí thư (bí thư Huyện ủy Thông Nguyên, chưa nêu tên)
+扶贫巡视组 = tổ tuần tra xóa nghèo (đoàn thanh tra chuyên đề cấp tỉnh về tiền xóa nghèo)
+回头看 = “nhìn lại” (đợt kiểm tra lại sau khi đã tuần tra)
+脱贫攻坚 = thoát nghèo công kiên (chiến dịch xóa nghèo trọng điểm quốc gia)
+行政夹克 = áo khoác hành chính (kiểu áo khoác đồng phục cán bộ)
+红裙少女 = thiếu nữ váy đỏ (nhân vật nổi tiếng trên mạng mà Tiểu Phàm nhắc tới)
+三高 = ba cao (huyết áp cao, mỡ máu cao, đường huyết cao)
+吃拿卡要 = ăn quà đòi quà, gây khó dễ vòi vĩnh
+省扶贫办巡视组 = tổ thanh tra Văn phòng Xóa đói giảm nghèo tỉnh
+回头看 = kiểm tra lại (đợt thanh tra quay lại)
+董记者 = phóng viên Đổng (phóng viên đài truyền hình huyện)
+县委书记 = bí thư Huyện ủy
+扶贫巡视组 = đoàn thanh tra xóa đói giảm nghèo
+观摩团 = đoàn tham quan học hỏi kinh nghiệm
+刑警队副队长 = phó đội trưởng đội hình sự
+分酒器 = bình rót rượu
+碰瓷 = ăn vạ
+鸽子血 = máu bồ câu (mẹo giả vờ bị thương)
+考斯特 = xe Coaster (xe khách cỡ trung)
+拉网式排查 = rà soát kiểu kéo lưới
+特警 = cảnh sát đặc nhiệm
+黄马甲 = áo gile vàng (áo của người bị tạm giữ tại đồn công an)
+督导组 = đoàn đốc tra
+拉网式摸排 = rà soát kiểu kéo lưới
+联防队员 = đội viên liên phòng
+滥竽充数 = đánh trống lảng cho đủ số
+县一中 = trường cấp ba số một huyện (nơi Thái Tú Chi học)
+单反相机 = máy ảnh ống kính rời
+楼主 = chủ thớt
+小卡拉米 = tép riu (tiếng lóng, chỉ kẻ nhỏ bé, không đáng kể)
+福将 = phúc tướng (người gặp may mắn)
+采风 = sáng tác thực tế (đi chụp ảnh lấy tư liệu)
+山货 = sản vật núi
+纪委书记 = bí thư Ủy ban Kiểm tra Kỷ luật
+换届 = kiện toàn nhân sự (đại hội/đổi khóa cán bộ)
+考察团 = đoàn khảo sát
+巡视组 = tổ thanh tra
+杀一儆百 = giết một răn trăm (làm gương răn đe)
+甩棍 = dùi cui bật (dùi cui sắt có thể thụt ra)
+杀猪刀 = dao mổ lợn
+督导组 = đoàn đốc đạo
+处级 = cấp trưởng phòng
+副处级 = cấp phó trưởng phòng
+三级警监 = cảnh giám ba cấp
+请功报告 = báo cáo thỉnh công
+转编 = chuyển biên chế
+正式编制 = biên chế chính thức
+政绩工程 = công trình thành tích
+纪检书记 = bí thư Ủy ban Kiểm tra Kỷ luật
+环评 = đánh giá môi trường
+曲线救国 = đường cong cứu nước
+董记者 = phóng viên Đồng (phóng viên đã chết, bạn trai Chu Phương Phương)
+中山大道 = đại lộ Trung Sơn
+渣土大车 = xe tải chở đất đá
+冲锋车 = xe cảnh sát tuần tra
+行政夹克 = áo khoác kiểu cán bộ
+科员 = nhân viên (công vụ viên cấp thấp nhất)
+疗养院 = viện an dưỡng
+熬鹰 = thức đêm (cách tra tấn không cho ngủ để mài mòn ý chí)
+港岛 = đảo Cảng (Hồng Kông)
+汉东机场 = sân bay Hán Đông
+蓝山别墅 = biệt thự Lam Sơn (khu biệt thự cao cấp)
+搜查令 = lệnh khám xét
+出关 = xuất cảnh qua cửa khẩu
+采摘节 = lễ hội hái quả
+经济与法治频道 = kênh Kinh tế và Pháp luật
+采摘节 = lễ hái quả (hoạt động hái sơn hào do thị trấn Điềm Thủy tổ chức)
+保姆车 = xe chuyên dụng (xe van riêng của nghệ sĩ)
+顶流小生 = tiểu sinh đỉnh lưu
+肖像权 = quyền chân dung
+代言费 = phí đại diện
+酒香也怕巷子深 = rượu thơm cũng sợ ngõ sâu
+唐老师 = thầy Đường
+头七 = tuần đầu (lễ cúng sau khi chết)
+恭敬不如从命 = kính cẩn không bằng tuân mệnh
+九妹 = cửu muội (cách gọi đùa chỉ đơn vị xếp thứ chín, đội sổ)
+吊车尾 = đội sổ
+叫好不叫座 = được khen mà không đông khách
+劳民伤财 = hao dân tổn của
+形象工程 = công trình phô trương hình ảnh
+面子工程 = công trình thể diện
+硬通货 = thành tích thực chất
+虚头巴脑 = rỗng tuếch, hư ảo
+不知者无畏 = không biết thì không sợ
+外挂 = ngoại quải (lợi thế bên ngoài, như "cheat" trong game)
+阳谋 = dương mưu
+东警 = cảnh sát Hán Đông
+处长 = xứ trưởng
+副处级 = cấp phó xứ
+正科级 = cấp chánh khoa
+少林武僧 = võ tăng Thiếu Lâm
+通元宾馆 = khách sạn Thông Nguyên
+双规 = song quy (quy định địa điểm, quy định thời gian — biện pháp cách ly cán bộ để thẩm tra)
+红枫叶宾馆 = khách sạn Hồng Phong Diệp (cùng địa điểm với khách sạn Hồng Phong Diệp Lãng Mạn)
+二龙湖美食城 = khu ẩm thực Nhị Long Sơn
+正科级 = cấp chính khoa
+白手套 = găng tay trắng (kẻ đứng tên hộ, rửa tiền)
+退居二线 = rút về tuyến hai
+合署办公 = hợp thự văn phòng (một bộ máy, hai biển hiệu)
+二龙湖美食城 = khu ẩm thực Nhị Long Hồ
+裸官 = quan chức "trần" (quan chức có vợ con ở nước ngoài)
+港岛 = đảo Hồng Kông
+利益输送 = móc nối lợi ích
+踩缝纫机 = đi giẫm máy khâu (cách nói ẩn dụ chỉ việc vào tù, lao động cải tạo)
+白手套 = người đứng tên hộ (kẻ đứng tên tài sản thay cho người tham nhũng)
+乌纱帽 = mũ cánh chuồn (ẩn dụ cho chức quan, ghế lãnh đạo)
+四不像 = bốn không giống (thành ngữ chỉ thứ chẳng ra đâu vào đâu, lai tạp)
+采摘节 = lễ hội hái trái
+微博 = weibo
+热搜 = tìm kiếm nóng
+京圈公主 = công chúa giới Kinh thành
+婆罗门 = brahmin (chỉ giới đặc quyền địa phương)
+科长 = khoa trưởng
+沙市长 = thị trưởng Sa
+刘市长 = thị trưởng Lưu
+文创礼品包 = gói quà lưu niệm văn hóa sáng tạo
+办事员 = cán sự
+妯娌 = chị em dâu
+大家闺秀 = tiểu thư khuê các
+西山煤矿 = mỏ than Tây Sơn
+县府办主任 = chánh Văn phòng UBND huyện
+操姓少妇 = thiếu phụ họ Tháo (nhân viên Văn phòng UBND huyện)
+杀威棒 = gậy giáng uy (trận đòn ra oai với người mới, theo tục lệ nha môn phong kiến)
+职业经理人 = quản lý chuyên nghiệp
+港普 = tiếng phổ thông giọng Quảng Đông
+扫黄打非 = quét tệ nạn (chiến dịch trấn áp mại dâm và ấn phẩm đồi trụy)
+代党委书记 = quyền bí thư Đảng ủy
+捞面 = mì kéo (món mì kéo sợi kiểu miền Bắc Trung Quốc)
+精神小妹 = cô em tinh thần (tiếng lóng chỉ kiểu con gái ăn mặc thời thượng, có chút dân chơi)
+长孙媳妇 = cháu dâu trưởng (vợ của đích tôn)
+嫡孙 = đích tôn
+富二代 = phú nhị đại
+火炕 = giường sưởi (khang)
+檀木盒 = hộp gỗ đàn hương
+魔都 = Ma Đô (biệt danh Thượng Hải)
+扫黄打非 = quét tệ nạn, chống phi pháp
+上书房行走 = hành tẩu bên cạnh bí thư (cách nói ví von chỉ người hầu cận sát bên lãnh đạo)
+高配 = bố trí cao hơn cấp
+白月光 = bạch nguyệt quang (người trong mộng, mối tình đầu không thể quên)
+死马当活马医 = chữa ngựa chết thành ngựa sống (liều thử xem sao)
+吃拿卡要 = ăn hối lộ đòi quà
+狐假虎威 = mượn oai hùm
+成事不足败事有余 = thành sự không đủ bại sự có thừa
+有眼无珠 = có mắt không tròng
+吃不了兜着走 = ăn không hết mang về (gánh chịu hậu quả)
+草签仪式 = lễ ký tắt
+镇定剂 = thuốc an thần
+欧陆 = châu Âu lục địa
+福利分房 = phúc lợi chia nhà (chế độ cấp nhà cho cán bộ thời kỳ đầu)
+西山农场 = nông trường Tây Sơn (xuất hiện ch.204)
+周家嫂子 = chị dâu nhà họ Chu
+澳洲和牛 = bò Úc (với huyết thống Nhật Bản)
+警情通告 = thông báo cảnh tình (công báo của cơ quan công an)
+网警 = cảnh sát mạng
+点对点技术 = kỹ thuật truyền trực tiếp điểm tới điểm
+翻墙 = vượt tường lửa
+净身出户 = ra đi tay trắng (ly hôn không được chia tài sản)
+吃瓜群众 = dân hóng chuyện
+警嫂 = vợ cảnh sát (cách gọi người vợ của cảnh sát, hàm ý kính trọng)
+好市民奖章 = huy chương công dân tốt
+退伍军人 = quân nhân giải ngũ
+政务环境 = môi trường hành chính
+
+## ══════ LƯU Ý ĐẶC BIỆT ══════
+
+1. Source gõ lẫn cần chuẩn hoá: 宋芸茹 (một lần, ch.1 khi giới thiệu cha) cùng người với 宋云茹 — giữ "Tống Vân Như"; ch.1 và ch.4 gọi Điềm Thủy là 乡 (hương) rồi từ ch.5 là 镇 (thị trấn) — giữ "thị trấn Điềm Thủy" xuyên suốt; ch.6 nói Tần Phong bị bắt cóc "ba năm trước" nhưng ch.9–11 nói sáu năm, bé tám tuổi bị bắt năm hai tuổi — theo mốc sáu năm; ch.14 có câu thoại "ba khu năm huyện" lệch với "ba khu sáu thị trấn" — giữ "ba khu sáu thị trấn".
+2. Xưng hô: Trần Tiểu Phàm gọi Lương Tiểu Mai là "Lương phó trấn trưởng" khi ở cơ quan, "chị Lương"/"Tiểu Mai" khi thân; gọi Dương Lập Tân là "Dương huyện trưởng"; gọi Đinh Minh Lễ là "Đinh tỉnh trưởng"; Tống Tư Minh gọi anh là "cậu"/"nhóc"; Ngưu Chí Cương gọi "Tiểu Phàm" nhưng giọng khinh.
+3. Trọng sinh: Tiểu Phàm biết trước tương lai (kiếp trước bị đày 20 năm ở hồ Nhị Long Sơn) nhưng KHÔNG được để lộ; hành xử như người cùng thời.
+4. Tiền: 一千万 đọc là "mười triệu", 三千万 đọc là "ba mươi triệu" — không viết "ba nghìn vạn".
+5. Chức danh dịch theo chuẩn Việt: 副省长 phó tỉnh trưởng, 常务副市长 thường vụ phó thị trưởng, 副镇长 phó trấn trưởng, 镇党委书记 bí thư Đảng ủy thị trấn; không dịch thành "chủ tịch xã/phó chủ tịch".
+
+
+6. Source ch.93 và ch.134 viết 沙学舟, không phải 沙学周; bản dịch giữ "Sa Học Chu", chỉ sửa chữ Hán trong glossary.
+7. 张汤姆 phiên là "Trương Thang Mỗ" (Tom Trương), TUYỆT ĐỐI không viết "Trương Tom"; ch.130 từng bị lỗi và đã sửa.
+8. 善后办公室 và 安置办公室 là cùng một cơ quan — thống nhất "Văn phòng giải quyết hậu quả mỏ Tây Sơn".
+9. 西山别墅 (biệt thự nhà họ Đinh ở Bắc Kinh, ch.110) khác hoàn toàn 西山矿 (mỏ Tây Sơn) — không lẫn.
+10. Cấp bậc: Đinh Minh Lễ là phó tỉnh trưởng, cấp phó bộ; Tiểu Phàm là phó chủ nhiệm văn phòng, cấp phó khoa. Không gọi Tiểu Phàm là "lãnh đạo huyện". 
+
+
+11. Sách nói: KHÔNG dùng ký hiệu phân cách giữa các khối (ba gạch, ba sao, ba dấu bằng, ba ngã, ba thăng, chấm giữa, ※, ◆, ◇, ■, ▲, ●, gạch ngang dài). TTS sẽ đọc thành tiếng. Ngăn đoạn bằng MỘT dòng trống; check.py coi dòng ký hiệu là lỗi E.
+
+12. Tên mới lô 220–239 đã chốt: Tiêu Chính Hâm (không viết Tiêu Chính Tân), Hồng Gia Câu (không viết Hồng Gia Cù), Lưu Duyệt cho 刘玥 (KHÁC Lưu Nguyệt 刘月 ch.110), Tiểu Ngũ là cách Tú Tú gọi Tần Phong (không phải Tiểu Ngọc).
+
+13. Tên chốt lô 240–259: Ngô Đại Lại Tử (biệt danh của Ngô Hữu Cường, không viết Ngô Đại Lái/Lãi), Cố Nhiêu (không viết Cố Dao), Đới Vũ Ninh (không viết Đái Vũ Ninh), Trần Hoa Tu (không viết Trần Hoa Tuệ).
+## ══════ NGỮ CẢNH (cập nhật mỗi 20 chương) ══════
+
+### Đã xảy ra — chương 1–10:
+- Ch.1: Trần Tiểu Phàm tỉnh dậy ở khách sạn Hồng Phong Diệp Lãng, nhận ra mình trọng sinh về năm 2003, đúng ngày thực tập ở thị trấn Điềm Thủy. Kiếp trước Tống Tư Minh sỉ nhục anh rồi đày ra hồ Nhị Long Sơn hai mươi năm. Anh vạch trần Tống Vân Như ngoại tình với Lý Dục, đuổi cô ta đi rồi bắt taxi đến Dã Hà Than.
+- Ch.2: Dã Hà Than là lòng sông cũ nhiều xoáy, mười bốn em nhỏ đang tắm bị cuốn. Anh gọi 110, tự nhận là thực tập sinh thị trấn, nhảy xuống cứu mỗi lần hai em. Cùng lúc, phó tỉnh trưởng Đinh Minh Lễ đang chủ trì hội nghị an toàn toàn tỉnh ở trung tâm hội nghị kế bên thì bị tiếng còi cảnh sát cắt ngang.
+- Ch.3: Anh cứu nốt hai em cuối thì kiệt sức, được cảnh sát đặc nhiệm kéo lên. Đinh Minh Lễ tới hiện trường, phát hiện cháu Trần lão là Trần Tiểu Long cũng trong số được cứu. Ông tuyên bố lấy anh làm điển hình, đề nghị khen thưởng và để thư ký ghi số riêng cho anh.
+- Ch.4: Sáng hôm sau Ngưu Chí Cương đưa lệnh điều anh sang trạm quản lý hồ Nhị Long Sơn, còn mỉa mai không có xe đưa. Anh nổi giận đòi nghỉ việc, suýt đánh Ngưu. Ngưu gọi báo Tống Tư Minh, trong khi Dương Lập Tân lái Passat tới thị trấn tìm anh.
+- Ch.5: Dương Lập Tân mắng Ngưu, nói thành phố định trao Nhị đẳng công và Lưu Kim Vĩnh sẽ đích thân trao. Ông đón anh ở ngã rẽ Đạo Hương, hứa nếu làm tốt sẽ đưa về huyện, bảo cứ tìm ông khi bị chèn ép. Lưu Kim Vĩnh trao bằng; về văn phòng, Ngưu cắt cử anh làm tài xế cho Lương Tiểu Mai.
+- Ch.6: Lương Tiểu Mai ba mươi tuổi, mất chỗ dựa sau khi cha là cố huyện trưởng Lương Chấn Bang qua đời, bị giao việc xúc tiến đầu tư. Tập đoàn Tần thị định đầu tư hai ức tệ xây nhà máy vật liệu, ba khu sáu thị trấn tranh nhau, Điềm Thủy yếu nhất. Trước cả phòng, Tiểu Phàm tuyên bố dự án sẽ về Điềm Thủy, cược chức vụ; một gã hói cược trồng chuối gội đầu.
+- Ch.7: Giả Văn Hòa hẹn Lương Tiểu Mai tối cuối tuần tại phòng 101 Vân Vụ Sơn Trang, giọng dung tục. Cô nhận lời và nói sẽ tự chịu trách nhiệm nếu thất bại. Tiểu Phàm nhờ Mã Cường lái xe công vụ chở mình đi Hán Tây giải cứu một bé bị bán.
+- Ch.8: Họ tìm thấy Tần Phong, bị gọi là Ngũ Thiên, đang bị Ngô Lão Đại đánh đập và dọa bán. Ngô đòi mười nghìn tệ mới thả, dân làng vây kín đòi tiền. Công an địa phương phải nổ súng cảnh cáo, hai người mới đưa được bé đi.
+- Ch.9: Đi về gần hai nghìn cây số, Mã Cường bị sở trưởng mắng, Tiểu Phàm bị ghi ba ngày vắng không phép. Đúng hôm hẹn, Lương Tiểu Mai nhắn đã rủ phó cục trưởng Hàn Ngọc Như đi cùng, bảo anh tám giờ rưỡi đón ở cổng ba. Anh giao Tần Phong cho nhà họ Tần đúng dịp sinh nhật tám tuổi, khi cả nhà đang khóc vì mất cháu sáu năm.
+- Ch.10: Tần Bang Niên thấy bé giống Tần Vĩ Nghiệp hồi nhỏ, lột quần thấy vết bớ hình quả hồ lô nên nhận chắc. Tần Vĩ Nghiệp khóc, kể đã xây sân chơi, sân bóng, bể bơi cho con. Bé hỏi vì sao nhà giàu mà bao năm không đi tìm; ông nội thấy đầy thương tích thì nổi giận.
+- Ch.11: Tần Vĩ Nghiệp cảm ơn và đề nghị chuyển mười triệu tệ tiền thưởng; Tần Bang Niên nói ba mươi triệu cũng không nhiều. Trần Tiểu Phàm từ chối tiền vì là công vụ viên, nói cứu trẻ là trách nhiệm, khiến cả nhà họ Tần kính phục; anh được mời dự tiệc sinh nhật tám tuổi của Tần Phong. Trên bàn ăn anh định đề nghị đặt nhà máy vật liệu ở Điềm Thủy nhưng không dám mở lời vì vừa tỏ ra thanh cao; trước khi về, Tần Phong quyến luyến kéo áo không cho đi.
+
+### Đã xảy ra — chương 12–31:
+- Ch.12: Tại phòng riêng Vân Vụ Sơn Trang, Giả Văn Hòa chuốc say Hàn Ngọc Như rồi sàm sỡ Lương Tiểu Mai; Trần Tiểu Phàm xông vào đấm gãy mũi, đánh gục hắn. Sợ video lộ, Giả đề nghị bỏ qua nhưng thề trả thù.
+- Ch.13: Tiểu Phàm đưa Lương Tiểu Mai say mềm vào khách sạn, ngủ phòng khác giường; sáng sau Ngưu Chí Cương bắt lỗi vắng mặt ba ngày. Bí thư Sử Tử Nghĩa can thiệp, chỉ yêu cầu Điềm Thủy không bị loại sớm; lão La cá cược trồng chuối gội đầu.
+- Ch.14: Huyện gợi ý Tần thị mở hội đối tiếp công khai; Giả Văn Hòa cố ý không gửi thiếp mời Điềm Thủy. Tiểu Phàm và Lương Tiểu Mai kéo đến, bị xếp cuối; sau tám đơn vị trình bày, anh đứng lên đòi phát biểu.
+- Ch.15: Ngô tổng cho bảo vệ lôi hai người ra; đúng lúc Tần Phong chạy qua gọi "chú Tiểu Phàm", Tần Vĩ Nghiệp theo sau tuyên bố Tiểu Phàm là anh em của mình và quyết dự án về Điềm Thủy.
+- Ch.16: Giả Văn Hòa phản đối, bị chất vấn; Tiểu Phàm tố cáo vụ sàm sỡ và cắt thiếp mời, Tần đuổi việc Giả (gã ngất xỉu). Tần trao hợp đồng đã đóng dấu cho Lương Tiểu Mai. Tôn Tân Kiệt ở Nam Sơn khoe sắp mở tiệc mừng vì "chắc thắng".
+- Ch.17: Tôn kể vụ đánh nhau, nhắc Giả là đại biểu HĐND tỉnh và kỳ họp đang tới khiến Sử toát mồ hôi; Ngưu hả hê chờ Tiểu Phàm bị xử. Lương rút hợp đồng ra; Sử gọi xác nhận và biết mình "nhặt được báu vật".
+- Ch.18: Sử khen hai người; Tiểu Phàm giải thích ba ngày vắng là đi Hán Tây tìm cháu bị bắt cóc của Tần. Lão La phải trồng chuối gội đầu. Dương Lập Tân về Điềm Thủy triển khai "bao gói tới người" cho công tác khiếu nại, bắt bốc thăm mười thôn có hồ sơ khiếu kiện.
+- Ch.19: Thôn Tiểu Vương Trang vay 20 vạn/hộ nuôi cừu quy mô, lỗ nặng, ngân hàng kiện, phong tỏa sổ tiết kiệm, cả thôn thành hộ đen. Ngưu làm thăm nhỏ để Lương bốc trúng Tiểu Vương Trang. Dương tuyên bố ghế trấn trưởng sẽ lấy từ phó trấn trưởng, phiếu của ông có trọng lượng.
+- Ch.20: Ngưu giao Tiểu Phàm theo Lương; Lương phản đối, Dương để anh tự chọn, anh nhận đi. Trong phòng, anh nghĩ ruột cừu Tiểu Vương Trang giàu vi lượng, làm chỉ khâu y tế hấp thụ 100%, vài năm nữa người Hàn sẽ mua giá cao.
+- Ch.21: Tiểu Phàm mua một bộ lòng cừu giá 30 tệ, ướp đá gửi mẫu lên văn phòng Tập đoàn Y tế Thần Tinh ở Bắc Kinh. Bổn bộ trưởng Phác Nhân Dũng đang chịu sức ép vì thua đối thủ dùng ruột cừu Úc; mẫu đạt chuẩn, tổng bộ cho phép độc quyền thu mua tới 20 tệ/gam, cấp 200 vạn tiền mặt.
+- Ch.22: Lễ xuất quân; Ngưu gài thêm Lâm Tuệ Văn đi cùng. Trên đường cô kể bị Ngưu quấy rối, phải đập gương tự vệ nên bị đày xuống trạm. Ba người tới Tiểu Vương Trang thì bị dân vây kín cửa ủy ban.
+- Ch.23: Trưởng thôn Vương Cảnh Hưng lạnh nhạt; Lương hứa xin việc ở nhà máy vật liệu, dân nổi giận đòi xóa nợ. Lâm gọi 110, phó sở trưởng Cao Kinh Vũ bắn chỉ thiên; Lương từ chối rút, ở lại thuyết phục. Ngoài sân có tiếng kèn đám cưới nhưng không ai ra xem.
+- Ch.24: Vương kể nhà họ Thái: con trai đỗ Đại học Khoa học Kỹ thuật Quốc phòng nhưng vướng hộ đen, thiếu 18 vạn nên gả con gái 16 tuổi cho Ngô Lão Nhị (40 tuổi, què) thôn Đại Du. Đúng lúc Phác Nhân Dũng gọi, hai người nhận ra là sư huynh đệ Hán Đông. Bên ngoài hô "cướp dâu": Thái Tú Chi đã treo cổ, được cứu kịp.
+- Ch.25: Kế Hoa Xuân đòi "không người thì tiền", buông lời tục với Lương, bị Tiểu Phàm túm cổ áo. Lương gọi Hứa hành trưởng xin gỡ hộ đen, bị từ chối và dọa truy cứu hình sự. Hai thôn chuẩn bị hỗn chiến thì đoàn xe Mercedes 600 biển đen xuất hiện.
+- Ch.26: Phác tới, bác sĩ kiểm tra ruột cừu tại chỗ, xác nhận đúng mẫu; Phác trả 700 tệ/con, dân mừng phát khóc. Tiểu Phàm nói ngay: "Giá này không đúng".
+- Ch.27: Tiểu Phàm vạch đây là vật liệu y tế, không phải thực phẩm; Phác nâng lên 1.500 rồi 2.000 tệ/con, mang 200 vạn tiền mặt đặt cọc. Tiểu Phàm đòi 2.500 tệ/con kèm độc quyền; Phác bỏ đi, anh dọa gọi Hán Giang và Minh Nhân.
+- Ch.28: Phác quay lại, xin ý kiến tổng bộ, chấp nhận 2.500 tệ/con và ký hợp đồng độc quyền với ủy ban thôn. Tiểu Phàm rút 20 vạn đưa Kế Hoa Xuân (18 vạn sính lễ + 2 vạn lãi) đuổi về; tiền chuyển khoản tới, cả thôn trả hết nợ, mỗi hộ dư 3–5 vạn. Dân định mang cờ "công bộc nhân dân" lên thị trấn.
+- Ch.29: Tiệc mừng; Thái Tú Chi mời trà, nói muốn thi Thanh Bắc ngành toán. Tiểu Phàm nhận ra cô chính là nhà toán học tương lai đoạt giải Fields. Ở thị trấn, Dương Lập Tân tưởng dân kéo đến gây rối vì thấy trống, chiêng và cờ.
+- Ch.30: Dương ra xin lỗi, tưởng bị mỉa mai; kế toán giải thích, ông mừng, khen Tiểu Phàm "đáng được đánh giá cao" và hứa báo lên tổ chức. Sử Tử Nghĩa day mắt phải, thấy bất an.
+- Ch.31: Ngưu Chí Cương cùng lão La, Tiểu Lưu canh đường lớn thôn Đào Nguyên, nghe tin Tiểu Vương Trang được giải quyết thì tức tối. Cổ Tu Khải báo hơn 100 dân Đào Nguyên đã đi đường nhỏ, bị chặn ở giáp huyện để lên tỉnh; Dương lệnh Ngưu phải đưa dân về, không làm được thì thay người.
+
+### Đã xảy ra — chương 32–61:
+- Ch.32: Hơn trăm dân Đào Nguyên chặn quốc lộ sát ranh huyện, đòi vào khu tái định cư vì dự án quốc lộ 328 làm hai năm trước khiến làng thành ốc đảo. Ngưu Chí Cương ra dọa tội gây rối, bị trưởng thôn Đào Hồng Thái phản bác; Dương Lập Tân điều Lương Tiểu Mai đang trên đường về ra thay.
+- Ch.33: Sử Tử Nghĩa gọi điện, Dương hứa thưởng phạt phân minh sau lưỡng hội và hứa với Trần Tiểu Phàm: dẹp được thì cho chuyển chính thức sớm. Tiểu Phàm biết lưỡng hội sẽ thông qua việc tái khởi động quốc lộ 328 nên nhận việc.
+- Ch.34: Lương Tiểu Mai nói không gom nổi vốn xây khu tái định cư, dân ùa ra chặn xe khách. Tiểu Phàm quát dừng, đề nghị dùng trường làng, xe đưa đón, cam kết xin khởi động lại công trình đường, đưa thẻ công tác làm tin và xin ba ngày.
+- Ch.35: Đào Hồng Thái chấp nhận chờ, cả làng dựng lều tại chỗ; Lương phải điều lều, nước, lương thực. Tiểu Phàm lên Kinh Châu, ba ngày chỉ đọc báo đặc san và chơi game ở quán net; sáng ngày thứ ba thấy tin quốc lộ 328 sẽ tiếp tục thi công.
+- Ch.36: Hết hạn, dân mất kiên nhẫn, Đào Hồng Hưng đòi đi tiếp; Lương câu giờ còn một tiếng rưỡi. Ngưu, lão La, Tiểu Lưu đứng ngoài chờ xem Lương bẽ mặt.
+- Ch.37: Tiểu Phàm về kịp, dân định đánh; anh đưa ba tờ báo đặc san lưỡng hội, Đào Hồng Thái đọc tiêu đề nhưng vẫn nghi báo giả. Đào Hồng Hưng gọi em họ ở tỉnh xác minh.
+- Ch.38: Em họ đọc đúng từng chữ, dân reo mừng, cúi đầu cảm ơn, đoán Tiểu Phàm có chỗ dựa lớn. Đào Hồng Thái xin lỗi, mời về làng ăn gà; Lương và Lâm nghi anh là con quan tỉnh, anh phủ nhận.
+- Ch.39: Tiểu Phàm nói thật ba ngày chỉ chơi game, gặp báo là may; Lương không tin nhưng đành chịu. Ngưu ba người chết lặng; Sử và Dương mừng rỡ, gọi họ là công thần.
+- Ch.40: Hội nghị tổng kết sau lưỡng hội: Lương được bổ sung vào Đảng ủy, Tiểu Phàm chuyển chính thức sớm, Lâm từ trạm chăn nuôi về văn phòng. Dương tuyên bố chuyển sang đọc danh sách phê bình.
+- Ch.41: Ngưu bị ghi lỗi, mất chức chánh văn phòng, xuống trạm chăn nuôi. Dương phát động xóa đói giảm nghèo có trọng điểm: mười làng nghèo nhất, mỗi phó khoa một làng; Chu Trọng Thanh đẩy Đào Nguyên cho Lương.
+- Ch.42: Chu Trọng Thanh và Ngưu gặp trấn trưởng Hoàng Đức Vận sắp sang HĐND; Hoàng mắng Ngưu, cảnh báo Lương đã có Dương chống lưng. Chu tự tin làng không đường thì bó tay; ba người đi bộ rồi đi xe lừa vào làng.
+- Ch.43: Làng nghèo, nhà tranh, năm 2003 mà áo còn vá; Đào Hồng Thái nói Lương là cán bộ thị trấn đầu tiên tới sau nhiều năm. Bàn chuyện du lịch nhưng không đường, không tiền quảng bá; Tiểu Phàm bảo cứ nuôi gà, hái nấm, khách để anh lo.
+- Ch.44: Trên núi Lương trẹo chân, Tiểu Phàm cõng xuống; chị kể trước khi anh tới đã định nghỉ việc đi Nam, cảm ơn anh đã cho chị lý do ở lại. Chị nói mình đã có chồng, đòi giới thiệu cháu gái; Lâm dẫn Đào Hồng Thái xe lừa tới đón.
+- Ch.45: Đoàn thanh tra xóa đói giảm nghèo tỉnh do Hướng Lương Ký dẫn đầu kiểm sổ; Vân Trình Vĩ phát hiện chưa từng có đồng nào tới Đào Nguyên. Ngụy Cẩm Bằng biện hộ vì dân hay khiếu kiện; Hướng phê bình, hẹn hai tháng kiểm tra lại, vẫn buộc Dương nâng thu nhập làng. Thái Tú Chi gọi, Tiểu Phàm mời làm người mẫu.
+- Ch.46: Tiểu Phàm gọi Đổng Hạo Sơn, phóng viên kiêm nhiếp ảnh đài huyện; bạn gái Chu Phương Phương nhất định đi theo. Hôm sau họ kinh ngạc trước phong cảnh; Thái Tú Chi mặc váy đỏ đi xe đạp tới, hợp cảnh hoàn hảo.
+- Ch.47: Đổng chụp liên tục, ăn gà hầm nấm. Đêm đó anh đăng bài "Thiếu nữ váy đỏ trong Đào Hoa Nguyên" lên diễn đàn Thiên Nhai, ban đầu chìm, nửa đêm được ghim với hơn hai nghìn bình luận; để lại địa chỉ và số của Tiểu Phàm.
+- Ch.48: Điện thoại Tiểu Phàm thành đường dây nóng; Mục Viễn Sơn, chủ tịch Hội Nhiếp ảnh Kinh Châu, đặt đoàn ba mươi người, mỗi người 300 tệ. Sáng sau điện thoại làng đứt, ủy ban tưởng phải đãi miễn phí, Đào Hồng Hưng phản đối.
+- Ch.49: Tiểu Phàm đạp xe vào, rút 9.000 tệ tiền mặt, dân xấu hổ xin lỗi. Anh nói sẽ có đoàn mỗi ngày, dặn phô bày các cụ trăm tuổi và tặng đặc sản; đoàn Mục đi xe khách tới, chuyển sang xe lừa.
+- Ch.50: Các cụ 88, 90 tuổi vẫn bổ củi, gà hầm làm khách choáng; Mục Viễn Sơn quyên thêm 10.000 tệ, làng lãi khoảng 7.000 trong ngày, Tiểu Phàm từ chối 1.000 tệ cảm ơn. Dương giao Lương hạn hai tháng đưa làng thoát nghèo, không một đồng, hứa đề cử làm thị trưởng.
+- Ch.51: Dương mắng Lương không được né khó; chị miễn cưỡng nhận, tính hai tháng nữa xin nghỉ. Tiểu Phàm và Lâm đưa chị vào làng, dân mở tiệc; Đào Hồng Thái báo mấy ngày đã thu 50–60 nghìn, lịch đặt kín hai tháng.
+- Ch.52: Lữ Chí Viễn gọi Dương, khen và báo làng đã nổi tiếng; Hướng Lương Ký sẽ dẫn đoàn tham quan, có cả Ban Tuyên truyền và các sở xóa đói giảm nghèo, dặn tiếp đón chu đáo.
+- Ch.53: Lữ đồng ý để Dương đề cử Lương làm thị trưởng tại Thường vụ; Vu Hải Triều sang Cục Khoa học Công nghệ, ghế bí thư Ủy ban Kiểm tra Kỷ luật để cho Lương. Ở tỉnh, Đinh Minh Lễ gọi Hướng, tiết lộ quen Tiểu Phàm từ vụ cứu học sinh chết đuối, dặn nhắn anh phải chủ động báo cáo.
+- Ch.54: Đinh khen Tiểu Phàm không vác ơn đòi công. Tại Vân Vụ Sơn Trang, Chu than thở với Lý Dục (con Lý Quốc Hưng, phó đội cảnh sát hình sự, hôn phu Tống Vân Như); một người trung niên nhận "xử lý" Tiểu Phàm. Tối đó hai kẻ tóc vàng kiếm chuyện, Tiểu Phàm đánh lại, Kim Dương Vinh tới bắt, tịch thu điện thoại.
+- Ch.55: Kim thừa nhận do Lý Dục sai, tắt camera, bật đèn suốt đêm; Mã Cường can thiệp nên bị lột quân phục, nhốt bên cạnh. Sáng sau Dương không liên lạc được; phó thị trưởng Lưu Kim Vĩnh đang đón đoàn tỉnh hạ lệnh "đào ba thước" tìm người.
+- Ch.56: Đoàn Hướng vào làng bằng xe lừa, khen ngợi; Lưu và Dương đành thú nhận Tiểu Phàm mất tích, Hướng nói Đinh tỉnh trưởng có lời nhắn. Lưu gọi Công an huyện cho hai giờ; Tưởng Chính Khang lập tổ, định vị điện thoại tắt lúc 19:22 quanh ủy ban, mở rà soát toàn huyện.
+- Ch.57: Kim ép Tiểu Phàm ký án tạm giam mười lăm ngày; Tưởng dẫn toàn bộ cảnh sát tới, Kim buộc thú nhận. Tưởng bảo tự dọn hậu quả; Kim van xin, Tiểu Phàm đòi một triệu tệ quyên công trình Hy Vọng, nhất định không bỏ qua.
+- Ch.58: Lưu, Hướng, Dương tới; Lưu tước cờ luân lưu của huyện, cắt ba mươi phần trăm kinh phí, Tưởng khai trừ Kim khỏi ngành. Hướng chuyển lời Đinh: phải chủ động báo cáo. Đoàn phải về vì tội phạm cấp A của Bộ Công an lọt vào huyện, Sở Công an tỉnh cử tổ giám sát.
+- Ch.59: Tiểu Phàm xin Hướng đừng kể chuyện mình với Đinh; Dương bảo nghỉ rồi tham gia rà soát. Anh nhớ kiếp trước Cừu A Tường trốn ở thôn Tiền Hà nhà chị họ hơn nửa năm. Sáng sau Chu họp, Mã Cường bị đẩy về đội liên phòng, Cao Kinh Vũ chia đội năm người, chỉ để Tiểu Phàm và Mã làm "hỗ trợ".
+- Ch.60: Chu và Cao cố ý gạt hai người khỏi công; ba ngày, rồi đợt hai vẫn trắng tay. Tổ trưởng giám sát Từ Văn Bách khẳng định Cừu vẫn trong huyện, ra lệnh đợt ba; Tưởng phản đối vì kinh tế, dân sợ, nhưng vẫn phải tuân.
+- Ch.61: Thêm ba ngày, tổng mười ngày, vẫn không có manh mối; lệnh đợt bốn khiến dân quân nổi loạn, có người ném thẻ công tác. Tiểu Phàm và Mã bưng cà phê bước vào, bị cả phòng dồn sang đợt bốn; Chu bảo "đi đâu cũng được, miễn có người ngoài mặt". Tiểu Phàm hỏi Mã còn võ Thiếu Lâm không, chở thẳng tới thôn Tiền Hà, nơi nước sông đen vì xưởng sơn.
+
+### Đã xảy ra — chương 62–101:
+- Ch.62: Hun khói hầm dưới chuồng chó ở Tiền Hà, Cừu A Tường chui ra; Mã Cường bẻ gãy tay chân, còng gã.
+- Ch.63: Tiểu Phàm gọi báo đã bắt Cừu; Từ Văn Bách, Tưởng Chính Khang mừng rỡ.
+- Ch.64: Anh không trả xe cho Chu Trọng Thanh; Từ Văn Bách khen, dặn báo công cả Mã Cường.
+- Ch.65: Chu Trọng Thanh, Cao Kinh Vũ bị mắng vì ba lần truy quét bỏ sót; Tưởng hứa nhị đẳng công.
+- Ch.66: Anh đổi công trạng cá nhân lấy công trạng tập thể, xin biên chế cho Mã Cường; Lương Tiểu Mai làm bí thư kỷ luật trấn. Hác Tú Bình quỳ kêu oan vì chồng ung thư.
+- Ch.67: Biết nhà máy sơn gây ung thư; Chu Phương Phương báo Đổng Hạo Sơn chết vì tai nạn.
+- Ch.68: Cô khẳng định đó là ám sát, trao USB: nước nhiễm độc gấp hai mươi lần, kèm thư đe dọa.
+- Ch.69: Video Hác Tú Bình tố ba anh em Giả cưỡng hiếp; bốn tay xăm trổ đòi USB bị dọa cho rút.
+- Ch.70: Xe ben truy sát xe Tiểu Phàm; Tưởng dọn đường, họ vào thẳng phòng Dương Lập Tân.
+- Ch.71: Lữ Chí Viễn cho lấy tám mẫu nước đều nhiễm độc, lệnh bắt nhóm Giả.
+- Ch.72: Bắt ba anh em Giả; Tam Báo thuê giết Đổng giá 50.000 tệ. Chu Trọng Thanh bị mang đi ngay giữa buổi phỏng vấn.
+- Ch.73: Chu bị song quy; Thiệu Tư Mẫn và Lương Tiểu Mai thẩm vấn, y khai Hoàng liên quan Nhị Long Hồ.
+- Ch.74: Đổng được truy tặng liệt sĩ; Liễu Tuấn Lương chất vấn ảnh Tiểu Phàm và Lương Tiểu Mai vào khách sạn.
+- Ch.75: Sử Tử Nghĩa chặn kiểm tra kỷ luật; Thiệu mắng Liễu, Ngưu Chí Cường bị đuổi việc.
+- Ch.76: Hai người nhận ra Hoàng đứng sau vụ ảnh, chuyển sang điều tra Nhị Long Hồ; Lương vào tổ 1.29.
+- Ch.77: Anh vạch hồ bị hạ dung tích để xây nhà hàng cách đập 50 m, hồ sơ Hoàng ký; xin sang Bằng Thành.
+- Ch.78: Tổ bảy người do Cát Lập Ngôn dẫn; Liễu chê họ ngoại đạo, bị máy ghi âm bắt.
+- Ch.79: Tiểu Phàm, Mã Cường, cảnh sát Ngô Chí Hiên tìm cha Hoàng ở viện dưỡng lão Tân Giang.
+- Ch.80: Hoàng dùng người đóng thế, trốn qua cửa sổ, nhưng bị Tiểu Phàm chặn tại viện dưỡng lão.
+- Ch.81: Bị đưa về khách sạn, Hoàng khoe thu nhập hợp pháp, hai ngày không khai.
+- Ch.82: Sát hạn chót, anh tra ra con gái Tạ Oánh Oánh có biệt thự 500 m2, Lamborghini, Porsche.
+- Ch.83: Anh vào biệt thự cầm chân mẹ con họ; Liễu lén báo Hoàng cứ cắn chặt — nội gián.
+- Ch.84: Khám ra một triệu euro, hai triệu USD, ba triệu tệ, tổng hơn 100 triệu; Lương làm quyền trấn trưởng.
+- Ch.85: Tôn cam kết tăng 10%; Ngụy ép Sử, Sử thề tăng 12% hoặc từ chức.
+- Ch.86: Anh hiến kế lễ hội hái quả, làm phó tổ trưởng; từ chối suất thư ký huyện của Dương.
+- Ch.87: Anh cứu hai phóng viên khỏi xe lật rò xăng trước khi nổ: Đinh Tiếu Tiếu, Vương Nhất Xuyên.
+- Ch.88: Khai mạc nhếch nhác do thuê công ty cưới hỏi; Đinh tìm ân nhân, là con phó tỉnh trưởng.
+- Ch.89: Đinh đòi phỏng vấn vụ 1.29 bị từ chối; thấy hiện trường bừa bộn, nảy ý làm phóng sự chê.
+- Ch.90: Bản tin chê tốn tiền, hình thức lên sóng; Ngụy lệnh đóng lễ hội, Sử phải viết kiểm điểm.
+- Ch.91: Khang Bân nhận quay phim ở Đào Nguyên, cho Lục Hàn Canh chụp ảnh hái quả; Sử sững người.
+- Ch.92: Sử đổi ý dồn toàn lực; Mã Cường phong tỏa thôn, Khang Bân hứa quay hai tháng và xin nghệ sĩ ghi video chúc mừng.
+- Ch.93: Video lên truyền hình tỉnh, khách đổ về; thị trưởng Sa Học Chu tới khen; Lữ cầm máy nói với Ngụy.
+- Ch.94: Ngụy bẽ mặt; Tôn muốn chiêu mộ anh; Đinh bị cha mắng vì đưa tin trả đũa.
+- Ch.95: Ảnh tai nạn lộ mặt Tiểu Phàm; hai cha con sững sờ vì ân nhân chính là người cô đã chê.
+- Ch.96: Đinh tới xin lỗi, cảm ơn, mời ăn ở khách sạn Vân Long; anh gặp lại bạn gái cũ Tống Vân Như.
+- Ch.97: Tống giới thiệu hôn phu Lý Dục, đội trưởng hình sự; hắn sỉ nhục anh, Đinh giả làm bạn gái anh.
+- Ch.98: Vân Chấn Phong dọa thanh tra chết Điềm Thủy, bị Đinh véo tai, gọi anh là em rể; cha cô là phó tỉnh trưởng.
+- Ch.99: Lý Dục, Tống bẽ mặt bỏ về; Đinh làm phóng sự ca ngợi để sửa sai.
+- Ch.100: Hai người giao hẹn giả người yêu dịp Tết, chụp ảnh thân mật; hộp quà lễ hội bán chạy.
+- Ch.101: Hội nghị tổng kết: Sử và Tôn cãi nhau, Tôn cá cược gọi Sử bằng cha nếu Điềm Thủy lên thứ tư; Lữ công bố hạng tư là Điềm Thủy.
+
+### Đã xảy ra — chương 102–121:
+- Ch.102: Hội nghị kinh tế huyện: Lữ Chí Viễn công bố Điềm Thủy từ hạng 9 lên hạng 4, GDP hơn 8.000 vạn, thu ngân sách hơn 2.000 vạn đứng nhất; trao thưởng đặc biệt 10 vạn, khen Tiểu Phàm. Tôn Tân Kiệt bẽ mặt, Sử Tử Nghĩa lần đầu được vỗ tay.
+- Ch.103: Sử Tử Nghĩa cho biết cuối năm chuyển làm Cục trưởng Cục Tài chính huyện; Tiểu Phàm sang Văn phòng UBND huyện làm thư ký. Tiểu Phàm đề nghị chia đều 10 vạn cho mọi cán bộ, kể cả bảo vệ; Lương Tiểu Mai sắp chính thức trấn trưởng và quyền bí thư.
+- Ch.104: Chia thưởng cho khoảng 100 người, mỗi người 1.000 tệ; lệnh điều động ban hành, Lương thành trấn trưởng kiêm quyền bí thư. Tiểu Phàm về quê Trần Lâu (huyện Trường Trạch), đưa bố mẹ 5 vạn tiết kiệm; bố nghi tiền tham nhũng.
+- Ch.105: Tiểu Phàm đưa chứng nhận thưởng chứng minh tiền sạch; bố mẹ nhắc Tống Vân Như, anh nói đã chia tay; mẹ định mai mối Kiều Nhị Nữu, anh khoe ảnh Đinh Tiếu Tiếu. Bà nội nói thầy bói Trần Hạt Tử đoán còn hai tháng, muốn trao vòng ngọc cho cháu dâu trưởng.
+- Ch.106: Chú hai Trần Vĩnh Nhân, thím Tả Chi Lệ, em họ Trần Tiểu Phi và bạn gái Mao Viên Viên về ăn Tết, khoe khoang. Đinh Tiếu Tiếu bất ngờ đến, mang quà, tự nhận là bạn gái Tiểu Phàm.
+- Ch.107: Tiếu Tiếu chiếm cảm tình cả nhà; bà nội trao vòng ngọc "phần thưởng của Tả Đại Soái" cho cô. Tả Chi Lệ phản đối vì thiên vị cháu đích tôn; Tiếu Tiếu giữ vòng, đùa nhận mình là "vợ".
+- Ch.108: Tả Chi Lệ khinh thường, hỏi cha mẹ Tiếu Tiếu làm gì; cô nói cha là Đinh Minh Lễ, phó tỉnh trưởng Hán Đông, cấp phó bộ. Cả nhà cho là nổ; Tiểu Phàm cũng sững, Tiếu Tiếu cho xem ảnh và kể từng đánh Vân Chấn Phong.
+- Ch.109: Đinh Minh Lễ gọi, bắt con gái bật video qua đường dây điện thoại quay số; ông xuất hiện trong văn phòng và thấy Tiểu Phàm. Tiếu Tiếu tuyên bố hai người đang yêu nhau; Đinh chúc phúc.
+- Ch.110: Đinh Minh Lễ nói chuyện với bố mẹ Tiểu Phàm, khen anh, nói đã báo Trung ương điển hình Đào Nguyên, mong hai đứa kết hôn; Tả Chi Lệ ê chề. Cảnh sang Bắc Kinh: Tiếu Tiếu về biệt thự Tây Sơn, bà nội giục chọn chồng, đưa loạt ảnh (có Lưu Nguyệt).
+- Ch.111: Bà nội phản đối vì Tiểu Phàm là con nông dân; ông nội Đinh Chính Nam về, khen anh là điển hình xóa đói giảm nghèo trên báo Hán Đông, không phản đối, cho hai năm thử thách. Tiểu Phàm hết Tết về huyện, nhận nhà ở; Mã Cường đang trực ở mỏ Tây Sơn vì công nhân bế công đòi lương.
+- Ch.112: Mỏ Tây Sơn nợ lương hơn một năm; Tập đoàn Tần thị có hợp đồng cho vay 2.000 vạn, thế chấp toàn bộ thiết bị và xin cưỡng chế. Tiểu Phàm biết kiếp trước có ông chủ Hồng Kông mua rẻ rồi khoan phát hiện than cốc trị giá hàng chục tỷ. Sáng sau, chánh Văn phòng UBND huyện Vu Lạc Trì chèn ép, xếp anh vào kho, giao việc gấp ba.
+- Ch.113: Tiểu Phàm làm xong việc ba người trong một buổi chiều; Vu Lạc Trì tức tối. Lữ Chí Viễn gọi Dương Lập Tân (đang học trường Đảng), được tiến cử Tiểu Phàm vì quen nhà họ Tần; Lữ quyết mời anh.
+- Ch.114: Vu Lạc Trì tăng việc, bắt dọn nhà vệ sinh; Tiểu Phàm xin nghỉ bệnh bỏ đi. Thư ký Văn phòng Huyện ủy Trịnh Thụy Hiên đến tìm, thấy anh bị đày ở kho; Lữ nổi giận gọi Vu, tạm điều Tiểu Phàm sang Văn phòng Huyện ủy.
+- Ch.115: Cả Văn phòng UBND huyện đi tìm, gặp anh ở thư viện; Vu xin lỗi, hứa bù. Tại mỏ, hàng nghìn công nhân lập đội hộ mỏ đối đầu đội tháo dỡ của La Đại Xung; Trương Thang Mỗ thúc tiến độ, dựa vào hồ sơ tòa án.
+- Ch.116: Một công nhân định dùng bao thuốc nổ (thực ra là gạch) uy hiếp; Ngụy Cẩm Bằng đến trấn an, xin hoãn nhưng đội thi hành án từ chối; công nhân mắng Ngụy. Ông về họp Ban Thường vụ, đề nghị báo lên trên; Lữ quyết xuống hiện trường, gọi Tiểu Phàm đi cùng.
+- Ch.117: Ban Thường vụ can ngăn nhưng Lữ vẫn đi, dặn tài xế nghe lệnh Tiểu Phàm. Tại hiện trường, Tiểu Phàm lao lên chặn máy ủi, nhận ra gã đầu trọc từng cướp USB của Đổng Hạo Sơn, dọa vụ Giả gia; gã bỏ chạy. Lữ phát biểu, được công nhân tin.
+- Ch.118: Lữ xin hoãn thi hành án; đội trưởng Lý Cương nói đã hoãn nhiều lần. Trương Thang Mỗ từ chối đàm phán, tuyên bố dời trụ sở về Bắc Kinh. Tiểu Phàm gọi nhà họ Tần; Tần Phong đến, chạy vào hiện trường, Trương hoảng hốt gọi "thiếu gia".
+- Ch.119: Trương cho đội tháo dỡ rút nhưng nói chỉ tạm hoãn. Công nhân tuyệt vọng quỳ xin Lữ. Tần Phong hỏi có phải vì nợ tiền cha; Tiểu Phàm khuyên "thương xót chúng sinh, làm nhiều việc thiện"; Tần Phong gọi cho bố qua đồng hồ.
+- Ch.120: Tần Vĩ Nghiệp đồng ý xóa nợ 2.000 vạn vì đây là lần đầu con trai xin; Trương giao toàn bộ hồ sơ, Tiểu Phàm đốt trước mặt công nhân. Dân reo "Lữ Chí Viễn vạn tuế"; Ngụy biết tin, tức vì Tiểu Phàm không còn ở Văn phòng UBND.
+- Ch.121: Ngụy mắng Vu Lạc Trì. Ban Thường vụ họp: thiếu 3.000 vạn lương và lương hưu; phó huyện trưởng tài chính Đoàn Vi từ chối cấp 200 vạn; Hàn Bỉnh Khiêm báo bắt hơn 100 phụ nữ bán dâm ở khu mỏ, báo Phụ Nữ đưa tin. Lữ lập Văn phòng giải quyết hậu quả mỏ Tây Sơn, tự làm chủ nhiệm; Ngụy từ chối làm phó; Tiểu Phàm hiến kế mời tập đoàn ngoài.
+
+### Đã xảy ra — chương 122–141:
+- Ch.122: Lữ bổ nhiệm Tiểu Phàm làm phó chủ nhiệm, giao việc "vớt người" ở Công an huyện. Mã Cường vừa sang Đội Trị an, dẫn anh vào kho giam; Lý Dục đang phạt 5.000 tệ hoặc 15 ngày.
+- Ch.123: Lý Dục dọa rút súng; Tiểu Phàm gọi Tưởng Chính Khang. Tưởng ra lệnh thả người, mắng Lý Dục vượt quyền.
+- Ch.124: Thả luôn nhóm chồng của các phụ nữ; Tiểu Phàm cho 200 tệ thuê xe. Chánh Văn phòng Huyện ủy Dương Quang Diệu bố trí phòng riêng cho anh; Tiểu Phàm cảnh giác vì biết ông không cùng phe Lữ.
+- Ch.125: Tiểu Phàm cố ý đi "xin tiền" từng doanh nghiệp lớn để tạo thế. Trương Toàn Lợi (thủ phủ huyện, Tập đoàn Xây dựng Toàn Lợi) từ chối, quyên 2.000 tệ; các nơi khác quyên 300–1.000; Ngụy chê là "ăn xin".
+- Ch.126: Tần Vĩ Nghiệp đã về nước, chờ sẵn; Tiểu Phàm xin 200 vạn từ khoản 3.000 vạn Tần để dành cho mình, còn 2.800 vạn vẫn thuộc anh. Tần lập Công ty Vốn Phàm Nhân, giữ cổ phần hộ; Lữ mừng, giao toàn quyền.
+- Ch.127: Lý Quốc Hưng tố cáo việc thả gái bán dâm và đi xin tiền; Lữ dập lại bằng tin Tần thị bỏ 200 vạn. Lý báo Ngụy; Ngụy mắng Vu Lạc Trì "không bằng súc sinh".
+- Ch.128: Công ty Phàm Nhân thành lập, Trương Thang Mỗ điều hành; hắn khuyên đầu tư quỹ 6%/năm, bị từ chối. Tiểu Phàm ra lệnh khoan sâu, tốn 100 vạn; giới doanh nhân chế giễu. Thương vụ xong, Trương làm giám đốc mỏ; công nhân thấy đội khoan vào, tưởng tiền an trí bị lấy.
+- Ch.129: Công nhân kéo lên chặn cổng UBND huyện, giăng băng rôn đòi lương, đòi dừng khoan; Trương xúi. Ngụy triệu tập họp toàn bộ lãnh đạo huyện để "xử" Tiểu Phàm; Lý Quốc Hưng phản đối; Lữ ra lệnh dừng khoan.
+- Ch.130: Đội khoan báo dưới 20 m có tầng than cốc dày 100 m, trị giá ít nhất mười tỷ tệ. Công nhân xô xát, cảnh sát dùng hơi cay, Tưởng ra lệnh bắt; Trương Thang Mỗ chen vào xin nói.
+- Ch.131: Trương cầm loa báo có than cốc, mỏ không phá sản, công nhân reo mừng. Trong phòng họp, Lý Quốc Hưng vẫn buộc tội Tiểu Phàm thì anh nhận điện thoại, đập bàn; mọi người nhìn ra thấy công nhân ăn mừng.
+- Ch.132: Tiểu Phàm báo đã tìm ra than cốc; Thiệu Tư Mẫn, Lữ khen; Ngụy vẫn nói "không lấy dân sinh ra đánh cược"; Lữ tuyên bố khen thưởng. Trương Toàn Lợi và giới nhà giàu tiếc nuối. Mỏ phục hồi; công nhân rước cờ gấm "Tâm hệ bách tính, thực can vi dân" tặng Huyện ủy.
+- Ch.133: Lữ chính thức điều Tiểu Phàm sang Văn phòng Huyện ủy, giữ Văn phòng an trí. Ngụy lại mắng Vu; Vu mách nước: Tập đoàn Ca Lặc (Mỹ) định đầu tư 3 tỷ USD, tổng giám đốc châu Á Trang Trình Diệp là người Nam Sơn, quen Vu; đề nghị lấy danh nghĩa Lâm Châu để tranh.
+- Ch.134: Dùng "thầy thuốc trung y" dụ tập đoàn; "danh y" Diệp Toàn Trân kê thuốc khiến John ngộ độc, phải cấp cứu. Bí thư Thành ủy Lâm Châu Phạm Thiệu Nguyên nổi giận, trừ thưởng nửa năm toàn ngành xúc tiến đầu tư huyện. Tiểu Phàm biết kiếp trước có lão trung y giỏi nhưng vô danh, định tìm; Lương Tiểu Mai chờ gặp Lữ, Tôn Tân Kiệt ghen.
+- Ch.135: Lương Tiểu Mai vào gặp Lữ nhờ Tiểu Phàm mở cửa trước, rồi sang phòng anh; cô rủ anh tối ăn với Hàn Ngọc Như (bị trừ thưởng oan). Ba người uống rượu; Hàn hỏi thẳng chuyện đêm ở khách sạn.
+- Ch.136: Hàn trêu, hứa cho xem ảnh "nóng" của Lương nếu Tiểu Phàm kéo được tập đoàn về; anh nhận lời. Sáng sau Khâu Kiến Chương (bí thư Vọng Thư, tình địch cũ của Lữ) gọi khoe Ca Lặc sắp ký ở Vọng Thư, hắn sắp lên phó thị trưởng; Lữ đau. Tiểu Phàm xin khởi động lại vụ Ca Lặc.
+- Ch.137: Lữ đồng ý "chết ngựa coi ngựa sống". Tiểu Phàm đến phố Hà Đông tìm y quán họ Tôn, biết Tôn Thiên Lộc bị bắt vì hành nghề không phép. Ở đồn Hà Đông, cảnh sát trẻ Tôn Hiểu Quốc đòi thuốc lá, bị trưởng đồn Lý Cương lột quân phục; anh đến trại tạm giữ.
+- Ch.138: Giám đốc Ngô Kỳ, phó Lãnh Thành cho đưa Tôn Thiên Lộc ra; lão nghiện thuốc, tự nhận giỏi "Quỷ Vương thập tam châm". Tiểu Phàm đưa về lấy hòm thuốc, gọi Hàn Ngọc Như; cô nghi ngờ nhưng vẫn đi cùng đến khách sạn Vọng Thư.
+- Ch.139: Tại Vọng Thư, John lên cơn đau đầu, hoãn lễ ký; Khâu Kiến Chương và thị trưởng Khương Tài Kiệt có mặt. Tiểu Phàm dẫn người vào, John đuổi ra; ở thang máy, Jack (em cùng cha khác mẹ, mẹ là nữ bộc Gypsy) xin chữa; Tôn bắt mạch, nói "bệnh nhỏ, chữa được".
+- Ch.140: Tôn châm cứu, Jack đỡ đau; viên thuốc gây ngủ 1–2 giờ và hết đau hai tháng. Tiểu Phàm từ chối để Jack giới thiệu John, kéo về huyện ("dục cầm cố túng"). Trên đường, Hàn tiết lộ người chụp trộm ảnh đêm khách sạn là chồng Lương Tiểu Mai, phó cục trưởng Cục Giáo dục, có sở thích bệnh hoạn.
+- Ch.141: Tiểu Phàm nghĩ đến Đinh Tiếu Tiếu nhưng tự nhủ không thể. Tại Vọng Thư, Jack "hôn mê", John nổi giận; Khâu báo Khương Tài Kiệt; cục trưởng Công an Vọng Thư Miêu Dược Tiến dẫn người sang Thông Nguyên bắt ba người; bác sĩ kết luận Jack chỉ ngủ say, rồi Jack tỉnh dậy quát lớn.
+
+### Đã xảy ra — chương 220–239:
+- Ch.220: Uông Gia Cam (ủy viên thường vụ Tỉnh ủy, trưởng Ban Tổ chức tỉnh) đưa Dương Lập Tân về làm quyền bí thư Huyện ủy; Lữ Chí Viễn chuyển sang chủ tịch Chính hiệp. Tiệc ở khách sạn Vân Long: Tiểu Phàm làm phó chủ nhiệm Văn phòng Huyện ủy kiêm trưởng Khoa Thư ký; Hàn Ngọc Như định sang Ban Tổ chức thay Dương Vĩ Nhân; Lương Tiểu Mai thêm phụ trách y tế, giáo dục.
+- Ch.221: Tiểu Phàm về Văn phòng Huyện ủy, từ chối phòng của Tiêu Chính Hâm, đày Vương Na về Khoa Hậu cần; gặp lại nhóm Khoa Thông tin (Tạ Tuyết Mai, Lâm Tuệ Văn, Lưu Duyệt, Bạch Hiểu Khiết, Vương Chí Xương), hứa chọn trưởng khoa theo thành tích.
+- Ch.222: Ngụy Cẩm Bằng, Lý Quốc Hưng, Dương Vĩ Nhân bàn chặn Hàn Ngọc Như; Lý hiến kế bôi nhọ. Ít ngày sau video khiêu dâm ghép mặt Hàn Ngọc Như lan khắp nội bộ.
+- Ch.223: Tưởng Chính Khang xác nhận video ghép mặt bằng công nghệ cao thuê từ nước ngoài; thông báo cảnh tình càng làm dư luận sôi. Lương Tiểu Mai kể Viên Hành Giáp từng dâng vợ cho Dương Vĩ Nhân; cả ba nghi Dương chủ mưu.
+- Ch.224: Tiểu Phàm hiến kế tung tin Dương Vĩ Nhân nhiễm AIDS; tại thường vụ, đề nghị điều Hàn Ngọc Như bị bác 2–7; Lương phụ trách thêm y tế, giáo dục được thông qua toàn phiếu. Vợ Dương là Bì Quế Nguyệt gào lên vì tin bệnh.
+- Ch.225: Tin AIDS thành thật: Hồ Song Toàn và Cao Mẫn dương tính, Dương Vĩ Nhân xét nghiệm cũng dương tính. Tiểu Phàm hiến kế hiến máu toàn huyện để lộ người không dám hiến; danh sách Cục Khoa học Công nghệ khiến Hồ Song Toàn bị cô lập.
+- Ch.226: Dương Lập Tân gọi Đàm Dũng Quân (Phòng Giám sát 1) điều tra, gạt Cát Lập Ngôn, cho Tiểu Phàm tham gia. Hai người lọc ra ba tên vừa được đề bạt vừa không hiến máu, bắt đầu từ Hồ Song Toàn.
+- Ch.227: Cao Mẫn khai bị bỏ thuốc mê rồi bị Dương Vĩ Nhân cưỡng bức; Hồ Song Toàn thú nhận. Đàm báo Dương Lập Tân và Trì Hưng Xương (UBKT Kỷ luật thành ủy); Trì ra lệnh bắt ngay.
+- Ch.228: Bắt Dương Vĩ Nhân tại khu tập thể phố Án Sát; y quanh co đổ ngược cho vợ chồng Hồ Song Toàn. Trì Hưng Xương tới, lệnh khám nhà và văn phòng.
+- Ch.229: Két sắt sau bức tranh: sổ đỏ, vàng, USD và nhật ký ghi các vụ quyền–sắc, cả vụ video Hàn Ngọc Như. Dương Vĩ Nhân giao Viện Kiểm sát. Trì tới nhà Lý Quốc Hưng (có Lý Dục và Tống Vân Như), rồi Ngụy Cẩm Bằng.
+- Ch.230: Trì xác nhận Tống Vân Như là con gái Tống Tư Minh; Lý Quốc Hưng và Ngụy Cẩm Bằng bị hỏi rồi thả. Thường vụ còn 5 người thông qua Hàn Ngọc Như làm quyền trưởng Ban Tổ chức (3–2). Tiểu Phàm đề nghị giữ Tiêu Chính Hâm và xin điều Mã Cường đi phá án buôn trẻ.
+- Ch.231: Dương Lập Tân báo Tiêu Chính Hâm được lưu nhiệm; Tiêu biết ơn, giao mọi việc quan trọng cho Tiểu Phàm, tự làm bù nhìn.
+- Ch.232: Tiểu Phàm bổ nhiệm Tạ Tuyết Mai làm trưởng Khoa Thông tin. Ở Kinh Châu, Đinh Minh Lễ ra lệnh cho giám đốc Sở Công an Đồng Đức Nghị phá án hai vụ trẻ bị bắt cóc ở Lâm Hải trong 5 ngày.
+- Ch.233: Đồng lập tổ chuyên án 9.26 do Từ Văn Bách dẫn đầu, thưởng nhị đẳng công. Tiểu Phàm biết thủ phạm là Vu Hoa Oánh, muốn để Mã Cường lập công; Mã kéo anh đi xem mắt ở nhà hàng Bắc Ngạn với y tá Tiểu Mỹ và bạn Lệ Lệ.
+- Ch.234: Lệ Lệ chê Mã Cường lương thấp, đòi lo chuyển chính thức cho Tiểu Mỹ; Tiểu Mỹ lại chân thật. Bạn trai Lệ Lệ là Giang Bân tới, gọi thêm bò Úc và rượu vang.
+- Ch.235: Giang Bân nhận ra Tiểu Phàm (cháu Vương Chí Xương), hoảng sợ mắng Lệ Lệ rồi chuồn. Tiểu Mỹ nhận lời xem phim với Mã Cường, nhưng Tiểu Phàm báo phải đi công tác.
+- Ch.236: Tiểu Mỹ bỏ về; Tiểu Phàm hứa lo chuyển chính thức cho cô và vạch lộ trình nhị đẳng công + phỏng vấn của Đinh Tiểu Tiểu để lên phó đội trưởng. Mã Cường đồng ý đi Hán Tây.
+- Ch.237: Tại biệt thự họ Tần, Tần Phong kể về "tam gia gia" Ngô Hữu Đạo và chị Tú Tú; Tần Bang Niên xúc động. Tần Vĩ Nghiệp cho lập đoàn xe, mang tiền mặt và vệ sĩ sang Hán Tây; Tiểu Phàm và Mã đi cùng.
+- Ch.238: Sáu xe Mercedes tới làng; bọn đòi nợ tóc vàng uy hiếp Ngô Hữu Đạo, đòi 5 vạn nợ cờ bạc của Ngô Minh và định bắt Ngô Tú Tú. Tần Phong chạy tới gọi "chị Tú Tú", vệ sĩ dàn hàng.
+- Ch.239: Hồng Gia Câu cho vệ sĩ hạ gục bọn côn đồ; Mã Cường trưng thẻ cảnh sát; Hồng dọa bằng tên Cao Đại Đầu, Tôn Què rồi ném tiền đuổi. Tần Phong đưa vali tiền cho Ngô Hữu Đạo, ông sợ không dám nhận.
+
+### Đã xảy ra — chương 240–243:
+- Ch.240: Ngô Hữu Đạo nhận vali hơn 100 vạn của Tần Phong, khai mua bé từ Ngô Đại Lại Tử (Ngô Hữu Cường) ở thị trấn; Ngô Lão Đại say rượu đến đòi tiền, bị đuổi. Tiểu Phàm và Mã Cường tới trại tạm giữ gặp phó sở trưởng Tần Minh, thẩm vấn Ngô Hữu Cường, moi ra hiệu thuốc của Hồ Tam Đao.
+- Ch.241: Giả làm đại gia mua hai bé trai giá 15 vạn; tối 8 giờ đột kích hiệu thuốc Tam Đao, Mã Cường quật ngã Hồ Tam Đao, Tiểu Phàm tìm thấy hai bé sơ sinh đang ngủ say cùng hai cô gái trông hiệu.
+- Ch.242: Hai bé bị cho uống thuốc ngủ, đến từ Lâm Hải. Tưởng Chính Khang mắng Mã Cường vắng mặt; Từ Văn Bách tới nhà Cố Nhiêu (mẹ bé Hạo Hạo, bà nội đã nhảy lầu) rồi ra lệnh rà soát toàn tỉnh, Thông Nguyên nằm trong vòng 100 km.
+- Ch.243: Tiểu Phàm báo đã cứu hai bé và bắt người buôn; Tưởng báo Từ Văn Bách, Từ dừng rà soát, đưa tổ chuyên án sang Hán Tây.
+
+### Đã xảy ra — chương 244–259:
+- Ch.244: Từ Văn Bách dẫn tổ chuyên án 9.26 về Hán Tây, xác nhận hai bé bị bắt cóc; Trần Tiểu Phàm cho Hạo Hạo bú sữa bột trên đường về Lâm Hải. Vu Hoa Oánh bị bắt tại Lâm Hải, khai nhận toàn bộ. Từ Văn Bách báo Đồng Đức Nghị: án do cục Công an huyện Thông Nguyên cùng một đồng chí Huyện ủy phá; Đồng hứa Nhị đẳng công cá nhân, Tam đẳng công tập thể.
+- Ch.245: Mẹ Cố Nhiêu xin lỗi qua cửa chống trộm; Cố Nhiêu đăng Weibo ảnh con trai, bảng tìm kiếm nóng hạ nhiệt. Đồng Đức Nghị báo cáo Đinh Minh Lễ: án không do tổ chuyên án phá mà do Trần Tiểu Phàm, gọi cậu là "con rể tương lai" của Đinh. Đinh quyết định hôm sau cho đài truyền hình phỏng vấn, chính diện hồi đáp dư luận.
+- Ch.246: Dương Lập Tân gọi cho Đới Vũ Ninh (bí thư Huyện ủy huyện Trường Trạch) xin cách lấy giải thưởng văn minh tinh thần của tỉnh, bị Đới chế giễu. Thông báo của tỉnh sảnh: sảnh trưởng Đồng và thị trưởng Sa đích thân đến huyện Thông Nguyên biểu dương; Mã Cường được Nhị đẳng công; Tưởng Chính Khang xin huyện cũng biểu dương.
+- Ch.247: Tạ Tuyết Mai (trưởng khoa) đến trạm tìm Tiểu Mỹ (Vương Duyệt Mỹ, y tá thực tập khoa chỉnh hình); nữ trưởng trạm mất kiên nhẫn, bị dằn mặt bằng giấy tờ công vụ. Lệ Lệ ghen, trút oán khí lên Tiểu Mỹ.
+- Ch.248: Đại hội biểu dương của cục Công an huyện; Mã Cường nhận Nhị đẳng công, được bổ nhiệm phó đội trưởng đội cảnh sát hình sự ngay hôm đó; Tiểu Mỹ dự tiệc cùng lãnh đạo.
+- Ch.249: Danh hiệu "vợ cảnh sát" được đề cao; Đồng Đức Nghị và Sa Học Chu cùng trao giải cho Trần Tiểu Phàm và Mã Cường.
+- Ch.250: Mã Cường kể lại vụ phá án cho truyền hình; suất chuyển chính thức của Tiểu Mỹ chỉ là "một cuộc điện thoại"; Mã Cường thề bằng ván mạt chược; Đinh Tiếu Tiếu hóng chuyện.
+- Ch.251: Trần Tiểu Phàm – Đinh Tiếu Tiếu buổi tối ở nhà cô; Mã Cường được gọi là "người anh em tốt nhất"; Tiểu Mỹ chuẩn bị làm thủ tục chính thức.
+- Ch.252: Viện trưởng Bệnh viện Nhân dân huyện Triệu Phúc Điền đích thân xuống phòng nhân sự, buộc Hứa khoa trưởng làm thủ tục chuyển chính thức cho Tiểu Mỹ trong buổi sáng; tin "đằng sau là công an tỉnh sảnh trưởng" lan ra.
+- Ch.253: Ở trạm điều dưỡng, A Quyên và Lệ Lệ chế Tiểu Mỹ "mệnh lao lực"; Tạ Tuyết Mai phản công, dẫn Tiểu Mỹ rời kho. Lệ Lệ gọi Giang Bân (con phó viện trưởng Giang) mới biết bố mình cũng bó tay, "cô gái kia quan hệ quá cứng".
+- Ch.254: Tiệc tại khách sạn Vân Long; Dương Lập Tân, Hàn Ngọc Như, Lương Tiểu Mai bàn giải thưởng văn minh tinh thần vì nó gắn với khoản thuế được hoàn; lùm xùm ở Cục Bảo hiểm xã hội huyện lộ ra.
+- Ch.255: Sự cố Cục Bảo hiểm xã hội huyện: chỉ mở một cửa sổ, người nghỉ hưu phải xếp hàng dài; Trần Tiểu Phàm nói thẳng.
+- Ch.256: Phát biểu của Trần Tiểu Phàm khiến cả hội nghị cười ồ; Kim Ứng Phát bị điểm tên.
+- Ch.257: Dương Lập Tân triệu tập hội nghị mở rộng thường vụ, phê bình "lười chính, dối chính" là nỗi sỉ nhục của cán bộ huyện Thông Nguyên; Lý Quốc Hưng bị nhắc, Kim Ứng Tuấn (chủ nhiệm Văn phòng đại diện tại tỉnh) liên đới. Đêm đó Trần Tiểu Phàm đến nhà Đinh Tiếu Tiếu; Đinh Minh Lễ đoán "con cải non nhà mình nuôi mấy chục năm bị con heo hai mí mắt cấu mất".
+- Ch.258: Đinh Tiếu Tiếu chủ động; Đới Vũ Ninh nhắc Dương Lập Tân đang nhắm khoản thuế hoàn trả của giải văn minh; Dương lập tức lên tỉnh lị, tìm đến trụ sở Văn phòng đại diện tại tỉnh của Kim Ứng Tuấn để xác minh điểm số.
+- Ch.259: Công tác Văn phòng đại diện tại tỉnh do phó bí thư Lý Quốc Hưng phụ trách; hương trưởng Hoàng Thiện Quần (người to béo, chỉ quen ăn uống) hứa suông "chuyện khó lo liệu"; Dương Lập Tân nhận ra mình bị đem ra làm trò đùa.
+
+### Ràng buộc cho các chương sau:
+- Tên riêng ĐÃ ĐỒNG NHẤT (sửa 2026-11-01, không đổi lại): Từ Văn Bách (徐文柏 — từng bị dịch sai "Mục Văn Bách"), Cố Nhiêu (顾娆 — từng bị viết "Cố Nhia"), Nhiêu Nhiêu, Đới Vũ Ninh (戴宇宁 — từng bị "Dương Vũ Ninh"), Đàm Dũng Quân (谭勇军 — từng bị "Tân/Tôn Dũng Quân"), Vi Phương Xuân / Vi Tư Thần (韦… — từng bị "Vệ…"), Nhiếp Hạo Quảng (聂 — từng bị "Niếp"), Triệu Phúc Điền (赵福田 — từng bị "Triệu Phồn Điền"), Uông Gia Cam (汪家淦 — từng bị "Vương Gia Cán"), Tưởng Chính Khang (蒋正康), Vương Duyệt Mỹ (王悦美 — từng bị "Nguyệt Mỹ"), Lý Gia Bá (李家坝 — tên đập, không phải người), Tiểu Như (小茹 — từng bị "Tiểu Nhụ").
+- Chức danh: 厅长 = sảnh trưởng, 省厅 = tỉnh sảnh, 局长 = cục trưởng, 科长 = trưởng khoa, 主任 = chủ nhiệm, 县长 = huyện trưởng, 镇长 = trấn trưởng. Giữ cách gọi "Đồng sảnh trưởng" / "sảnh trưởng Đồng".
+- Tổ chức: 县委 = Huyện ủy, 县政府 = UBND huyện, 镇党委 = Đảng ủy thị trấn, 市纪委 = Ủy ban Kiểm tra Kỷ luật Thành ủy, 精神文明奖 = giải thưởng văn minh tinh thần, 精神文明办 = Văn phòng Văn minh tỉnh, 驻省办 = Văn phòng đại diện huyện tại tỉnh.
+- Xưng hô: cấm "ngươi / lão tử / lão phu"; người lớn tuổi chức cao dịch là "ông" (hạn chế "ngài"); trẻ em xưng "con" với cha mẹ thì hợp lệ.
+- Mạch đang mở: giải thưởng văn minh tinh thần + khoản thuế hoàn trả hai trăm triệu của Thông Nguyên chưa ngã ngũ; Dương Lập Tân bị hương trưởng Hoàng Thiện Quần lừa, chưa lấy lại thể diện; Kim Ứng Tuấn mất chủ nhiệm Văn phòng đại diện tại tỉnh.
+- Quan hệ riêng: Đinh Minh Lễ đã nghi Trần Tiểu Phàm là "con rể tương lai" nhưng chưa nói thẳng; Mã Cường – Vương Duyệt Mỹ vừa chuyển chính thức, Lệ Lệ và Giang Bân còn oán; Tạ Tuyết Mai bênh Tiểu Mỹ.
+- Vụ buôn trẻ: đã khép (Vu Hoa Oánh bị bắt, Hạo Hạo về với Cố Nhiêu); Ngô Đại Lại Tử / Ngô Hữu Đạo vẫn là mắt xích lời khai.
+- Cảnh báo kỹ thuật: model free (free/deepseek-v4.1-flash) hay sót Hán giữa câu, tự sinh biến thể tên ("Mục Văn Bách", "Cố Nhia", "Dương Vũ Ninh") và chèn câu trả lời của chính nó ("Phần ĐOẠN CẦN DỊCH…", "Tôi không nhận được đoạn văn…") vào bài. Mỗi lô phải chạy: check.py --from A --to B, check.py --names, _strip_leaks.py, _tail_audit.py. KHÔNG chỉ tin check_complete — nó bỏ sót chương mất tới 30% đuôi (như ch.219).
+- CẦN DỊCH LẠI: ch.0083 (谢婉淑与谢莹莹) dài 17.5k ký tự trong khi nguồn chỉ 2.2k; các cảnh "Cừu A Tường ở thôn Tiền Hà", "Tiền Hà", "chộp cổ dao" KHÔNG xuất hiện trong nguồn ch.73–90 → nội dung bịa, phải thay bằng bản dịch bám nguồn.

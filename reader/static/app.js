@@ -17,6 +17,19 @@ const S = Object.assign(
 );
 S.theme = THEME_ALIAS[S.theme] || (THEMES.includes(S.theme) ? S.theme : "dem");
 
+/* Giọng đọc nhớ theo từng truyện: B.tts = {voice, rate, ts}. Truyện nào đã có lựa
+   chọn riêng thì thắng cài đặt chung; hình dạng cũ (chuỗi "v:..." / "n:...") vẫn nhận. */
+function seedVoice() {
+  const t = B.tts;
+  if (t && typeof t === "object") {
+    if (t.voice) S.tts = t.voice;
+    if (t.rate > 0) S.rate = Math.min(135, Math.max(85, t.rate));
+  } else if (typeof t === "string" && t) {
+    S.tts = t;
+  }
+}
+seedVoice();
+
 const read = new Set(B.read);
 const pos = B.pos;
 
@@ -25,6 +38,8 @@ let meta = [];
 let cur = null;
 let cache = {};
 let asLevel = 0;                    // tự cuộn chỉ sống trong phiên, không ghi nhớ
+let openAt = 0;                     // lúc mở chương hiện tại -> tính phút đọc thật
+let vposHinted = false;             // nhắc "nghe tiếp" chỉ một lần mỗi phiên trang
 
 /* ---------------- settings ---------------- */
 
@@ -71,11 +86,19 @@ function save() {
   B.read = [...read];
   B.pos = pos;
   all.settings = S;
-  const s = JSON.stringify(all);
-  if (s === lastJSON) return;
-  lastJSON = s;
-  try { localStorage.setItem(LS, s); } catch { /* chế độ ẩn danh / hết quota */ }
+  saveStore();                       // v3: tự chống ghi trùng + debounce 2s + flush
 }
+
+/* Kho v3 hydrate IDB nền xong: gộp dữ liệu chuẩn vào phiên đang chạy rồi vẽ lại.
+   mergeAll chỉ thêm, không bớt -> nạp thêm vào Set read, không mất gì đang đọc. */
+storeReady(() => {
+  (B.read || []).forEach((n) => read.add(n));
+  for (const k of Object.keys(all.settings)) if (!(k in S)) S[k] = all.settings[k];
+  const st = S.tts, sr = S.rate;      // kho IDB/server gộp xong: lựa chọn riêng của truyện thắng
+  seedVoice();
+  if (S.tts !== st || S.rate !== sr) { apply(); fillVoices(); }
+  renderList(); renderStats();
+});
 
 $("#fs").oninput = (e) => { S.fs = +e.target.value; apply(); save(); };
 $("#lh").oninput = (e) => { S.lh = +e.target.value; apply(); save(); };
@@ -115,6 +138,86 @@ $("#share").onclick = async () => {
   } catch {
     toast(location.href);
   }
+};
+
+/* ---------------- sao lưu tiến độ: xuất / nhập ---------------- */
+
+/* Tải toàn bộ kho (thiết lập + tiến độ mọi truyện) ra file JSON. */
+$("#exportBtn").onclick = () => {
+  B.last = cur ? cur.n : B.last;
+  B.read = [...read];
+  B.pos = pos;
+  all.settings = S;
+  const payload = JSON.stringify(all, null, 2);
+  const d = new Date();
+  const day = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0")
+    + "-" + String(d.getDate()).padStart(2, "0");
+  const blob = new Blob([payload], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "truyendochay-progress-" + day + ".json";
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+  toast("Đã tải file tiến độ");
+};
+
+/* Gộp file xuất ra vào kho hiện có: chỉ thêm/bổ sung, không xoá gì.
+   File bẩn (không đúng khung) bị từ chối, kho giữ nguyên. */
+$("#importBtn").onclick = () => $("#importFile").click();
+
+$("#importFile").onchange = (e) => {
+  const file = e.target.files && e.target.files[0];
+  e.target.value = "";                 // chọn lại cùng file lần sau vẫn bắn onchange
+  if (!file) return;
+  const fr = new FileReader();
+  fr.onerror = () => toast("Không đọc được file");
+  fr.onload = () => {
+    let data;
+    try { data = JSON.parse(fr.result); }
+    catch { return toast("File không phải JSON hợp lệ"); }
+    if (!data || typeof data !== "object" || Array.isArray(data)
+        || !data.books || typeof data.books !== "object" || Array.isArray(data.books)) {
+      return toast("File không phải bản sao lưu tiến độ");
+    }
+    const books = data.books;
+    let touched = 0;
+    for (const id of Object.keys(books)) {
+      const src = books[id];
+      if (!src || typeof src !== "object" || Array.isArray(src)) continue;
+      const dst = all.books[id] || (all.books[id] = { read: [], pos: {}, last: null });
+      /* chương đã đọc: hợp nhất hai tập */
+      const readA = new Set((dst.read || []).map(Number));
+      (Array.isArray(src.read) ? src.read : []).forEach((n) => readA.add(Number(n)));
+      dst.read = [...readA].sort((a, b) => a - b);
+      /* tỉ lệ đọc từng chương: giữ giá trị lớn hơn (đọc kỹ hơn thắng) */
+      const posA = dst.pos || (dst.pos = {});
+      const posB = src.pos && typeof src.pos === "object" && !Array.isArray(src.pos) ? src.pos : {};
+      for (const k of Object.keys(posB)) {
+        const v = Number(posB[k]);
+        if (!isFinite(v) || v < 0 || v > 1) continue;
+        if (!(k in posA) || v > posA[k]) posA[k] = v;
+      }
+      /* chương cuối: tiến xa hơn thắng */
+      const lastB = Number(src.last) || 0;
+      if (lastB > (+dst.last || 0)) dst.last = lastB;
+      /* dấu trang: bổ sung dấu còn thiếu, không đè dấu sẵn có */
+      const markA = dst.marks || (dst.marks = {});
+      const markB = src.marks && typeof src.marks === "object" && !Array.isArray(src.marks) ? src.marks : {};
+      for (const k of Object.keys(markB)) {
+        if (!(k in markA)) markA[k] = markB[k];
+      }
+      touched += 1;
+    }
+    if (!touched) return toast("File không có tiến độ truyện nào");
+    save();
+    renderList();
+    renderStats();
+    toast("Đã nhập tiến độ của " + touched + " truyện");
+  };
+  fr.readAsText(file);
 };
 
 /* ---------------- chapters ---------------- */
@@ -178,6 +281,7 @@ async function get(n) {
 }
 
 async function open(n, opts = {}) {
+  const prevN = cur ? cur.n : 0;
   const carry = speaking || wantSpeak;   // đang nghe mà đổi chương thì đọc tiếp
   wantSpeak = false;
   stopSpeak();
@@ -187,6 +291,7 @@ async function open(n, opts = {}) {
   if (!d) return toast("Chưa có chương này");
   const fresh = !read.has(n);
   cur = d;
+  const fv = vpos();                 // điểm dừng nghe của chính chương này (nếu có)
 
   $("#sealNo").textContent = d.n;
   $("#ctag").hidden = !d.tag;
@@ -231,6 +336,17 @@ async function open(n, opts = {}) {
     if (asLevel && !carry) startAuto();
   });
   if (d.next) get(d.next).catch(() => {});
+
+  /* lịch sử phiên đọc (GĐ2): thời gian = phút đã ở chương trước; chương đầu không có */
+  const mins = openAt ? Math.round((Date.now() / 1000 - openAt) / 60) : 0;
+  openAt = Date.now() / 1000;
+  if (prevN && mins >= 0) putSession({ book: BOOK, from: prevN, to: d.n, minutes: mins, ts: Date.now() / 1000 }).catch(() => {});
+
+  /* vừa vào lại chỗ đang nghe TTS (chưa vội nghe) thì nhắc một lần */
+  if (!vposHinted && fv) {
+    vposHinted = true;
+    setTimeout(() => toast("Nghe tiếp từ chỗ lần trước? Bấm NGHE TIẾP trên thanh."), 1200);
+  }
 }
 
 function markRead() {
@@ -254,7 +370,7 @@ function onScroll() {
     if (r > 0.985) markRead();
   }
 }
-let ticking = false, lastSave = 0;
+let ticking = false;
 addEventListener("scroll", () => {
   if (ticking) return;
   ticking = true;
@@ -263,11 +379,11 @@ addEventListener("scroll", () => {
     ticking = false;
   });
 }, { passive: true });
+/* Nhịp ghi đã chuyển sang debounce 2s trong store.js (saveStore); ở đây
+   chỉ giữ việc cập nhật số liệu khi bảng cài đặt đang mở. */
 setInterval(() => {
-  if (Date.now() - lastSave < 1200 || !cur) return;
-  lastSave = Date.now();
-  markPos(); save();
-  if ($("#settings").classList.contains("open")) renderStats();
+  if (!cur || !$("#settings").classList.contains("open")) return;
+  renderStats();
 }, 1500);
 
 const go = (d) => (d ? open(d) : toast("Hết chương"));
@@ -357,7 +473,8 @@ function closeAll() {
 }
 $("#tocBtn").onclick = $("#names").onclick = () => openSheet("toc");
 $("#cogBtn").onclick = () => openSheet("settings");
-$("#home").onclick = () => { save(); location.href = "/"; };
+$("#shelf").onclick = () => { save(); location.href = "/"; };
+$("#home").onclick = () => { save(); location.href = "/sach/" + encodeURIComponent(BOOK); };
 $("#scrim").onclick = closeAll;
 document.querySelectorAll("[data-close]").forEach((b) => (b.onclick = closeAll));
 $("#search").oninput = renderList;
@@ -559,7 +676,7 @@ player.preload = "auto";
 player.preservesPitch = true;
 document.body.append(player);
 
-let speaking = false, fails = 0, seq = 0;
+let speaking = false, fails = 0, seq = 0, pendingNext = 0;
 let vIdx = -1, wantSpeak = false;
 let tState = "";                     // "b" = đang dựng audio, chưa phát
 let flow = null;                     // { eng, vid, ps, my } của phiên đang đọc
@@ -602,7 +719,8 @@ function fillVoices() {
     g2.append(new Option(`${v.name} · ${v.gender === "Female" ? "nữ" : "nam"}`, "n:" + v.id)));
   sel.append(g1, g2);
   const has = [...sel.options].some((o) => o.value === S.tts);
-  if (!has) {
+  const loaded = voices.vieneu.length || voices.neural.length;
+  if (!has && loaded) {
     // Giọng mặc định của server ưu tiên trước, rồi đến giọng hợp đọc truyện nhất
     const pref = voices.default && voices.vieneu.find((v) => v.id === voices.default);
     const score = (v) => (v.name.includes("đọc truyện") ? 3
@@ -654,6 +772,7 @@ function speak() {
     const v = pref || voices.vieneu[0] || voices.neural[0];
     if (!v) return toast("Giọng đọc chưa sẵn sàng — chạm NGHE lại sau ít phút");
     S.tts = (voices.vieneu.includes(v) ? "v:" : "n:") + v.id;
+    B.tts = { voice: S.tts, rate: S.rate, ts: (Date.now() / 1000) | 0 };
     save();
     fillVoices();
     [eng, vid] = engine();
@@ -702,10 +821,12 @@ function load(i, offset = 0) {
   }
   player.play().catch((e) => {
     // AbortError = src bị đổi bởi lần load sau, không phải bị chặn autoplay.
-    // Nhầm hai lỗi này làm phiên tự dừng giữa đoạn khi mạng chậm (mỗi đoạn ~3s).
+    // Không gọi stopSpeak() ở đây: nếu trình duyệt chặn tự phát (tab nền / màn hình tắt),
+    // dừng phiên sẽ làm heartbeat không thể hồi sinh nữa. Giữ speaking = true để heartbeat
+    // tiếp tục retry play() cho đến khi thành công.
     if (!live() || e.name === "AbortError") return;
-    stopSpeak();
-    toast("Trình duyệt chặn tự phát — chạm NGHE lại lần nữa");
+    tState = "";
+    paintListen();
   });
   // làm nóng cache server trước 2 đoạn, rẻ hơn mở thêm media element.
   // VieNeu sinh tuần tự (một LOCK), nên khử trùng: sang đoạn sau sẽ prefetch lại
@@ -729,7 +850,10 @@ player.onended = () => {
   if (!live()) return;
   vIdx = -1;
   const nextIdx = +player.dataset.i + 1;
-  setTimeout(() => step(nextIdx), PAD * 1000);
+  pendingNext = seq;
+  // Không đợi setTimeout: Chrome treo đồng hồ trong tab nền, đoạn sau sẽ bị chờ >1 phút.
+  // Phát ngay đoạn kế tiếp; visibilitychange sẽ xử lý việc resume khi người dùng quay lại tab.
+  step(nextIdx);
 };
 
 player.onerror = () => {
@@ -745,13 +869,30 @@ player.onerror = () => {
    pause do chính stopSpeak gây ra không vào đây vì speaking đã false trước đó. */
 player.onpause = () => {
   if (!live() || tState) return;
-  const src = player.currentSrc, t = player.currentTime;
-  setTimeout(() => {
-    if (live() && player.paused && !player.ended && player.currentSrc === src
-        && player.readyState >= 2 && Math.abs(player.currentTime - t) < 0.01)
-      player.play().catch(() => {});
-  }, 500);
+  // heartbeat giữ retry play() khi trình duyệt khóa audio (tab nền / màn hình tắt)
 };
+
+/* Màn hình điện thoại tắt hoặc tab chuyển nền: iOS Safari tắt timer và pause audio
+   khi khóa màn hình. pageshow fire khi mở khóa / quay lại tab: tự resume đoạn đang
+   đọc; nếu đoạn vừa hết trong khi màn hình tắt thì sang đoạn kế tiếp luôn. */
+addEventListener("pageshow", () => {
+  if (!live()) return;
+  const ps = [...document.querySelectorAll("#body p:not(.tail)")];
+  const i = +player.dataset.i + 1;
+  if (player.ended && i < ps.length && S.autoNext) {
+    step(i);
+    return;
+  }
+  if (player.paused && !player.ended && player.readyState >= 1) {
+    player.play().catch(() => {});
+  }
+});
+addEventListener("visibilitychange", () => {
+  if (document.hidden || !live()) return;
+  if (player.paused && !player.ended && player.readyState >= 1) {
+    player.play().catch(() => {});
+  }
+});
 
 /* --- lock screen + giữ màn hình khi nghe --- */
 function setSession() {
@@ -780,11 +921,11 @@ function dropLock() {
 }
 
 /* Người dùng đóng tab lúc đang nghe thì vẫn còn điểm dừng để mở lại */
-addEventListener("pagehide", () => { markPos(); if (cur) { B.last = cur.n; save(); } });
+addEventListener("pagehide", () => { markPos(); if (cur) { B.last = cur.n; save(); flushStore(); } });
 
 function markPos() {
   if (speaking && vIdx >= 0 && cur)
-    B.vpos = { n: cur.n, i: vIdx, t: +(player.currentTime || 0).toFixed(2) };
+    B.vpos = { n: cur.n, i: vIdx, t: +(player.currentTime || 0).toFixed(2), ts: Date.now() / 1000 };
 }
 
 function stopSpeak(forget) {
@@ -805,8 +946,19 @@ function stopSpeak(forget) {
 }
 $("#listen").onclick = () => (speaking ? stopSpeak() : speak());
 
-$("#voice").onchange = (e) => { S.tts = e.target.value; save(); };
-$("#rate").oninput = (e) => { S.rate = +e.target.value; player.playbackRate = rate(); apply(); save(); };
+$("#voice").onchange = (e) => {
+  S.tts = e.target.value;
+  if (S.tts) B.tts = { voice: S.tts, rate: S.rate, ts: (Date.now() / 1000) | 0 };
+  save();
+};
+$("#rate").oninput = (e) => {
+  S.rate = +e.target.value;
+  player.playbackRate = rate();
+  apply();
+  if (B.tts && typeof B.tts === "object") { B.tts.rate = S.rate; B.tts.ts = (Date.now() / 1000) | 0; }
+  else if (S.tts) B.tts = { voice: S.tts, rate: S.rate, ts: (Date.now() / 1000) | 0 };
+  save();
+};
 $("#preview").onclick = () => {
   stopSpeak();
   const [eng, vid] = engine();

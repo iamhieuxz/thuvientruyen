@@ -63,6 +63,7 @@ Không có `book.json` thì reader lấy tên thư mục làm tiêu đề (`baoj
 ## Ghi chú vận hành
 
 - Reader cache kết quả parse theo `(mtime, size)` và quét lại mỗi 3 giây, nên thêm/sửa chương không cần restart.
+- `python translate/shelf.py --book <key>` (hoặc `--all`) tự sinh/cập nhật `book.json` từ `_meta.json` của scraper + số chương đã dịch trong thư mục này; runner `_qdcd_auto.py` tự gọi sau mỗi lô promote nên truyện **lên kệ ngay khi có chương hợp lệ**, không cần thao tác thủ công. Các trường đã viết tay (`title`, `author`, `desc`, `genre`, `cover`) luôn được giữ, chỉ trường tiến độ (`status`, `translated_chapters`, `last_chapter`, `updated_at`) là tự cập nhật.
 - Chương thiếu số sẽ không xuất hiện; chương trùng số thì file đứng sau trong danh sách sort có thể ghi đè hiển thị. Đặt tên đúng `NNNN_` để tránh.
 - File nháp `_NNNN_nhap.md` / `_NNNN_cat.md` nằm cùng thư mục nhưng reader bỏ qua (tên không bắt đầu bằng số).
 - Không commit thư mục truyện: `.gitignore` đã chặn `data/*` trừ `data/README.md`.

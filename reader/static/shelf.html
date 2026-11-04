@@ -4,54 +4,85 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#16130f">
-<title>Kệ sách · Đọc truyện</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23a63b2a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23f4ecdc'%3E%C4%90%3C/text%3E%3C/svg%3E">
+<meta name="description" content="truyendochay — tủ sách truyện dịch: tóm tắt, mục lục, tiến độ dịch từng bộ.">
+<title>truyendochay · Tủ sách</title>
+<link rel="icon" href="/static/img/logo.png">
+<link rel="apple-touch-icon" href="/static/img/logo.png">
+<link rel="preload" as="font" type="font/woff2" href="/static/fonts/fraunces-600-italic-vietnamese.woff2" crossorigin>
 <link rel="stylesheet" href="/static/fonts.css">
+<link rel="stylesheet" href="/static/fonts-shelf.css">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/library.css">
+<link rel="stylesheet" href="/static/shelf.css">
 </head>
-<body data-theme="dem" class="shelfpage">
+<body data-theme="dem" class="lib-page hm-page">
 
-<div class="ambient" aria-hidden="true"></div>
+<div class="lib-bg" aria-hidden="true"></div>
+<a class="skip" href="#shelf">Tới danh sách truyện</a>
 
-<header class="shelfbar">
-  <div class="brand">
-    <span class="mark-badge" aria-hidden="true">
-      <svg viewBox="0 0 24 24"><path d="M12 6.6C10.5 5.3 8.5 4.7 6 4.7H3.3v13.1H6c2.5 0 4.5.6 6 1.9 1.5-1.3 3.5-1.9 6-1.9h2.7V4.7H18c-2.5 0-4.5.6-6 1.9z"/><path d="M12 6.6v13.1"/></svg>
-    </span>
-    <div>
-      <p class="eyebrow">Tự viện</p>
-      <h1 class="shelftitle">Kệ sách</h1>
-    </div>
+<header class="lib-bar" id="bar">
+  <a class="lib-brand" href="/" aria-label="truyendochay — về tủ sách">
+    <img class="lib-mark" src="/static/img/logo.png" alt="" width="38" height="38">
+    <span class="lib-word"><b>truyendochay</b><i>Tủ sách dịch</i></span>
+  </a>
+  <div class="lib-actions">
+    <span class="lib-live" id="live"></span>
+    <button class="lib-ic" id="reload" aria-label="Quét lại thư mục truyện" title="Quét lại thư mục truyện">
+      <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 10-2.3 5.7M20 5v6h-6"/></svg>
+    </button>
   </div>
-  <button class="ic" id="reload" aria-label="Quét lại thư mục truyện" title="Quét lại thư mục truyện">
-    <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 10-2.3 5.7M20 5v6h-6"/></svg>
-  </button>
 </header>
 
-<main class="shelf">
-  <section id="cont"></section>
-  <div class="stats" id="stats"></div>
+<main class="lib-main">
 
-  <div class="sechead" id="head" hidden>
-    <h2>Tất cả truyện</h2>
-    <span id="count"></span>
-  </div>
+  <section class="hm-hero" id="hero" aria-label="Truyện đang đọc"></section>
 
-  <div class="grid" id="grid" aria-busy="true"></div>
+  <section class="hm-sec" id="railSec" aria-labelledby="railhead" hidden>
+    <div class="lib-sechead">
+      <h2 id="railhead">Đang đọc dở</h2>
+      <p id="railNote"></p>
+    </div>
+    <div class="hm-rail" id="rail"></div>
+  </section>
 
-  <details class="addbook">
+  <section class="hm-sec" id="latestSec" aria-labelledby="latesthead" hidden>
+    <div class="lib-sechead">
+      <h2 id="latesthead">Chương mới</h2>
+      <p id="latestNote"></p>
+    </div>
+    <div class="hm-ledger" id="latest"></div>
+  </section>
+
+  <section class="hm-sec" id="shelf" aria-labelledby="shelfhead">
+    <div class="lib-sechead">
+      <h2 id="shelfhead">Tất cả truyện</h2>
+      <p id="count"></p>
+    </div>
+    <div class="hm-filters" id="filters" role="group" aria-label="Lọc truyện theo thể loại"></div>
+    <div class="hm-grid" id="grid" aria-busy="true"></div>
+  </section>
+
+  <details class="hm-add">
     <summary>Cách thêm truyện mới</summary>
-    <p>Mỗi truyện là một thư mục con trong <code>data\</code>, file chương đặt tên
+    <p>Mỗi truyện là một thư mục con trong <code>data\</code>, chương đặt tên
       <code>0001_Tên chương.md</code>. Kèm <code>book.json</code> và <code>cover.jpg</code> nếu muốn:</p>
     <pre>data\tieu_su_truyen\book.json
 { "title": "Tên truyện", "author": "Tác giả",
-  "desc": "Giới thiệu ngắn", "cover": "cover.jpg" }</pre>
-    <p class="hint">Kệ sách tự quét lại — không cần khởi động lại server.</p>
+  "desc": "Giới thiệu ngắn", "genre": "Quan trường, Trọng sinh",
+  "original_chapters": 1191, "status": "Đang dịch",
+  "cover": "cover.jpg" }</pre>
+    <p class="hint">Tủ sách tự quét lại sau mỗi 3 giây — không cần khởi động lại server.</p>
   </details>
+
+  <footer class="lib-foot">
+    <span><b>truyendochay</b> — đọc đêm, đọc cháy</span>
+    <span id="footline"></span>
+  </footer>
 </main>
 
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="lib-toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/static/store.js"></script>
+<script src="/static/covers.js"></script>
 <script src="/static/shelf.js"></script>
 </body>
 </html>

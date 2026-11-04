@@ -1,0 +1,528 @@
+# GLOSSARY — Khai cục đình chức? Ta chuyển đầu Ủy ban Kỷ luật điều tra tổ (开局停职？我转投纪委调查组)
+# Tác giả: Giang Môn Nhị Gia (江门二爷) · Nguồn: ixdzs8 id 644553
+# Cập nhật: 2026-11-02 (khởi tạo từ chương 1–4; bổ sung dần sau mỗi 20–30 chương)
+
+## ══════ NHÂN VẬT CHÍNH ══════
+
+杨东 = Dương Đông (nhân vật chính; trọng sinh về năm 2008, tổ trưởng Tổ Tổng hợp Văn phòng chính quyền thành phố Linh Vân; kiếp trước bị đình chỉ, sau vào Tổ điều tra Ủy ban Kỷ luật)
+尹铁军 = Doãn Thiết Quân (Tổng thư ký Văn phòng chính quyền thành phố Linh Vân; từng là thư ký của cha Tô Mộc Vân; bị vu tham nhũng 50 vạn, bị song quy)
+苏沐芸 = Tô Mộc Vân (con gái một lãnh đạo cấp cao ở tỉnh; lạnh lùng, thông minh; là đầu mối liên lạc của Doãn Thiết Quân)
+林耀东 = Lâm Diệu Đông (khoa viên Văn phòng chính quyền thành phố; đối thủ của Dương Đông; cha là Lâm Lương Minh; đính hôn với Hàn Văn)
+韩雯 = Hàn Văn (bạn gái cũ của Dương Đông, y tá Bệnh viện thành phố; quen Dương Đông từ đại học, sau bỏ anh để đến với Lâm Diệu Đông)
+田光汉 = Điền Quang Hán (Phó tổng thư ký Văn phòng chính quyền thành phố; phe đối lập với Doãn Thiết Quân, sau thay thế; người ký lệnh đình chỉ công tác của Dương Đông)
+关九九 = Quan Cửu Cửu (y tá khoa Sản, Bệnh viện thành phố Linh Vân, bạn thân của Hàn Văn; bị Ngô Kiến Tài quấy rối ở KTV, được Dương Đông cứu)
+关木山 = Quan Mộc Sơn (Ủy viên Thường vụ Thành ủy, Bí thư Ủy ban Kỷ luật thành phố Linh Vân; nhậm chức ở chương 9; chính trực, ít nói, đích thân điều hành hồ sơ Doãn Thiết Quân; chỗ dựa mới của Dương Đông)
+孙秀芬 = Tôn Tú Phân (mẹ của Quan Cửu Cửu; ngoài bốn mươi, khí chất đoan trang, ăn mặc giản dị mà sang; Dương Đông gọi là “dì Tú Phân”)
+卫崇虎 = Vệ Sùng Hổ (Phó bí thư thứ nhất Ủy ban Kỷ luật thành phố Linh Vân; im lặng khi Quan Mộc Sơn ra oai)
+侯东来 = Hầu Đông Lai (nhân vật sẽ xuất hiện; con trai của Hầu Song Toàn)
+徐允才 = Từ Doãn Tài (Phó bí thư Ủy ban Kỷ luật thành phố Linh Vân; phụ trách hồ sơ Doãn Thiết Quân, công khai phản bác Quan Mộc Sơn → phản diện phía thành phố)
+孙进明 = Tôn Tiến Minh (nhân vật sẽ xuất hiện; lãnh đạo cấp cao)
+肖建国 = Tiêu Kiến Quốc (nhân vật sẽ xuất hiện; lãnh đạo cấp cao, quan hệ với Dương Đông)
+
+## ══════ NHÂN VẬT PHỤ (chương 1–4) ══════
+
+李臣 = Lý Thần (đồng nghiệp thân thiết nhất của Dương Đông ở Văn phòng chính quyền thành phố; nghiêm túc, tận tụy; là người đưa tin và báo lệnh điều động)
+周慧 = Chu Tuệ (nhân viên Tổ Tổng hợp, từng bị Dương Đông phê bình; thù dai, theo phe Lâm Diệu Đông)
+顾晨 = Cố Thần (nhân viên Tổ Tổng hợp, theo phe Lâm Diệu Đông, hay chế giễu Dương Đông)
+邹晨 = Cố Thần (chương 3 nguồn viết 邹晨, từ chương 7 viết 顾晨 — cùng một người, bản dịch thống nhất là “Cố Thần”)
+林良铭 = Lâm Lương Minh (cha Lâm Diệu Đông; Trưởng khoa Cán bộ 1, Ban Tổ chức Thành ủy; sắp lên Phó ban Tổ chức)
+吴建材 = Ngô Kiến Tài (chủ doanh nghiệp vật liệu xây dựng, tài sản hàng chục triệu; khách quen của quan chức thành phố, quấy rối Quan Cửu Cửu ở KTV, sai người đánh Dương Đông trọng thương)
+马局长 = Mã cục trưởng (Cục trưởng Cục Xúc tiến đầu tư thành phố)
+陈副局长 = Trần phó cục trưởng (Công an thành phố)
+唐副秘书长 = Đường phó tổng thư ký (Văn phòng Thành ủy)
+苏老 = Tô lão (cha Tô Mộc Vân; lãnh đạo cấp cao ở tỉnh; trong lòng luôn nhớ đứa con trai thất lạc 26 năm trước)
+尹秘书长 = Doãn tổng thư ký (cách gọi của cấp dưới với Doãn Thiết Quân)
+田秘书长 = Điền tổng thư ký (cách gọi của cấp dưới với Điền Quang Hán, dù chức danh chính thức là Phó tổng thư ký)
+武新开 = Vũ Tân Khai (Bí thư Thành ủy Linh Vân; đón Quan Mộc Sơn nhận chức)
+侯勇 = Hầu Dũng (Thị trưởng Linh Vân; thư ký của ông vừa bị đưa xuống huyện rèn luyện nên đang tìm thư ký mới)
+魏立明 = Ngụy Lập Minh (Phó bí thư Thành ủy kiêm Trưởng ban Mặt trận Thống nhất thành phố Linh Vân)
+马树立 = Mã Thụ Lập (Phó bí thư Thường trực Ủy ban Kỷ luật tỉnh; đại diện Ủy ban Kỷ luật tỉnh đưa Quan Mộc Sơn về Linh Vân nhậm chức)
+姜红阳 = Khương Hồng Dương (Phó trưởng ban Thường trực Ban Tổ chức Tỉnh ủy; cùng đoàn đưa Quan Mộc Sơn nhậm chức)
+楚利 = Sở Lợi (bạn đại học của Dương Đông; làm việc tại Sở Giao dịch chứng khoán Thâm Quyến; nhận giúp Dương Đông mở tài khoản và mua cổ phiếu)
+杜玉香 = Đỗ Ngọc Hương (mẹ của Dương Đông; ở quê, gọi bằng máy bàn liên thông; Dương Đông gọi là “mẹ”)
+
+## ══════ CƠ QUAN / CHỨC DANH ══════
+
+市政府 = Chính quyền thành phố
+市政办 = Văn phòng chính quyền thành phố
+市委 = Thành ủy
+市委办 = Văn phòng Thành ủy
+市纪委 = Ủy ban Kỷ luật thành phố
+纪委调查组 = Tổ điều tra Ủy ban Kỷ luật
+市纪委调查组 = Tổ điều tra Ủy ban Kỷ luật thành phố
+市委组织部 = Ban Tổ chức Thành ủy
+市委大礼堂 = Hội trường lớn Thành ủy
+市委大院 = khu Thành ủy
+省委组织部 = Ban Tổ chức Tỉnh ủy
+统战部 = Ban Mặt trận Thống nhất
+干部一科 = Khoa Cán bộ 1
+市招商局 = Cục Xúc tiến đầu tư thành phố
+市公安局 = Công an thành phố
+综合科 = Khoa Tổng hợp
+农办 = Ban Nông nghiệp (cơ quan nông nghiệp cấp xã huyện, nơi Dương Đông bị đẩy tới ở kiếp trước)
+深交所 = Sở Giao dịch chứng khoán Thâm Quyến
+秘书长 = Tổng thư ký
+副秘书长 = Phó tổng thư ký
+副市长 = Phó thị trưởng
+市长 = Thị trưởng
+市委书记 = Bí thư Thành ủy
+市纪委书记 = Bí thư Ủy ban Kỷ luật thành phố
+省委 = Tỉnh ủy
+省纪委 = Ủy ban Kỷ luật tỉnh
+副科 = phó khoa
+正科 = chính khoa
+科员 = khoa viên
+组长 = tổ trưởng
+综合科组长 = tổ trưởng Tổ Tổng hợp
+
+## ══════ ĐỊA DANH ══════
+
+吉江省 = tỉnh Cát Giang
+灵云市 = thành phố Linh Vân
+龙城市 = thành phố Long Thành
+吉江省委4号别墅 = Biệt thự số 4, Tỉnh ủy Cát Giang
+喜洋洋KTV = KTV Hỷ Dương Dương
+市医院 = Bệnh viện thành phố
+灵云市中心医院 = Bệnh viện Đa khoa thành phố Linh Vân (cùng một bệnh viện với 市医院; lời kể giữ “Bệnh viện thành phố”, hội thoại/ch tiêu đề dùng tên đầy đủ)
+
+## ══════ THUẬT NGỮ / NGHIỆP VỤ ══════
+
+双规 = song quy (biện pháp cách ly, chỉ định nơi ở và thời hạn, do Ủy ban Kỷ luật áp dụng)
+停职 = đình chỉ công tác
+借调 = điều động tạm thời
+立案调查 = lập án điều tra
+反腐 = chống tham nhũng
+贪污 = tham nhũng
+受贿 = nhận hối lộ
+保护伞 = ô dù bảo kê
+打招呼 = chào hỏi (theo nghĩa can thiệp, xin ưu ái)
+站队 = chọn phe
+靠山 = chỗ dựa / hậu thuẫn
+后台 = hậu trường / chỗ dựa
+提拔 = đề bạt
+拟提 = dự kiến đề bạt
+公示 = công khai (danh sách cán bộ trước khi bổ nhiệm)
+任命 = bổ nhiệm
+处分 = kỷ luật / xử phạt
+撤销处分 = hủy bỏ kỷ luật
+停职审查 = đình chỉ công tác để xem xét
+专案组 = tổ chuyên án
+调查组 = tổ điều tra
+谈话 = buổi nói chuyện (theo thủ tục kỷ luật)
+举报 = tố giác / báo cáo
+举报信 = thư tố giác
+匿名举报 = tố giác nặc danh
+保姆 = người giúp việc
+秘书 = thư ký (cán bộ giúp việc cho lãnh đạo; KHÔNG dịch là “bí thư” — chỉ 书记 mới là bí thư)
+书记 = bí thư
+赴任 = đến nhận chức
+就任 = nhậm chức
+报道 = nộp diện (đến cơ quan mới trình diện; không dùng “báo đạo”)
+迎新大会 = hội nghị đón cán bộ mới
+四套班子 = bốn ban lãnh đạo (Thành ủy, Chính quyền, Nhân đại, Hiệp thương)
+司机 = tài xế
+警卫员 = cảnh vệ
+省委大院 = khu Tỉnh ủy
+市府大院 = khu Chính quyền thành phố
+机关 = cơ quan
+体制内 = trong hệ thống
+编制 = biên chế
+公务员 = công chức
+干部 = cán bộ
+领导 = lãnh đạo
+下属 = cấp dưới
+同僚 = đồng liêu
+饭局 = bữa tiệc xã giao
+酒局 = cuộc nhậu xã giao
+红包 = phong bì
+礼盒 = hộp quà
+钻戒 = nhẫn kim cương
+三金 = tam kim (ba món trang sức cưới: nhẫn, dây chuyền, hoa tai)
+妖股 = yêu cổ (cổ phiếu tăng giá điên cuồng, đầu cơ)
+ST盐湖 = ST Diêm Hồ (mã cổ phiếu Dương Đông nhắm tới năm 2008; viết “ST Diêm Hồ”, không giữ chữ Hán)
+启动资金 = vốn khởi nghiệp
+农行 = Ngân hàng Nông nghiệp
+考斯特 = xe Coaster (xe khách Toyota Coaster của đoàn cán bộ)
+诺基亚 = Nokia
+抗洪抢险 = chống lụt cứu hiểm
+
+## ══════ QUY TẮC XƯNG HÔ ══════
+
+- 杨东: lời kể dùng “Dương Đông”; người thân quen gọi “Đông Tử” hoặc “Tiểu Đông”; kẻ đối lập gọi “Lão Dương” (sắc thái mỉa mai) hoặc “Dương Đông”.
+- 尹铁军: Dương Đông gọi “Doãn tổng thư ký”; lời kể dùng “Doãn Thiết Quân”; không gọi là “Doãn bí thư” (ông là 秘书长, Tổng thư ký).
+- 苏沐芸: Dương Đông ban đầu gọi “Tô tiểu thư”; lời kể dùng “Tô Mộc Vân”; Tô lão gọi “Mộc Vân”.
+- 林耀东: Hàn Văn gọi “Diệu Đông”; Dương Đông gọi thẳng “Lâm Diệu Đông”, không dùng kính ngữ; cấp trên gọi “Tiểu Lâm”.
+- 韩雯: Dương Đông gọi “Hàn Văn”; Lâm Diệu Đông gọi “Văn Văn” (雯雯).
+- 关九九: Hàn Văn gọi “Cửu Cửu”; Dương Đông ban đầu gọi “Quan Cửu Cửu”, sau thân hơn có thể gọi “Cửu Cửu”.
+- 田光汉: cấp dưới gọi “Điền tổng thư ký” hoặc “Điền phó tổng thư ký”; lời kể dùng “Điền Quang Hán”.
+- 吴建材: nhân viên gọi “Ngô tổng”; lời kể dùng “Ngô Kiến Tài”.
+- Không dùng “ngài”, “lão tử”, “lão phu”, “ngươi” trong bản dịch; giữ sắc thái quan trường bằng “ông”, “tôi”, “cậu”, “anh ta” theo quan hệ.
+- 关木山: cấp dưới và đồng liêu gọi “Quan bí thư”; lời kể dùng “Quan Mộc Sơn”; cấp trên tỉnh gọi thân mật “đồng chí Mộc Sơn”.
+- 武新开: gọi “Vũ bí thư”; 侯勇: gọi “Hầu thị trưởng”; 马树立: gọi “Mã bí thư” (vì là Phó bí thư Thường trực Ủy ban Kỷ luật tỉnh); 姜红阳: gọi “Khương trưởng ban”.
+- 田光汉 trong chương 7–8 tự nhận là người điều hành Văn phòng chính quyền nên cấp dưới vẫn gọi “Điền tổng thư ký”; lời kể phải ghi đúng chức “Phó tổng thư ký”.
+- 楚利: bạn cũ, xưng hô suồng sã “mày — tao” hoặc “老杨 — Dương Đông”; lời kể dùng “Sở Lợi”.
+- 杜玉香: Dương Đông gọi “mẹ”; lời kể dùng “Đỗ Ngọc Hương” hoặc “mẹ Dương Đông”.
+
+## ══════ NHÂN VẬT BỔ SUNG (từ bản Archive.org đầy đủ) ══════
+
+李正义 = Lý Chính Nghĩa (cựu Bí thư Tỉnh ủy Cát Giang, nhân vật quyền lực; bản ixdzs8 che thành 李**)
+李富海 = Lý Phú Hải (sư công của Dương Đông, lãnh đạo cấp cao; bản gốc che một phần)
+宁书记 = Ninh bí thư (lãnh đạo cấp cao họ Ninh; tên đầy đủ bị nguồn che, dùng chức danh)
+苏玉良 = Tô Ngọc Lương (Bí thư Tỉnh ủy Cát Giang giai đoạn sau, cha Tô Mộc Vân)
+陈国民 = Trần Quốc Dân (lãnh đạo tỉnh, đồng minh của Dương Đông)
+赵达功 = Triệu Đạt Công (lãnh đạo tỉnh, thường xuất hiện cùng Tô Ngọc Lương)
+巩红 = Củng Hồng (nữ lãnh đạo tỉnh; mẹ của Củng Ngọc Trụ)
+燕实忠 = Yến Thực Trung (lãnh đạo tỉnh Tần Tây)
+蒋老 = Tưởng lão (蒋震, lão tướng, quan hệ với Tiêu gia)
+郑老 = Trịnh lão (ông ngoại của Dương Đông, cha của Trịnh Quảng Thành)
+童老 = Đồng lão (lãnh đạo cấp cao, nhân vật phe cánh)
+
+## ══════ QUY TẮC VỚI DẤU …… ══════
+
+- Các chỗ `……` trong bản gốc là thông tin bị nguồn che (tên riêng, điện thoại, địa chỉ, đơn vị). Khi dịch giữ `……` hoặc dùng “vị ấy / lãnh đạo / đơn vị đó” theo ngữ cảnh; tuyệt đối không bịa tên cụ thể.
+- Không dùng `**` trong bản dịch.
+- Các tên đã phục hồi từ Archive.org (Lý Chính Nghĩa, Lý Phú Hải, Tô Ngọc Lương, Trần Quốc Dân, Triệu Đạt Công, Củng Hồng, Yến Thực Trung) phải dùng đúng Hán Việt ở trên.
+
+## ══════ QUY TẮC RIÊNG CỦA BỘ TRUYỆN (đọc trước khi dịch mỗi lô) ══════
+
+1. THỜI GIAN – không gian: mở truyện tháng 2/2008, tỉnh Cát Giang, thành phố Linh Vân. Kiếp trước của Dương Đông bị đẩy về Ban Nông nghiệp một xã miền núi, mười năm sau mới ra, và chết trong một đợt chống lụt cứu hiểm. Mọi chi tiết 2008 phải giữ nguyên: khủng hoảng tài chính toàn cầu, giá cổ phiếu, điện thoại Nokia, thẻ Ngân hàng Nông nghiệp, mức lương hai nghìn tệ/tháng, ba vạn tiền dành dụm.
+2. TUYỆT ĐỐI không nhầm 书记 với 秘书. 书记 = bí thư (đứng đầu Đảng ủy), 秘书 = thư ký (người giúp việc cho lãnh đạo), 秘书长 = Tổng thư ký (đứng đầu Văn phòng). Doãn Thiết Quân và Điền Quang Hán là Tổng thư ký/Phó tổng thư ký Văn phòng chính quyền, không phải bí thư.
+3. THUẬT NGỮ QUAN TRƯỜNG giữ nguyên Hán Việt, không paraphrase: song quy (双规), đình chỉ công tác (停职), điều động tạm thời (借调), lập án điều tra (立案调查), đề bạt (提拔), dự kiến đề bạt (拟提), công khai nhân sự (公示), tổ chuyên án (专案组), buổi nói chuyện (谈话), trong hệ thống (体制内), biên chế (编制), chọn phe (站队), ô dù (保护伞), chào hỏi kiểu can thiệp (打招呼).
+4. TỔ CHỨC VÀ CẤP TRÊN: “组织” dịch là “tổ chức” (không viết hoa, không thêm cơ quan cụ thể) vì đó là cách nói hàm hồ của cán bộ. “领导” dịch “lãnh đạo”; khi chưa rõ tên vì nguồn che, giữ cách gọi chức danh.
+5. MÔ HÌNH QUAN HỆ: mỗi chức danh đi kèm họ + cách gọi (Ví dụ: Quan bí thư, Mã bí thư, Vũ bí thư, Ngô tổng, Doãn tổng thư ký). Không tự chế cách gọi mới; nếu bản Hán chỉ ghi chức danh thì bản Việt cũng chỉ ghi chức danh.
+6. CHỨNG KHOÁN: mã ST Diêm Hồ viết “ST Diêm Hồ”, giá ghi “mỗi cổ phiếu 4 tệ / 35 tệ / 107 tệ”, ngày ghi “10 tháng 3”、“17 tháng 4”. Không đổi tên mã, không giải thích thêm ngoài lời kể của bản gốc.
+7. GIỌNG ĐIỆU: đây là truyện quan trường + trọng sinh, câu ngắn, nhiều đoạn một dòng. Giữ nhịp gắt, không văn vẻ hoá. Lời châm chọc của Chu Tuệ/Cố Thần phải giữ sắc thái khinh bạc; lời của Dương Đông sau trọng sinh phải điềm tĩnh, ít nói.
+8. TÊN NGUỒN CHE: giữ “……” hoặc chức danh, xem mục QUY TẮC VỚI DẤU …… bên dưới.
+9. BIẾN THỂ TÊN DO NGUỒN VIẾT NHẦM (đã kiểm đếm toàn 3221 chương): 邹晨 (1 lần, ch.3) và 顾晨 (27 lần) là một người — dịch thống nhất “Cố Thần”. 周慧 (41 lần) và 吴慧 (2 lần, ch.5) là một người — dịch thống nhất “Chu Tuệ”. 市医院 và 灵云市中心医院 là cùng một bệnh viện. Gặp biến thể mới: đếm số lần xuất hiện cả bộ rồi chọn dạng phổ biến, ghi lại vào mục này.
+10. CÁCH GỌI THÂN MẬT: 老杨 = “lão Dương”, 老楚 = “lão Sở” (Sở Lợi gọi Dương Đông và ngược lại); Đông Tử/Tiểu Đông cho người thân; không dịch 老 thành “ông/bà” trong các biệt danh này.
+11. CHƯƠNG KỲ: 20 chương/lô. Sau mỗi lô phải chạy rà tên + ngữ cảnh rồi cập nhật glossary trước khi dịch lô kế.
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.1–10) ══════
+
+吴总 = Ngô tổng (cách gọi cấp dưới/đối tác với Ngô Kiến Tài)
+任职决定 = quyết định bổ nhiệm (văn bản chính thức công bố nhân sự lãnh đạo)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.31–50) ══════
+
+季鸿宇 = Quý Hồng Vũ (tổ trưởng tổ chuyên án thứ mười; nguồn chỉ viết 季鸿宇, thống nhất “Quý Hồng Vũ”, không dùng Kỷ/Ký)
+令震庭 = Lệnh Chấn Đình (Tổng thư ký Ủy ban Kỷ luật thành phố; cậu của Quý Hồng Vũ)
+侯双全 = Hầu Song Toàn (cha Hầu Đông Lai; đi cùng Dương Đông)
+蒋虎 = Tưởng Hổ (công an, gọi “Hổ Tử”; thống nhất bỏ “Tương Hổ”)
+殷秀梅 = Ân Tú Mai (chị cả của Ân Tú Anh)
+殷秀英 = Ân Tú Anh (người giúp việc nhà Doãn Thiết Quân, Dương Đông gọi “dì Ân”)
+殷秀兰 = Ân Tú Lan (chị hai của Ân Tú Anh, ở thôn Tây Cát)
+东吉村 = thôn Đông Cát
+西吉村 = thôn Tây Cát
+派出所 = đồn công an
+市纪委秘书长 = Tổng thư ký Ủy ban Kỷ luật thành phố
+市纪委办公室主任 = Chánh Văn phòng Ủy ban Kỷ luật thành phố
+纪委常委 = Ủy viên Thường vụ Ủy ban Kỷ luật
+常务副书记 = Phó bí thư thường trực
+副处级 = cấp phó xứ
+正处级 = cấp chính xứ
+经侦支队 = Đội Điều tra Kinh tế (Công an)
+监察局 = Cục Giám sát
+贺局长 = Hạ cục trưởng (tức Hạ Vũ, Phó cục trưởng Công an quận Vân Bắc)
+王村长 = Vương trưởng thôn
+柳山 = Liễu Sơn (Phó tổ trưởng Tổ điều tra Ủy ban Kỷ luật thành phố)
+苏同州 = Tô Đồng Châu (Phó tổ trưởng Tổ điều tra; “Đồng Châu” là gọi tắt)
+于百江 = Vu Bách Giang (gọi “Vu đại đội”; bạn Tưởng Hổ)
+宋岳 = Tống Nhạc (gọi “Tống đội”)
+宋队 = Tống đội (cách gọi Tống Nhạc)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.51–70) ══════
+
+罗金 = La Kim (tổ trưởng tiểu tổ thứ chín)
+朱阳明 = Chu Dương Minh (nhân vật; thống nhất “Chu Dương Minh”, không dùng “Dương Minh”)
+第一纪检监察室 = Phòng Kiểm tra Giám sát Kỷ luật 1 (cũng gọi Phòng Thanh tra Kỷ luật thứ nhất)
+案件审查室 = Phòng Thẩm tra vụ án
+吕艳青 = Lữ Diễm Thanh (tổ trưởng tiểu tổ thứ nhất)
+陈秉正 = Trần Bỉnh Chính
+鲁音 = Lỗ Âm
+杜生 = Đỗ Sinh
+金云 = Kim Vân
+景凌海 = Cảnh Lăng Hải
+陆亦可 = Lục Diệc Khả (Phó chủ nhiệm Phòng Thanh tra Kỷ luật thứ nhất)
+市检察院 = Viện Kiểm sát thành phố
+第二检察室 = Phòng Kiểm sát số 2
+公检法司系统 = hệ thống công an, kiểm sát, tòa án, tư pháp
+借调函 = thư điều động tạm thời (công hàm điều động tạm thời)
+许院长 = Hứa viện trưởng (cách gọi Hứa Trung Mục)
+许中牧 = Hứa Trung Mục (Viện trưởng Bệnh viện thành phố)
+尹叔 = chú Doãn (cách gọi Doãn Thiết Quân)
+冯玲 = Phùng Linh (bác sĩ chủ nhiệm, mẹ Hàn Văn)
+冯阿姨 = dì Phùng (cách gọi Phùng Linh)
+马老四 = Mã Lão Tứ (biệt danh, ch54)
+赵姐 = chị Triệu (nữ cảnh sát, ch51)
+田所 = Điền sở (cách gọi đồn trưởng Điền Trung Dân)
+田中民 = Điền Trung Dân (đồn trưởng đồn công an thị trấn Hạ Thủy)
+田原 = Điền Nguyên (tức Điền lão tam, liên quan Điền Quang Hán)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.86–105) ══════
+
+古三通 = Cổ Tam Thông (Cục trưởng Cục Giáo dục thành phố, bị song quy)
+谭龙 = Đàm Long (Bí thư Huyện ủy huyện Khai Dương, Ủy viên Thường vụ Thành ủy)
+宋主任 = Tống chủ nhiệm (cách gọi nhân vật họ Tống ở ch.101)
+二侯 = hai họ Hầu (cách gọi chung hai người họ Hầu trong Viện Kiểm sát)
+市管干部 = cán bộ do thành phố quản lý
+纪检监察室 = Phòng Kiểm tra Giám sát Kỷ luật
+第十小组 = tổ thứ mười (thuộc Tổ điều tra Ủy ban Kỷ luật thành phố)
+检察院 = Viện Kiểm sát
+正科级 = cấp chính khoa
+副科级干部 = cán bộ cấp phó khoa
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.106–125) ══════
+
+赵鹏程 = Triệu Bằng Trình (Phó trưởng Ban Tổ chức Thành ủy, cựu Phó chủ nhiệm Phòng Giám sát Đảng phong Liêm chính Ủy ban Kỷ luật
+赵部长 = Triệu trưởng ban (cách gọi Triệu Bằng Trình)
+宋思风 = Tống Tư Phong (thư ký Bí thư Huyện ủy Khai Dương Đàm Long; tức “Tống chủ nhiệm”)
+吴三才 = Ngô Tam Tài (chủ nhiệm khách sạn nơi giam giữ cán bộ bị song quy, phe Từ Doãn Tài, được hứa cho làm Trưởng phòng Kiểm tr
+吴主任 = Chủ nhiệm Ngô (cách gọi Ngô Tam Tài)
+黄小翠 = Hoàng Tiểu Thúy
+老黎 = Lão Lê (Trưởng phòng Kiểm tra Giám sát Kỷ luật thứ ba, sắp nghỉ hưu)
+第三纪检监察室 = Phòng Kiểm tra Giám sát Kỷ luật thứ ba
+干部监督室 = Phòng Giám sát cán bộ
+办公室副主任 = Phó chủ nhiệm Văn phòng
+副检察长 = Phó Viện trưởng Viện Kiểm sát
+上纲上线 = làm to chuyện lên thành vấn đề nguyên tắc
+扣帽子 = gán tội / quy chụp
+杨老弟 = em Dương (Vu Bách Giang gọi thân mật Dương Đông; không dùng “Dương lão đệ”)
+林哥 = anh Lâm (Cố Thần gọi Lâm Diệu Đông)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.126–145) ══════
+
+杨主任 = Dương chủ nhiệm (cách gọi Dương Đông khi đã là cán bộ cấp phó khoa, đại diện Ủy ban Kỷ luật thành phố)
+赵县长 = Triệu huyện trưởng (cách gọi Triệu Quốc Quân, Huyện trưởng huyện Khai Dương)
+赵国军 = Triệu Quốc Quân (Huyện trưởng huyện Khai Dương)
+赵羽飞 = Triệu Vũ Phi (Phó Bí thư Huyện ủy Khai Dương)
+程大勇 = Trình Đại Dũng (nhân vật tại bữa trưa huyện Khai Dương, ngồi ghế chủ vị)
+开阳县 = huyện Khai Dương (địa danh)
+下水镇 = thị trấn Hạ Thủy (địa danh)
+市纪委组织部 = Ban Tổ chức Ủy ban Kỷ luật thành phố
+市纪委委员 = ủy viên Ủy ban Kỷ luật thành phố
+函文 = công văn
+高配 = bố trí cấp bậc cao hơn (chức vụ hưởng cấp bậc cao hơn quy định)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.166–185) ══════
+
+余志波 = Dư Chí Ba (xưởng trưởng Xưởng mạ điện Thái Hòa; mời Dương Đông ăn tối ở Nhà hàng cá tươi Nguyệt Hồ)
+余厂长 = Dư xưởng trưởng (cách gọi Dư Chí Ba)
+周恩泽 = Chu Ân Trạch (xưởng trưởng Xưởng mạ điện Thái An)
+周厂长 = Chu xưởng trưởng (cách gọi Chu Ân Trạch)
+马红刚 = Mã Hồng Cương (ủy viên Ủy ban Kỷ luật thành phố, Trưởng phòng Giám sát Đảng phong Liêm chính; phê bình Dương Đông tại hộ
+马主任 = Mã chủ nhiệm (cách gọi Mã Hồng Cương)
+牛生 = Ngưu Sinh (chủ doanh nghiệp xây dựng tư nhân, khai đã hối lộ Doãn Thiết Quân)
+严重警告 = cảnh cáo nghiêm khắc (mức kỷ luật Đảng, nặng hơn cảnh cáo)
+工行 = Ngân hàng Công thương
+建行 = Ngân hàng Xây dựng
+商行 = Ngân hàng Thương mại
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.206–225) ══════
+
+于浩文 = Vu Hạo Văn (Phó Tổng thư ký Ủy ban Kỷ luật tỉnh Cát Giang kiêm Phó Chánh Văn phòng; chủ trì tiệc mừng công, trao danh hi
+齐成 = Tề Thành (nhân vật mới trong lô)
+杨凯 = Dương Khải (nhân vật mới trong lô)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.226–245) ══════
+
+侯科 = Hầu khoa (cách gọi Hầu Đông Lai, cán bộ cấp phó khoa)
+马应 = Mã Ứng (Chánh Văn phòng Quận ủy Vân Bắc)
+冯老二 = Phùng Lão Nhị (biệt danh của Phùng Lợi Sơn, đàn em Ngô Kiến Tài)
+冯利山 = Phùng Lợi Sơn (đàn em Ngô Kiến Tài; biệt danh “Lão Nhị”)
+建材实业 = Vật liệu Xây dựng Thực nghiệp (công ty của Ngô Kiến Tài)
+陆亦 = Lục Diệc (dạng gọi tắt của Lục Diệc Khả; thống nhất dùng “Lục Diệc Khả”)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.266–285) ══════
+
+陈发 = Trần Phát (Đội trưởng Đội Cảnh sát Hình sự Công an thành phố Linh Vân, cấp phó xứ; bị song quy, giam ở phòng 107)
+潘斌 = Phan Bân (nhân viên Khoa Tổng hợp Ủy ban Kỷ luật thành phố, thay Dương Đông đi họp Thường vụ)
+陆主任 = Lục chủ nhiệm (cách gọi nhân vật họ Lục, ch275; trong ngữ cảnh là Lục Diệc Khả)
+李主任 = Lý chủ nhiệm (cách gọi Lý Thần khi đã làm thư ký thị trưởng, ch273)
+王主任 = Vương chủ nhiệm (cách gọi nhân vật họ Vương, ch275)
+常委会议 = Hội nghị Thường vụ (phiên họp Thường vụ Thành ủy)
+声东击西 = đánh Đông Dương Tây (thành ngữ, kế nghi binh)
+江北区 = quận Giang Bắc (địa danh)
+捷达 = xe Jetta (xe công vụ)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.286–305) ══════
+
+市委联合调查组 = Tổ điều tra liên hợp Thành ủy (cơ quan do Thành ủy lập, Chu Dương Minh làm Tổ trưởng)
+联合调查组 = Tổ điều tra liên hợp
+副组长 = phó tổ trưởng
+组员 = tổ viên
+政法委 = Ủy ban Chính pháp
+市委政法委 = Ủy ban Chính pháp Thành ủy
+政法委书记 = Bí thư Ủy ban Chính pháp
+宣传部 = Ban Tuyên giáo
+宣传部长 = Trưởng ban Tuyên giáo
+市委秘书长 = Tổng thư ký Thành ủy
+市委常委 = Ủy viên Thường vụ Thành ủy
+市委常委会 = Thường vụ Thành ủy / Hội nghị Thường vụ Thành ủy
+检察长 = Viện trưởng Viện Kiểm sát
+法医 = pháp y
+法医鉴定科 = Khoa Giám định Pháp y
+科长 = trưởng khoa
+综合科科长 = Trưởng khoa Tổng hợp
+市纪委综合科 = Khoa Tổng hợp Văn phòng Ủy ban Kỷ luật thành phố
+局长 = cục trưởng
+随局长 = Tùy cục trưởng (cách gọi Tùy Phi)
+公示期 = thời gian công khai
+政法体系 = hệ thống chính pháp
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.306–325) ══════
+
+顾同 = Cố Đồng (Cố trưởng ban; nhân vật lãnh đạo họ Cố, ch.306–308)
+顾敏 = Cố Mẫn (con gái Đổng Bạch Thu; ch.307, 311, 315, 320–321)
+董白秋 = Đổng Bạch Thu (mẹ Cố Mẫn; ch.307, 321)
+蒋瑞金 = Tưởng Thụy Kim (cha Tưởng Hổ; sinh năm 1953; ch.322)
+蒋省长 = Tưởng tỉnh trưởng (cách gọi lãnh đạo cấp tỉnh họ Tưởng; ch.322)
+谭主任 = Đàm chủ nhiệm (cách gọi nhân vật họ Đàm; ch.315)
+吴所 = Ngô sở (cách gọi Ngô Chí, đồn trưởng đồn công an trước ga; ch.312)
+捞头仔 = Lao Đầu Tử (biệt danh của Tôn Kiến Vinh; ch.312–313)
+
+宫洪洋 = Cung Hồng Dương (Bí thư Huyện ủy/huyện Khai Dương; KHÁC 姜红阳 = Khương Hồng Dương ở tỉnh)
+孙建荣 = Tôn Kiến Vinh (cán bộ bị Ủy ban Kỷ luật thẩm vấn; KHÁC 孙进明 = Tôn Tiến Minh)
+老头儿 = lão già / ông già (biệt danh “Lao Đầu Tử”, không viết “Lao Đầu Tể”)
+
+郭维 = Quách Duy (cán bộ Công an/Viện Kiểm sát, cấp dưới thân tín; nguồn 489 lần)
+辛尧 = Tân Nghiêu (lãnh đạo huyện Khai Dương; nguồn 233 lần)
+史大光 = Sử Đại Quang (nguồn 43 lần)
+车锦鹏 = Xa Cẩm Bằng (Phòng Kiểm sát số 2, Viện Kiểm sát thành phố; nguồn 59 lần)
+马耀武 = Mã Diệu Vũ (nguồn ch.292)
+金和民 = Kim Hòa Dân (thị trấn/thị xã; cấp dưới của Dương Đông, gọi “Kim thị trưởng”)
+顾部长 = Cố bộ trưởng (cách gọi chức danh họ Cố)
+姜厅 = Khương sảnh trưởng (cách gọi tắt ông Khương ở sở/ban tỉnh)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.326–345) ══════
+
+姜卓民 = Khương Trác Dân (lãnh đạo sở/ban tỉnh, được gọi “Khương sảnh”; dẫn xe Sở Công an tỉnh đến hiện trường)
+陆文博 = Lục Văn Bác (Phó thị trưởng phụ trách công an, kiểm sát, tòa án, tư pháp; kiêm Cục trưởng Công an thành phố)
+陆市长 = Lục thị trưởng (cách gọi Lục Văn Bác)
+马长山 = Mã Trường Sơn (Tứ ca, anh em kết nghĩa của Ngô Kiến Tài; bị Công an huyện Khai Dương bắt cùng con trai)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.348–367) ══════
+
+傅小甜 = Phó Tiểu Điềm (nữ thư ký của Ngô Kiến Tài; có mặt khi Dương Đông vào gặp Ngô Kiến Tài)
+胡长安 = Hồ Trường An (Chủ nhiệm Nhân đại thành phố Linh Vân; lãnh đạo cũ của Vũ Tân Khai)
+于连生 = Vu Liên Sinh (sư phụ võ thuật nuôi Ngô Kiến Tài từ nhỏ; tro cốt bị khống chế)
+石原市 = thành phố Thạch Nguyên (thành phố cấp địa khu thuộc Cát Giang; kinh tế top ba tỉnh)
+乌兰市 = thành phố Ô Lan (địa danh cấp địa khu; nơi xảy ra 40% sự thật phạm tội của Ngô Kiến Tài)
+云北区 = quận Vân Bắc (quận thuộc Linh Vân; Công an quận Vân Bắc không nằm trong kế hoạch hành động)
+松嫩平原 = đồng bằng Tùng Nộn (vùng đồng bằng chiếm phần lớn địa bàn Thạch Nguyên)
+市委常委扩大会议 = Hội nghị mở rộng Thường vụ Thành ủy (phiên họp quyết định bắt 227 thành viên nòng cốt)
+人大主任 = Chủ nhiệm Nhân đại (chức danh đứng đầu Nhân đại thành phố)
+常务副市长 = Phó thị trưởng thường trực
+区长 = Quận trưởng
+省纪委书记 = Bí thư Ủy ban Kỷ luật tỉnh
+地级市 = thành phố cấp địa khu
+武警支队 = Chi đội Cảnh sát Vũ trang
+特警大队 = Đại đội Cảnh sát đặc nhiệm
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.388–407) ══════
+
+李文和 = Lý Văn Hòa (cán bộ bị song quy, nguyên Phó cục trưởng thường trực Sở Thuế vụ; bị Dương Đông thẩm vấn, sau tố giác Vũ Tân
+潘晓天 = Phan Hiểu Thiên (bạn học cũ của Dương Đông; đi cùng đến buổi gặp bạn của Lục Diệc Khả)
+北春市 = thành phố Bắc Xuân (địa danh mới; nơi Lục Diệc Khả có nhà riêng, Dương Đông đến tỉnh làm việc)
+朝阳区 = quận Triều Dương (quận thuộc thành phố Bắc Xuân, có khu dân cư nhà Lục Diệc Khả)
+
+12. SÁCH NÓI: KHÔNG để dòng riêng chỉ gồm dấu chấm lửng (… hoặc ...) hay gạch nối (—, –, -); module đọc sẽ lỗi. Chỉ ngăn đoạn bằng MỘT dòng trống; dấu lửng chỉ nằm trong câu thoại/kể. Không dùng ký hiệu phân cách ---, ***, ===, ###, •, ※, ◆, ■.
+
+潘晓娟 = Phan Hiểu Quyên (vợ của Uông Đông; KHÁC 潘晓天 = Phan Hiểu Thiên — bạn học cũ của Dương Đông)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.412–431) ══════
+
+张凯 = Trương Khải (tổ trưởng tổ một, Phòng Kiểm tra Giám sát Kỷ luật thứ nhất Ủy ban Kỷ luật tỉnh Cát Giang)
+张组 = Trương tổ (cách gọi Trương Khải)
+张组长 = Trương tổ trưởng (cách gọi Trương Khải)
+孙干江 = Tôn Can Giang (nhân vật ở Đại học Cát Giang)
+孙导 = Tôn đạo (cách gọi Tôn Can Giang)
+老孙 = lão Tôn (cách gọi Tôn Can Giang)
+牛教授 = Ngưu giáo sư (giáo sư ở Đại học Cát Giang)
+谭秋秋 = Đàm Thu Thu (cán bộ Ủy ban Kỷ luật tỉnh, chủ trì thẩm vấn)
+谭姐 = chị Đàm (cách gọi Đàm Thu Thu)
+董春华 = Đổng Xuân Hoa (viện trưởng Học viện Văn học Đại học Cát Giang, bị song quy)
+老董 = lão Đổng (cách gọi Đổng Xuân Hoa)
+周建 = Chu Kiến (lãnh đạo Phòng Kiểm tra Giám sát Kỷ luật thứ nhất Ủy ban Kỷ luật tỉnh Cát Giang)
+汪改革 = Uông Cải Cách (lãnh đạo Ủy ban Kỷ luật thành phố Bắc Xuân)
+苏科 = Tô khoa (cách gọi Tô Mộc Vân tại Ủy ban Kỷ luật thành phố Bắc Xuân)
+吉江大学 = Đại học Cát Giang
+吉江大学文学院 = Học viện Văn học Đại học Cát Giang
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.432–451) ══════
+
+刘新建 = Lưu Tân Kiến (Trưởng khoa 2 Phòng Nhân sự Ủy ban Kỷ luật tỉnh Cát Giang, cấp chính khoa)
+杨宏 = Dương Hoành (Trưởng khoa Tổng hợp 2, Văn phòng Viện Kiểm sát nhân dân tỉnh Cát Giang)
+罗家山 = La Gia Sơn (thư ký Bí thư Ủy ban Kỷ luật tỉnh Tô Ngọc Lương; Phó trưởng Phòng Tổng hợp 1, Văn phòng Ủy ban Kỷ luật tỉnh,
+武顺和 = Vu Thuận Hòa (Ủy viên Thường vụ Ủy ban Kỷ luật tỉnh Cát Giang)
+章同文 = Chương Đồng Văn (lãnh đạo Ủy ban Kỷ luật tỉnh; chủ trương “ẩn núp” chờ đổi khóa Tỉnh ủy)
+董春军 = Đổng Xuân Quân (em trai Đổng Xuân Hoa; đối tượng vụ án của Ủy ban Kỷ luật thành phố Bắc Xuân)
+杨南 = Dương Nam (em trai Dương Đông; tân sinh viên Khoa Tài chính Đại học Cát Giang)
+韩林阳 = Hàn Lâm Dương (nhân vật trong nhóm Tô Mộc Vân; bản dịch cũ có biến thể “Hà Anh Lâm/Anh Lâm”, thống nhất “Hàn Lâm Dương”)
+锦园大酒店 = Khách sạn lớn Cẩm Viên (nơi diễn ra bữa ăn; thống nhất “Khách sạn Cẩm Viên”, không dùng “Nhà hàng Cẩm Viên”)
+同志街66号小区 = khu dân cư số 66 phố Đồng Chí (nơi Phó Tiểu Điềm ở)
+省人民检察院 = Viện Kiểm sát nhân dân tỉnh Cát Giang
+省纪委人事处 = Phòng Nhân sự Ủy ban Kỷ luật tỉnh Cát Giang
+人事处二科 = Khoa 2 Phòng Nhân sự
+办公室综合二科 = Khoa Tổng hợp 2 Văn phòng
+综合一处 = Phòng Tổng hợp 1
+省委常委 = Ủy viên Thường vụ Tỉnh ủy
+省纪委常委会 = Hội nghị Thường vụ Ủy ban Kỷ luật tỉnh
+八项规定 = Quy định tám điểm
+大院 = khu đại viện (khu tập thể cán bộ cấp cao)
+大院子弟 = con em khu đại viện
+中巴车 = xe khách cỡ trung (thống nhất cách gọi, không dùng “xe trung ba”)
+
+王凰 = Vương Hoàng (Bí thư Ủy ban Chính trị Pháp luật quận Vân Bắc; KHÁC 杨宏 = Dương Hoành)
+牛云生 = Ngưu Vân Sinh (tên đầy đủ; gọi tắt 牛生 = Ngưu Sinh)
+老李 = Lão Lý (cách gọi ông Lý; KHÁC 老黎 = Lão Lê)
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.452–471) ══════
+
+周主任 = Chu chủ nhiệm (cách gọi Chu Kiến, Phó chủ nhiệm Phòng Kiểm tra Giám sát Kỷ luật thứ nhất Ủy ban Kỷ luật tỉnh Cát Giang)
+温演瑞 = Ôn Diễn Thụy (tổ viên trong tổ của Dương Đông; biến thể “Diễn Thụy” thống nhất “Ôn Diễn Thụy”)
+韩浩 = Hàn Hạo (phó tổ trưởng Tổ thụ lý vụ án thứ tám)
+董胜男 = Đổng Thắng Nam (tổ viên trong tổ của Dương Đông)
+赵静南 = Triệu Tĩnh Nam (tổ viên trong tổ của Dương Đông)
+胡文忠 = Hồ Văn Trung (Tổng thư ký Văn phòng Ủy ban Kỷ luật tỉnh Cát Giang; cấp phó sảnh)
+陈泽 = Trần Trạch (Trần chủ nhiệm; cán bộ Ủy ban Kỷ luật tỉnh)
+于师傅 = Vu sư phụ (tài xế; Dương Đông gọi “thầy Vu”)
+省纪委秘书长 = Tổng thư ký Ủy ban Kỷ luật tỉnh
+
+## ══════ BỔ SUNG TỰ ĐỘNG (ch.472–500) ══════
+
+余飞 = Dư Phi (thư ký của Phó bí thư Ủy ban Kỷ luật tỉnh Chương Đồng Văn; ch485–486, 496)
+陈汉中 = Trần Hán Trung (cán bộ công an, chỉ huy bắt Đổng Thắng Nam ở KTV Thất Thải; ch494–495)
+陈所 = Trần sở (cách gọi Trần Hán Trung)
+孙元 = Tôn Nguyên (đi cùng Lý chủ nhiệm ngân hàng đến Khách sạn Cẩm Viên)
+孙哥 = anh Tôn (cách gọi Tôn Nguyên)
+周哥 = anh Chu (cách gọi Chu Kiến)
+冯占乔 = Phùng Chiêm Kiều (bạn học cũ trong buổi họp lớp của thầy Vu; ch481)
+朱青 = Chu Thanh (thành viên Tổ thụ lý vụ án thứ nhất, Phòng Kiểm tra Giám sát Kỷ luật thứ nhất thành phố Bắc Xuân)
+蔡丽丽 = Thái Lệ Lệ (cùng tổ với Chu Thanh)
+董丽丽 = Đổng Lệ Lệ (cán bộ ghi biên bản thẩm vấn Đổng Xuân Quân; ch500)
+金利 = Kim Lợi (cán bộ Ủy ban Kỷ luật tỉnh, hỏi ý Chu Kiến về việc xử lý Đổng Thắng Nam; ch497)
+徐主任 = Từ chủ nhiệm (lãnh đạo nêu ý “xử lý nghiêm” Đổng Thắng Nam; ch497)
+新民派出所 = đồn công an Tân Dân (nơi tạm giữ Đổng Thắng Nam)
+七彩KTV = KTV Thất Thải (thống nhất “Thất Thải”, không dùng “Thất Thái”)
+办案组 = tổ thụ lý vụ án
+第一办案组 = Tổ thụ lý vụ án thứ nhất
+中央纪委 = Ủy ban Kiểm tra Kỷ luật Trung ương
+工作组 = tổ công tác
+通风报信 = thông cung báo tin (báo trước cho đối tượng bị điều tra)
+话柄 = cớ / điều tiếng (chỗ để người khác bắt lỗi)
+停职检查 = đình chỉ công tác để kiểm điểm
+炒股 = đánh chứng khoán (đầu cơ cổ phiếu)
+同学聚会 = buổi họp lớp
+军大衣 = áo bông quân đội
+弥勒佛 = Di Lặc Phật
+
+## ══════ NGỮ CẢNH ══════
+
+- Ch.306–325: Dương Đông cùng Doãn Thiết Quân đến nhà Cố Đồng (Cố trưởng ban) tặng quà; Cố Đồng mời Dương Đông lần sau đến nhà ăn cơm như một sự công nhận. Tô Mộc Vân từ Bắc Xuân đến Linh Vân, gặp Quan Cửu Cửu và Cố Mẫn, tỏ thái độ lạnh nhạt với Dương Đông. Dương Đông nhận định nội gián trong Tổ điều tra liên hợp Thành ủy nhiều khả năng là Chu Dương Minh, người đã báo tin cho Ngô Kiến Tài. Công an bắt Lao Đầu Tử Tôn Kiến Vinh; Dương Đông gặp Ngô Chí, đồn trưởng đồn công an trước ga, và Uông Đông, người được Tùy Phi điều về Đội Cảnh sát Hình sự. Ngô Kiến Tài xông vào phòng 333 mời rượu, Dương Đông giữ thái độ điềm tĩnh; sau đó tại nhà Cố Mẫn, Dương Đông báo cáo với lãnh đạo về Ngô Kiến Tài. Tưởng Hổ gây bất ngờ khi nói người nhà muốn gặp Dương Đông; Dương Đông gặp Tưởng tỉnh trưởng, nhận túi hồ sơ dày từ Khương Trác Dân để chuyển cho Quan Mộc Sơn.
+- Ch.326–345: Tại Công an thành phố Linh Vân, Dương Đông cùng Tùy Phi thẩm vấn Tôn Kiến Vinh (Lao Đầu Tử); Tôn Kiến Vinh khai ra Phùng Lợi Sơn, Điền Nguyên, Mã Trường Sơn — Tứ ca, anh em kết nghĩa của Ngô Kiến Tài — và thừa nhận Ngô Kiến Tài có hành vi hối lộ, đồng thời chỉ chỗ giấu cuốn sổ ghi quà cáp, tiền mặt trong két nước bồn cầu tại nhà hắn. Dương Đông giao cuốn sổ cho Tưởng Hổ mang đến Doãn Thiết Quân để chuyển tận tay Quan Mộc Sơn, nhưng sau đó cuốn sổ lại nằm trong tay Thị trưởng Hầu Dũng. Trên đường đi, Dương Đông bị tài xế taxi chở về hướng quận Vân Bắc rồi đưa đến Vật liệu Xây dựng Thực nghiệp, nơi Ngô Kiến Tài chĩa súng vào trán anh; Phó Tiểu Điềm chứng kiến cảnh này.
+- Ch.348–367: Tại cuộc họp, Quan Mộc Sơn công bố tập tài liệu 8 năm về Ngô Kiến Tài, 60% ở Linh Vân, 40% ở Thạch Nguyên và Ô Lan; Vũ Tân Khai chuyển tài liệu cho Chủ nhiệm Nhân đại Hồ Trường An. Ngày 22 tháng 7 năm 2008, Hội nghị mở rộng Thường vụ Thành ủy quyết định bắt 227 thành viên nòng cốt, Lục Văn Bác điều động công an các huyện, trừ quận Vân Bắc. Tô Mộc Vân báo Dương Đông một tháng nữa đến Ủy ban Kỷ luật tỉnh nộp diện theo ý Tô bí thư. Khi chiến dịch diễn ra, Ngô Kiến Tài cùng tay chân cố thủ ở Vật liệu Xây dựng Thực nghiệp, đòi gặp Quan Mộc Sơn trong một giờ, nếu không sẽ cho nổ tòa nhà; nữ thư ký Phó Tiểu Điềm ở bên cạnh. Vũ Tân Khai gọi Dương Đông đến, Quan Mộc Sơn đưa anh tới hiện trường; Dương Đông vào gặp Ngô Kiến Tài, bị dọa là “thi thể thứ chín” nhưng vẫn điềm tĩnh.
+- Ch.388–407: Từ sau khi đưa Phó Tiểu Điềm đến nhà chú Doãn, Dương Đông dành hơn nửa tháng hỗ trợ Quan Mộc Sơn xử lý hậu quả tập đoàn Ngô Kiến Tài và thẩm vấn cán bộ dính líu; Doãn Thiết Quân thẳng thắn từ chối chìa khóa xe BMW MINI của Phó Tiểu Điềm, nói giúp cô là vì Tiểu Đông. Dương Đông thẩm vấn Lý Văn Hòa nhưng bị chống đối, giả ngủ; Lệnh Chấn Đình gọi Dương Đông về gặp Quan Mộc Sơn, rồi thú nhận từng nhận 3 vạn tệ của Ngô Kiến Tài để dàn xếp vụ trưởng khoa Cục Thuế và biết Từ Doãn Tài nhận 10 vạn. Lý Văn Hòa sau đó tố giác Vũ Tân Khai và la hét trong khách sạn; Dương Đông bảo Lục Diệc Khả về mời Quan Mộc Sơn, còn mình ở lại trông Lý Văn Hòa. Hầu Dũng đến tòa Thành ủy gặp Vũ Tân Khai; Phó Tiểu Điềm bị Chính quyền thành phố gọi đến tọa đàm về thu mua Vật liệu Xây dựng Thực nghiệp; Quan Mộc Sơn nói chuyện hai tiếng rưỡi với Lý Văn Hòa.
+- Ch.412–431: Đầu tháng 9/2008, Dương Đông và Lục Diệc Khả được điều động tạm thời từ Ủy ban Kỷ luật thành phố Linh Vân đến Phòng Kiểm tra Giám sát Kỷ luật thứ nhất Ủy ban Kỷ luật tỉnh Cát Giang, do Chu Kiến giới thiệu; Dương Đông chọn vào tổ một, do Trương Khải phụ trách. Ngày 11 tháng 9 năm 2008, tổ của Trương Khải thẩm vấn Đổng Xuân Hoa, viện trưởng Học viện Văn học Đại học Cát Giang, với sự chủ trì của Đàm Thu Thu và sự tham gia của Dương Đông, Lục Diệc Khả. Đổng Xuân Hoa bị phát hiện 5 triệu tệ tiền mặt tại tầng hầm nhà em trai và thẻ ngân hàng đứng tên vợ có 2 triệu tệ, nhưng ông ta khăng khăng không tham nhũng. Trước đó, Tôn Can Giang và giáo sư Ngưu phản đối việc đưa Đổng Xuân Hoa đi; Dương Đông đã kéo Tôn Can Giang ra ngoài. Dương Đông cũng gọi điện báo Tô Mộc Vân rằng mình đã đến Ủy ban Kỷ luật tỉnh, còn Tô Mộc Vân xin nghỉ ở Ủy ban Kỷ luật thành phố Bắc Xuân.
+- Ch.432–451: Đầu tháng 9/2008, tại Bắc Xuân, Tô Mộc Vân gọi điện cho Chu Kiến hỏi về Dương Đông, rồi bất ngờ xuất hiện trước cửa Khách sạn Cẩm Viên chất vấn anh vì sao cúp máy. Đàm Thu Thu giới thiệu Dương Đông và Lục Diệc Khả với ba cán bộ trẻ, trong đó có Lưu Tân Kiến (gọi “Lưu khoa”) và Dương Hoành; Lục Diệc Khả quen Lưu Tân Kiến từ thời thực tập ở Ủy ban Kỷ luật tỉnh. Tại Ủy ban Kỷ luật tỉnh, thư ký La Gia Sơn báo Tô Ngọc Lương việc Tô Mộc Vân xin nghỉ ở Ủy ban Kỷ luật thành phố Bắc Xuân; Hội nghị Thường vụ Ủy ban Kỷ luật tỉnh có Vu Thuận Hòa và một ủy viên nữ hơn bốn mươi tuổi lên tiếng, còn Chương Đồng Văn nêu ý “tình thế chưa rõ, cần ẩn núp”, ngầm chỉ cuộc đổi khóa Tỉnh ủy. Trong bữa ăn, Phan Hiểu Thiên đến muộn, Hàn Lâm Dương ngồi cạnh Tô Mộc Vân nhưng bị cô đối xử rất nhạt; sau bữa Đàm Thu Thu lo chỗ ở, Lục Diệc Khả có nhà riêng trong tỉnh.
+- Ch.452–471: Dương Đông bàn với em trai Dương Nam về ý tưởng khởi nghiệp dịch vụ giao đồ ăn, khuyến khích cậu làm thử; Phó Tiểu Điềm lái xe đưa Dương Nam về trường và nói ở Bắc Xuân cô không chỉ có một căn nhà. Tô Mộc Vân chất vấn Tô Ngọc Lương nhưng ông không trả lời, chỉ hút thuốc rồi bật cười nói Quan Mộc Sơn “học hư”, khiến cô bối rối. Dương Đông đến Ủy ban Kỷ luật thành phố Bắc Xuân tìm Tô Mộc Vân, gặp thầy Vu và bàn cách để Đổng Xuân Quân lộ chuyện tiêu tiền trong buổi họp lớp. Tại Ủy ban Kỷ luật tỉnh Cát Giang, Hồ Văn Trung giao Dương Đông làm một trong hai tổ trưởng tổ điều tra liên hợp vụ hai họ Đổng; Chu Kiến công bố thành lập Tổ điều tra thứ tám, Dương Đông làm tổ trưởng và chọn Lục Diệc Khả vào tổ. Ngày 25 tháng 9 năm 2008, tổ điều tra liên hợp chính thức hợp nhất; Dương Đông giới thiệu Hàn Hạo làm phó tổ trưởng Tổ thụ lý vụ án thứ tám, còn Tô Mộc Vân hỏi anh về buổi họp lớp của thầy Vu.
+- Ch.472–500: Tô Mộc Vân cho Dương Đông biết Tô Ngọc Lương đã chất vấn Quan Mộc Sơn về vụ Đổng Xuân Hoa và định “gõ đầu” ông ta, trong khi Quan Mộc Sơn đã hai ngày đứng chờ trước cửa phòng làm việc của Tô Ngọc Lương. Dương Đông bố trí bữa ăn tại Khách sạn Cẩm Viên trùng với buổi họp lớp của thầy Vu nhằm ép Đổng Xuân Quân lộ chuyện tiêu tiền; Phó Tiểu Điềm và Dương Nam đón Lý chủ nhiệm ngân hàng cùng Tôn Nguyên, xếp phòng 210 ở tầng hai. Tại buổi họp lớp, Dương Đông đóng vai phục vụ và lấy được thẻ Ngân hàng Nông nghiệp của Đổng Xuân Quân; Tô Mộc Vân dẫn ba nữ cán bộ Ủy ban Kỷ luật thành phố Bắc Xuân là Chu Thanh, Dương Hồng, Thái Lệ Lệ đến hỗ trợ. Đổng Xuân Quân bị song quy, thẻ có số dư năm triệu tệ; Chương Đồng Văn gọi Dương Đông lên nói chuyện, tung cành ô liu mời anh làm thư ký nhưng bị từ chối khéo, rồi hỏi vì sao lại gọi Chu Kiến đến.

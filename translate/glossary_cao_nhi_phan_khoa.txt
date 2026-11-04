@@ -1,0 +1,407 @@
+# GLOSSARY — Phân Ban Lớp 11 (高二分科，我选校花也选亿万身家)
+# Quy ước: mỗi dòng CHỈ MỘT cặp `Hán = Việt (ghi chú)`. Không dấu `=` hay `"`
+# trong phần ghi chú — parser lấy nguyên văn vế phải làm tên chuẩn.
+# Cập nhật: 2026-11-03 (tự động từ _cnpk_gloss_normalize.py)
+
+# Tác giả: 黑狗不爱吃汤圆 (Hắc Cẩu Không Thích Ăn Bánh Trôi)
+
+## ══════ NHÂN VẬT CHÍNH ══════
+
+顾屿 = Cố Dư (nam chính. Thân xác 17 tuổi, học sinh lớp 11 trường Thất Trung Cẩm Thành
+苏念 = Tô Niệm (nữ chính. Bạn cùng bàn cũ của Cố Dư hồi lớp 10, học bá đứng nhất khối,
+李凯 = Lý Khải (bạn thân nhất của Cố Dư từ hồi lớp 10
+李猴子 = Lý Khỉ (biệt danh của Lý Khải, vì gầy và hay nhảy nhót)
+张慧 = Trương Tuệ (mẹ Cố Dư. Mở quán tạp hóa Huệ Dân ở tầng dưới. Tính nóng, nói nhanh như
+顾建国 = Cố Kiến Quốc (bố Cố Dư. Công nhân xây dựng, ít nói, hay ngồi uống trà đặc xem thời
+赵文博 = Triệu Văn Bác (giáo viên chủ nhiệm lớp Văn 1, dạy Lịch sử. Đeo kính gọng đen dày như
+赵阎王 = Triệu Diêm Vương (biệt danh học sinh đặt cho thầy Triệu Văn Bác)
+陈浩 = Trần Hạo (đối thủ của Cố Dư. Cựu lớp trưởng lớp 10-3, nhà khá giả, đeo đồng hồ bạc,
+王叔 = chú Vương (tài xế riêng của nhà họ Tô)
+
+## ══════ NHÂN VẬT PHỤ ══════
+
+王雅 = Vương Nhã (bạn cùng lớp)
+李静 = Lý Tĩnh (bạn cùng lớp)
+张伟 = Trương Vĩ (bạn cùng lớp, người thứ 31 chọn chỗ)
+莉莉 = Lệ Lệ (cô gái trông quán net "Cực Tốc Không Gian", tóc nhuộm vàng khô, một hàng khuyên tai)
+精神小伙 = trai chải chuốt (từ lóng chỉ thanh niên tóc vuốt keo dựng đứng, ngồi
+
+李正国 = Lý Chính Quốc (xưng 老李
+
+## ══════ ĐỊA DANH ══════
+
+锦城 = Cẩm Thành (thành phố lớn, bối cảnh kiểu Thành Đô: có quán trà, quán mạt chược, giọng
+钓鱼岛 = Đảo Điếu Ngư (đảo Diaoyu, địa danh — KHÁCH 斗鱼 nền tảng livestream = Đấu Ngư)
+尖阁诸岛 = Quần đảo Tiêm Các (tên Nhật của Đảo Điếu Ngư, chỉ xuất hiện trong ngữ cảnh ngoại giao)
+七中 = Thất Trung (cách gọi tắt trường)
+锦城七中 = Trường THPT số 7 Cẩm Thành
+长顺街 = phố Trường Thuận (khu phố cũ, nhà Cố Dư ở đây
+望江路 = đường Vọng Giang (khu cao cấp nhà Tô Niệm, cổng phải quẹt thẻ mới vào)
+惠民小卖部 = quán tạp hóa Huệ Dân
+极速空间 = Cực Tốc Không Gian (quán net gần trường, Cố Dư hay ngồi ở kiếp trước)
+教务处 = phòng Giáo vụ
+文科一班 = lớp Văn 1 (lớp chuyên ban Xã hội, cuối dãy hành lang)
+
+## ══════ QUY ƯỚC DẤU (đọc kỹ) ══════
+
+Dòng dùng dấu `=` là TÊN RIÊNG / THUẬT NGỮ CỐ ĐỊNH — phải dịch đúng y như vậy.
+Dòng dùng dấu `->` là từ lóng / thán từ / khẩu ngữ — chỉ để tham khảo, có thể dịch
+linh hoạt theo ngữ cảnh cho tự nhiên.
+
+## ══════ THUẬT NGỮ HỌC ĐƯỜNG ══════
+
+文理分科 = phân ban Văn – Lý
+分科表 = phiếu phân ban
+文理分科意向表 = phiếu nguyện vọng phân ban Văn – Lý
+文科 = ban Xã hội (gọi tắt của lớp Văn; lớp cụ thể là "lớp Văn 1")
+理科 = ban Tự nhiên (gọi tắt của lớp Lý)
+高2010级 = khóa 2010 (nhập học năm 2010). 高2010级文科一班
+高一 = lớp 10
+高二 = lớp 11
+高三 = lớp 12
+学霸 = học bá (học sinh giỏi nhất). 苏大学霸
+校花 = hoa khôi (hoa khôi trường)
+冰山校花 = hoa khôi băng sơn (cách gọi Tô Niệm: hoa khôi lạnh lùng)
+月考 = thi tháng
+早自习 = tiết tự học đầu giờ
+晚自习 = tiết tự học buổi tối
+高考 = kỳ thi đại học
+二本 = trường đại học hạng hai
+清华北大 = Thanh Hoa Bắc Đại
+理综 = tổ hợp Lý – Hóa – Sinh
+语英 = Văn – Anh
+降维打击 = đả kích giáng chiều (đòn tấn công hạ chiều không gian). GIỮ NGUYÊN cụm này ở mọi
+内容变现 = nội dung biến hiện (biến nội dung thành tiền). GIỮ đúng 4 tiếng để ch.2 còn giữ
+
+## ══════ THUẬT NGỮ KINH DOANH / INTERNET ══════
+
+第一桶金 = thùng vàng đầu tiên (món tiền đầu tiên)
+知乎 = Tri Hồ
+谢邀 = Cảm ơn đã mời (câu cửa miệng mở đầu mọi câu trả lời trên Tri Hồ — phải giữ đúng cụm
+邀请码 = mã mời
+私信 = tin nhắn riêng
+大V = đại V (KOL lớn)
+封神 = phong thần (trở thành huyền thoại)
+念语 = Niệm Ngữ (nick Tri Hồ Cố Dư tự đặt: 念 lấy từ Tô Niệm, 语 đồng âm với 屿 của Cố Dư —
+颜色革命 = cách mạng màu
+阿拉伯之春 = Mùa xuân Ả Rập
+社交媒体 = mạng xã hội
+通讯录 = danh bạ điện thoại
+二维码 = mã QR
+网络效应 = hiệu ứng mạng
+冷启动 = khởi động lạnh (cold start)
+护城河 = hào bảo vệ (lợi thế phòng thủ)
+关系链 = chuỗi quan hệ
+分封制 = chế độ phân phong
+封建亲戚，以藩屏周 = phân phong thân thích, lấy phiên che chở Chu
+连锁加盟 = nhượng quyền thương hiệu (franchise)
+诸侯 = chư hầu
+卿大夫 = khanh đại phu
+周天子 = Thiên tử nhà Chu
+春秋战国 = Xuân Thu Chiến Quốc
+礼崩乐坏 = lễ băng nhạc hoại
+
+## ══════ ĐỒ VẬT / THƯƠNG HIỆU ══════
+
+奥迪A6 = Audi A6
+诺基亚5230 = Nokia 5230
+《爱情买卖》 = ca khúc Mua Bán Tình Yêu
+《英雄联盟》 = Liên Minh Huyền Thoại
+QQ农场 = Nông trại QQ (game trồng trọt trên QQ)
+QQ炫舞 = QQ Huyễn Vũ
+王炸 = Vương Tạc! (tiếng hô quân bài bom trong bài Địa chủ)
+搪瓷茶缸 = ca sứ tráng men
+工字背心 = áo ba lỗ
+馒头 = bánh màn thầu
+香樟树 = cây long não
+《五年高考三年模拟》 = Năm Năm Cao Khảo, Ba Năm Mô Phỏng (sách luyện thi nổi tiếng)
+《天利38套》 = Thiên Lợi 38 Bộ
+《王后雄学案》 = Vương Hậu Hùng Học Án
+
+## ══════ KHẨU NGỮ ĐỜI THƯỜNG ══════
+
+格局 = cái tầm (tầm nhìn, độ lớn của suy nghĩ)
+格局打开 = mở rộng tầm mắt
+你格局小了 = tầm nhìn bé quá
+白月光 = bạch nguyệt quang (GIỮ NGUYÊN cụm này — từ lóng chỉ mối tình đầu không thể với tới)
+卧槽 -> đệt (thán từ mạnh)
+我日 -> vãi (thán từ)
+我靠 -> khốn thật (thán từ)
+草 -> chết tiệt (thán từ nhẹ)
+牛逼 -> đỉnh
+牛 -> bá đạo
+装逼 -> làm màu (ra vẻ ta đây)
+啥子 = cái gì
+要得 = được (tiếng Tứ Xuyên)
+晓得 = biết
+脑壳遭门挤了 = đầu bị cửa kẹp rồi à (tiếng Tứ Xuyên, nghĩa là "mày điên à")
+阿姨 = dì (王阿姨 : dì Vương, hàng xóm)
+哥们儿 = ông bạn
+兄弟 = anh em
+华夏 = Hoa Hạ
+神曲 -> bài hát thần thánh (chỉ bài hát gây nghiện, phổ cập khắp nơi)
+包夜 = bao đêm (chơi net qua đêm)
+上分 = leo rank
+公测 = thử nghiệm mở
+内测号 = tài khoản thử nghiệm nội bộ
+山寨手机 = điện thoại nhái
+俄罗斯方块 = xếp gạch (Tetris)
+炒房 = đầu cơ nhà đất
+比特币 = Bitcoin
+幸福肥 = béo vì hạnh phúc
+业余爱好者 = người yêu thích nghiệp dư
+加盟商 = đại lý nhượng quyền
+总公司 = công ty mẹ (tổng công ty)
+朋友圈 = Moments (GIỮ NGUYÊN, ch.9 phải gọi là vòng tròn khép kín vì Cố Dư cố tình không
+异步语音 = giọng nói bất đồng bộ
+封闭圈子 = vòng tròn khép kín
+强关系 = quan hệ mạnh
+反在线 = phản trực tuyến
+风暴会 = họp động não
+内推 = giới thiệu nội bộ
+霍布斯 = Hobbes
+基地组织 = Al-Qaeda
+叙利亚 = Syria
+伊拉克 = Iraq
+开罗 = Cairo
+葬爱小王子 = Tiểu Vương Tử Chôn Tình Yêu (nickname chat)
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.11–30) ══════
+
+张卫东 = Trương Vệ Đông (cậu ruột của Cố Dư, cảnh sát khu vực — 片儿警
+陈律师 = luật sư Trần (luật sư của quỹ Lý Chính Quốc, đeo kính, nói chuyện chặt chẽ, ch.18–21)
+观海听涛 = Quan Hải Thính Đào (ID một giáo sư đại học trên diễn đàn, nghiên cứu Trung Đông hai
+天涯社区 = Thiên Nhai (diễn đàn lớn
+鹤鸣茶社 = trà xã Hạc Minh (quán trà ở quận Thanh Dương, Cẩm Thành — nơi ký hợp đồng ch.21)
+青羊区 = quận Thanh Dương
+人民公园 = công viên Nhân Dân
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.31–67) ══════
+
+林溪 = Lâm Khê (nữ trợ lý/bảo bối của Cố Dư từ ch.36
+王哲 = Vương Triết (đội tranh biện lớp Văn 2, đối thủ của Cố Dư ở ch.45–49
+王梓萌 = Vương Tử Manh (thành viên đội tranh biện lớp Văn 1)
+刘宇飞 = Lưu Vũ Phi (thành viên đội tranh biện lớp Văn 1 — nguồn ch.39 ghi 刘宇飞; LUÔN dịch
+"Lưu Vũ Phi", KHÔNG đổi sang Lưu Vũ Phi/Lưu Vũ Phỉ khác)
+周晨 = Chu Thần (kỹ sư trưởng đội thuật toán của Cố Dư, 272 lần trong nguồn — nguồn chỉ có
+周晨, KHÔNG có 储晨; luôn dịch "Chu Thần")
+王金龙 = Vương Kim Long (kẻ bị Cố Dư tố giác giấu ma túy và sổ sách trong tường KTV ở ch.33)
+灯塔看守人 = Người Canh Hải Đăng (bút danh một công tri viết bài tinh thần quý tộc
+金牛万达 = Vạn Đạt Kim Ngưu (tòa nhà văn phòng, phòng 1208 là trụ sở công ty)
+太升南路 = Thái Thăng Nam (chợ/phố bán thiết bị điện tử ở Cẩm Thành)
+浣花溪 = Hoán Hoa Khê (khu quán ăn kín đáo)
+双流机场 = sân bay Song Lưu
+别踩白块儿 = Đừng giẫm ô trắng (game di động Cố Dư phát hành
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.68–104) ══════
+
+苏弘道 = Tô Hoằng Đạo (cha Tô Niệm, trùm ẩm thực Cẩm Thành
+星火科技 = Tinh Hỏa Khoa Học (công ty PHẦN CỨNG Cố Dư lập ở ch.71 với nhóm kỹ sư)
+回响科技 = Hồi Âm Khoa Học (công ty PHẦN MỀM/game, có từ trước — PHÂN BIỆT với Tinh Hỏa)
+罗文 = La Văn (kỹ sư trưởng nhóm phần cứng, tính khí nóng, hay đòi nghỉ việc rồi lại ở — ch.68+)
+顾超 = Cố Siêu (anh họ của Cố Dư, được nhờ che giấu việc anh bỏ học đi đón Tô Niệm — ch.84)
+香格里拉 = Shangri-La (khách sạn nơi Cố Dư gặp nhóm kỹ sư — ch.70)
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.105–143) ══════
+
+余大嘴 = Dư Đại Chủy (biệt danh của một phó tổng Huawei phụ trách mảng thiết bị — chủy nghĩa
+刘强 = Lưu Cường (nhà cung cấp app gọi món 3 triệu tệ, làm ăn cẩu thả, bị Tô Hoằng Đạo đuổi ở
+柳云 = Liễu Vân (tiến sĩ Stanford, được Cố Dư chiêu mộ về làm kỹ thuật cùng Chu Thần — ch.126)
+鼎食人家 = Đỉnh Thực Nhân Gia (chuỗi nhà hàng lớn của Tô Hoằng Đạo)
+今日热点 = Điểm Nóng Hôm Nay (app tin tức/tổng hợp do Hồi Âm làm
+斯坦福 = Stanford
+底特律 = Detroit (GIỮ NGUYÊN tên Latinh)
+洛杉矶 = Los Angeles (GIỮ NGUYÊN tên Latinh)
+比佛利山庄 = Beverly Hills (GIỮ NGUYÊN tên Latinh)
+
+## ══════ NHÂN VẬT BỔ SUNG (ch.144–167) ══════
+
+张雅 = Trương Nhã (chị họ của Cố Dư, du học về, kiêu ngạo, từng đòi nghiền nát phòng nhân sự
+
+## ══════ THUẬT NGỮ MẠNG BỔ SUNG ══════
+
+UP主 = chủ kênh (người đăng tải video lên nền tảng
+弹幕 = bình luận bay / bình luận trực tiếp (danmu)
+直播 = livestream / phát trực tiếp
+短视频 = video ngắn
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.168–207) ══════
+
+余诚东 = Dư Thành Đông (TÊN THẬT của vị phó tổng Huawei
+陈少杰 = Trần Thiếu Kiệt (ông trùm AcFun, đến gặp Cố Dư bàn hợp tác rồi bỏ đi Vũ Hán — ch.168+)
+潘恩林 = Phan Ân Lâm (quản lý/CEO trạm A của AcFun, sau bán trạm A cho Cố Dư — ch.169, 185–186)
+王麟 = Vương Lân (khách mời/phóng viên dự họp báo Tinh Hỏa — ch.196, 203)
+王璐 = Vương Lộ (nhân vật ch.1316+; phân biệt với 王麟 = Vương Lân)
+王磊 = Vương Lỗi (nhân vật ch.1066, 1179...; phân biệt với 王璐 = Vương Lộ)
+林逸 = Lâm Dật (người liên hệ mời Chu Thân ký hợp đồng — ch.190)
+顾建民 = Cố Kiến Dân (họ hàng của Cố Dư, khoe BMW và làm ăn nhờ vỏ điện thoại — ch.191)
+张志豪 = Trương Chí Hào (người dùng thấy Tinh Hỏa số 2 hết hàng — ch.205)
+合川 = Hợp Xuyên (điểm đến chuyến đi của Cố Dư và Tô Niệm — ch.207)
+
+## ══════ NHÂN VẬT BỔ SUNG (ch.203–212) ══════
+
+唐以诺 = Đường Dĩ Nặc (bạn thân của Tô Niệm, tiểu thư nhà giàu, tính tinh nghịch, thích chụp ảnh
+仙人掌青旅 = nhà nghỉ thanh niên Xương Rồng (nơi ba người trú ở Hợp Xuyên)
+
+## ══════ NHÂN VẬT / THƯƠNG HIỆU BỔ SUNG (ch.208–252) ══════
+
+王莉莉 = Vương Lệ Lệ (biên tập viên mảng tiểu thuyết của Hồi Âm
+西红柿 = Cà Chua (biệt danh một nhân vật/đối tác — giữ đúng cách gọi này)
+极光 = Cực Quang (tên công ty/đối thủ, xuất hiện rất nhiều từ ch.220+
+九章 = Cửu Chương (máy tính lượng tử của Trung Quốc — giữ đúng tên)
+嘉陵江 = Gia Lăng Giang (con sông ở Cẩm Thành)
+
+## ══════ NHÂN VẬT / THƯƠNG HIỆU BỔ SUNG (ch.260–300) ══════
+
+徐静 = Từ Tĩnh (nhân vật nữ quan trọng xuất hiện từ ch.275, hơn 250 lần trong nguồn — giữ đúng
+斗鱼 = Đấu Ngư (Douyu — nền tảng livestream game
+斗鱼TV = Đấu Ngư TV (tên đầy đủ của nền tảng 斗鱼 — chấp nhận cả hai cách gọi)
+海思 = HiSilicon / Hải Tư (công ty chip của Huawei — chấp nhận cả hai cách gọi)
+不言 = Bất Ngôn (biệt hiệu/nhân vật — ch.283)
+安倍 = Abe (nhân vật chính trị Nhật, giữ nguyên họ Latinh)
+
+## ══════ NHÂN VẬT / BIỆT DANH BỔ SUNG (ch.300–400) ══════
+
+钱东来 = Tiền Đông Lai (nhân vật lớn, hơn 250 lần trong nguồn
+企鹅 = Chim Cánh Cụt (biệt danh Tencent — 550 lần trong nguồn; LUÔN dùng "Chim Cánh Cụt",
+KHÔNG viết "Tencent" trong lời kể, chỉ giữ "Tencent" khi nguồn nêu tên công ty chính thức)
+小顾 = Tiểu Cố (cách gọi thân mật dành cho Cố Dư, 97 lần trong nguồn; người lớn tuổi hơn
+như Tô Hoằng Đạo gọi — PHÂN BIỆT với 小屿 = Tiểu Dư do mẹ Trương Huệ và cậu Trương Vệ Đông gọi)
+小周 = Tiểu Châu (cách gọi thân mật của 周某; phân biệt với 小顾 = Tiểu Cố)
+老李 = Lão Lý (cách gọi Lý Chính Quốc)
+老罗 = Lão La (một người khác, KHÔNG phải Lão Lý)
+
+## ══════ TÊN RIÊNG CẦN PHÂN BIỆT ══════
+
+张三 = Trương Tam (tên chung chung kiểu Nguyễn Văn A cho người dùng/nhân vật vô danh trên
+
+## ══════ NHÂN VẬT BỔ SUNG (rà soát ch.1–357) ══════
+
+成从武 = Thành Tùng Vũ (nhân vật lớn, hơn 200 lần trong nguồn)
+江云舒 = Giang Vân Thư (nhân vật nữ, 78 lần)
+任宇昕 = Nhậm Vũ Hân (chủ tịch IEG của Tencent, tên tiếng Anh Mark — nguồn ghi 任宇昕（Mark）)
+雅安 = Nhã An (địa danh/thành phố ở Tứ Xuyên; KHÔNG phải tên người)
+
+## ══════ NHÂN VẬT / ĐỊA DANH BỔ SUNG (ch.330–357) ══════
+
+任正非 = Nhậm Chính Phi (nhà sáng lập Huawei — giữ đúng tên)
+曾贤成 = Tằng Hiền Thành (nhà phát triển game FPS "Chiến Hỏa Phong Bạo" — ch.331)
+天府驾校 = trường dạy lái Thiên Phủ
+
+## ══════ QUY TẮC RIÊNG CỦA BỘ TRUYỆN ══════
+
+1. GIỌNG ĐIỆU: Cố Dư là người 31 tuổi sống trong thân 17 tuổi. Lời thoại của anh phải già dặn,
+   tỉnh táo, hay trêu, hay dùng từ kinh doanh/Internet (giáng chiều, nội dung biến hiện, nhượng
+   quyền, cổ đông, khởi động lạnh…). KHÔNG được viết như lời một cậu học sinh 17 tuổi thật.
+2. XƯNG HÔ:
+   - Cố Dư ↔ Tô Niệm: gọi nhau bằng tên. Cố Dư trêu "học bá Tô", "đồng chí Tô Niệm"; Tô Niệm
+     gọi "Cố Dư", khi bực thì "đồng chí", "tên vô lại", "cái đồ thần kinh".
+   - Lý Khải gọi Cố Dư là "anh Dư"; Cố Dư gọi Lý Khải là "Khỉ" hoặc "Lý Khải".
+   - Cố Dư ↔ bố mẹ: "bố", "mẹ", tự xưng "con".
+   - Học sinh → thầy Triệu Văn Bác: "thầy", "thầy Triệu". Thầy gọi học sinh bằng tên đầy đủ.
+   - Trần Hạo với bạn cùng lớp: "mình" / "các bạn", giọng kẻ cả lịch sự giả tạo.
+   - TUYỆT ĐỐI không dùng "ngươi", "lão tử", "lão phu", "ngài" trong thoại.
+3. Ch.4 có câu độc thoại "老子的人生已经苦了整整一辈子" → dịch "Đời mình đã khổ suốt cả một
+   kiếp rồi", không dịch thành "lão tử".
+4. Từ địa phương Tứ Xuyên trong nguồn (啥子, 脑壳遭门挤了, 我日, 要得, 晓得) → dịch thành
+   khẩu ngữ tiếng Việt tự nhiên ("cái gì", "đầu bị cửa kẹp rồi à", "đệt", "được", "biết"),
+   không chua chữ địa phương Việt.
+5. MỐC THỜI GIAN: 31-8-2011 (thứ Tư), khai giảng 1-9-2011. Kiếp trước Cố Dư sống tới 2025
+   (31 tuổi, mùa đông 2025 xem tivi thấy Tô Niệm). TUYỆT ĐỐI không hiện đại hóa bối cảnh:
+   Nokia 5230, quán net, Windows XP, QQ, CF/DNF, đi net chưa cần CMND, chưa có smartphone phổ
+   thông. Không nhắc tới điện thoại thông minh, mạng 4G, ví điện tử.
+6. TIỀN: 1 元 = 1 tệ. 四十七块五 = 47,5 tệ. Máy tính lắp ráp năm 2011 giá ba bốn nghìn tệ.
+7. NHÀ HỌ TÔ: rất giàu — tài xế riêng, Audi A6, khu cao cấp đường Vọng Giang phải quẹt thẻ.
+   Đây là "bức tường giai cấp" trung tâm của truyện, phải giữ nhất quán hình ảnh này ở mọi chương.
+8. TÔ NIỆM: lạnh lùng là "chế độ tiết kiệm điện" để chặn người ngoài, không phải vô tình. Khi
+   ngượng thì tai đỏ, mắt tránh đi, miệng vẫn cứng. Không viết cô thành người dịu dàng yếu đuối.
+
+## ══════ NHÂN VẬT CHỦ CHỐT BỔ SUNG (rà soát ch.1–500) ══════
+
+陆知远 = Lục Tri Viễn (nhân vật lớn nhất bộ sau Cố Dư — hơn 1.300 lần trong nguồn; giữ đúng
+tên này, không đổi thành Lục Tri Viện/Lục Trí Viễn)
+沈昭野 = Thẩm Chiêu Dã (nhân vật quan trọng, hơn 760 lần trong nguồn)
+钟楚楚 = Chung Sở Sở (nhân vật nữ, hơn 170 lần)
+
+## ══════ NHÂN VẬT BỔ SUNG (ch.400–500) ══════
+
+李一男 = Lý Nhất Nam (nhân vật thật, cựu phó tổng Huawei — hơn 400 lần trong nguồn)
+方舟 = Phương Chu (tên riêng trong truyện — KHÔNG dịch nghĩa là "con thuyền/chiếc tàu")
+
+## ══════ THUẬT NGỮ BỔ SUNG (ch.500–600) ══════
+
+天眼 = Thiên Nhãn (kính thiên văn FAST của Trung Quốc — PHÂN BIỆT với 天涯 = Thiên Nhai)
+
+## ══════ NGỮ CẢNH (tự động dựng lại mỗi lô) ══════
+
+### Thiết lập & trạng thái (nguồn: _cnpk_state.txt)
+
+### Thiết lập không đổi
+- Bối cảnh: Cẩm Thành (quận Thanh Dương), bắt đầu 31-8-2011; hiện khoảng giữa 2012.
+  Kiếp trước Cố Dư sống tới 2025. Không hiện đại hoá bối cảnh (Nokia, quán net, QQ, CF/DNF).
+- Cố Dư: thân 17 tuổi, hồn 31 tuổi — lời thoại già dặn, hay trêu, dùng từ kinh doanh. Chưa ai
+  biết bí mật trọng sinh. Tô Niệm vẫn chưa biết anh là "Niệm Ngữ" và là chủ công ty.
+- Tô Niệm: học bá, hoa khôi lạnh lùng; cha là Tô Hoằng Đạo (Tô Bán Thành) — trùm ẩm thực.
+- Lý Khải (Lý Khỉ) gọi Cố Dư là "anh Dư". Triệu Văn Bác = Triệu Diêm Vương (chủ nhiệm).
+  Trần Hạo: đối thủ học đường. Lâm Khê: thư ký/quản lý. Trương Vĩ: lập trình viên.
+- Luật chỗ ngồi: xếp theo điểm, thi tháng xong xếp lại.
+- Xưng hô: Cố Dư ↔ Tô Niệm gọi tên; Lý Khải gọi "anh Dư"; bố mẹ là "bố/mẹ/con"; Trương Vệ
+  Đông là "cậu"; Tô Hoằng Đạo theo cách gọi của nhà họ Tô là "bác Tô".
+
+### Trạng thái hiện tại (sau ch.357)
+- Hai công ty: Hồi Âm Khoa Học (回响科技 — phần mềm/game/IM) và Tinh Hỏa Khoa Học (星火科技
+  (phần cứng: pin sạc dự phòng, giao thức sạc Tinh Thiểm/SuperLink).
+- Sản phẩm: "Đừng giẫm ô trắng", 2048, app "Điểm Nóng Hôm Nay", game Goose Goose Duck
+  (doanh thu 3 triệu/ngày), dự án IM để đánh thẳng vào WeChat.
+- Tài chính: tiền game chảy mạnh; Cố Dư đưa bố mẹ thẻ 10 triệu tệ nhưng bố mẹ không tiêu.
+- Quan hệ: Tô Niệm và Cố Dư đã hẹn ước từ đêm giao thừa 2012; đang cùng học lái xe ở Thiên Phủ.
+- Mở rộng: mua 51% Cao Đức; Thành Tùng Vũ về làm; hệ sinh thái Hồi Âm (ý thức) + Tinh Hỏa
+  (thể xác); tuyên bố làm xe điện (Tinh Chu Ô tô) — bị Dư Thành Đông và Thành Tùng Vũ phản đối.
+
+### Các chương gần nhất (Ch.1333–1377)
+
+- Ch.1333: Đặt trước Đường mới mở lúc 20h đạt 20.000 xe sau 3 phút và 38.000 xe sau 15 phút; Nhan Vũ Bằng theo dõi, La Văn tung video phân tích, bình luận tập trung vào giá và bảo hiểm Cửu Đỉnh.
+- Ch.1334: Tổ dự án xe cỡ nhỏ A00 ở Miên Dương gồm Trịnh Xuyên, Trần Vũ, Vương Bằng bị phân vào xe 200 km, 35 kW, không sạc nhanh; họ so sánh với các dự án flagship và SUV lớn được ưu tiên.
+- Ch.1335: Cố Dư cùng Lý Nhất Nam, Trương Nhã, Lục Tri Viễn đến xưởng số Bốn kiểm tra dự án A00; Lão Lưu báo thông số, Cố Dư khen ngoại thất và yêu cầu đẩy nhanh thử nghiệm.
+- Ch.1336: Lục Tri Viễn giải thích chính sách song tích phân: hãng chỉ bán xe xăng sẽ âm điểm và phải mua tích phân; Tinh Chu/BYD toàn xe điện nên xe A00 có thể tạo tích phân dương và thành nguồn lợi.
+- Ch.1337: Ngụy Tòng Quân báo sàn Phương Chu hưởng sóng tiền mã hóa: doanh thu trung bình hơn 25 triệu USD/ngày, lợi nhuận 30 ngày tích lũy lớn; Cố Dư nghe báo cáo khi các sàn mới chen chân.
+- Ch.1338: Giáo sư Hank ở Đại học Kansas dùng Ngốc Nữ xử lý tài liệu lịch sử đường sắt và than phiền chính trị, giáo dục Mỹ; ông thừa nhận AI Trung Quốc hữu ích hơn trợ giảng.
+- Ch.1339: Hank gặp Thẩm Chiêu Dã, bạn trai Megan, cựu sinh Thanh Hoa đang khởi nghiệp; Thẩm tặng pin dự phòng và tai nghe Tinh Hỏa, Hank tiếp nhận niềm nở.
+- Ch.1340: Thẩm Chiêu Dã nói công ty Chiêu Viễn chuyển sang đưa sinh viên Mỹ sang Trung Quốc học đại học; Hank sững sờ, Megan bênh vực, Thẩm đưa bảng so sánh chi phí để thuyết phục.
+- Ch.1341: Tại Hoành Điếm, Lâm Hiểu Hiểu, Trần Thiến và Triệu Cường tranh cãi về việc Chiến Lang 2 đạt doanh thu 50 tỷ; phim lập mốc phòng vé mới, Lâm phản bác chỉ trích của Triệu.
+- Ch.1342: Phương Nguyên thấy video phân tích Chiến Lang 2/Hồi Âm Văn Ngu đạt hơn 12 triệu lượt xem và 80.000 bình luận; studio có thêm doanh thu, Lão Triệu đề nghị chuyển sang bám Hồi Âm.
+- Ch.1343: Ethan ở Kansas đối mặt học phí MIT và nợ vay, đến nhà giáo sư Miller cùng nhóm sinh viên nghèo; Thẩm Chiêu Dã và Megan xuất hiện để tuyển người.
+- Ch.1344: Sau khi sinh viên về, Miller hỏi Thẩm Chiêu Dã về kênh giới thiệu nội bộ vào Hồi Âm Khoa Học/Tinh Hỏa và muốn dùng cho cả tiến sĩ, thạc sĩ; quan hệ hợp tác được mở rộng.
+- Ch.1345: Trần Minh Triết cùng vợ con nghe bài “Calo” tràn lan ở trung tâm thương mại; quảng bá Tây Hồng Thị Thủ Phú và điệu nhảy lan rộng qua video ngắn, show truyền hình.
+- Ch.1346: Cố Dư theo dõi bảng tìm kiếm nóng của Tây Hồng Thị Thủ Phú; mạng tranh luận cách tiêu 1 tỷ hợp pháp trong một tháng, phim chiếm sáu trong mười từ khóa đầu.
+- Ch.1347: Apple từ chối mọi bản cập nhật của Hồi Âm, Dẫn Lực, Cực Quang và áp phí 30% lên hàng ảo; Lục Tri Viễn báo cáo, Cố Dư nhận ra Apple dùng kỹ thuật để kéo dài phong tỏa.
+- Ch.1348: Chu Hạo và Lưu Dương sau suất chiếu bàn về Tây Hồng Thị Thủ Phú; dư luận cho rằng phim thắng nhờ hệ sinh thái lưu lượng Hồi Âm, không chỉ chất lượng.
+- Ch.1349: Thẩm Đằng công bố Cửu Đỉnh Tài sản thật sự bán bảo hiểm giảm cân 9,9 tệ; dân mạng nghi ngờ rồi kéo nhau tải app, Chu Hạo và Lưu Dương cũng kiểm tra.
+- Ch.1350: Tại Bệnh viện số 3 Vũ Hán, các y tá mua bảo hiểm giảm cân và bàn chuyện cân thử; y tá trưởng Lưu Mẫn thông báo suất cân buổi sáng đã kín, ngày đầu mở cân bắt đầu.
+- Ch.1351: Chu Hạo và Lưu Dương đến bệnh viện kích hoạt bảo hiểm, được đo BMI và đóng dấu xác nhận; hợp đồng có hiệu lực, họ được mời mua gói khám sức khỏe nửa giá.
+- Ch.1352: Các quản lý Alibaba họp về việc Apple chặn cập nhật hệ Hồi Âm; họ coi đây là cơ hội để Taobao/Thiên Miêu chiếm thị phần khi iOS của Hồi Âm bị kẹt.
+- Ch.1353: Alibaba sốc vì bảo hiểm giảm cân của Hồi Âm đạt 14,6 triệu đơn trong 15 giờ, 600.000 người đến viện và 410.000 người mua gói khám; Hồi Âm biến lưu lượng thành chuyển đổi doanh thu.
+- Ch.1354: Tại quán ở Hồng Kông, bác Trần, A Kiệt và Béo Thành bàn về sóng chứng khoán và việc bảo hiểm giảm cân của Hồi Âm chen vào bệnh viện, thanh toán; Hồi Âm gây áp lực lên hệ thống cũ.
+- Ch.1355: HSBC Tấn Tín họp về hồ sơ Tinh Chu Ô tô niêm yết Hồng Kông; cáo bạch cho thấy Cố Dư chỉ nắm 12% cổ phần nhưng kiểm soát quyền biểu quyết, Tinh Chu đi trước H rồi về A.
+- Ch.1356: Blogger Trần Viên phân tích cáo bạch Tinh Chu, lộ pipeline SUV X9, hệ treo điện tử chủ động và xe mini A00; loạt video phân tích tràn mạng, thông tin sản phẩm được công khai rộng.
+- Ch.1357: Hãng luật Đạt Hiểu chuẩn bị nộp thư tố cáo Apple lên hai cơ quan chống độc quyền; hơn 50 nhà phát triển cung cấp chứng cứ nhưng không ai dám ký tên, nên thư tố cáo giữ nặc danh.
+- Ch.1358: Ông Dương và nhóm lập trình viên Bắc Kinh thấy Hồi Âm dùng tên thật tố cáo Apple, liền dùng tài khoản công ty chia sẻ ủng hộ; cộng đồng nhà phát triển đồng loạt lên tiếng.
+- Ch.1359: Trương Vĩ báo Cố Dư và Lục Tri Viễn rằng Hồi Âm đã nộp thư tố cáo thật danh lúc 2 giờ 30 và công bố lúc 6 giờ; Lục hỏi khả năng lật Apple, Trương thừa nhận chưa đủ.
+- Ch.1360: Cuộc bình chọn chọn điện thoại Apple hay hệ Hồi Âm thu hút hơn 3 triệu người; 86% chọn giữ hệ Hồi Âm, người dùng viện dẫn Mạch Bác, Dẫn Lực, Ngốc Nữ và game.
+- Ch.1361: Hội nghị khép kín tại Geneva thành lập liên minh bảy hãng do Huawei làm chủ tịch, Tinh Hỏa Khoa Học làm bên khởi xướng kiêm chủ tịch ủy ban kỹ thuật; David R. Harrison, cố vấn môi trường từng nhận 18 triệu USD và công bố bài Nature, có mặt với tư cách cố vấn đặc biệt.
+- Ch.1362: Cố Dư kiểm tra pháo đài tính toán dưới núi Nhã An, nơi Thiên Vấn số 4 trăm tỷ tham số đang huấn luyện; Nhậm Thiếu Khanh báo thời gian huấn luyện nền tảng rút từ 4,5 tháng xuống khoảng 2,5 tháng, Lục Tri Viễn xuất hiện.
+- Ch.1363: Phó chủ tịch Tesla Nhậm Vũ Tường tới Thượng Hải đàm phán với tổ công tác thành phố; cùng lúc IPO Hồng Kông của Tinh Chu Ô tô được đặt mua vượt 80 lần, định giá nâng 15%, dự kiến vốn hóa vượt 250 tỷ HKD.
+- Ch.1364: Thượng Hải và Tesla ký thỏa thuận đầu tư dự án xe thuần điện và MOU nhà máy Lâm Cảng; Lục Tử Hào xem video phân tích, cân nhắc mua xe điện khi Tesla nội địa hóa sẽ tăng áp lực lên phân khúc 200-400 nghìn tệ.
+- Ch.1365: Cố Dư xem bản chính tập 3 Sáng Tạo Doanh nhóm nam do Hồi Âm Văn Ngu sản xuất; Trương Viễn, cựu đội trưởng 32 tuổi, biểu diễn bùng nổ và câu nói “Hoa có ngày nở lại” gây bão bình luận.
+- Ch.1366: Tại Trung tâm Hamilton ở Washington, Kathryn và nhóm vận động hành lang nhận thêm 50 triệu USD từ khách phương Đông, triển khai báo cáo trắng và bài báo định hướng dư luận nhằm hạ bệ mô hình “Ngốc Nữ” và làm nguội vốn đầu tư AI.
+- Ch.1367: Ba thành viên nòng cốt Tuyết Lãng Chỉ là Tống Dương, Hàn Đông, Tần Lãng trên đường tới Nhã An bàn tiến độ: ảnh 512x512 và chuyển phong cách đã chạy, nhưng cảnh nhiều chủ thể, bàn tay và chi phí lấy mẫu còn kém, tổ dự án thiếu người.
+- Ch.1368: Cố Dư đích thân bàn giao dự án Tuyết Lãng Chỉ cho Lâm Nguyên Khánh, chuyên gia thị giác máy tính vừa được chiêu mộ từ Baidu, tại phòng thí nghiệm dưới núi Nhã An; Tống Dương, Tần Lãng, Hàn Đông lui ra.
+- Ch.1369: Na Nham cùng ekip Khoa Học Mỹ Học kiệt sức sau tháng Tám dày đặc lịch đánh giá, điểm lại các máy mới như Sharp AQUOS S2 và Nokia 8; nhóm bước sang lịch tháng Chín.
+- Ch.1370: Email mời dự lễ ra mắt Apple kỷ niệm 10 năm hủy kỳ nghỉ hai ngày của Khoa Học Mỹ Học; Na Nham lên lịch tháng Chín gồm Honor ngày 6, Xiaomi MIX2/Note3 ngày 11 và Apple ngày 13.
+- Ch.1371: Khoa Học Mỹ Học nhận thiệp vàng mời lễ ra mắt flagship toàn cầu liên hợp Huawei – Hồi Âm; cả nhóm kết luận đây là đồng ra mắt ngang hàng, không phải dán nhãn hay chứng nhận ống kính.
+- Ch.1372: Giá Bitcoin lên gần 32.000 tệ, Triệu Kiến Quân báo đã đào được gần 200 BTC từ mỏ điện núi Tứ Xuyên; Lưu Đại Bằng dùng đòn bẩy 20 lần trên sàn ngoại, lãi gấp đôi và vừa mua Porsche Cayenne.
+- Ch.1373: Bảy bộ ngành cấm phát hành và giao dịch tiền ảo khiến Bitcoin lao dốc; Ngụy Tòng Quân báo ví lạnh offshore giữ 220.000 BTC lãi nổi hơn 800 triệu USD và đề nghị cắt vị thế, nhưng Cố Dư quyết định không bán đồng nào.
+- Ch.1374: Sinh viên Trần Vũ Phàm ở Quảng Châu theo dõi tin tiền ảo sụp và bàn với Lâm Đào, Lý Vĩ về loạt điện thoại mới; cậu cân nhắc mua máy trong bối cảnh Honor, Samsung và nhiều hãng đồng loạt ra sản phẩm.
+- Ch.1375: Sau lễ ra mắt Xiaomi, Na Nham cùng ekip rời nhà thi đấu Đại học Công nghiệp Bắc Kinh với MIX2 giá khởi điểm 3.299 tệ; cả nhóm lên kế hoạch mở hộp và đăng đánh giá trước 21 giờ 15.
+- Ch.1376: Trưa 12/9, Na Nham cùng ekip tới Trung tâm Thể thao Phương Đông dự lễ ra mắt liên hợp Huawei – Hồi Âm; bên ngoài đông nghẹt, vé bị phe vé đẩy lên 3.000 tệ, an ninh nghiêm ngặt, livestream đã vượt 8 triệu người xem.
+- Ch.1377: Trước giờ khai mạc, Na Nham kể về Cố Dư và thành tích huy động 50 tỷ tệ, làm Thiên Vấn và Ngốc Nữ; đúng 13 giờ 30, toàn hệ sinh thái Hồi Âm ghim livestream, kéo lượng người xem tăng vọt trước lễ ra mắt liên hợp.

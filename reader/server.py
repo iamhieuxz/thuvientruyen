@@ -13,6 +13,7 @@ import os
 import re
 import socket
 import subprocess
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -26,6 +27,8 @@ LIB = ROOT.parent / "data"          # moi truyen = mot thu muc con trong day
 STATIC = ROOT / "static"
 CACHE = ROOT / "cache"
 
+import progress as progress_kho    # GĐ3: kho tiến độ dùng chung qua server
+
 DEFAULT_BOOK = "baojian_vi"
 DEFAULT_VOICE = "Ngọc Huyền"
 
@@ -36,6 +39,7 @@ TAIL_RE = re.compile(r"^\((?:Còn tiếp|Hết|Kết)\)$", re.I)
 
 _INDEX = {}                          # bid -> {"built", "chapters", "by_num"}
 _PARSED = {}                         # path -> (mtime, size, chapter), tránh parse lại 1205 file
+_SCAN_LOCK = threading.Lock()         # chi mot luong quet/ghi _INDEX, tranh index rong
 
 
 def parse_chapter(path):
@@ -83,39 +87,55 @@ def parse_chapter(path):
 
 
 def scan(bid, force=False):
-    """Duyet thu muc data/<bid>, dung cache 3 giay de chuong moi tu dong xuat hien."""
+    """Duyet thu muc data/<bid>, dung cache 3 giay de chuong moi tu dong xuat hien.
+
+    Chi cong bo index khi da quet xong: truoc day index rong duoc gan vao
+    _INDEX truoc khi parse, nen hai request song song (vi du trang chi tiet
+    goi /api/book va /api/chapters cung luc) co the doc phai danh sach rong.
+    """
     now = time.time()
     idx = _INDEX.get(bid)
     if idx and not force and now - idx["built"] < 3:
         return idx
-    d = LIB / bid
-    idx = {"built": now, "chapters": [], "by_num": {}}
-    _INDEX[bid] = idx
-    if not d.is_dir():
+    with _SCAN_LOCK:
+        now = time.time()
+        idx = _INDEX.get(bid)
+        if idx and not force and now - idx["built"] < 3:
+            return idx
+        d = LIB / bid
+        items = []
+        if d.is_dir():
+            for p in d.glob("*.md"):
+                if not p.name[:4].isdigit():
+                    continue
+                try:
+                    st = p.stat()
+                    key = (st.st_mtime, st.st_size)
+                    hit = _PARSED.get(str(p))
+                    if hit and hit[0] == key:
+                        items.append(hit[1])
+                        continue
+                    c = parse_chapter(p)
+                    _PARSED[str(p)] = (key, c)
+                    items.append(c)
+                except Exception as exc:  # noqa: BLE001
+                    print("bo qua", p.name, exc)
+        items.sort(key=lambda c: c["n"])
+        idx = {"built": time.time(), "chapters": items,
+               "by_num": {c["n"]: c for c in items}}
+        _INDEX[bid] = idx
         return idx
-    items = []
-    for p in d.glob("*.md"):
-        if not p.name[:4].isdigit():
-            continue
-        try:
-            st = p.stat()
-            key = (st.st_mtime, st.st_size)
-            hit = _PARSED.get(str(p))
-            if hit and hit[0] == key:
-                items.append(hit[1])
-                continue
-            c = parse_chapter(p)
-            _PARSED[str(p)] = (key, c)
-            items.append(c)
-        except Exception as exc:  # noqa: BLE001
-            print("bo qua", p.name, exc)
-    items.sort(key=lambda c: c["n"])
-    idx.update(chapters=items, by_num={c["n"]: c for c in items})
-    return idx
 
 
 def pretty(bid):
     return " ".join(w.capitalize() for w in re.split(r"[-_\s]+", bid) if w)
+
+
+def _int(v):
+    try:
+        return max(0, int(v))
+    except (TypeError, ValueError):
+        return 0
 
 
 def book_info(bid):
@@ -135,10 +155,39 @@ def book_info(bid):
         "id": bid,
         "title": meta.get("title") or pretty(bid),
         "author": meta.get("author", ""),
-        "desc": meta.get("desc", ""),
+        "author_original": meta.get("author_original", ""),
+        "original_title": meta.get("original_title", ""),
+        "desc": meta.get("desc") or meta.get("description", ""),
+        "genre": meta.get("genre", ""),
+        "status": meta.get("status", ""),
+        "original_status": meta.get("original_status", ""),
+        # so chuong ban goc: giu dung so lieu nguon de tinh tien do dich
+        "original_chapters": _int(meta.get("original_chapters")) or _int(meta.get("chapter_count")),
         "source": meta.get("source", ""),
         "cover": cover,
+        "updated_at": meta.get("updated_at", ""),
     }
+
+
+def book_detail(bid):
+    """Thong tin truyen + so lieu that tu thu muc chuong + tien do dich."""
+    info = book_info(bid)
+    chs = scan(bid)["chapters"]
+    done = len(chs)
+    origin = info["original_chapters"] or done or 0
+    info.update(
+        chapters=done,
+        chars=sum(c["chars"] for c in chs),
+        minutes=sum(c["minutes"] for c in chs),
+        first=chs[0]["n"] if chs else None,
+        last=chs[-1]["n"] if chs else None,
+        updated=max((c["mtime"] for c in chs), default=0),
+        translated=done,
+        original_chapters=origin,
+        left=max(0, origin - done),
+        progress=min(100, round(done * 100 / origin)) if origin else 0,
+    )
+    return info
 
 
 def book_ids():
@@ -161,20 +210,34 @@ def pick(bid):
 def books_payload():
     out = []
     for bid in book_ids():
-        info = book_info(bid)
-        chs = scan(bid)["chapters"]
-        if not chs:
+        info = book_detail(bid)
+        if not info["chapters"]:
             continue
-        info.update(
-            chapters=len(chs),
-            chars=sum(c["chars"] for c in chs),
-            minutes=sum(c["minutes"] for c in chs),
-            first=chs[0]["n"],
-            last=chs[-1]["n"],
-            updated=max(c["mtime"] for c in chs),
-        )
         out.append(info)
     return out
+
+
+def latest_chapters(limit=14):
+    """Cac chuong vua len ke tren toan bo tu sach, moi truyen lay toi da 3 chuong."""
+    out = []
+    for bid in book_ids():
+        info = book_info(bid)
+        for c in scan(bid)["chapters"][-3:]:
+            out.append({
+                "book": bid,
+                "title": info["title"],
+                "n": c["n"],
+                "ctitle": c["title"],
+                "mtime": c["mtime"],
+                "minutes": c["minutes"],
+            })
+    out.sort(key=lambda x: x["mtime"], reverse=True)
+    return out[: max(1, limit)]
+
+
+def book_ids_all():
+    """id truyen kem tieu de, de goi y lien quan o chan trang."""
+    return [{"id": bid, "title": book_info(bid)["title"]} for bid in book_ids()]
 
 
 def meta_list(bid):
@@ -490,12 +553,25 @@ class Handler(BaseHTTPRequestHandler):
         q = parse_qs(urlparse(self.path).query)
         bid = pick(q.get("book", [""])[0]) or DEFAULT_BOOK
         if path == "/":
+            return self._static("home.html")
+        # /shelf.html — trang chu ban cu (editorial)
+        if path == "/shelf":
             return self._static("shelf.html")
-        m = re.match(r"^/sach/([A-Za-z0-9._-]{1,64})(?:/chuong/(\d+))?/?$", path)
+        # /lich-su — trang lich su doc (gom phien doc theo ngay, GĐ4)
+        if path == "/lich-su":
+            return self._static("history.html")
+        # /sach/<id>            -> trang chi tiet cua mot bo truyen
+        # /sach/<id>/chuong/<n> -> trang doc
+        m = re.match(r"^/sach/([A-Za-z0-9._-]{1,64})/chuong/(\d+)/?$", path)
         if m:
             if not pick(m.group(1)):
                 return self._send(404, "khong co truyen nay", "text/plain; charset=utf-8")
             return self._static("index.html")
+        m = re.match(r"^/sach/([A-Za-z0-9._-]{1,64})/?$", path)
+        if m:
+            if not pick(m.group(1)):
+                return self._send(404, "khong co truyen nay", "text/plain; charset=utf-8")
+            return self._static("book.html")
         m = re.match(r"^/read/(\d+)$", path)
         if m:
             return self._redirect("/sach/%s/chuong/%s" % (DEFAULT_BOOK, m.group(1)))
@@ -504,7 +580,16 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/api/books":
             return self._send(200, json.dumps({"books": books_payload()}))
         if path == "/api/book":
-            return self._send(200, json.dumps(book_info(bid)))
+            return self._send(200, json.dumps(book_detail(bid)))
+        if path == "/api/latest":
+            try:
+                limit = int(q.get("limit", ["14"])[0])
+            except ValueError:
+                limit = 14
+            return self._send(200, json.dumps({
+                "chapters": latest_chapters(limit),
+                "books": book_ids_all(),
+            }))
         if path == "/api/cover":
             return self._cover(bid)
         if path == "/api/chapters":
@@ -564,7 +649,28 @@ class Handler(BaseHTTPRequestHandler):
             if data is None:
                 return self._send(404, json.dumps({"error": "chua co chuong nao"}))
             return self._send(200, json.dumps(data))
+        if path == "/api/progress":
+            data, mtime = progress_kho.load(), progress_kho._mtime
+            return self._send(200, json.dumps({"store": data, "mtime": mtime}))
         return self._send(404, "not found", "text/plain; charset=utf-8")
+
+    def do_POST(self):
+        """GĐ3: client đẩy kho tiến độ của nó lên, server gộp merge-only."""
+        path = urlparse(self.path).path
+        if path != "/api/progress":
+            return self._send(404, json.dumps({"error": "not found"}))
+        try:
+            length = int(self.headers.get("Content-Length") or 0)
+        except ValueError:
+            length = 0
+        if length <= 0 or length > 8 * 1024 * 1024:
+            return self._send(400, json.dumps({"error": "body khong hop le"}))
+        try:
+            payload = json.loads(self.rfile.read(length).decode("utf-8"))
+        except (ValueError, UnicodeDecodeError):
+            return self._send(400, json.dumps({"error": "body khong phai JSON"}))
+        data, mtime = progress_kho.store(payload)
+        return self._send(200, json.dumps({"store": data, "mtime": mtime}))
 
 
 def already_running(host, port):
